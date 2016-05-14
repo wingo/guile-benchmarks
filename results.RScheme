@@ -1,0 +1,1177 @@
+
+****************************
+Benchmarking RScheme on Sat 14 May 16:14:46 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+syntax error: Primop `symbol->string' illegally referenced as variable
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: set-cdr! used in value-expecting position (tail)
+warning: set-cdr! used in value-expecting position (tail)
+warning: set-cdr! used in value-expecting position (tail)
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+
+Testing deriv under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running deriv:10000000
+Elapsed time: 50.2033 seconds (51.) for deriv:10000000
++!CSVLINE!+rscheme-unknown,deriv:10000000,50.2033
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m50.208s
+user	0m50.180s
+sys	0m0.023s
+
+Testing destruc under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running destruc:600:50:4000
+Elapsed time: 41.61 seconds (41.) for destruc:600:50:4000
++!CSVLINE!+rscheme-unknown,destruc:600:50:4000,41.61
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m41.614s
+user	0m41.593s
+sys	0m0.017s
+
+Testing diviter under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running diviter:1000:1000000
+./bench: line 393: 15985 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	0m8.928s
+user	0m6.290s
+sys	0m2.490s
+
+Testing divrec under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running divrec:1000:1000000
+./bench: line 393: 16003 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	0m7.872s
+user	0m5.097s
+sys	0m2.423s
+
+Testing puzzle under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running puzzle:1000
+Elapsed time: 47.8993 seconds (48.) for puzzle:1000
++!CSVLINE!+rscheme-unknown,puzzle:1000,47.8993
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m47.936s
+user	0m47.883s
+sys	0m0.017s
+
+Testing triangl under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running triangl:22:1:50
+Elapsed time: 26.17 seconds (26.) for triangl:22:1:50
++!CSVLINE!+rscheme-unknown,triangl:22:1:50,26.17
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m26.175s
+user	0m26.150s
+sys	0m0.020s
+
+Testing tak under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running tak:40:20:11:1
+Elapsed time: 30.7502 seconds (31.) for tak:40:20:11:1
++!CSVLINE!+rscheme-unknown,tak:40:20:11:1,30.7502
+   value := 10
+ value := 32
+ value := 16
+ value := 8
+   value := 9
+   value := 3000
+ value := 18
+ value := 12
+ value := 6
+ value := 7
+top[10]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m30.755s
+user	0m30.737s
+sys	0m0.013s
+
+Testing takl under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running takl:40:20:12:1
+Elapsed time: 77.3372 seconds (77.) for takl:40:20:12:1
++!CSVLINE!+rscheme-unknown,takl:40:20:12:1,77.3372
+                       
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m17.342s
+user	1m17.327s
+sys	0m0.007s
+
+Testing ntakl under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running ntakl:40:20:12:1
+Elapsed time: 51.9096 seconds (52.) for ntakl:40:20:12:1
++!CSVLINE!+rscheme-unknown,ntakl:40:20:12:1,51.9096
+                       
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m51.914s
+user	0m51.900s
+sys	0m0.007s
+
+Testing cpstak under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running cpstak:40:20:11:1
+Elapsed time: 160.985 seconds (161.) for cpstak:40:20:11:1
++!CSVLINE!+rscheme-unknown,cpstak:40:20:11:1,160.985
+   value := 5
+ value := 32
+ value := 16
+ value := 8
+   value := 9
+   value := 1700
+ value := 18
+ value := 12
+ value := 6
+ value := 7
+top[10]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	2m40.991s
+user	2m40.920s
+sys	0m0.057s
+
+Testing ctak under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running ctak:32:16:8:1
+Elapsed time: 40.8947 seconds (41.) for ctak:32:16:8:1
++!CSVLINE!+rscheme-unknown,ctak:32:16:8:1,40.8947
+   value := 160
+ value := 18
+ value := 12
+ value := 6
+ value := 7
+top[5]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m40.900s
+user	0m40.877s
+sys	0m0.017s
+
+Testing fib under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running fib:40:5
+Elapsed time: 57.377 seconds (57.) for fib:40:5
++!CSVLINE!+rscheme-unknown,fib:40:5,57.377
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m57.382s
+user	0m57.360s
+sys	0m0.017s
+
+Testing fibc under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running fibc:30:10
+Elapsed time: 27.788 seconds (28.) for fibc:30:10
++!CSVLINE!+rscheme-unknown,fibc:30:10,27.788
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m27.793s
+user	0m27.777s
+sys	0m0.013s
+
+Testing fibfp under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running fibfp:35.:10
+Elapsed time: 22.7781 seconds (23.) for fibfp:35.:10
++!CSVLINE!+rscheme-unknown,fibfp:35.:10,22.7781
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m22.783s
+user	0m22.757s
+sys	0m0.023s
+
+Testing sum under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running sum:10000:200000
+Elapsed time: 46.5142 seconds (46.) for sum:10000:200000
++!CSVLINE!+rscheme-unknown,sum:10000:200000,46.5142
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m46.519s
+user	0m46.497s
+sys	0m0.017s
+
+Testing sumfp under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running sumfp:1e+06:500
+Elapsed time: 38.3406 seconds (38.) for sumfp:1e+06:500
++!CSVLINE!+rscheme-unknown,sumfp:1e+06:500,38.3406
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m38.346s
+user	0m38.320s
+sys	0m0.020s
+
+Testing fft under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running fft:65536:100
+./bench: line 393: 16875 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	5m0.111s
+user	4m59.143s
+sys	0m0.927s
+
+Testing mbrot under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running mbrot:75:1000
+Elapsed time: 52.1691 seconds (53.) for mbrot:75:1000
++!CSVLINE!+rscheme-unknown,mbrot:75:1000,52.1691
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m52.173s
+user	0m52.140s
+sys	0m0.027s
+
+Testing mbrotZ under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+runtime error: complex.scm:make-rectanglar:69: function stubbed out
+in: make-rectangular
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+
+Testing nucleic under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+syntax error: Bad syntax-form in macro nuc-const at: ((syntax-rules () ((_ x* ...) '#(x* ...))))
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing pi under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running pi:50:500:50:2
+Fatal error:
+runtime error: type check failed: expected a fixnum, saw: 1e+100
+
+in: quotient
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.000s
+
+Testing pnpoly under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running pnpoly:1000000
+Elapsed time: 55.3585 seconds (55.) for pnpoly:1000000
++!CSVLINE!+rscheme-unknown,pnpoly:1000000,55.3585
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m55.363s
+user	0m55.327s
+sys	0m0.030s
+
+Testing ray under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: (when tracer) references unbound variable file-exists?
+warning: (when tracer) references unbound variable delete-file
+warning: `delete-file' is unbound
+warning: `file-exists?' is unbound
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running ray:50
+Fatal error:
+runtime error: top-level-var `file-exists?' not bound
+in: tracer
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+Testing simplex under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running simplex:1000000
+Elapsed time: 69.1264 seconds (69.) for simplex:1000000
++!CSVLINE!+rscheme-unknown,simplex:1000000,69.1264
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m9.131s
+user	1m9.097s
+sys	0m0.027s
+
+Testing ack under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running ack:3:12:2
+./bench: line 393: 17476 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	0m19.304s
+user	0m16.817s
+sys	0m2.427s
+
+Testing array1 under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running array1:1000000:500
+Elapsed time: 31.8027 seconds (31.) for array1:1000000:500
++!CSVLINE!+rscheme-unknown,array1:1000000:500,31.8027
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m31.923s
+user	0m31.153s
+sys	0m0.727s
+
+Testing string under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running string:500000:25
+Elapsed time: 0.161053 seconds (0.) for string:500000:25
++!CSVLINE!+rscheme-unknown,string:500000:25,0.161053
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.167s
+user	0m0.137s
+sys	0m0.027s
+
+Testing sum1 under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running sum1:25
+Elapsed time: 10.022 seconds (10.) for sum1:25
++!CSVLINE!+rscheme-unknown,sum1:25,10.022
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m10.026s
+user	0m10.000s
+sys	0m0.023s
+
+Testing cat under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: (when go) references unbound variable file-exists?
+warning: (when go) references unbound variable delete-file
+warning: `delete-file' is unbound
+warning: `file-exists?' is unbound
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running cat:50
+Fatal error:
+runtime error: top-level-var `file-exists?' not bound
+in: go
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+Testing tail under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: (when (0 go) go) references unbound variable file-exists?
+warning: (when (0 go) go) references unbound variable delete-file
+warning: `delete-file' is unbound
+warning: `file-exists?' is unbound
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running tail:25
+Fatal error:
+runtime error: top-level-var `file-exists?' not bound
+in: (0 go)
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+Testing wc under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running wc:inputs/bib:50
+Elapsed time: 40.4045 seconds (41.) for wc:inputs/bib:50
++!CSVLINE!+rscheme-unknown,wc:inputs/bib:50,40.4045
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m40.409s
+user	0m40.360s
+sys	0m0.043s
+
+Testing read1 under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running read1:2500
+Elapsed time: 9.18438 seconds (9.) for read1:2500
++!CSVLINE!+rscheme-unknown,read1:2500,9.18438
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m9.189s
+user	0m9.153s
+sys	0m0.033s
+
+Testing compiler under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+semantic error: bitwise-not not bound to a TLV
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing conform under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: set-cdr! used in value-expecting position (tail)
+warning: set-cdr! used in value-expecting position (tail)
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running conform:500
+Elapsed time: 95.6117 seconds (96.) for conform:500
++!CSVLINE!+rscheme-unknown,conform:500,95.6117
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m35.617s
+user	1m35.573s
+sys	0m0.033s
+
+Testing dynamic under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: set-cdr! used in value-expecting position (tail)
+warning: set-cdr! used in value-expecting position (tail)
+warning: set-car! used in value-expecting position (tail)
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running dynamic:500
+Elapsed time: 62.0028 seconds (62.) for dynamic:500
++!CSVLINE!+rscheme-unknown,dynamic:500,62.0028
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m2.009s
+user	1m1.933s
+sys	0m0.067s
+
+Testing earley under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running earley:1
+Elapsed time: 32.3463 seconds (32.) for earley:1
++!CSVLINE!+rscheme-unknown,earley:1,32.3463
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m32.511s
+user	0m31.310s
+sys	0m1.197s
+
+Testing graphs under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running graphs:7:3
+Elapsed time: 153.761 seconds (153.) for graphs:7:3
++!CSVLINE!+rscheme-unknown,graphs:7:3,153.761
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	2m33.771s
+user	2m33.623s
+sys	0m0.133s
+
+Testing lattice under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running lattice:44:10
+Elapsed time: 131.195 seconds (131.) for lattice:44:10
++!CSVLINE!+rscheme-unknown,lattice:44:10,131.195
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	2m11.200s
+user	2m11.123s
+sys	0m0.063s
+
+Testing matrix under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: set-car! used in value-expecting position (tail)
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running matrix:5:5:2500
+Elapsed time: 73.9654 seconds (74.) for matrix:5:5:2500
++!CSVLINE!+rscheme-unknown,matrix:5:5:2500,73.9654
+12:read: Unmatched <close-paren>
+12:read: Unmatched <close-paren>
+ break^2[0]=>
+break[1]=>
+top[1]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m13.971s
+user	1m13.913s
+sys	0m0.047s
+
+Testing maze under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+semantic error: bitwise-not not bound to a TLV
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing mazefun under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running mazefun:11:11:10000
+Elapsed time: 51.6309 seconds (52.) for mazefun:11:11:10000
++!CSVLINE!+rscheme-unknown,mazefun:11:11:10000,51.6309
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m51.636s
+user	0m51.597s
+sys	0m0.030s
+
+Testing nqueens under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running nqueens:13:10
+Elapsed time: 85.7781 seconds (86.) for nqueens:13:10
++!CSVLINE!+rscheme-unknown,nqueens:13:10,85.7781
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m25.783s
+user	1m25.720s
+sys	0m0.053s
+
+Testing paraffins under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running paraffins:23:10
+./bench: line 393: 18448 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	0m10.265s
+user	0m7.697s
+sys	0m2.460s
+
+Testing parsing under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running parsing:2500
+Elapsed time: 51.5813 seconds (51.) for parsing:2500
++!CSVLINE!+rscheme-unknown,parsing:2500,51.5813
+top[0]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m51.619s
+user	0m51.567s
+sys	0m0.017s
+
+Testing peval under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+semantic error: map2 not bound to a TLV
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing primes under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running primes:1000:10000
+./bench: line 393: 18514 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	0m12.395s
+user	0m10.007s
+sys	0m2.323s
+
+Testing quicksort under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+semantic error: random not bound to a TLV
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.034s
+user	0m0.000s
+sys	0m0.003s
+
+Testing scheme under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+syntax error: Primop `boolean?' illegally referenced as variable
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing slatex under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+**HALT**
+syntax error: Primop `string=?' illegally referenced as variable
+processing: /tmp/larcenous/RScheme/test.mcf
+Running...
+type ",warranty" for details; type ",help" for some help
+Fatal error:
+*** No module with name `test' could be found
+    The RS_MODULE_PATH environment variable is not set
+    There are 3 entries in the module search path:
+       (1) /tmp/larcenous/RScheme
+       (2) /home/nex/src/r7rs-benchmarks/lib/rs/modules
+       (3) /usr/share/rs/0.7.3.4-b7u/resource/modules
+***
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing nboyer under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running nboyer:5:1
+Elapsed time: 16.8269 seconds (17.) for nboyer:5:1
++!CSVLINE!+rscheme-unknown,nboyer:5:1,16.8269
+ value := 16445406
+      value := 1
+ value := 4
+value := 16445406
+ value := 51507739
+ 
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m16.920s
+user	0m16.437s
+sys	0m0.477s
+
+Testing sboyer under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running sboyer:5:1
+Elapsed time: 17.8113 seconds (18.) for sboyer:5:1
++!CSVLINE!+rscheme-unknown,sboyer:5:1,17.8113
+ value := 16445406
+ 
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m17.839s
+user	0m17.707s
+sys	0m0.130s
+
+Testing gcbench under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: (gcbench) references unbound variable define-record-type
+warning: (gcbench) references unbound variable classNode
+warning: (gcbench) references unbound variable make-node-raw
+warning: (gcbench) references unbound variable left
+warning: (gcbench) references unbound variable right
+warning: (gcbench) references unbound variable i
+warning: (gcbench) references unbound variable j
+warning: (gcbench) references unbound variable classNode?
+warning: (gcbench) references unbound variable node.left
+warning: (gcbench) references unbound variable node.left-set!
+warning: (gcbench) references unbound variable node.right
+warning: (gcbench) references unbound variable node.right-set!
+warning: (gcbench) references unbound variable node.i
+warning: (gcbench) references unbound variable node.i-set!
+warning: (gcbench) references unbound variable node.j
+warning: (gcbench) references unbound variable node.j-set!
+warning: `j' is unbound
+warning: `node.right' is unbound
+warning: `classNode' is unbound
+warning: `node.left' is unbound
+warning: `node.j' is unbound
+warning: `make-node-raw' is unbound
+warning: `node.left-set!' is unbound
+warning: `node.i-set!' is unbound
+warning: `define-record-type' is unbound
+warning: `classNode?' is unbound
+warning: `right' is unbound
+warning: `node.i' is unbound
+warning: `node.right-set!' is unbound
+warning: `left' is unbound
+warning: `i' is unbound
+warning: `node.j-set!' is unbound
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? The garbage collector should touch about 128 megabytes of heap storage.
+The use of more or less memory will skew the results.
+Running gcbench:20:1
+Fatal error:
+runtime error: top-level-var `classNode' not bound
+in: gcbench
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+Testing mperm under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running perm20:10:2:1
+Elapsed time: 82.152 seconds (82.) for perm20:10:2:1
++!CSVLINE!+rscheme-unknown,perm20:10:2:1,82.152
+ 
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	1m25.395s
+user	1m23.637s
+sys	0m1.750s
+
+Testing equal under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running equal:100:100:8:1000:2000:5000
+./bench: line 393: 18674 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+
+real	5m0.000s
+user	4m59.940s
+sys	0m0.033s
+
+Testing bv2string under RScheme
+Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
+Compiling...
+processing: /tmp/larcenous/RScheme/test.mcf
+warning: ((4 string-bytevector-tests) string-bytevector-tests) references unbound variable make-bytevector
+warning: ((4 string-bytevector-tests) string-bytevector-tests) references unbound variable bytevector-u8-set!
+warning: (string-bytevector-tests) references unbound variable utf8->string
+warning: (string-bytevector-tests) references unbound variable string->utf8
+warning: `bytevector-u8-set!' is unbound
+warning: `make-bytevector' is unbound
+warning: `utf8->string' is unbound
+warning: `string->utf8' is unbound
+saving mif: /tmp/larcenous/RScheme/test.mif
+Running...
+type ",warranty" for details; type ",help" for some help
+? Running bv2string:1000:1000:100
+Fatal error:
+runtime error: top-level-var `make-bytevector' not bound
+in: (4 string-bytevector-tests)
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s

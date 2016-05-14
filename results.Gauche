@@ -1,0 +1,712 @@
+
+****************************
+Benchmarking Gauche on Sat 14 May 12:01:36 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running browse:2000
+Elapsed time: 20.441514293 seconds (20.442) for browse:2000
++!CSVLINE!+gauche-0.9.4,browse:2000,20.441514293
+
+real	0m20.621s
+user	0m22.640s
+sys	0m0.113s
+
+Testing deriv under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running deriv:10000000
+Elapsed time: 36.87787197 seconds (36.878) for deriv:10000000
++!CSVLINE!+gauche-0.9.4,deriv:10000000,36.87787197
+
+real	0m36.997s
+user	0m47.013s
+sys	0m0.283s
+
+Testing destruc under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running destruc:600:50:4000
+Elapsed time: 28.301477635 seconds (28.301) for destruc:600:50:4000
++!CSVLINE!+gauche-0.9.4,destruc:600:50:4000,28.301477635
+
+real	0m28.426s
+user	0m30.660s
+sys	0m0.073s
+
+Testing diviter under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running diviter:1000:1000000
+Elapsed time: 21.11095958 seconds (21.111) for diviter:1000:1000000
++!CSVLINE!+gauche-0.9.4,diviter:1000:1000000,21.11095958
+
+real	0m21.249s
+user	0m27.543s
+sys	0m0.213s
+
+Testing divrec under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running divrec:1000:1000000
+Elapsed time: 29.774538227 seconds (29.775) for divrec:1000:1000000
++!CSVLINE!+gauche-0.9.4,divrec:1000:1000000,29.774538227
+
+real	0m29.904s
+user	0m36.563s
+sys	0m0.293s
+
+Testing puzzle under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running puzzle:1000
+Elapsed time: 28.745651185 seconds (28.746) for puzzle:1000
++!CSVLINE!+gauche-0.9.4,puzzle:1000,28.745651185
+
+real	0m28.883s
+user	0m29.560s
+sys	0m0.027s
+
+Testing triangl under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running triangl:22:1:50
+Elapsed time: 20.414062339 seconds (20.414) for triangl:22:1:50
++!CSVLINE!+gauche-0.9.4,triangl:22:1:50,20.414062339
+
+real	0m20.559s
+user	0m20.573s
+sys	0m0.007s
+
+Testing tak under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running tak:40:20:11:1
+Elapsed time: 21.688046565 seconds (21.688) for tak:40:20:11:1
++!CSVLINE!+gauche-0.9.4,tak:40:20:11:1,21.688046565
+
+real	0m21.817s
+user	0m21.827s
+sys	0m0.003s
+
+Testing takl under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running takl:40:20:12:1
+Elapsed time: 66.748888297 seconds (66.749) for takl:40:20:12:1
++!CSVLINE!+gauche-0.9.4,takl:40:20:12:1,66.748888297
+
+real	1m6.869s
+user	1m6.873s
+sys	0m0.003s
+
+Testing ntakl under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 74.121453188 seconds (74.121) for ntakl:40:20:12:1
++!CSVLINE!+gauche-0.9.4,ntakl:40:20:12:1,74.121453188
+
+real	1m14.244s
+user	1m14.253s
+sys	0m0.000s
+
+Testing cpstak under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 176.182502601 seconds (176.183) for cpstak:40:20:11:1
++!CSVLINE!+gauche-0.9.4,cpstak:40:20:11:1,176.182502601
+
+real	2m56.301s
+user	4m11.063s
+sys	0m2.670s
+
+Testing ctak under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 33.163673902 seconds (33.164) for ctak:32:16:8:1
++!CSVLINE!+gauche-0.9.4,ctak:32:16:8:1,33.163673902
+
+real	0m33.286s
+user	0m49.020s
+sys	0m0.733s
+
+Testing fib under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running fib:40:5
+Elapsed time: 45.9946232 seconds (45.995) for fib:40:5
++!CSVLINE!+gauche-0.9.4,fib:40:5,45.9946232
+
+real	0m46.115s
+user	0m46.123s
+sys	0m0.003s
+
+Testing fibc under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running fibc:30:10
+Elapsed time: 25.020343296 seconds (25.02) for fibc:30:10
++!CSVLINE!+gauche-0.9.4,fibc:30:10,25.020343296
+
+real	0m25.145s
+user	0m33.687s
+sys	0m0.283s
+
+Testing fibfp under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running fibfp:35.0:10
+Elapsed time: 11.282606717 seconds (11.283) for fibfp:35.0:10
++!CSVLINE!+gauche-0.9.4,fibfp:35.0:10,11.282606717
+
+real	0m11.423s
+user	0m11.443s
+sys	0m0.003s
+
+Testing sum under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running sum:10000:200000
+Elapsed time: 39.194070986 seconds (39.194) for sum:10000:200000
++!CSVLINE!+gauche-0.9.4,sum:10000:200000,39.194070986
+
+real	0m39.337s
+user	0m39.387s
+sys	0m0.010s
+
+Testing sumfp under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running sumfp:1000000.0:500
+Elapsed time: 14.728484653 seconds (14.728) for sumfp:1000000.0:500
++!CSVLINE!+gauche-0.9.4,sumfp:1000000.0:500,14.728484653
+
+real	0m14.860s
+user	0m14.877s
+sys	0m0.007s
+
+Testing fft under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running fft:65536:100
+./bench: line 638:  3246 Killed                  "${GAUCHE}" -r7 -b "$1" < "$2"
+
+real	3m57.002s
+user	4m48.290s
+sys	0m17.160s
+
+Testing mbrot under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running mbrot:75:1000
+Elapsed time: 19.524123042 seconds (19.524) for mbrot:75:1000
++!CSVLINE!+gauche-0.9.4,mbrot:75:1000,19.524123042
+
+real	0m19.643s
+user	0m19.850s
+sys	0m0.017s
+
+Testing mbrotZ under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running mbrotZ:75:1000
+./bench: line 638:  3363 Killed                  "${GAUCHE}" -r7 -b "$1" < "$2"
+
+real	4m1.265s
+user	4m57.840s
+sys	0m2.030s
+
+Testing nucleic under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running nucleic:50
+Elapsed time: 23.552183027 seconds (23.552) for nucleic:50
++!CSVLINE!+gauche-0.9.4,nucleic:50,23.552183027
+
+real	0m23.700s
+user	0m25.883s
+sys	0m0.073s
+
+Testing pi under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running pi:50:500:50:2
+Elapsed time: 0.469396073 seconds (0.469) for pi:50:500:50:2
++!CSVLINE!+gauche-0.9.4,pi:50:500:50:2,0.469396073
+
+real	0m0.596s
+user	0m0.920s
+sys	0m0.020s
+
+Testing pnpoly under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running pnpoly:1000000
+Elapsed time: 22.257164224 seconds (22.257) for pnpoly:1000000
++!CSVLINE!+gauche-0.9.4,pnpoly:1000000,22.257164224
+
+real	0m22.397s
+user	0m23.547s
+sys	0m0.047s
+
+Testing ray under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running ray:50
+Elapsed time: 18.946498312 seconds (18.947) for ray:50
++!CSVLINE!+gauche-0.9.4,ray:50,18.946498312
+
+real	0m19.073s
+user	0m19.280s
+sys	0m0.003s
+
+Testing simplex under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running simplex:1000000
+Elapsed time: 40.74495517 seconds (40.745) for simplex:1000000
++!CSVLINE!+gauche-0.9.4,simplex:1000000,40.74495517
+
+real	0m40.886s
+user	0m43.630s
+sys	0m0.107s
+
+Testing ack under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running ack:3:12:2
+Elapsed time: 134.640873264 seconds (134.641) for ack:3:12:2
++!CSVLINE!+gauche-0.9.4,ack:3:12:2,134.640873264
+
+real	2m14.759s
+user	3m10.410s
+sys	0m1.860s
+
+Testing array1 under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running array1:1000000:500
+GC Warning: Repeated allocation of very large block (appr. size 8003584):
+	May lead to memory leak and poor performance.
+GC Warning: Repeated allocation of very large block (appr. size 8003584):
+	May lead to memory leak and poor performance.
+GC Warning: Repeated allocation of very large block (appr. size 8003584):
+	May lead to memory leak and poor performance.
+GC Warning: Repeated allocation of very large block (appr. size 8003584):
+	May lead to memory leak and poor performance.
+Elapsed time: 25.68234412 seconds (25.682) for array1:1000000:500
++!CSVLINE!+gauche-0.9.4,array1:1000000:500,25.68234412
+
+real	0m25.810s
+user	0m27.610s
+sys	0m0.030s
+
+Testing string under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running string:500000:25
+Elapsed time: 0.22801173 seconds (0.228) for string:500000:25
++!CSVLINE!+gauche-0.9.4,string:500000:25,0.22801173
+
+real	0m0.352s
+user	0m0.983s
+sys	0m0.047s
+
+Testing sum1 under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running sum1:25
+Elapsed time: 1.309819712 seconds (1.31) for sum1:25
++!CSVLINE!+gauche-0.9.4,sum1:25,1.309819712
+
+real	0m1.427s
+user	0m1.633s
+sys	0m0.020s
+
+Testing cat under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running cat:50
+Elapsed time: 24.154837122 seconds (24.155) for cat:50
++!CSVLINE!+gauche-0.9.4,cat:50,24.154837122
+
+real	0m24.279s
+user	0m24.070s
+sys	0m0.220s
+
+Testing tail under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running tail:25
+Elapsed time: 2.664621805 seconds (2.665) for tail:25
++!CSVLINE!+gauche-0.9.4,tail:25,2.664621805
+
+real	0m2.799s
+user	0m2.950s
+sys	0m0.147s
+
+Testing wc under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 23.968513632 seconds (23.969) for wc:inputs/bib:50
++!CSVLINE!+gauche-0.9.4,wc:inputs/bib:50,23.968513632
+
+real	0m24.088s
+user	0m24.067s
+sys	0m0.037s
+
+Testing read1 under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running read1:2500
+Elapsed time: 2.221810456 seconds (2.222) for read1:2500
++!CSVLINE!+gauche-0.9.4,read1:2500,2.221810456
+
+real	0m2.346s
+user	0m3.060s
+sys	0m0.033s
+
+Testing compiler under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running compiler:2000
+Elapsed time: 25.35742499 seconds (25.357) for compiler:2000
++!CSVLINE!+gauche-0.9.4,compiler:2000,25.35742499
+
+real	0m25.638s
+user	0m29.897s
+sys	0m0.090s
+
+Testing conform under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running conform:500
+Elapsed time: 44.49374116 seconds (44.494) for conform:500
++!CSVLINE!+gauche-0.9.4,conform:500,44.49374116
+
+real	0m44.629s
+user	0m47.747s
+sys	0m0.063s
+
+Testing dynamic under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running dynamic:500
+*** ERROR: dynamic-parse-datum "Unknown datum: ~s" :
+Stack Trace:
+_______________________________________
+  0  (dynamic-parse-expression env fst-expr)
+        At line 263 of "/tmp/larcenous/Gauche/dynamic.scm"
+  1  (dynamic-parse-expressions env args)
+        At line 288 of "/tmp/larcenous/Gauche/dynamic.scm"
+  2  (dynamic-parse-expression env fst-expr)
+        At line 263 of "/tmp/larcenous/Gauche/dynamic.scm"
+  3  (dynamic-parse-expressions env rem-exprs)
+        At line 264 of "/tmp/larcenous/Gauche/dynamic.scm"
+  4  (dynamic-parse-expressions env args)
+        At line 288 of "/tmp/larcenous/Gauche/dynamic.scm"
+  5  (dynamic-parse-body (extend-env-with-env env formals-env) exp-or-b
+        At line 674 of "/tmp/larcenous/Gauche/dynamic.scm"
+  6  (dynamic-parse-command dynamic-empty-env next-input)
+        At line 722 of "/tmp/larcenous/Gauche/dynamic.scm"
+  7  (dynamic-parse-from-port port)
+        At line 723 of "/tmp/larcenous/Gauche/dynamic.scm"
+  8  (dynamic-parse-from-port port)
+        At line 723 of "/tmp/larcenous/Gauche/dynamic.scm"
+  9  (dynamic-parse-from-port port)
+        At line 723 of "/tmp/larcenous/Gauche/dynamic.scm"
+ 10  (dynamic-parse-from-port port)
+        At line 723 of "/tmp/larcenous/Gauche/dynamic.scm"
+ 11  (dynamic-parse-from-port port)
+        At line 723 of "/tmp/larcenous/Gauche/dynamic.scm"
+ 12  (dynamic-parse-file input-file)
+        At line 2311 of "/tmp/larcenous/Gauche/dynamic.scm"
+ 13  (thunk)
+        At line 2367 of "/tmp/larcenous/Gauche/dynamic.scm"
+
+real	0m0.150s
+user	0m0.170s
+sys	0m0.003s
+
+Testing earley under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running earley:1
+Elapsed time: 13.795990946 seconds (13.796) for earley:1
++!CSVLINE!+gauche-0.9.4,earley:1,13.795990946
+
+real	0m13.933s
+user	0m19.087s
+sys	0m0.193s
+
+Testing graphs under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running graphs:7:3
+Elapsed time: 116.211311965 seconds (116.211) for graphs:7:3
++!CSVLINE!+gauche-0.9.4,graphs:7:3,116.211311965
+
+real	1m56.347s
+user	2m46.023s
+sys	0m3.633s
+
+Testing lattice under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running lattice:44:10
+Elapsed time: 66.903337684 seconds (66.903) for lattice:44:10
++!CSVLINE!+gauche-0.9.4,lattice:44:10,66.903337684
+
+real	1m7.019s
+user	1m10.050s
+sys	0m0.163s
+
+Testing matrix under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running matrix:5:5:2500
+Elapsed time: 37.641972699 seconds (37.642) for matrix:5:5:2500
++!CSVLINE!+gauche-0.9.4,matrix:5:5:2500,37.641972699
+
+real	0m37.767s
+user	0m45.307s
+sys	0m0.283s
+
+Testing maze under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running maze:20:7:10000
+Elapsed time: 17.522749954 seconds (17.523) for maze:20:7:10000
++!CSVLINE!+gauche-0.9.4,maze:20:7:10000,17.522749954
+
+real	0m17.647s
+user	0m18.323s
+sys	0m0.033s
+
+Testing mazefun under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 34.209875933 seconds (34.21) for mazefun:11:11:10000
++!CSVLINE!+gauche-0.9.4,mazefun:11:11:10000,34.209875933
+
+real	0m34.329s
+user	0m38.063s
+sys	0m0.137s
+
+Testing nqueens under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running nqueens:13:10
+Elapsed time: 66.562506533 seconds (66.563) for nqueens:13:10
++!CSVLINE!+gauche-0.9.4,nqueens:13:10,66.562506533
+
+real	1m6.686s
+user	1m11.010s
+sys	0m0.153s
+
+Testing paraffins under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running paraffins:23:10
+Elapsed time: 9.735090631 seconds (9.735) for paraffins:23:10
++!CSVLINE!+gauche-0.9.4,paraffins:23:10,9.735090631
+
+real	0m9.883s
+user	0m13.620s
+sys	0m0.950s
+
+Testing parsing under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running parsing:2500
+Elapsed time: 158.321272304 seconds (158.321) for parsing:2500
++!CSVLINE!+gauche-0.9.4,parsing:2500,158.321272304
+
+real	2m38.443s
+user	4m31.320s
+sys	0m3.590s
+
+Testing peval under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running peval:2000
+Elapsed time: 51.425604114 seconds (51.426) for peval:2000
++!CSVLINE!+gauche-0.9.4,peval:2000,51.425604114
+
+real	0m51.550s
+user	1m0.550s
+sys	0m0.327s
+
+Testing primes under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running primes:1000:10000
+Elapsed time: 17.049534236 seconds (17.05) for primes:1000:10000
++!CSVLINE!+gauche-0.9.4,primes:1000:10000,17.049534236
+
+real	0m17.171s
+user	0m19.783s
+sys	0m0.153s
+
+Testing quicksort under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running quicksort:10000:2500
+Elapsed time: 34.146559629 seconds (34.147) for quicksort:10000:2500
++!CSVLINE!+gauche-0.9.4,quicksort:10000:2500,34.146559629
+
+real	0m34.272s
+user	0m34.740s
+sys	0m0.050s
+
+Testing scheme under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running scheme:100000
+Elapsed time: 30.465882414 seconds (30.466) for scheme:100000
++!CSVLINE!+gauche-0.9.4,scheme:100000,30.465882414
+
+real	0m30.607s
+user	0m33.290s
+sys	0m0.090s
+
+Testing slatex under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running slatex:500
+Elapsed time: 13.581825954 seconds (13.582) for slatex:500
++!CSVLINE!+gauche-0.9.4,slatex:500,13.581825954
+
+real	0m13.740s
+user	0m15.960s
+sys	0m1.460s
+
+Testing nboyer under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running nboyer:5:1
+Elapsed time: 12.615707741 seconds (12.616) for nboyer:5:1
++!CSVLINE!+gauche-0.9.4,nboyer:5:1,12.615707741
+
+real	0m12.760s
+user	0m14.883s
+sys	0m0.047s
+
+Testing sboyer under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running sboyer:5:1
+Elapsed time: 13.043269565 seconds (13.043) for sboyer:5:1
++!CSVLINE!+gauche-0.9.4,sboyer:5:1,13.043269565
+
+real	0m13.170s
+user	0m13.580s
+sys	0m0.020s
+
+Testing gcbench under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+*** ERROR: Compile Error: syntax-error: the form can appear only in the toplevel: (#<identifier gauche.record#define-inline> classNode (#<identifier gauche.record#make-rtd> (quote classNode) #(left right i j)))
+"/tmp/larcenous/Gauche/gcbench.scm":47:(define (gcbench kStretchTreeDepth)  ...
+
+Stack Trace:
+_______________________________________
+
+real	0m0.123s
+user	0m0.140s
+sys	0m0.000s
+
+Testing mperm under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running perm20:10:2:1
+Elapsed time: 25.828467219 seconds (25.828) for perm20:10:2:1
++!CSVLINE!+gauche-0.9.4,perm20:10:2:1,25.828467219
+
+real	0m27.366s
+user	0m36.617s
+sys	0m0.663s
+
+Testing equal under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: 14.846340544 seconds (14.846) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gauche-0.9.4,equal:100:100:8:1000:2000:5000,14.846340544
+
+real	0m14.978s
+user	0m17.723s
+sys	0m0.077s
+
+Testing bv2string under Gauche
+Including postlude /home/nex/src/r7rs-benchmarks/src/Gauche-postlude.scm
+Compiling...
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 10.948713729 seconds (10.949) for bv2string:1000:1000:100
++!CSVLINE!+gauche-0.9.4,bv2string:1000:1000:100,10.948713729
+
+real	0m11.079s
+user	0m11.310s
+sys	0m0.023s

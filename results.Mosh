@@ -1,0 +1,884 @@
+
+****************************
+Benchmarking Mosh on Sat 14 May 15:08:21 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running browse:2000
+Elapsed time: 34.145875 seconds (34) for browse:2000
++!CSVLINE!+mosh-unknown,browse:2000,34.145875
+
+real	0m34.216s
+user	0m34.197s
+sys	0m0.003s
+
+Testing deriv under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running deriv:10000000
+Elapsed time: 31.568268999999997 seconds (31) for deriv:10000000
++!CSVLINE!+mosh-unknown,deriv:10000000,31.568268999999997
+
+real	0m31.598s
+user	0m31.587s
+sys	0m0.007s
+
+Testing destruc under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running destruc:600:50:4000
+Elapsed time: 37.779304999999994 seconds (38) for destruc:600:50:4000
++!CSVLINE!+mosh-unknown,destruc:600:50:4000,37.779304999999994
+
+real	0m37.813s
+user	0m37.807s
+sys	0m0.000s
+
+Testing diviter under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running diviter:1000:1000000
+Elapsed time: 20.49413 seconds (21) for diviter:1000:1000000
++!CSVLINE!+mosh-unknown,diviter:1000:1000000,20.49413
+
+real	0m20.523s
+user	0m20.520s
+sys	0m0.000s
+
+Testing divrec under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running divrec:1000:1000000
+Elapsed time: 23.554291 seconds (23) for divrec:1000:1000000
++!CSVLINE!+mosh-unknown,divrec:1000:1000000,23.554291
+
+real	0m23.581s
+user	0m23.577s
+sys	0m0.000s
+
+Testing puzzle under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running puzzle:1000
+Elapsed time: 50.897974 seconds (51) for puzzle:1000
++!CSVLINE!+mosh-unknown,puzzle:1000,50.897974
+
+real	0m50.937s
+user	0m50.930s
+sys	0m0.000s
+
+Testing triangl under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running triangl:22:1:50
+Elapsed time: 29.699188 seconds (30) for triangl:22:1:50
++!CSVLINE!+mosh-unknown,triangl:22:1:50,29.699188
+
+real	0m29.729s
+user	0m29.723s
+sys	0m0.000s
+
+Testing tak under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running tak:40:20:11:1
+Elapsed time: 31.649252999999998 seconds (32) for tak:40:20:11:1
++!CSVLINE!+mosh-unknown,tak:40:20:11:1,31.649252999999998
+
+real	0m31.676s
+user	0m31.670s
+sys	0m0.003s
+
+Testing takl under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running takl:40:20:12:1
+Elapsed time: 75.27976 seconds (75) for takl:40:20:12:1
++!CSVLINE!+mosh-unknown,takl:40:20:12:1,75.27976
+
+real	1m15.309s
+user	1m15.300s
+sys	0m0.000s
+
+Testing ntakl under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 72.52698899999999 seconds (73) for ntakl:40:20:12:1
++!CSVLINE!+mosh-unknown,ntakl:40:20:12:1,72.52698899999999
+
+real	1m12.556s
+user	1m12.547s
+sys	0m0.003s
+
+Testing cpstak under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 96.61724799999999 seconds (96) for cpstak:40:20:11:1
++!CSVLINE!+mosh-unknown,cpstak:40:20:11:1,96.61724799999999
+
+real	1m36.647s
+user	1m36.630s
+sys	0m0.007s
+
+Testing ctak under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 75.885505 seconds (76) for ctak:32:16:8:1
++!CSVLINE!+mosh-unknown,ctak:32:16:8:1,75.885505
+
+real	1m15.914s
+user	1m15.907s
+sys	0m0.000s
+
+Testing fib under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running fib:40:5
+Elapsed time: 59.140204 seconds (59) for fib:40:5
++!CSVLINE!+mosh-unknown,fib:40:5,59.140204
+
+real	0m59.167s
+user	0m59.157s
+sys	0m0.003s
+
+Testing fibc under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running fibc:30:10
+Elapsed time: 49.617368 seconds (50) for fibc:30:10
++!CSVLINE!+mosh-unknown,fibc:30:10,49.617368
+
+real	0m49.647s
+user	0m49.640s
+sys	0m0.000s
+
+Testing fibfp under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running fibfp:35.0:10
+Elapsed time: 24.900488999999997 seconds (25) for fibfp:35.0:10
++!CSVLINE!+mosh-unknown,fibfp:35.0:10,24.900488999999997
+
+real	0m24.926s
+user	0m24.917s
+sys	0m0.007s
+
+Testing sum under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running sum:10000:200000
+Elapsed time: 59.852737999999995 seconds (60) for sum:10000:200000
++!CSVLINE!+mosh-unknown,sum:10000:200000,59.852737999999995
+
+real	0m59.880s
+user	0m59.873s
+sys	0m0.000s
+
+Testing sumfp under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running sumfp:1000000:500
+Elapsed time: 46.294497 seconds (46) for sumfp:1000000:500
++!CSVLINE!+mosh-unknown,sumfp:1000000:500,46.294497
+
+real	0m46.321s
+user	0m46.313s
+sys	0m0.000s
+
+Testing fft under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running fft:65536:100
+./bench: line 686: 13456 Killed                  "${MOSH}" "$1" < "$2"
+
+real	5m0.003s
+user	4m59.967s
+sys	0m0.007s
+
+Testing mbrot under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running mbrot:75:1000
+Elapsed time: 97.08649899999999 seconds (97) for mbrot:75:1000
++!CSVLINE!+mosh-unknown,mbrot:75:1000,97.08649899999999
+
+real	1m37.117s
+user	1m37.103s
+sys	0m0.003s
+
+Testing mbrotZ under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running mbrotZ:75:1000
+./bench: line 686: 13627 Killed                  "${MOSH}" "$1" < "$2"
+
+real	4m59.999s
+user	4m59.950s
+sys	0m0.023s
+
+Testing nucleic under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running nucleic:50
+Elapsed time: 30.589858 seconds (31) for nucleic:50
++!CSVLINE!+mosh-unknown,nucleic:50,30.589858
+
+real	0m30.736s
+user	0m30.730s
+sys	0m0.003s
+
+Testing pi under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: div
+ 2. &message       message: "multiple definitions of identifier"
+ 3. &syntax        form: div
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (uy2010 uy2012) ...):  psyntax.scm:10
+    4. (chi-library-internal e* rib top?):  psyntax.scm:10
+    5. (lambda () ...):  psyntax.scm:10
+    6. (dynamic-wind in body out):  baselib.scm:779
+    7. (dynamic-wind in body out):  baselib.scm:779
+    8. (lambda (uy2552 uy2554) ...):  psyntax.scm:10
+    9. (compile-r6rs-top-level x*):  psyntax.scm:10
+
+
+
+real	0m0.020s
+user	0m0.017s
+sys	0m0.000s
+
+Testing pnpoly under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running pnpoly:1000000
+Elapsed time: 36.895892999999994 seconds (37) for pnpoly:1000000
++!CSVLINE!+mosh-unknown,pnpoly:1000000,36.895892999999994
+
+real	0m36.927s
+user	0m36.920s
+sys	0m0.003s
+
+Testing ray under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running ray:50
+Elapsed time: 57.544866999999996 seconds (57) for ray:50
++!CSVLINE!+mosh-unknown,ray:50,57.544866999999996
+
+real	0m57.586s
+user	0m57.570s
+sys	0m0.007s
+
+Testing simplex under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running simplex:1000000
+Elapsed time: 53.165519999999994 seconds (53) for simplex:1000000
++!CSVLINE!+mosh-unknown,simplex:1000000,53.165519999999994
+
+real	0m53.213s
+user	0m53.207s
+sys	0m0.000s
+
+Testing ack under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running ack:3:12:2
+Elapsed time: 50.917167 seconds (51) for ack:3:12:2
++!CSVLINE!+mosh-unknown,ack:3:12:2,50.917167
+
+real	0m50.945s
+user	0m50.937s
+sys	0m0.003s
+
+Testing array1 under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running array1:1000000:500
+Elapsed time: 38.765108999999995 seconds (38) for array1:1000000:500
++!CSVLINE!+mosh-unknown,array1:1000000:500,38.765108999999995
+
+real	0m38.795s
+user	0m38.780s
+sys	0m0.010s
+
+Testing string under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running string:500000:25
+Elapsed time: 21.834820999999998 seconds (22) for string:500000:25
++!CSVLINE!+mosh-unknown,string:500000:25,21.834820999999998
+
+real	0m21.865s
+user	0m21.850s
+sys	0m0.010s
+
+Testing sum1 under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running sum1:25
+Elapsed time: 8.249623 seconds (9) for sum1:25
++!CSVLINE!+mosh-unknown,sum1:25,8.249623
+
+real	0m8.276s
+user	0m8.257s
+sys	0m0.013s
+
+Testing cat under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running cat:50
+Elapsed time: 54.238277999999994 seconds (54) for cat:50
++!CSVLINE!+mosh-unknown,cat:50,54.238277999999994
+
+real	0m54.266s
+user	0m53.980s
+sys	0m0.273s
+
+Testing tail under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who             who: read-line
+ 2. &message         message: "unbound identifier"
+ 3. &undefined
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (syntax-type e r):  psyntax.scm:10
+    4. (syntax-type e r):  psyntax.scm:10
+    5. (chi-expr e r mr):  psyntax.scm:10
+    6. (chi-expr* e* r mr):  psyntax.scm:10
+    7. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    8. (chi-expr* e* r mr):  psyntax.scm:10
+    9. (lambda (uy1f06 uy1f08 uy1f0a uy1f0c uy1f0e uy1f10 uy1f12 uy1f14) ...):  psyntax.scm:10
+    10. (lambda (x*) ...):  psyntax.scm:10
+    11. (lambda (x*) ...):  psyntax.scm:10
+    12. (chi-defun x r mr):  psyntax.scm:10
+    13. (chi-defun x r mr):  psyntax.scm:10
+    14. (f ls):  psyntax.scm:10
+    15. (f ls):  psyntax.scm:10
+    16. (f ls):  psyntax.scm:10
+    17. (f ls):  psyntax.scm:10
+    18. (f ls):  psyntax.scm:10
+    19. (f ls):  psyntax.scm:10
+    20. (f ls):  psyntax.scm:10
+      ... (more stack dump truncated)
+
+
+
+real	0m0.019s
+user	0m0.017s
+sys	0m0.000s
+
+Testing wc under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 66.11596999999999 seconds (66) for wc:inputs/bib:50
++!CSVLINE!+mosh-unknown,wc:inputs/bib:50,66.11596999999999
+
+real	1m6.144s
+user	1m6.050s
+sys	0m0.087s
+
+Testing read1 under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running read1:2500
+Elapsed time: 5.230581999999999 seconds (5) for read1:2500
++!CSVLINE!+mosh-unknown,read1:2500,5.230581999999999
+
+real	0m5.257s
+user	0m5.227s
+sys	0m0.027s
+
+Testing compiler under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: bitwise-not
+ 2. &message       message: "multiple definitions of identifier"
+ 3. &syntax        form: bitwise-not
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (uy2010 uy2012) ...):  psyntax.scm:10
+    4. (chi-library-internal e* rib top?):  psyntax.scm:10
+    5. (lambda () ...):  psyntax.scm:10
+    6. (dynamic-wind in body out):  baselib.scm:779
+    7. (dynamic-wind in body out):  baselib.scm:779
+    8. (lambda (uy2552 uy2554) ...):  psyntax.scm:10
+
+
+
+real	0m0.070s
+user	0m0.060s
+sys	0m0.007s
+
+Testing conform under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who             who: name
+ 2. &message         message: "unbound identifier"
+ 3. &undefined
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (syntax-type e r):  psyntax.scm:10
+    4. (syntax-type e r):  psyntax.scm:10
+    5. (chi-expr e r mr):  psyntax.scm:10
+    6. (chi-expr* e* r mr):  psyntax.scm:10
+    7. (lambda (rator rands) ...):  psyntax.scm:10
+    8. (lambda (rator rands) ...):  psyntax.scm:10
+    9. (chi-expr* e* r mr):  psyntax.scm:10
+    10. (lambda (uy1f06 uy1f08 uy1f0a uy1f0c uy1f0e uy1f10 uy1f12 uy1f14) ...):  psyntax.scm:10
+    11. (lambda (x*) ...):  psyntax.scm:10
+    12. (lambda (x*) ...):  psyntax.scm:10
+    13. (chi-defun x r mr):  psyntax.scm:10
+    14. (chi-defun x r mr):  psyntax.scm:10
+    15. (f ls):  psyntax.scm:10
+    16. (f ls):  psyntax.scm:10
+    17. (f ls):  psyntax.scm:10
+    18. (f ls):  psyntax.scm:10
+    19. (f ls):  psyntax.scm:10
+    20. (f ls):  psyntax.scm:10
+      ... (more stack dump truncated)
+
+
+
+real	0m0.027s
+user	0m0.027s
+sys	0m0.000s
+
+Testing dynamic under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running dynamic:500
+Elapsed time: 37.353662 seconds (37) for dynamic:500
++!CSVLINE!+mosh-unknown,dynamic:500,37.353662
+
+real	0m37.522s
+user	0m37.483s
+sys	0m0.033s
+
+Testing earley under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running earley:1
+ Condition components:
+ 1. &assertion
+ 2. &who             who: "apply"
+ 3. &message         message: "invalid application"
+ 4. &irritants       irritants: ((#<type:record-type-descriptortime #f #f #f #f ((#t . type) (#t . nanosecond) (#t . second)) >))
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (test input): <unknown location>
+    4. (run-r7rs-benchmark name count thunk ok?): <unknown location>
+    5. (run-r7rs-benchmark name count thunk ok?): <unknown location>
+    6. eval: <subr>
+    7. (<top-level>): <unknown location>
+
+
+
+real	0m0.063s
+user	0m0.060s
+sys	0m0.000s
+
+Testing graphs under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running graphs:7:3
+Elapsed time: 272.414944 seconds (272) for graphs:7:3
++!CSVLINE!+mosh-unknown,graphs:7:3,272.414944
+
+real	4m32.458s
+user	4m32.430s
+sys	0m0.003s
+
+Testing lattice under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running lattice:44:10
+Elapsed time: 214.85651 seconds (214) for lattice:44:10
++!CSVLINE!+mosh-unknown,lattice:44:10,214.85651
+
+real	3m34.894s
+user	3m34.867s
+sys	0m0.007s
+
+Testing matrix under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: div
+ 2. &message       message: "multiple definitions of identifier"
+ 3. &syntax        form: div
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (uy2010 uy2012) ...):  psyntax.scm:10
+    4. (chi-library-internal e* rib top?):  psyntax.scm:10
+    5. (lambda () ...):  psyntax.scm:10
+    6. (dynamic-wind in body out):  baselib.scm:779
+    7. (dynamic-wind in body out):  baselib.scm:779
+    8. (lambda (uy2552 uy2554) ...):  psyntax.scm:10
+    9. (compile-r6rs-top-level x*):  psyntax.scm:10
+
+
+
+real	0m0.021s
+user	0m0.017s
+sys	0m0.003s
+
+Testing maze under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: bitwise-not
+ 2. &message       message: "multiple definitions of identifier"
+ 3. &syntax        form: bitwise-not
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (uy2010 uy2012) ...):  psyntax.scm:10
+    4. (chi-library-internal e* rib top?):  psyntax.scm:10
+    5. (lambda () ...):  psyntax.scm:10
+    6. (dynamic-wind in body out):  baselib.scm:779
+    7. (dynamic-wind in body out):  baselib.scm:779
+    8. (lambda (uy2552 uy2554) ...):  psyntax.scm:10
+    9. (compile-r6rs-top-level x*):  psyntax.scm:10
+
+
+
+real	0m0.021s
+user	0m0.017s
+sys	0m0.003s
+
+Testing mazefun under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 36.554972 seconds (37) for mazefun:11:11:10000
++!CSVLINE!+mosh-unknown,mazefun:11:11:10000,36.554972
+
+real	0m36.593s
+user	0m36.583s
+sys	0m0.003s
+
+Testing nqueens under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running nqueens:13:10
+Elapsed time: 79.84861799999999 seconds (80) for nqueens:13:10
++!CSVLINE!+mosh-unknown,nqueens:13:10,79.84861799999999
+
+real	1m19.877s
+user	1m19.867s
+sys	0m0.000s
+
+Testing paraffins under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: div
+ 2. &message       message: "multiple definitions of identifier"
+ 3. &syntax        form: div
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (uy2010 uy2012) ...):  psyntax.scm:10
+    4. (chi-library-internal e* rib top?):  psyntax.scm:10
+    5. (lambda () ...):  psyntax.scm:10
+    6. (dynamic-wind in body out):  baselib.scm:779
+    7. (dynamic-wind in body out):  baselib.scm:779
+    8. (lambda (uy2552 uy2554) ...):  psyntax.scm:10
+    9. (compile-r6rs-top-level x*):  psyntax.scm:10
+
+
+
+real	0m0.020s
+user	0m0.013s
+sys	0m0.003s
+
+Testing parsing under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running parsing:2500
+Elapsed time: 60.48701 seconds (60) for parsing:2500
++!CSVLINE!+mosh-unknown,parsing:2500,60.48701
+
+real	1m0.550s
+user	1m0.530s
+sys	0m0.010s
+
+Testing peval under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running peval:2000
+Elapsed time: 45.214915999999995 seconds (45) for peval:2000
++!CSVLINE!+mosh-unknown,peval:2000,45.214915999999995
+
+real	0m45.280s
+user	0m45.270s
+sys	0m0.003s
+
+Testing primes under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running primes:1000:10000
+Elapsed time: 13.446228999999999 seconds (13) for primes:1000:10000
++!CSVLINE!+mosh-unknown,primes:1000:10000,13.446228999999999
+
+real	0m13.475s
+user	0m13.473s
+sys	0m0.000s
+
+Testing quicksort under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: partition
+ 2. &message       message: "multiple definitions of identifier"
+ 3. &syntax        form: partition
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (uy2010 uy2012) ...):  psyntax.scm:10
+    4. (chi-library-internal e* rib top?):  psyntax.scm:10
+    5. (lambda () ...):  psyntax.scm:10
+    6. (dynamic-wind in body out):  baselib.scm:779
+    7. (dynamic-wind in body out):  baselib.scm:779
+    8. (lambda (uy2552 uy2554) ...):  psyntax.scm:10
+    9. (compile-r6rs-top-level x*):  psyntax.scm:10
+
+
+
+real	0m0.020s
+user	0m0.017s
+sys	0m0.000s
+
+Testing scheme under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running scheme:100000
+Elapsed time: 50.510304 seconds (51) for scheme:100000
++!CSVLINE!+mosh-unknown,scheme:100000,50.510304
+
+real	0m50.634s
+user	0m50.623s
+sys	0m0.003s
+
+Testing slatex under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running slatex:500
+Elapsed time: 19.880240999999998 seconds (20) for slatex:500
++!CSVLINE!+mosh-unknown,slatex:500,19.880240999999998
+
+real	0m21.074s
+user	0m19.730s
+sys	0m1.290s
+
+Testing nboyer under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running nboyer:5:1
+Elapsed time: 37.843574999999994 seconds (38) for nboyer:5:1
++!CSVLINE!+mosh-unknown,nboyer:5:1,37.843574999999994
+
+real	0m37.885s
+user	0m37.857s
+sys	0m0.023s
+
+Testing sboyer under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running sboyer:5:1
+Elapsed time: 37.437861999999996 seconds (37) for sboyer:5:1
++!CSVLINE!+mosh-unknown,sboyer:5:1,37.437861999999996
+
+real	0m37.479s
+user	0m37.457s
+sys	0m0.017s
+
+Testing gcbench under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+ Condition components:
+ 1. &who           who: make-node-raw
+ 2. &message       message: "not a valid define-record-type keyword"
+ 3. &syntax        form: make-node-raw
+                   subform: #f
+
+ Exception:
+     error in raise: returned from non-continuable exception
+
+ Stack trace:
+    1. throw: <subr>
+    2. (raise c):  baselib.scm:943
+    3. (lambda (namespec clause*) ...):  psyntax.scm:10
+    4. (lambda (namespec clause*) ...):  psyntax.scm:10
+    5. (do-macro-call transformer expr rib):  psyntax.scm:10
+    6. (lambda (uy1fee uy1ff0 uy1ff2) ...):  psyntax.scm:10
+    7. (lambda (uy1fee uy1ff0 uy1ff2) ...):  psyntax.scm:10
+    8. (chi-internal e* r mr):  psyntax.scm:10
+    9. (chi-internal e* r mr):  psyntax.scm:10
+    10. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    11. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    12. (chi-expr* e* r mr):  psyntax.scm:10
+    13. (lambda (uy1f06 uy1f08 uy1f0a uy1f0c uy1f0e uy1f10 uy1f12 uy1f14) ...):  psyntax.scm:10
+    14. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    15. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    16. (chi-expr* e* r mr):  psyntax.scm:10
+    17. (lambda (uy1f06 uy1f08 uy1f0a uy1f0c uy1f0e uy1f10 uy1f12 uy1f14) ...):  psyntax.scm:10
+    18. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    19. (lambda (lhs* rhs* b b*) ...):  psyntax.scm:10
+    20. (chi-expr* e* r mr):  psyntax.scm:10
+      ... (more stack dump truncated)
+
+
+
+real	0m0.022s
+user	0m0.020s
+sys	0m0.000s
+
+Testing mperm under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running perm20:10:2:1
+Elapsed time: 90.689083 seconds (91) for perm20:10:2:1
++!CSVLINE!+mosh-unknown,perm20:10:2:1,90.689083
+
+real	1m35.283s
+user	1m35.207s
+sys	0m0.067s
+
+Testing equal under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running equal:100:100:8:1000:2000:5000
+./bench: line 686: 14873 Killed                  "${MOSH}" "$1" < "$2"
+
+real	4m59.999s
+user	4m59.973s
+sys	0m0.000s
+
+Testing bv2string under Mosh
+Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
+Compiling...
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 12.795959 seconds (13) for bv2string:1000:1000:100
++!CSVLINE!+mosh-unknown,bv2string:1000:1000:100,12.795959
+
+real	0m12.848s
+user	0m12.833s
+sys	0m0.010s

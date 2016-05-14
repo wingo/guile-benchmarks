@@ -1,0 +1,1015 @@
+
+****************************
+Benchmarking Rhizome on Sat 14 May 16:03:35 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output browse.c browse.scm
+pisl browse -o browse.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c browse.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_browse.exe.c
+gcc -m32 -o browse.exe s_browse.exe.o browse.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running browse:2000
+Elapsed time: 51.593319 seconds (51.593) for browse:2000
++!CSVLINE!+rhizome-unknown,browse:2000,51.593319
+
+real	0m51.602s
+user	0m51.587s
+sys	0m0.010s
+
+Testing deriv under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output deriv.c deriv.scm
+pisl deriv -o deriv.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c deriv.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_deriv.exe.c
+gcc -m32 -o deriv.exe s_deriv.exe.o deriv.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running deriv:10000000
+Elapsed time: 26.588741 seconds (26.589) for deriv:10000000
++!CSVLINE!+rhizome-unknown,deriv:10000000,26.588741
+
+real	0m26.593s
+user	0m26.590s
+sys	0m0.000s
+
+Testing destruc under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output destruc.c destruc.scm
+pisl destruc -o destruc.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c destruc.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_destruc.exe.c
+gcc -m32 -o destruc.exe s_destruc.exe.o destruc.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running destruc:600:50:4000
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+Testing diviter under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output diviter.c diviter.scm
+pisl diviter -o diviter.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c diviter.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_diviter.exe.c
+gcc -m32 -o diviter.exe s_diviter.exe.o diviter.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running diviter:1000:1000000
+Elapsed time: 37.426545 seconds (37.427) for diviter:1000:1000000
++!CSVLINE!+rhizome-unknown,diviter:1000:1000000,37.426545
+
+real	0m37.431s
+user	0m37.427s
+sys	0m0.000s
+
+Testing divrec under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output divrec.c divrec.scm
+pisl divrec -o divrec.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c divrec.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_divrec.exe.c
+gcc -m32 -o divrec.exe s_divrec.exe.o divrec.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running divrec:1000:1000000
+Elapsed time: 43.044404 seconds (43.044) for divrec:1000:1000000
++!CSVLINE!+rhizome-unknown,divrec:1000:1000000,43.044404
+
+real	0m43.049s
+user	0m43.043s
+sys	0m0.000s
+
+Testing puzzle under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output puzzle.c puzzle.scm
+pisl puzzle -o puzzle.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c puzzle.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_puzzle.exe.c
+gcc -m32 -o puzzle.exe s_puzzle.exe.o puzzle.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running puzzle:1000
+Elapsed time: 91.722599 seconds (91.723) for puzzle:1000
++!CSVLINE!+rhizome-unknown,puzzle:1000,91.722599
+
+real	1m31.726s
+user	1m31.680s
+sys	0m0.037s
+
+Testing triangl under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output triangl.c triangl.scm
+pisl triangl -o triangl.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c triangl.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_triangl.exe.c
+gcc -m32 -o triangl.exe s_triangl.exe.o triangl.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running triangl:22:1:50
+Elapsed time: 67.245445 seconds (67.245) for triangl:22:1:50
++!CSVLINE!+rhizome-unknown,triangl:22:1:50,67.245445
+
+real	1m7.249s
+user	1m7.233s
+sys	0m0.010s
+
+Testing tak under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output tak.c tak.scm
+pisl tak -o tak.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c tak.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_tak.exe.c
+gcc -m32 -o tak.exe s_tak.exe.o tak.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running tak:40:20:11:1
+Elapsed time: 73.70263200000001 seconds (73.703) for tak:40:20:11:1
++!CSVLINE!+rhizome-unknown,tak:40:20:11:1,73.70263200000001
+
+real	1m13.707s
+user	1m13.667s
+sys	0m0.033s
+
+Testing takl under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output takl.c takl.scm
+pisl takl -o takl.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c takl.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_takl.exe.c
+gcc -m32 -o takl.exe s_takl.exe.o takl.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running takl:40:20:12:1
+Elapsed time: 214.908941 seconds (214.909) for takl:40:20:12:1
++!CSVLINE!+rhizome-unknown,takl:40:20:12:1,214.908941
+
+real	3m34.913s
+user	3m34.793s
+sys	0m0.100s
+
+Testing ntakl under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output ntakl.c ntakl.scm
+pisl ntakl -o ntakl.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c ntakl.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_ntakl.exe.c
+gcc -m32 -o ntakl.exe s_ntakl.exe.o ntakl.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 167.33584 seconds (167.336) for ntakl:40:20:12:1
++!CSVLINE!+rhizome-unknown,ntakl:40:20:12:1,167.33584
+
+real	2m47.346s
+user	2m47.027s
+sys	0m0.050s
+
+Testing cpstak under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output cpstak.c cpstak.scm
+pisl cpstak -o cpstak.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c cpstak.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_cpstak.exe.c
+gcc -m32 -o cpstak.exe s_cpstak.exe.o cpstak.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 73.691236 seconds (73.691) for cpstak:40:20:11:1
++!CSVLINE!+rhizome-unknown,cpstak:40:20:11:1,73.691236
+
+real	1m13.695s
+user	1m13.670s
+sys	0m0.017s
+
+Testing ctak under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output ctak.c ctak.scm
+pisl ctak -o ctak.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c ctak.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_ctak.exe.c
+gcc -m32 -o ctak.exe s_ctak.exe.o ctak.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 7.291640999999999 seconds (7.292) for ctak:32:16:8:1
++!CSVLINE!+rhizome-unknown,ctak:32:16:8:1,7.291640999999999
+
+real	0m7.295s
+user	0m7.293s
+sys	0m0.000s
+
+Testing fib under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output fib.c fib.scm
+pisl fib -o fib.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c fib.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_fib.exe.c
+gcc -m32 -o fib.exe s_fib.exe.o fib.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running fib:40:5
+Elapsed time: 127.542626 seconds (127.543) for fib:40:5
++!CSVLINE!+rhizome-unknown,fib:40:5,127.542626
+
+real	2m7.546s
+user	2m7.533s
+sys	0m0.000s
+
+Testing fibc under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output fibc.c fibc.scm
+pisl fibc -o fibc.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c fibc.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_fibc.exe.c
+gcc -m32 -o fibc.exe s_fibc.exe.o fibc.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running fibc:30:10
+Elapsed time: 13.253194 seconds (13.253) for fibc:30:10
++!CSVLINE!+rhizome-unknown,fibc:30:10,13.253194
+
+real	0m13.257s
+user	0m13.253s
+sys	0m0.000s
+
+Testing fibfp under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output fibfp.c fibfp.scm
+pisl fibfp -o fibfp.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c fibfp.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_fibfp.exe.c
+gcc -m32 -o fibfp.exe s_fibfp.exe.o fibfp.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running fibfp:35.:10
+Elapsed time: 43.642476 seconds (43.642) for fibfp:35.:10
++!CSVLINE!+rhizome-unknown,fibfp:35.:10,43.642476
+
+real	0m43.646s
+user	0m43.623s
+sys	0m0.017s
+
+Testing sum under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output sum.c sum.scm
+pisl sum -o sum.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c sum.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_sum.exe.c
+gcc -m32 -o sum.exe s_sum.exe.o sum.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running sum:10000:200000
+Elapsed time: 175.467483 seconds (175.467) for sum:10000:200000
++!CSVLINE!+rhizome-unknown,sum:10000:200000,175.467483
+
+real	2m55.471s
+user	2m55.417s
+sys	0m0.037s
+
+Testing sumfp under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output sumfp.c sumfp.scm
+pisl sumfp -o sumfp.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c sumfp.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_sumfp.exe.c
+gcc -m32 -o sumfp.exe s_sumfp.exe.o sumfp.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running sumfp:1000000.:500
+Elapsed time: 101.592274 seconds (101.592) for sumfp:1000000.:500
++!CSVLINE!+rhizome-unknown,sumfp:1000000.:500,101.592274
+
+real	1m41.596s
+user	1m41.583s
+sys	0m0.000s
+
+Testing fft under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output fft.c fft.scm
+pisl fft -o fft.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c fft.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_fft.exe.c
+gcc -m32 -o fft.exe s_fft.exe.o fft.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running fft:65536:100
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+
+Testing mbrot under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output mbrot.c mbrot.scm
+pisl mbrot -o mbrot.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c mbrot.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_mbrot.exe.c
+gcc -m32 -o mbrot.exe s_mbrot.exe.o mbrot.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running mbrot:75:1000
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing mbrotZ under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output mbrotZ.c mbrotZ.scm
+pisl mbrotZ -o mbrotZ.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c mbrotZ.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_mbrotZ.exe.c
+gcc -m32 -o mbrotZ.exe s_mbrotZ.exe.o mbrotZ.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running mbrotZ:75:1000
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing nucleic under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output nucleic.c nucleic.scm
+pisc: in "nucleic.scm":
+in expression:
+[(define ra (nuc-const #(-0.0018 -0.8207 0.5714 0.2679 -0.5508999999999999 -0.7904 0.9634 0.1517 0.2209 0.0073 8.403 0.6232) #(-0.8143 -0.5091 -0.2788 -0.0433 -0.4257 0.9038 -0.5788 0.748 0.3246 1.5227 6.9114 -7.0765) #(0.3822 -0.7477 0.543 0.4552 0.6637 0.5935 -0.8042 0.0203 0.5941 -6.9472 -4.1186 -5.9108) #(0.5639999999999999 0.8007 -0.2022 -0.8247 0.5587 -0.0878 0.0426 0.2162 0.9754 6.2694 -7.054 3.3316) #(2.893 8.538 -3.328) #(1.698 7.696 -3.557) #(3.226 9.500999999999999 -4.402) #(4.159 7.604 -3.034) #(5.455 8.212 -2.881) #(5.4546 8.8508 -1.9978) #(5.7588 8.6625 -3.8259) #(6.497 7.148 -2.598) #(7.4896 7.5919 -2.5214) #(6.163 6.486 -1.344) #(6.54 5.12 -1.419) #(7.2763 4.9681 -0.6297) #(7.194 4.883 -2.777) #(6.8667 3.9183 -3.1647) #(8.586 5.091 -2.614) #(8.951000000000001 4.7626 -1.789) #(6.572 6.004 -3.609) #(5.5636 5.7066 -3.8966) #(7.3801 6.3562 -4.735) #(4.715 0.491 -0.136) #(6.349 2.173 -0.602) #(5.953 0.965 -0.267) #(5.29 2.979 -0.826) #(3.972 2.639 -0.733) #(3.677 1.316 -0.366) ra #(2.428 0.845 -0.236) #(3.166 3.729 -1.036) #(5.317 4.299 -1.193) #(4.01 4.678 -1.299) #(6.689 0.1903 -0.0518) #(1.647 1.446 -0.404) #(2.278 -0.108 -0.028) #(3.4421 5.5744 -1.5482)))]
+Object not allowed to be evaluated: #(-0.0018 -0.8207 0.5714 0.2679 -0.5508999999999999 -0.7904 0.9634 0.1517 0.2209 0.0073 8.403 0.6232)
+pisl nucleic -o nucleic.exe
+s_nucleic.exe.o:(.rodata+0x44): undefined reference to `RpCnucleicInit'
+s_nucleic.exe.o:(.rodata+0x84): undefined reference to `RpCnucleicRun'
+collect2: error: ld returned 1 exit status
+gcc -O2 -m32 -mtune=i686 -falign-functions -c nucleic.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_nucleic.exe.c
+gcc -m32 -o nucleic.exe s_nucleic.exe.o nucleic.o -lrhzpisys -lpthread -lm -ldl
+chmod: cannot access 'nucleic.exe': No such file or directory
+Running...
+./bench: line 425: /tmp/larcenous/Rhizome/nucleic.exe: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing pi under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output pi.c pi.scm
+pisl pi -o pi.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c pi.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_pi.exe.c
+gcc -m32 -o pi.exe s_pi.exe.o pi.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running pi:50:500:50:2
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+
+Testing pnpoly under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output pnpoly.c pnpoly.scm
+pisl pnpoly -o pnpoly.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c pnpoly.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_pnpoly.exe.c
+gcc -m32 -o pnpoly.exe s_pnpoly.exe.o pnpoly.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running pnpoly:1000000
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing ray under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output ray.c ray.scm
+pisl ray -o ray.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c ray.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_ray.exe.c
+gcc -m32 -o ray.exe s_ray.exe.o ray.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running ray:50
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing simplex under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output simplex.c simplex.scm
+pisl simplex -o simplex.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c simplex.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_simplex.exe.c
+gcc -m32 -o simplex.exe s_simplex.exe.o simplex.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running simplex:1000000
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing ack under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output ack.c ack.scm
+pisl ack -o ack.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c ack.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_ack.exe.c
+gcc -m32 -o ack.exe s_ack.exe.o ack.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running ack:3:12:2
+Elapsed time: 203.380092 seconds (203.38) for ack:3:12:2
++!CSVLINE!+rhizome-unknown,ack:3:12:2,203.380092
+
+real	3m23.384s
+user	3m15.500s
+sys	0m7.863s
+
+Testing array1 under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output array1.c array1.scm
+pisl array1 -o array1.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c array1.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_array1.exe.c
+gcc -m32 -o array1.exe s_array1.exe.o array1.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running array1:1000000:500
+Elapsed time: 98.57319 seconds (98.57299999999999) for array1:1000000:500
++!CSVLINE!+rhizome-unknown,array1:1000000:500,98.57319
+
+real	1m38.666s
+user	1m38.047s
+sys	0m0.610s
+
+Testing string under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output string.c string.scm
+pisl string -o string.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c string.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_string.exe.c
+gcc -m32 -o string.exe s_string.exe.o string.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running string:500000:25
+Elapsed time: 0.224759 seconds (0.225) for string:500000:25
++!CSVLINE!+rhizome-unknown,string:500000:25,0.224759
+
+real	0m0.258s
+user	0m0.063s
+sys	0m0.193s
+
+Testing sum1 under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output sum1.c sum1.scm
+pisl sum1 -o sum1.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c sum1.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_sum1.exe.c
+gcc -m32 -o sum1.exe s_sum1.exe.o sum1.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running sum1:25
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+
+Testing cat under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output cat.c cat.scm
+pisl cat -o cat.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c cat.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_cat.exe.c
+gcc -m32 -o cat.exe s_cat.exe.o cat.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running cat:50
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+
+Testing tail under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output tail.c tail.scm
+pisl tail -o tail.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c tail.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_tail.exe.c
+gcc -m32 -o tail.exe s_tail.exe.o tail.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running tail:25
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+
+Testing wc under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output wc.c wc.scm
+pisl wc -o wc.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c wc.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_wc.exe.c
+gcc -m32 -o wc.exe s_wc.exe.o wc.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running wc:inputs/bib:50
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+
+Testing read1 under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output read1.c read1.scm
+pisl read1 -o read1.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c read1.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_read1.exe.c
+gcc -m32 -o read1.exe s_read1.exe.o read1.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running read1:2500
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+
+Testing compiler under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output compiler.c compiler.scm
+pisl compiler -o compiler.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c compiler.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_compiler.exe.c
+gcc -m32 -o compiler.exe s_compiler.exe.o compiler.o -lrhzpisys -lpthread -lm -ldl
+Running...
+
+Error in top level procedure.
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.000s
+
+Testing conform under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output conform.c conform.scm
+pisl conform -o conform.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c conform.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_conform.exe.c
+gcc -m32 -o conform.exe s_conform.exe.o conform.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running conform:500
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing dynamic under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output dynamic.c dynamic.scm
+pisl dynamic -o dynamic.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c dynamic.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_dynamic.exe.c
+gcc -m32 -o dynamic.exe s_dynamic.exe.o dynamic.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running dynamic:500
+
+Error in top level procedure.
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.000s
+
+Testing earley under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output earley.c earley.scm
+pisl earley -o earley.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c earley.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_earley.exe.c
+gcc -m32 -o earley.exe s_earley.exe.o earley.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running earley:1
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing graphs under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output graphs.c graphs.scm
+pisl graphs -o graphs.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c graphs.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_graphs.exe.c
+gcc -m32 -o graphs.exe s_graphs.exe.o graphs.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running graphs:7:3
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+
+Testing lattice under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output lattice.c lattice.scm
+pisl lattice -o lattice.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c lattice.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_lattice.exe.c
+gcc -m32 -o lattice.exe s_lattice.exe.o lattice.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running lattice:44:10
+Elapsed time: 158.706785 seconds (158.709) for lattice:44:10
++!CSVLINE!+rhizome-unknown,lattice:44:10,158.706785
+
+real	2m38.718s
+user	2m38.600s
+sys	0m0.057s
+
+Testing matrix under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output matrix.c matrix.scm
+pisl matrix -o matrix.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c matrix.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_matrix.exe.c
+gcc -m32 -o matrix.exe s_matrix.exe.o matrix.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running matrix:5:5:2500
+
+Error in top level procedure.
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.000s
+
+Testing maze under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output maze.c maze.scm
+pisl maze -o maze.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c maze.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_maze.exe.c
+gcc -m32 -o maze.exe s_maze.exe.o maze.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running maze:20:7:10000
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+
+Testing mazefun under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output mazefun.c mazefun.scm
+pisl mazefun -o mazefun.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c mazefun.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_mazefun.exe.c
+gcc -m32 -o mazefun.exe s_mazefun.exe.o mazefun.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 67.547493 seconds (67.547) for mazefun:11:11:10000
++!CSVLINE!+rhizome-unknown,mazefun:11:11:10000,67.547493
+
+real	1m7.551s
+user	1m7.413s
+sys	0m0.130s
+
+Testing nqueens under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output nqueens.c nqueens.scm
+pisl nqueens -o nqueens.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c nqueens.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_nqueens.exe.c
+gcc -m32 -o nqueens.exe s_nqueens.exe.o nqueens.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running nqueens:13:10
+(12 10 8 6 4 2 13 11 9 7 5 3 1)
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing paraffins under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output paraffins.c paraffins.scm
+pisl paraffins -o paraffins.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c paraffins.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_paraffins.exe.c
+gcc -m32 -o paraffins.exe s_paraffins.exe.o paraffins.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running paraffins:23:10
+Elapsed time: 71.584266 seconds (71.584) for paraffins:23:10
++!CSVLINE!+rhizome-unknown,paraffins:23:10,71.584266
+
+real	1m11.588s
+user	1m7.687s
+sys	0m3.890s
+
+Testing parsing under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output parsing.c parsing.scm
+pisl parsing -o parsing.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c parsing.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_parsing.exe.c
+gcc -m32 -o parsing.exe s_parsing.exe.o parsing.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running parsing:2500
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+
+Testing peval under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output peval.c peval.scm
+pisl peval -o peval.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c peval.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_peval.exe.c
+gcc -m32 -o peval.exe s_peval.exe.o peval.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running peval:2000
+Elapsed time: 65.260149 seconds (65.26000000000001) for peval:2000
++!CSVLINE!+rhizome-unknown,peval:2000,65.260149
+
+real	1m5.264s
+user	1m4.953s
+sys	0m0.303s
+
+Testing primes under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output primes.c primes.scm
+pisl primes -o primes.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c primes.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_primes.exe.c
+gcc -m32 -o primes.exe s_primes.exe.o primes.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running primes:1000:10000
+Elapsed time: 25.309427 seconds (25.309) for primes:1000:10000
++!CSVLINE!+rhizome-unknown,primes:1000:10000,25.309427
+
+real	0m25.313s
+user	0m24.907s
+sys	0m0.403s
+
+Testing quicksort under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output quicksort.c quicksort.scm
+pisl quicksort -o quicksort.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c quicksort.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_quicksort.exe.c
+gcc -m32 -o quicksort.exe s_quicksort.exe.o quicksort.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running quicksort:10000:2500
+
+Error in top level procedure.
+
+real	0m0.023s
+user	0m0.020s
+sys	0m0.000s
+
+Testing scheme under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output scheme.c scheme.scm
+pisl scheme -o scheme.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c scheme.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_scheme.exe.c
+gcc -m32 -o scheme.exe s_scheme.exe.o scheme.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running scheme:100000
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.003s
+
+Testing slatex under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output slatex.c slatex.scm
+pisl slatex -o slatex.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c slatex.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_slatex.exe.c
+gcc -m32 -o slatex.exe s_slatex.exe.o slatex.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running slatex:500
+[inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test][inputs/slatex-data/test]Elapsed time: 0.005447 seconds (0.005) for slatex:500
++!CSVLINE!+rhizome-unknown,slatex:500,0.005447
+
+real	0m0.009s
+user	0m0.007s
+sys	0m0.000s
+
+Testing nboyer under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output nboyer.c nboyer.scm
+pisl nboyer -o nboyer.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c nboyer.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_nboyer.exe.c
+gcc -m32 -o nboyer.exe s_nboyer.exe.o nboyer.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running nboyer:5:1
+Elapsed time: 84.462874 seconds (84.46299999999999) for nboyer:5:1
++!CSVLINE!+rhizome-unknown,nboyer:5:1,84.462874
+
+real	1m24.467s
+user	1m21.073s
+sys	0m3.383s
+
+Testing sboyer under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output sboyer.c sboyer.scm
+pisl sboyer -o sboyer.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c sboyer.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_sboyer.exe.c
+gcc -m32 -o sboyer.exe s_sboyer.exe.o sboyer.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running sboyer:5:1
+Elapsed time: 38.095259 seconds (38.095) for sboyer:5:1
++!CSVLINE!+rhizome-unknown,sboyer:5:1,38.095259
+
+real	0m38.099s
+user	0m37.800s
+sys	0m0.293s
+
+Testing gcbench under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output gcbench.c gcbench.scm
+pisl gcbench -o gcbench.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c gcbench.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_gcbench.exe.c
+gcc -m32 -o gcbench.exe s_gcbench.exe.o gcbench.o -lrhzpisys -lpthread -lm -ldl
+Running...
+The garbage collector should touch about 128 megabytes of heap storage.
+The use of more or less memory will skew the results.
+Running gcbench:20:1
+
+Error in top level procedure.
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+Testing mperm under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output mperm.c mperm.scm
+pisl mperm -o mperm.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c mperm.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_mperm.exe.c
+gcc -m32 -o mperm.exe s_mperm.exe.o mperm.o -lrhzpisys -lpthread -lm -ldl
+Running...
+./bench: line 423: 18197 Killed                  "$1" < "$2"
+
+real	5m0.001s
+user	4m40.473s
+sys	0m19.500s
+
+Testing equal under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output equal.c equal.scm
+pisl equal -o equal.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c equal.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_equal.exe.c
+gcc -m32 -o equal.exe s_equal.exe.o equal.o -lrhzpisys -lpthread -lm -ldl
+Running...
+./bench: line 423: 18380 Killed                  "$1" < "$2"
+
+real	5m0.158s
+user	4m59.937s
+sys	0m0.043s
+
+Testing bv2string under Rhizome
+Including prelude /home/nex/src/r7rs-benchmarks/src/Rhizome-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Rhizome-postlude.scm
+Compiling...
+pisc -output bv2string.c bv2string.scm
+pisl bv2string -o bv2string.exe
+gcc -O2 -m32 -mtune=i686 -falign-functions -c bv2string.c
+gcc -O2 -m32 -mtune=i686 -falign-functions -c s_bv2string.exe.c
+gcc -m32 -o bv2string.exe s_bv2string.exe.o bv2string.o -lrhzpisys -lpthread -lm -ldl
+Running...
+Running bv2string:1000:1000:100
+
+Error in top level procedure.
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s

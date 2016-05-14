@@ -1,0 +1,644 @@
+
+****************************
+Benchmarking S9fES on Sat 14 May 16:52:41 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running browse:2000
+Elapsed time: 259.97 seconds (259.97) for browse:2000
++!CSVLINE!+s9fes-unknown,browse:2000,259.97
+
+real	4m20.184s
+user	4m20.153s
+sys	0m0.000s
+
+Testing deriv under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running deriv:10000000
+./bench: line 360: 18823 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.950s
+sys	0m0.000s
+
+Testing destruc under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running destruc:600:50:4000
+./bench: line 360: 19314 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.947s
+sys	0m0.000s
+
+Testing diviter under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running diviter:1000:1000000
+./bench: line 360: 19612 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.947s
+sys	0m0.000s
+
+Testing divrec under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running divrec:1000:1000000
+Elapsed time: 505.04 seconds (505.04) for divrec:1000:1000000
++!CSVLINE!+s9fes-unknown,divrec:1000:1000000,505.04
+
+real	8m25.061s
+user	8m25.010s
+sys	0m0.000s
+
+Testing puzzle under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running puzzle:1000
+./bench: line 360: 20531 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.087s
+user	9m59.907s
+sys	0m0.017s
+
+Testing triangl under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running triangl:22:1:50
+./bench: line 360: 20938 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.947s
+sys	0m0.000s
+
+Testing tak under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running tak:40:20:11:1
+./bench: line 360: 21170 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.947s
+sys	0m0.000s
+
+Testing takl under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running takl:40:20:12:1
+./bench: line 360: 21352 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.947s
+sys	0m0.000s
+
+Testing ntakl under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running ntakl:40:20:12:1
+./bench: line 360: 21512 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.947s
+sys	0m0.000s
+
+Testing cpstak under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running cpstak:40:20:11:1
+./bench: line 360: 21585 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.947s
+sys	0m0.000s
+
+Testing ctak under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 174.86 seconds (174.86) for ctak:32:16:8:1
++!CSVLINE!+s9fes-unknown,ctak:32:16:8:1,174.86
+
+real	2m54.874s
+user	2m54.860s
+sys	0m0.000s
+
+Testing fib under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running fib:40:5
+./bench: line 360: 21678 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.943s
+sys	0m0.003s
+
+Testing fibc under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running fibc:30:10
+Elapsed time: 313.75 seconds (313.75) for fibc:30:10
++!CSVLINE!+s9fes-unknown,fibc:30:10,313.75
+
+real	5m13.772s
+user	5m13.747s
+sys	0m0.000s
+
+Testing fibfp under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running fibfp:35.0:10
+./bench: line 360: 21784 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.947s
+sys	0m0.000s
+
+Testing sum under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running sum:10000:200000
+./bench: line 360: 21855 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.943s
+sys	0m0.003s
+
+Testing sumfp under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running sumfp:1000000.0:500
+./bench: line 360: 21923 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.947s
+sys	0m0.000s
+
+Testing fft under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running fft:65536:100
+./bench: line 360: 21993 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.947s
+sys	0m0.003s
+
+Testing mbrot under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running mbrot:75:1000
+./bench: line 360: 22066 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.950s
+sys	0m0.000s
+
+Testing mbrotZ under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running mbrotZ:75:1000
+error: "/tmp/larcenous/S9fES/mbrotZ.scm": 150: symbol not bound: -1.0-0.5i
+call trace: loop loop loop loop loop
+
+real	0m0.018s
+user	0m0.017s
+sys	0m0.000s
+
+Testing nucleic under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running nucleic:50
+error: "/tmp/larcenous/S9fES/nucleic.scm": 3574: vector-ref: index out of range: 29
+call trace: dgf-base var-nuc ra?
+
+real	0m0.103s
+user	0m0.100s
+sys	0m0.000s
+
+Testing pi under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running pi:50:500:50:2
+error: "/tmp/larcenous/S9fES/pi.scm": 280: symbol not bound: exact-integer?
+call trace: square div
+
+real	0m0.022s
+user	0m0.020s
+sys	0m0.000s
+
+Testing pnpoly under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running pnpoly:1000000
+./bench: line 360: 22152 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.950s
+sys	0m0.000s
+
+Testing ray under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running ray:50
+./bench: line 360: 22220 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.997s
+user	9m59.943s
+sys	0m0.000s
+
+Testing simplex under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running simplex:1000000
+./bench: line 360: 22292 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.943s
+sys	0m0.003s
+
+Testing ack under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running ack:3:12:2
+./bench: line 360: 22360 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.001s
+user	9m59.953s
+sys	0m0.000s
+
+Testing array1 under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running array1:1000000:500
+./bench: line 360: 22432 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.001s
+user	9m59.943s
+sys	0m0.007s
+
+Testing string under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running string:500000:25
+Elapsed time: 0.56 seconds (0.56) for string:500000:25
++!CSVLINE!+s9fes-unknown,string:500000:25,0.56
+
+real	0m0.578s
+user	0m0.577s
+sys	0m0.000s
+
+Testing sum1 under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running sum1:25
+Elapsed time: 13.88 seconds (13.88) for sum1:25
++!CSVLINE!+s9fes-unknown,sum1:25,13.88
+
+real	0m13.896s
+user	0m13.890s
+sys	0m0.003s
+
+Testing cat under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running cat:50
+Elapsed time: 459.19 seconds (459.19) for cat:50
++!CSVLINE!+s9fes-unknown,cat:50,459.19
+
+real	7m39.198s
+user	7m38.907s
+sys	0m0.250s
+
+Testing tail under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running tail:25
+error: "/tmp/larcenous/S9fES/tail.scm": 137: symbol not bound: write-string
+call trace: mapcar1 mapcar1
+
+real	0m6.918s
+user	0m6.917s
+sys	0m0.000s
+
+Testing wc under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running wc:inputs/bib:50
+./bench: line 360: 22576 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.917s
+sys	0m0.037s
+
+Testing read1 under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running read1:2500
+Elapsed time: 60.51 seconds (60.51) for read1:2500
++!CSVLINE!+s9fes-unknown,read1:2500,60.51
+
+real	1m0.522s
+user	1m0.517s
+sys	0m0.000s
+
+Testing compiler under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+error: "/tmp/larcenous/S9fES/compiler.scm": 8703: symbol not bound: exact-integer?
+call trace: make-disp* make-disp mod
+
+real	0m0.866s
+user	0m0.863s
+sys	0m0.000s
+
+Testing conform under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running conform:500
+./bench: line 360: 22671 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.950s
+sys	0m0.000s
+
+Testing dynamic under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running dynamic:500
+./bench: line 360: 22744 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.913s
+sys	0m0.037s
+
+Testing earley under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running earley:1
+S9core: fatal error: cons3: hit memory limit
+
+real	6m32.160s
+user	6m32.103s
+sys	0m0.013s
+
+Testing graphs under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running graphs:7:3
+./bench: line 360: 22855 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.000s
+user	9m59.947s
+sys	0m0.003s
+
+Testing lattice under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running lattice:44:10
+./bench: line 360: 23238 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.947s
+sys	0m0.003s
+
+Testing matrix under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running matrix:5:5:2500
+error: "/tmp/larcenous/S9fES/matrix.scm": 906: symbol not bound: exact-integer?
+call trace: really-go go det-upper-bound div
+
+real	0m0.049s
+user	0m0.047s
+sys	0m0.000s
+
+Testing maze under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running maze:20:7:10000
+error: "/tmp/larcenous/S9fES/maze.scm": 882: symbol not bound: exact-integer?
+call trace: base-set make-cell g897 bitwise-and div
+
+real	0m0.051s
+user	0m0.050s
+sys	0m0.000s
+
+Testing mazefun under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running mazefun:11:11:10000
+./bench: line 360: 23851 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.001s
+user	9m59.953s
+sys	0m0.000s
+
+Testing nqueens under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running nqueens:13:10
+./bench: line 360: 24775 Killed                  ${S9fES} "$1" < "$2"
+
+real	10m0.007s
+user	9m59.950s
+sys	0m0.000s
+
+Testing paraffins under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running paraffins:23:10
+S9core: fatal error: new_vec: hit memory limit
+
+real	0m6.407s
+user	0m6.387s
+sys	0m0.020s
+
+Testing parsing under S9fES
+Including prelude /home/nex/src/r7rs-benchmarks/src/S9fES-prelude.scm
+Compiling...
+Running...
+Running parsing:2500
+./bench: line 360: 25462 Killed                  ${S9fES} "$1" < "$2"
+
+real	9m59.998s
+user	9m59.950s
+sys	0m0.000s
+
+Testing peval under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/peval.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/peval.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing primes under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/primes.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/primes.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing quicksort under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/quicksort.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/quicksort.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing scheme under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/scheme.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/scheme.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing slatex under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/slatex.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/slatex.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing nboyer under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/nboyer.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/nboyer.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing sboyer under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/sboyer.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/sboyer.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing gcbench under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/gcbench.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/gcbench.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+
+Testing mperm under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/mperm.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/mperm.input: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+
+Testing equal under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/equal.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/equal.input: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+
+Testing bv2string under S9fES
+cat: /home/nex/src/r7rs-benchmarks/src/bv2string.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common.scm: No such file or directory
+cat: /home/nex/src/r7rs-benchmarks/src/common-postlude.scm: No such file or directory
+Compiling...
+Running...
+./bench: line 361: /home/nex/src/r7rs-benchmarks/inputs/bv2string.input: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s

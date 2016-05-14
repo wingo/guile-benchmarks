@@ -1,0 +1,711 @@
+
+****************************
+Benchmarking Petite on Sat 14 May 15:10:59 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running browse:2000
+Elapsed time: 16.669999639 seconds (17) for browse:2000
++!CSVLINE!+petite-9.4.0,browse:2000,16.669999639
+
+real	0m16.744s
+user	0m16.727s
+sys	0m0.013s
+
+Testing deriv under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running deriv:10000000
+Elapsed time: 5.760061544 seconds (5) for deriv:10000000
++!CSVLINE!+petite-9.4.0,deriv:10000000,5.760061544
+
+real	0m5.830s
+user	0m5.813s
+sys	0m0.013s
+
+Testing destruc under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running destruc:600:50:4000
+Elapsed time: 20.267103914 seconds (21) for destruc:600:50:4000
++!CSVLINE!+petite-9.4.0,destruc:600:50:4000,20.267103914
+
+real	0m20.337s
+user	0m20.320s
+sys	0m0.013s
+
+Testing diviter under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running diviter:1000:1000000
+Elapsed time: 11.197431319 seconds (11) for diviter:1000:1000000
++!CSVLINE!+petite-9.4.0,diviter:1000:1000000,11.197431319
+
+real	0m11.265s
+user	0m11.247s
+sys	0m0.017s
+
+Testing divrec under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running divrec:1000:1000000
+Elapsed time: 10.570508903 seconds (11) for divrec:1000:1000000
++!CSVLINE!+petite-9.4.0,divrec:1000:1000000,10.570508903
+
+real	0m10.640s
+user	0m10.623s
+sys	0m0.013s
+
+Testing puzzle under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running puzzle:1000
+Elapsed time: 33.489243996 seconds (33) for puzzle:1000
++!CSVLINE!+petite-9.4.0,puzzle:1000,33.489243996
+
+real	0m33.561s
+user	0m33.557s
+sys	0m0.000s
+
+Testing triangl under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running triangl:22:1:50
+Elapsed time: 21.684774976 seconds (22) for triangl:22:1:50
++!CSVLINE!+petite-9.4.0,triangl:22:1:50,21.684774976
+
+real	0m21.754s
+user	0m21.747s
+sys	0m0.003s
+
+Testing tak under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running tak:40:20:11:1
+Elapsed time: 16.751666224 seconds (17) for tak:40:20:11:1
++!CSVLINE!+petite-9.4.0,tak:40:20:11:1,16.751666224
+
+real	0m16.820s
+user	0m16.817s
+sys	0m0.000s
+
+Testing takl under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running takl:40:20:12:1
+Elapsed time: 51.111578533 seconds (51) for takl:40:20:12:1
++!CSVLINE!+petite-9.4.0,takl:40:20:12:1,51.111578533
+
+real	0m51.181s
+user	0m51.173s
+sys	0m0.000s
+
+Testing ntakl under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 51.202608542 seconds (51) for ntakl:40:20:12:1
++!CSVLINE!+petite-9.4.0,ntakl:40:20:12:1,51.202608542
+
+real	0m51.272s
+user	0m51.267s
+sys	0m0.000s
+
+Testing cpstak under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 57.563191895 seconds (58) for cpstak:40:20:11:1
++!CSVLINE!+petite-9.4.0,cpstak:40:20:11:1,57.563191895
+
+real	0m57.632s
+user	0m57.540s
+sys	0m0.087s
+
+Testing ctak under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 3.653582418 seconds (4) for ctak:32:16:8:1
++!CSVLINE!+petite-9.4.0,ctak:32:16:8:1,3.653582418
+
+real	0m3.726s
+user	0m3.713s
+sys	0m0.010s
+
+Testing fib under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running fib:40:5
+Elapsed time: 35.260589006 seconds (35) for fib:40:5
++!CSVLINE!+petite-9.4.0,fib:40:5,35.260589006
+
+real	0m35.334s
+user	0m35.327s
+sys	0m0.003s
+
+Testing fibc under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running fibc:30:10
+Elapsed time: 3.489140048 seconds (4) for fibc:30:10
++!CSVLINE!+petite-9.4.0,fibc:30:10,3.489140048
+
+real	0m3.562s
+user	0m3.553s
+sys	0m0.007s
+
+Testing fibfp under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running fibfp:35.0:10
+Elapsed time: 8.000836302 seconds (8) for fibfp:35.0:10
++!CSVLINE!+petite-9.4.0,fibfp:35.0:10,8.000836302
+
+real	0m8.073s
+user	0m8.060s
+sys	0m0.010s
+
+Testing sum under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running sum:10000:200000
+Elapsed time: 46.383235796 seconds (46) for sum:10000:200000
++!CSVLINE!+petite-9.4.0,sum:10000:200000,46.383235796
+
+real	0m46.456s
+user	0m46.437s
+sys	0m0.013s
+
+Testing sumfp under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running sumfp:1000000.0:500
+Elapsed time: 14.525718019 seconds (15) for sumfp:1000000.0:500
++!CSVLINE!+petite-9.4.0,sumfp:1000000.0:500,14.525718019
+
+real	0m14.598s
+user	0m14.580s
+sys	0m0.013s
+
+Testing fft under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running fft:65536:100
+./bench: line 569: 13330 Killed                  "${PETITE}" --optimize-level 2 --program "$1" < "$2"
+
+real	4m59.999s
+user	4m59.543s
+sys	0m0.427s
+
+Testing mbrot under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running mbrot:75:1000
+Elapsed time: 24.510698791 seconds (24) for mbrot:75:1000
++!CSVLINE!+petite-9.4.0,mbrot:75:1000,24.510698791
+
+real	0m24.583s
+user	0m24.520s
+sys	0m0.060s
+
+Testing mbrotZ under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running mbrotZ:75:1000
+./bench: line 569: 13491 Killed                  "${PETITE}" --optimize-level 2 --program "$1" < "$2"
+
+real	4m59.998s
+user	4m59.313s
+sys	0m0.657s
+
+Testing nucleic under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running nucleic:50
+Elapsed time: 10.03283495 seconds (10) for nucleic:50
++!CSVLINE!+petite-9.4.0,nucleic:50,10.03283495
+
+real	0m10.120s
+user	0m10.090s
+sys	0m0.027s
+
+Testing pi under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: multiple definitions for div in body (top-level-program #<annotation /tmp/larcenous/Petite/pi.scm[0:21] (import (...))> #<annotation /tmp/larcenous/Petite/pi.scm[180:667] (define (...) (...))> #<annotation /tmp/larcenous/Petite/pi.scm[713:800] (define (...) (...))> #<annotation /tmp/larcenous/Petite/pi.scm[802:1086] (define (...) (...))> #<annotation /tmp/larcenous/Petite/pi.scm[1088:1125] (define (...) (...))> ...) near line 1, char 1 of /tmp/larcenous/Petite/pi.scm
+
+real	0m0.071s
+user	0m0.063s
+sys	0m0.007s
+
+Testing pnpoly under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running pnpoly:1000000
+Elapsed time: 22.676278524 seconds (22) for pnpoly:1000000
++!CSVLINE!+petite-9.4.0,pnpoly:1000000,22.676278524
+
+real	0m22.749s
+user	0m22.740s
+sys	0m0.007s
+
+Testing ray under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running ray:50
+Elapsed time: 12.097079516 seconds (12) for ray:50
++!CSVLINE!+petite-9.4.0,ray:50,12.097079516
+
+real	0m12.170s
+user	0m12.097s
+sys	0m0.070s
+
+Testing simplex under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running simplex:1000000
+Elapsed time: 39.122669669 seconds (40) for simplex:1000000
++!CSVLINE!+petite-9.4.0,simplex:1000000,39.122669669
+
+real	0m39.197s
+user	0m39.177s
+sys	0m0.013s
+
+Testing ack under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running ack:3:12:2
+Elapsed time: 36.295494919 seconds (36) for ack:3:12:2
++!CSVLINE!+petite-9.4.0,ack:3:12:2,36.295494919
+
+real	0m36.368s
+user	0m36.350s
+sys	0m0.013s
+
+Testing array1 under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running array1:1000000:500
+Elapsed time: 33.213228007 seconds (33) for array1:1000000:500
++!CSVLINE!+petite-9.4.0,array1:1000000:500,33.213228007
+
+real	0m33.287s
+user	0m32.067s
+sys	0m1.217s
+
+Testing string under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running string:500000:25
+Elapsed time: 1.079130388 seconds (1) for string:500000:25
++!CSVLINE!+petite-9.4.0,string:500000:25,1.079130388
+
+real	0m1.154s
+user	0m1.113s
+sys	0m0.040s
+
+Testing sum1 under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running sum1:25
+Elapsed time: 1.592354076 seconds (2) for sum1:25
++!CSVLINE!+petite-9.4.0,sum1:25,1.592354076
+
+real	0m1.666s
+user	0m1.660s
+sys	0m0.003s
+
+Testing cat under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running cat:50
+Elapsed time: 11.968582437 seconds (12) for cat:50
++!CSVLINE!+petite-9.4.0,cat:50,11.968582437
+
+real	0m12.042s
+user	0m11.680s
+sys	0m0.357s
+
+Testing tail under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: attempt to reference unbound identifier read-line at line 14, char 13 of /tmp/larcenous/Petite/tail.scm
+
+real	0m0.073s
+user	0m0.063s
+sys	0m0.007s
+
+Testing wc under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 22.353066436 seconds (23) for wc:inputs/bib:50
++!CSVLINE!+petite-9.4.0,wc:inputs/bib:50,22.353066436
+
+real	0m22.427s
+user	0m22.300s
+sys	0m0.123s
+
+Testing read1 under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running read1:2500
+Elapsed time: 0.947604372 seconds (1) for read1:2500
++!CSVLINE!+petite-9.4.0,read1:2500,0.947604372
+
+real	0m1.020s
+user	0m0.967s
+sys	0m0.053s
+
+Testing compiler under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: multiple definitions for bitwise-not and other identifiers in body (top-level-program #<annotation /tmp/larcenous/Petite/compiler.scm[0:21] (import (...))> #<annotation /tmp/larcenous/Petite/compiler.scm[46:84] (define (...) (...))> #<annotation /tmp/larcenous/Petite/compiler.scm[86:573] (define (...) (...))> #<annotation /tmp/larcenous/Petite/compiler.scm[575:1063] (define (...) (...))> #<annotation /tmp/larcenous/Petite/compiler.scm[1119:1160] (define open-input-file* open-input-file)> ...) near line 1, char 1 of /tmp/larcenous/Petite/compiler.scm
+
+real	0m0.095s
+user	0m0.087s
+sys	0m0.007s
+
+Testing conform under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: attempt to reference unbound identifier name at line 72, char 24 of /tmp/larcenous/Petite/conform.scm
+
+real	0m0.072s
+user	0m0.070s
+sys	0m0.000s
+
+Testing dynamic under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running dynamic:500
+Elapsed time: 13.881547819 seconds (14) for dynamic:500
++!CSVLINE!+petite-9.4.0,dynamic:500,13.881547819
+
+real	0m13.975s
+user	0m13.937s
+sys	0m0.037s
+
+Testing earley under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running earley:1
+Elapsed time: 21.787531113 seconds (22) for earley:1
++!CSVLINE!+petite-9.4.0,earley:1,21.787531113
+
+real	0m21.913s
+user	0m21.580s
+sys	0m0.330s
+
+Testing graphs under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running graphs:7:3
+Elapsed time: 71.046271373 seconds (71) for graphs:7:3
++!CSVLINE!+petite-9.4.0,graphs:7:3,71.046271373
+
+real	1m11.122s
+user	1m10.937s
+sys	0m0.177s
+
+Testing lattice under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running lattice:44:10
+Elapsed time: 74.733078737 seconds (75) for lattice:44:10
++!CSVLINE!+petite-9.4.0,lattice:44:10,74.733078737
+
+real	1m14.807s
+user	1m14.733s
+sys	0m0.063s
+
+Testing matrix under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: multiple definitions for div and mod in body (top-level-program #<annotation /tmp/larcenous/Petite/matrix.scm[0:21] (import (...))> #<annotation /tmp/larcenous/Petite/matrix.scm[118:605] (define (...) (...))> #<annotation /tmp/larcenous/Petite/matrix.scm[607:1095] (define (...) (...))> #<annotation /tmp/larcenous/Petite/matrix.scm[1134:1168] (define (...) (...))> #<annotation /tmp/larcenous/Petite/matrix.scm[1169:1200] (define (...) (...))> ...) near line 1, char 1 of /tmp/larcenous/Petite/matrix.scm
+
+real	0m0.070s
+user	0m0.067s
+sys	0m0.003s
+
+Testing maze under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: multiple definitions for bitwise-not and other identifiers in body (top-level-program #<annotation /tmp/larcenous/Petite/maze.scm[0:21] (import (...))> #<annotation /tmp/larcenous/Petite/maze.scm[148:186] (define (...) (...))> #<annotation /tmp/larcenous/Petite/maze.scm[188:501] (define (...) (...))> #<annotation /tmp/larcenous/Petite/maze.scm[503:990] (define (...) (...))> #<annotation /tmp/larcenous/Petite/maze.scm[992:1480] (define (...) (...))> ...) near line 1, char 1 of /tmp/larcenous/Petite/maze.scm
+
+real	0m0.071s
+user	0m0.060s
+sys	0m0.010s
+
+Testing mazefun under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 24.772624242 seconds (25) for mazefun:11:11:10000
++!CSVLINE!+petite-9.4.0,mazefun:11:11:10000,24.772624242
+
+real	0m24.845s
+user	0m24.833s
+sys	0m0.007s
+
+Testing nqueens under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running nqueens:13:10
+Elapsed time: 54.380722834 seconds (54) for nqueens:13:10
++!CSVLINE!+petite-9.4.0,nqueens:13:10,54.380722834
+
+real	0m54.453s
+user	0m54.443s
+sys	0m0.003s
+
+Testing paraffins under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: multiple definitions for div in body (top-level-program #<annotation /tmp/larcenous/Petite/paraffins.scm[0:21] (import (...))> #<annotation /tmp/larcenous/Petite/paraffins.scm[152:187] (define (...) (...))> #<annotation /tmp/larcenous/Petite/paraffins.scm[226:5545] (define (...) (...))> #<annotation /tmp/larcenous/Petite/paraffins.scm[5547:5922] (define (...) (...))> #<annotation /tmp/larcenous/Petite/paraffins.scm[5924:6579] (define (...) (...))> ...) near line 1, char 1 of /tmp/larcenous/Petite/paraffins.scm
+
+real	0m0.071s
+user	0m0.067s
+sys	0m0.003s
+
+Testing parsing under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running parsing:2500
+Elapsed time: 17.716531849 seconds (18) for parsing:2500
++!CSVLINE!+petite-9.4.0,parsing:2500,17.716531849
+
+real	0m17.794s
+user	0m17.780s
+sys	0m0.010s
+
+Testing peval under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running peval:2000
+Elapsed time: 23.536313147 seconds (24) for peval:2000
++!CSVLINE!+petite-9.4.0,peval:2000,23.536313147
+
+real	0m23.611s
+user	0m23.597s
+sys	0m0.010s
+
+Testing primes under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running primes:1000:10000
+Elapsed time: 7.164889054 seconds (7) for primes:1000:10000
++!CSVLINE!+petite-9.4.0,primes:1000:10000,7.164889054
+
+real	0m7.236s
+user	0m7.227s
+sys	0m0.007s
+
+Testing quicksort under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: multiple definitions for partition and random in body (top-level-program #<annotation /tmp/larcenous/Petite/quicksort.scm[0:21] (import (...))> #<annotation /tmp/larcenous/Petite/quicksort.scm[125:559] (define (...) (...) (...))> #<annotation /tmp/larcenous/Petite/quicksort.scm[562:1405] (define (...) (...))> #<annotation /tmp/larcenous/Petite/quicksort.scm[2547:2568] (define seed-set! #f)> #<annotation /tmp/larcenous/Petite/quicksort.scm[2569:2589] (define seed-ref #f)> ...) near line 1, char 1 of /tmp/larcenous/Petite/quicksort.scm
+
+real	0m0.074s
+user	0m0.060s
+sys	0m0.013s
+
+Testing scheme under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running scheme:100000
+Elapsed time: 18.544454196 seconds (19) for scheme:100000
++!CSVLINE!+petite-9.4.0,scheme:100000,18.544454196
+
+real	0m18.627s
+user	0m18.613s
+sys	0m0.010s
+
+Testing slatex under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running slatex:500
+Elapsed time: 13.480192632 seconds (13) for slatex:500
++!CSVLINE!+petite-9.4.0,slatex:500,13.480192632
+
+real	0m13.568s
+user	0m12.400s
+sys	0m1.147s
+
+Testing nboyer under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running nboyer:5:1
+Elapsed time: 10.277650532 seconds (10) for nboyer:5:1
++!CSVLINE!+petite-9.4.0,nboyer:5:1,10.277650532
+
+real	0m10.365s
+user	0m10.253s
+sys	0m0.110s
+
+Testing sboyer under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running sboyer:5:1
+Elapsed time: 12.153103368 seconds (12) for sboyer:5:1
++!CSVLINE!+petite-9.4.0,sboyer:5:1,12.153103368
+
+real	0m12.232s
+user	0m12.200s
+sys	0m0.030s
+
+Testing gcbench under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Exception: invalid define-record-type clause (make-node-raw left right i j) at line 78, char 7 of /tmp/larcenous/Petite/gcbench.scm
+
+real	0m0.071s
+user	0m0.063s
+sys	0m0.007s
+
+Testing mperm under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running perm20:10:2:1
+Elapsed time: 33.811736569 seconds (34) for perm20:10:2:1
++!CSVLINE!+petite-9.4.0,perm20:10:2:1,33.811736569
+
+real	0m35.504s
+user	0m34.563s
+sys	0m0.937s
+
+Testing equal under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: 0.665900346 seconds (1) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+petite-9.4.0,equal:100:100:8:1000:2000:5000,0.665900346
+
+real	0m0.739s
+user	0m0.723s
+sys	0m0.013s
+
+Testing bv2string under Petite
+Including prelude /home/nex/src/r7rs-benchmarks/src/Petite-prelude.scm
+Including postlude /home/nex/src/r7rs-benchmarks/src/Petite-postlude.scm
+Compiling...
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 4.560296244 seconds (5) for bv2string:1000:1000:100
++!CSVLINE!+petite-9.4.0,bv2string:1000:1000:100,4.560296244
+
+real	0m4.633s
+user	0m4.623s
+sys	0m0.007s
