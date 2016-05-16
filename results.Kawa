@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Kawa on Sat 14 May 13:30:19 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+Benchmarking Kawa on Sun 15 May 09:38:28 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -10,12 +10,12 @@ Running...
 /tmp/larcenous/Kawa/browse.scm:216:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/browse.scm:219:25: warning - no declaration seen for hide
 Running browse:2000
-Elapsed time: 24.621149693 seconds (24.621) for browse:2000
-+!CSVLINE!+kawa-2.1,browse:2000,24.621149693
+Elapsed time: 24.116970721 seconds (24.117) for browse:2000
++!CSVLINE!+kawa-2.1,browse:2000,24.116970721
 
-real	0m25.277s
-user	0m26.340s
-sys	0m0.093s
+real	0m24.746s
+user	0m25.787s
+sys	0m0.120s
 
 Testing deriv under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -24,12 +24,12 @@ Running...
 /tmp/larcenous/Kawa/deriv.scm:59:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/deriv.scm:62:24: warning - no declaration seen for hide
 Running deriv:10000000
-Elapsed time: 25.228486127 seconds (25.229) for deriv:10000000
-+!CSVLINE!+kawa-2.1,deriv:10000000,25.228486127
+Elapsed time: 23.206858515 seconds (23.207) for deriv:10000000
++!CSVLINE!+kawa-2.1,deriv:10000000,23.206858515
 
-real	0m25.663s
-user	1m3.133s
-sys	0m1.810s
+real	0m23.553s
+user	1m4.663s
+sys	0m3.090s
 
 Testing destruc under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -39,12 +39,12 @@ Running...
 /tmp/larcenous/Kawa/destruc.scm:77:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/destruc.scm:77:41: warning - no declaration seen for hide
 Running destruc:600:50:4000
-Elapsed time: 67.181166648 seconds (67.182) for destruc:600:50:4000
-+!CSVLINE!+kawa-2.1,destruc:600:50:4000,67.181166648
+Elapsed time: 64.471322551 seconds (64.471) for destruc:600:50:4000
++!CSVLINE!+kawa-2.1,destruc:600:50:4000,64.471322551
 
-real	1m7.557s
-user	1m9.160s
-sys	0m0.043s
+real	1m4.816s
+user	1m5.633s
+sys	0m0.093s
 
 Testing diviter under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -53,12 +53,12 @@ Running...
 /tmp/larcenous/Kawa/diviter.scm:38:24: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/diviter.scm:40:5: warning - no declaration seen for run-r7rs-benchmark
 Running diviter:1000:1000000
-Elapsed time: 43.060526661 seconds (43.061) for diviter:1000:1000000
-+!CSVLINE!+kawa-2.1,diviter:1000:1000000,43.060526661
+Elapsed time: 41.762600666 seconds (41.763) for diviter:1000:1000000
++!CSVLINE!+kawa-2.1,diviter:1000:1000000,41.762600666
 
-real	0m43.463s
-user	0m44.623s
-sys	0m0.073s
+real	0m42.093s
+user	0m43.103s
+sys	0m0.070s
 
 Testing divrec under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -67,12 +67,12 @@ Running...
 /tmp/larcenous/Kawa/divrec.scm:37:24: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/divrec.scm:39:5: warning - no declaration seen for run-r7rs-benchmark
 Running divrec:1000:1000000
-Elapsed time: 33.260470314 seconds (33.26) for divrec:1000:1000000
-+!CSVLINE!+kawa-2.1,divrec:1000:1000000,33.260470314
+Elapsed time: 32.31497858 seconds (32.315) for divrec:1000:1000000
++!CSVLINE!+kawa-2.1,divrec:1000:1000000,32.31497858
 
-real	0m33.615s
-user	0m34.407s
-sys	0m0.103s
+real	0m32.647s
+user	0m33.317s
+sys	0m0.127s
 
 Testing puzzle under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -81,12 +81,12 @@ Running...
 /tmp/larcenous/Kawa/puzzle.scm:162:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/puzzle.scm:165:24: warning - no declaration seen for hide
 Running puzzle:1000
-Elapsed time: 109.544710076 seconds (109.545) for puzzle:1000
-+!CSVLINE!+kawa-2.1,puzzle:1000,109.544710076
+Elapsed time: 106.738094043 seconds (106.738) for puzzle:1000
++!CSVLINE!+kawa-2.1,puzzle:1000,106.738094043
 
-real	1m50.015s
-user	1m50.877s
-sys	0m0.057s
+real	1m47.132s
+user	1m47.943s
+sys	0m0.043s
 
 Testing triangl under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -96,12 +96,12 @@ Running...
 /tmp/larcenous/Kawa/triangl.scm:84:23: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/triangl.scm:84:43: warning - no declaration seen for hide
 Running triangl:22:1:50
-Elapsed time: 77.159221044 seconds (77.159) for triangl:22:1:50
-+!CSVLINE!+kawa-2.1,triangl:22:1:50,77.159221044
+Elapsed time: 75.075279214 seconds (75.075) for triangl:22:1:50
++!CSVLINE!+kawa-2.1,triangl:22:1:50,75.075279214
 
-real	1m17.536s
-user	1m18.097s
-sys	0m0.033s
+real	1m15.426s
+user	1m15.953s
+sys	0m0.030s
 
 Testing tak under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -112,12 +112,12 @@ Running...
 /tmp/larcenous/Kawa/tak.scm:44:33: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/tak.scm:44:53: warning - no declaration seen for hide
 Running tak:40:20:11:1
-Elapsed time: 46.647898594 seconds (46.648) for tak:40:20:11:1
-+!CSVLINE!+kawa-2.1,tak:40:20:11:1,46.647898594
+Elapsed time: 45.314101473 seconds (45.314) for tak:40:20:11:1
++!CSVLINE!+kawa-2.1,tak:40:20:11:1,45.314101473
 
-real	0m46.990s
-user	0m47.297s
-sys	0m0.030s
+real	0m45.635s
+user	0m45.967s
+sys	0m0.027s
 
 Testing takl under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -129,12 +129,12 @@ Running...
 /tmp/larcenous/Kawa/takl.scm:59:33: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/takl.scm:59:53: warning - no declaration seen for hide
 Running takl:40:20:12:1
-Elapsed time: 139.004927111 seconds (139.005) for takl:40:20:12:1
-+!CSVLINE!+kawa-2.1,takl:40:20:12:1,139.004927111
+Elapsed time: 134.426503541 seconds (134.427) for takl:40:20:12:1
++!CSVLINE!+kawa-2.1,takl:40:20:12:1,134.426503541
 
-real	2m19.428s
-user	2m22.583s
-sys	0m0.070s
+real	2m14.760s
+user	2m15.827s
+sys	0m0.143s
 
 Testing ntakl under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -146,12 +146,12 @@ Running...
 /tmp/larcenous/Kawa/ntakl.scm:73:35: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/ntakl.scm:73:55: warning - no declaration seen for hide
 Running ntakl:40:20:12:1
-Elapsed time: 140.1176424 seconds (140.118) for ntakl:40:20:12:1
-+!CSVLINE!+kawa-2.1,ntakl:40:20:12:1,140.1176424
+Elapsed time: 134.376426227 seconds (134.376) for ntakl:40:20:12:1
++!CSVLINE!+kawa-2.1,ntakl:40:20:12:1,134.376426227
 
-real	2m20.504s
-user	2m24.037s
-sys	0m0.080s
+real	2m14.764s
+user	2m15.953s
+sys	0m0.083s
 
 Testing cpstak under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -163,630 +163,7 @@ Running...
 /tmp/larcenous/Kawa/cpstak.scm:59:56: warning - no declaration seen for hide
 Running cpstak:40:20:11:1
 Exception in thread "main" java.lang.StackOverflowError
-	at gnu.math.IntNum.compare(IntNum.java:164)
-	at gnu.kawa.functions.NumberCompare.compare(NumberCompare.java:187)
-	at gnu.kawa.functions.NumberCompare.compare(NumberCompare.java:147)
-	at gnu.kawa.functions.NumberCompare.apply2(NumberCompare.java:123)
-	at gnu.kawa.functions.NumberCompare.$Ls(NumberCompare.java:48)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:26)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
-	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
-	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm)
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
@@ -1186,11 +563,634 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
 	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
 	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame2.lambda5(cpstak.scm:40)
+	at atInteractiveLevel-3$frame2.apply1(cpstak.scm:39)
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
 
-real	0m0.405s
-user	0m0.747s
-sys	0m0.037s
+real	0m0.370s
+user	0m0.703s
+sys	0m0.033s
 
 Testing ctak under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1202,12 +1202,12 @@ Running...
 /tmp/larcenous/Kawa/ctak.scm:55:34: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/ctak.scm:55:54: warning - no declaration seen for hide
 Running ctak:32:16:8:1
-Elapsed time: 116.306904064 seconds (116.307) for ctak:32:16:8:1
-+!CSVLINE!+kawa-2.1,ctak:32:16:8:1,116.306904064
+Elapsed time: 109.0331159 seconds (109.033) for ctak:32:16:8:1
++!CSVLINE!+kawa-2.1,ctak:32:16:8:1,109.0331159
 
-real	1m56.713s
-user	1m59.327s
-sys	0m0.117s
+real	1m49.361s
+user	1m51.763s
+sys	0m0.263s
 
 Testing fib under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1216,12 +1216,12 @@ Running...
 /tmp/larcenous/Kawa/fib.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/fib.scm:38:22: warning - no declaration seen for hide
 Running fib:40:5
-Elapsed time: 116.696302483 seconds (116.696) for fib:40:5
-+!CSVLINE!+kawa-2.1,fib:40:5,116.696302483
+Elapsed time: 113.316846866 seconds (113.317) for fib:40:5
++!CSVLINE!+kawa-2.1,fib:40:5,113.316846866
 
-real	1m57.077s
-user	1m57.397s
-sys	0m0.040s
+real	1m53.635s
+user	1m53.920s
+sys	0m0.037s
 
 Testing fibc under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1231,12 +1231,12 @@ Running...
 /tmp/larcenous/Kawa/fibc.scm:53:23: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/fibc.scm:53:42: warning - no declaration seen for hide
 Running fibc:30:10
-Elapsed time: 75.666963562 seconds (75.667) for fibc:30:10
-+!CSVLINE!+kawa-2.1,fibc:30:10,75.666963562
+Elapsed time: 73.766442294 seconds (73.767) for fibc:30:10
++!CSVLINE!+kawa-2.1,fibc:30:10,73.766442294
 
-real	1m16.078s
-user	1m17.857s
-sys	0m0.107s
+real	1m14.095s
+user	1m15.747s
+sys	0m0.173s
 
 Testing fibfp under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1245,12 +1245,12 @@ Running...
 /tmp/larcenous/Kawa/fibfp.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/fibfp.scm:38:24: warning - no declaration seen for hide
 Running fibfp:35.0:10
-Elapsed time: 23.092106237 seconds (23.092) for fibfp:35.0:10
-+!CSVLINE!+kawa-2.1,fibfp:35.0:10,23.092106237
+Elapsed time: 20.640878724 seconds (20.641) for fibfp:35.0:10
++!CSVLINE!+kawa-2.1,fibfp:35.0:10,20.640878724
 
-real	0m23.511s
-user	0m24.267s
-sys	0m0.130s
+real	0m20.971s
+user	0m21.430s
+sys	0m0.117s
 
 Testing sum under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1259,12 +1259,12 @@ Running...
 /tmp/larcenous/Kawa/sum.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/sum.scm:38:22: warning - no declaration seen for hide
 Running sum:10000:200000
-Elapsed time: 176.917804158 seconds (176.918) for sum:10000:200000
-+!CSVLINE!+kawa-2.1,sum:10000:200000,176.917804158
+Elapsed time: 170.322003115 seconds (170.322) for sum:10000:200000
++!CSVLINE!+kawa-2.1,sum:10000:200000,170.322003115
 
-real	2m57.326s
-user	3m1.993s
-sys	0m0.157s
+real	2m50.642s
+user	2m53.460s
+sys	0m0.397s
 
 Testing sumfp under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1273,12 +1273,12 @@ Running...
 /tmp/larcenous/Kawa/sumfp.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/sumfp.scm:38:22: warning - no declaration seen for hide
 Running sumfp:1000000.0:500
-Elapsed time: 77.943372366 seconds (77.944) for sumfp:1000000.0:500
-+!CSVLINE!+kawa-2.1,sumfp:1000000.0:500,77.943372366
+Elapsed time: 74.515601163 seconds (74.516) for sumfp:1000000.0:500
++!CSVLINE!+kawa-2.1,sumfp:1000000.0:500,74.515601163
 
-real	1m18.300s
-user	1m20.123s
-sys	0m0.113s
+real	1m14.839s
+user	1m16.070s
+sys	0m0.213s
 
 Testing fft under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1288,11 +1288,11 @@ Running...
 /tmp/larcenous/Kawa/fft.scm:102:13: warning - no declaration seen for hide
 Running fft:65536:100
 Exception in thread "main" java.lang.StackOverflowError
-	at gnu.kawa.functions.AddOp.apply2(AddOp.java:35)
-	at gnu.kawa.functions.AddOp.applyN(AddOp.java:155)
-	at gnu.kawa.functions.AddOp.applyN(AddOp.java:170)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:59)
+	at gnu.kawa.functions.NumberCompare.compare(NumberCompare.java:145)
+	at gnu.kawa.functions.NumberCompare.apply2(NumberCompare.java:123)
+	at gnu.kawa.functions.NumberCompare.$Ls(NumberCompare.java:48)
+	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:57)
+	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:76)
 	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:76)
 	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:76)
 	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:76)
@@ -2313,9 +2313,9 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:76)
 	at atInteractiveLevel-3$frame1.lambda2loop5(fft.scm:76)
 
-real	0m0.483s
-user	0m1.060s
-sys	0m0.027s
+real	0m0.440s
+user	0m0.913s
+sys	0m0.037s
 
 Testing mbrot under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2324,12 +2324,12 @@ Running...
 /tmp/larcenous/Kawa/mbrot.scm:69:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/mbrot.scm:72:23: warning - no declaration seen for hide
 Running mbrot:75:1000
-Elapsed time: 69.176448186 seconds (69.177) for mbrot:75:1000
-+!CSVLINE!+kawa-2.1,mbrot:75:1000,69.176448186
+Elapsed time: 67.839745393 seconds (67.84) for mbrot:75:1000
++!CSVLINE!+kawa-2.1,mbrot:75:1000,67.839745393
 
-real	1m9.609s
-user	1m11.510s
-sys	0m0.110s
+real	1m8.175s
+user	1m9.743s
+sys	0m0.207s
 
 Testing mbrotZ under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2360,63 +2360,6 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame.lambda1loop1(mbrotZ.scm:46)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:55)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
-	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
@@ -3350,6 +3293,63 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame.lambda1loop1(mbrotZ.scm:46)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:55)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
+	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
@@ -3364,9 +3364,9 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 	at atInteractiveLevel-4$frame0.lambda2loop2(mbrotZ.scm:54)
 
-real	0m0.462s
-user	0m0.950s
-sys	0m0.010s
+real	0m0.435s
+user	0m0.877s
+sys	0m0.023s
 
 Testing nucleic under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3380,12 +3380,12 @@ Running...
 /tmp/larcenous/Kawa/nucleic.scm:3494:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/nucleic.scm:3497:22: warning - no declaration seen for hide
 Running nucleic:50
-Elapsed time: 33.175318735 seconds (33.175) for nucleic:50
-+!CSVLINE!+kawa-2.1,nucleic:50,33.175318735
+Elapsed time: 30.492365245 seconds (30.493) for nucleic:50
++!CSVLINE!+kawa-2.1,nucleic:50,30.492365245
 
-real	0m34.111s
-user	0m38.797s
-sys	0m0.170s
+real	0m31.171s
+user	0m34.610s
+sys	0m0.210s
 
 Testing pi under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3396,12 +3396,12 @@ Running...
 /tmp/larcenous/Kawa/pi.scm:173:14: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/pi.scm:174:14: warning - no declaration seen for hide
 Running pi:50:500:50:2
-Elapsed time: 0.321982882 seconds (0.322) for pi:50:500:50:2
-+!CSVLINE!+kawa-2.1,pi:50:500:50:2,0.321982882
+Elapsed time: 0.290268918 seconds (0.29) for pi:50:500:50:2
++!CSVLINE!+kawa-2.1,pi:50:500:50:2,0.290268918
 
-real	0m0.885s
-user	0m1.790s
-sys	0m0.057s
+real	0m0.662s
+user	0m1.460s
+sys	0m0.043s
 
 Testing pnpoly under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3411,12 +3411,12 @@ Running...
 /tmp/larcenous/Kawa/pnpoly.scm:70:22: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/pnpoly.scm:70:42: warning - no declaration seen for hide
 Running pnpoly:1000000
-Elapsed time: 107.248074368 seconds (107.248) for pnpoly:1000000
-+!CSVLINE!+kawa-2.1,pnpoly:1000000,107.248074368
+Elapsed time: 101.609071153 seconds (101.609) for pnpoly:1000000
++!CSVLINE!+kawa-2.1,pnpoly:1000000,101.609071153
 
-real	1m47.639s
-user	1m53.233s
-sys	0m0.267s
+real	1m41.951s
+user	1m47.647s
+sys	0m0.277s
 
 Testing ray under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3435,12 +3435,12 @@ Running...
 /tmp/larcenous/Kawa/ray.scm:202:22: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/ray.scm:202:42: warning - no declaration seen for hide
 Running ray:50
-Elapsed time: 40.098489968 seconds (40.099) for ray:50
-+!CSVLINE!+kawa-2.1,ray:50,40.098489968
+Elapsed time: 36.311497517 seconds (36.312) for ray:50
++!CSVLINE!+kawa-2.1,ray:50,36.311497517
 
-real	0m40.604s
-user	0m42.520s
-sys	0m0.560s
+real	0m36.723s
+user	0m37.937s
+sys	0m0.673s
 
 Testing simplex under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3449,12 +3449,12 @@ Running...
 /tmp/larcenous/Kawa/simplex.scm:215:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/simplex.scm:218:23: warning - no declaration seen for hide
 Running simplex:1000000
-Elapsed time: 63.14616904 seconds (63.146) for simplex:1000000
-+!CSVLINE!+kawa-2.1,simplex:1000000,63.14616904
+Elapsed time: 60.851954334 seconds (60.852) for simplex:1000000
++!CSVLINE!+kawa-2.1,simplex:1000000,60.851954334
 
-real	1m3.608s
-user	1m6.423s
-sys	0m0.107s
+real	1m1.281s
+user	1m3.763s
+sys	0m0.137s
 
 Testing ack under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4490,9 +4490,9 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-3.ack(ack.scm:25)
 	at atInteractiveLevel-3.ack(ack.scm:25)
 
-real	0m27.746s
-user	0m28.440s
-sys	0m0.090s
+real	0m26.902s
+user	0m28.077s
+sys	0m0.113s
 
 Testing array1 under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4502,12 +4502,12 @@ Running...
 /tmp/larcenous/Kawa/array1.scm:55:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/array1.scm:55:40: warning - no declaration seen for hide
 Running array1:1000000:500
-Elapsed time: 274.803921671 seconds (274.804) for array1:1000000:500
-+!CSVLINE!+kawa-2.1,array1:1000000:500,274.803921671
+Elapsed time: 263.536974718 seconds (263.537) for array1:1000000:500
++!CSVLINE!+kawa-2.1,array1:1000000:500,263.536974718
 
-real	4m35.212s
-user	4m40.157s
-sys	0m0.370s
+real	4m23.868s
+user	4m30.070s
+sys	0m1.093s
 
 Testing string under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4516,11 +4516,11 @@ Running...
 /tmp/larcenous/Kawa/string.scm:49:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/string.scm:52:25: warning - no declaration seen for hide
 Running string:500000:25
-Elapsed time: 0.863302901 seconds (0.864) for string:500000:25
-+!CSVLINE!+kawa-2.1,string:500000:25,0.863302901
+Elapsed time: 0.808849292 seconds (0.808) for string:500000:25
++!CSVLINE!+kawa-2.1,string:500000:25,0.808849292
 
-real	0m1.213s
-user	0m1.797s
+real	0m1.136s
+user	0m1.640s
 sys	0m0.080s
 
 Testing sum1 under Kawa
@@ -4530,12 +4530,12 @@ Running...
 /tmp/larcenous/Kawa/sum1.scm:41:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/sum1.scm:44:21: warning - no declaration seen for hide
 Running sum1:25
-Elapsed time: 1.912827017 seconds (1.913) for sum1:25
-+!CSVLINE!+kawa-2.1,sum1:25,1.912827017
+Elapsed time: 1.815956324 seconds (1.816) for sum1:25
++!CSVLINE!+kawa-2.1,sum1:25,1.815956324
 
-real	0m2.310s
-user	0m3.210s
-sys	0m0.043s
+real	0m2.153s
+user	0m2.827s
+sys	0m0.113s
 
 Testing cat under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4545,12 +4545,12 @@ Running...
 /tmp/larcenous/Kawa/cat.scm:52:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/cat.scm:52:41: warning - no declaration seen for hide
 Running cat:50
-Elapsed time: 13.585701533 seconds (13.585) for cat:50
-+!CSVLINE!+kawa-2.1,cat:50,13.585701533
+Elapsed time: 12.224910047 seconds (12.225) for cat:50
++!CSVLINE!+kawa-2.1,cat:50,12.224910047
 
-real	0m14.018s
-user	0m14.480s
-sys	0m0.193s
+real	0m12.577s
+user	0m12.960s
+sys	0m0.183s
 
 Testing tail under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4560,12 +4560,12 @@ Running...
 /tmp/larcenous/Kawa/tail.scm:62:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/tail.scm:62:41: warning - no declaration seen for hide
 Running tail:25
-Elapsed time: 2.099088156 seconds (2.1) for tail:25
-+!CSVLINE!+kawa-2.1,tail:25,2.099088156
+Elapsed time: 2.004391259 seconds (2.004) for tail:25
++!CSVLINE!+kawa-2.1,tail:25,2.004391259
 
-real	0m2.528s
-user	0m3.640s
-sys	0m0.137s
+real	0m2.345s
+user	0m3.347s
+sys	0m0.163s
 
 Testing wc under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4574,12 +4574,12 @@ Running...
 /tmp/larcenous/Kawa/wc.scm:46:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/wc.scm:49:21: warning - no declaration seen for hide
 Running wc:inputs/bib:50
-Elapsed time: 9.206919895 seconds (9.207) for wc:inputs/bib:50
-+!CSVLINE!+kawa-2.1,wc:inputs/bib:50,9.206919895
+Elapsed time: 8.958221587 seconds (8.958) for wc:inputs/bib:50
++!CSVLINE!+kawa-2.1,wc:inputs/bib:50,8.958221587
 
-real	0m9.614s
-user	0m10.347s
-sys	0m0.117s
+real	0m9.291s
+user	0m9.787s
+sys	0m0.193s
 
 Testing read1 under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4588,12 +4588,12 @@ Running...
 /tmp/larcenous/Kawa/read1.scm:63:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/read1.scm:66:43: warning - no declaration seen for hide
 Running read1:2500
-Elapsed time: 4.118592466 seconds (4.119) for read1:2500
-+!CSVLINE!+kawa-2.1,read1:2500,4.118592466
+Elapsed time: 4.046392651 seconds (4.046) for read1:2500
++!CSVLINE!+kawa-2.1,read1:2500,4.046392651
 
-real	0m4.518s
-user	0m5.663s
-sys	0m0.067s
+real	0m4.374s
+user	0m5.303s
+sys	0m0.080s
 
 Testing compiler under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4801,9 +4801,9 @@ Running...
 /tmp/larcenous/Kawa/compiler.scm:2054:35: warning - not a type or class expression
 /tmp/larcenous/Kawa/compiler.scm:2054:13: call to 'length?' has too many arguments (2; must be 1)
 
-real	0m1.211s
-user	0m3.953s
-sys	0m0.053s
+real	0m1.032s
+user	0m3.523s
+sys	0m0.057s
 
 Testing conform under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4896,9 +4896,9 @@ Exception Details:
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m0.655s
-user	0m1.663s
-sys	0m0.033s
+real	0m0.556s
+user	0m1.467s
+sys	0m0.023s
 
 Testing dynamic under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5055,12 +5055,12 @@ Running...
 /tmp/larcenous/Kawa/dynamic.scm:2341:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/dynamic.scm:2344:23: warning - no declaration seen for hide
 Running dynamic:500
-Elapsed time: 42.771693534 seconds (42.772) for dynamic:500
-+!CSVLINE!+kawa-2.1,dynamic:500,42.771693534
+Elapsed time: 40.868406116 seconds (40.869) for dynamic:500
++!CSVLINE!+kawa-2.1,dynamic:500,40.868406116
 
-real	0m43.774s
-user	0m59.470s
-sys	0m1.023s
+real	0m41.655s
+user	0m57.970s
+sys	0m0.993s
 
 Testing earley under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5069,12 +5069,12 @@ Running...
 /tmp/larcenous/Kawa/earley.scm:670:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/earley.scm:673:23: warning - no declaration seen for hide
 Running earley:1
-Elapsed time: 26.618515421 seconds (26.619) for earley:1
-+!CSVLINE!+kawa-2.1,earley:1,26.618515421
+Elapsed time: 25.303846908 seconds (25.304) for earley:1
++!CSVLINE!+kawa-2.1,earley:1,25.303846908
 
-real	0m27.150s
-user	1m2.343s
-sys	0m2.180s
+real	0m25.780s
+user	1m7.340s
+sys	0m3.600s
 
 Testing graphs under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5086,117 +5086,7 @@ Running...
 /tmp/larcenous/Kawa/graphs.scm:626:30: warning - no declaration seen for hide
 Running graphs:7:3
 Exception in thread "main" java.lang.StackOverflowError
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:307)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
-	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
-	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
-	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
-	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
-	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
-	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
-	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
-	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
+	at atInteractiveLevel-15$frame.apply3(graphs.scm)
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
@@ -6053,6 +5943,116 @@ Exception in thread "main" java.lang.StackOverflowError
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
 	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
 	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
+	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
+	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
+	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
+	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
+	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
+	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
 	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
 	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
@@ -6111,9 +6111,9 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
 	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
 
-real	0m0.607s
-user	0m1.450s
-sys	0m0.023s
+real	0m0.450s
+user	0m1.060s
+sys	0m0.033s
 
 Testing lattice under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -6124,12 +6124,12 @@ Running...
 /tmp/larcenous/Kawa/lattice.scm:250:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/lattice.scm:253:22: warning - no declaration seen for hide
 Running lattice:44:10
-Elapsed time: 97.611322372 seconds (97.611) for lattice:44:10
-+!CSVLINE!+kawa-2.1,lattice:44:10,97.611322372
+Elapsed time: 94.948537995 seconds (94.948) for lattice:44:10
++!CSVLINE!+kawa-2.1,lattice:44:10,94.948537995
 
-real	1m38.034s
-user	1m41.297s
-sys	0m0.203s
+real	1m35.336s
+user	1m38.443s
+sys	0m0.283s
 
 Testing matrix under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -6151,12 +6151,12 @@ Running...
 /tmp/larcenous/Kawa/matrix.scm:821:28: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/matrix.scm:821:48: warning - no declaration seen for hide
 Running matrix:5:5:2500
-Elapsed time: 36.355654499 seconds (36.355) for matrix:5:5:2500
-+!CSVLINE!+kawa-2.1,matrix:5:5:2500,36.355654499
+Elapsed time: 34.732156693 seconds (34.732) for matrix:5:5:2500
++!CSVLINE!+kawa-2.1,matrix:5:5:2500,34.732156693
 
-real	0m36.971s
-user	0m44.077s
-sys	0m0.597s
+real	0m35.213s
+user	0m42.077s
+sys	0m0.573s
 
 Testing maze under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -6181,12 +6181,12 @@ Running...
 /tmp/larcenous/Kawa/maze.scm:766:22: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/maze.scm:766:42: warning - no declaration seen for hide
 Running maze:20:7:10000
-Elapsed time: 25.179783459 seconds (25.18) for maze:20:7:10000
-+!CSVLINE!+kawa-2.1,maze:20:7:10000,25.179783459
+Elapsed time: 24.032838341 seconds (24.033) for maze:20:7:10000
++!CSVLINE!+kawa-2.1,maze:20:7:10000,24.032838341
 
-real	0m25.796s
-user	0m28.170s
-sys	0m0.140s
+real	0m24.535s
+user	0m26.290s
+sys	0m0.187s
 
 Testing mazefun under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -6204,12 +6204,12 @@ Running...
 /tmp/larcenous/Kawa/mazefun.scm:216:28: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/mazefun.scm:216:48: warning - no declaration seen for hide
 Running mazefun:11:11:10000
-Elapsed time: 108.42008092 seconds (108.42) for mazefun:11:11:10000
-+!CSVLINE!+kawa-2.1,mazefun:11:11:10000,108.42008092
+Elapsed time: 106.27089165 seconds (106.271) for mazefun:11:11:10000
++!CSVLINE!+kawa-2.1,mazefun:11:11:10000,106.27089165
 
-real	1m48.864s
-user	1m52.483s
-sys	0m0.137s
+real	1m46.676s
+user	1m49.500s
+sys	0m0.287s
 
 Testing nqueens under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -6218,12 +6218,12 @@ Running...
 /tmp/larcenous/Kawa/nqueens.scm:58:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/nqueens.scm:61:26: warning - no declaration seen for hide
 Running nqueens:13:10
-Elapsed time: 184.36287206 seconds (184.363) for nqueens:13:10
-+!CSVLINE!+kawa-2.1,nqueens:13:10,184.36287206
+Elapsed time: 177.797856176 seconds (177.797) for nqueens:13:10
++!CSVLINE!+kawa-2.1,nqueens:13:10,177.797856176
 
-real	3m4.696s
-user	3m9.067s
-sys	0m0.120s
+real	2m58.197s
+user	2m59.367s
+sys	0m0.140s
 
 Testing paraffins under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -6234,12 +6234,12 @@ Running...
 /tmp/larcenous/Kawa/paraffins.scm:203:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/paraffins.scm:206:21: warning - no declaration seen for hide
 Running paraffins:23:10
-Elapsed time: 25.188164724 seconds (25.188) for paraffins:23:10
-+!CSVLINE!+kawa-2.1,paraffins:23:10,25.188164724
+Elapsed time: 24.67669081 seconds (24.677) for paraffins:23:10
++!CSVLINE!+kawa-2.1,paraffins:23:10,24.67669081
 
-real	0m25.658s
-user	1m48.693s
-sys	0m1.260s
+real	0m25.054s
+user	2m17.150s
+sys	0m1.337s
 
 Testing parsing under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7276,9 +7276,9 @@ Exception Details:
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m0.683s
-user	0m1.767s
-sys	0m0.030s
+real	0m0.578s
+user	0m1.393s
+sys	0m0.057s
 
 Testing peval under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7320,12 +7320,12 @@ Running...
 /tmp/larcenous/Kawa/peval.scm:656:23: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/peval.scm:656:43: warning - no declaration seen for hide
 Running peval:2000
-Elapsed time: 49.523035726 seconds (49.523) for peval:2000
-+!CSVLINE!+kawa-2.1,peval:2000,49.523035726
+Elapsed time: 44.306146889 seconds (44.306) for peval:2000
++!CSVLINE!+kawa-2.1,peval:2000,44.306146889
 
-real	0m50.135s
-user	1m31.303s
-sys	0m2.500s
+real	0m44.822s
+user	1m28.167s
+sys	0m3.787s
 
 Testing primes under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7334,12 +7334,12 @@ Running...
 /tmp/larcenous/Kawa/primes.scm:51:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/primes.scm:54:27: warning - no declaration seen for hide
 Running primes:1000:10000
-Elapsed time: 27.436409431 seconds (27.437) for primes:1000:10000
-+!CSVLINE!+kawa-2.1,primes:1000:10000,27.436409431
+Elapsed time: 26.390250279 seconds (26.39) for primes:1000:10000
++!CSVLINE!+kawa-2.1,primes:1000:10000,26.390250279
 
-real	0m27.843s
-user	0m28.880s
-sys	0m0.100s
+real	0m26.718s
+user	0m27.303s
+sys	0m0.167s
 
 Testing quicksort under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7355,12 +7355,12 @@ Running...
 /tmp/larcenous/Kawa/quicksort.scm:153:17: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/quicksort.scm:158:5: warning - no declaration seen for run-r7rs-benchmark
 Running quicksort:10000:2500
-Elapsed time: 97.052611804 seconds (97.053) for quicksort:10000:2500
-+!CSVLINE!+kawa-2.1,quicksort:10000:2500,97.052611804
+Elapsed time: 92.607704924 seconds (92.608) for quicksort:10000:2500
++!CSVLINE!+kawa-2.1,quicksort:10000:2500,92.607704924
 
-real	1m37.530s
-user	1m39.190s
-sys	0m0.167s
+real	1m33.028s
+user	1m35.193s
+sys	0m0.200s
 
 Testing scheme under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7503,12 +7503,12 @@ Running...
 /tmp/larcenous/Kawa/scheme.scm:1066:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/scheme.scm:1069:30: warning - no declaration seen for hide
 Running scheme:100000
-Elapsed time: 86.151971274 seconds (86.152) for scheme:100000
-+!CSVLINE!+kawa-2.1,scheme:100000,86.151971274
+Elapsed time: 80.507621832 seconds (80.508) for scheme:100000
++!CSVLINE!+kawa-2.1,scheme:100000,80.507621832
 
-real	1m27.071s
-user	1m31.977s
-sys	0m0.183s
+real	1m21.175s
+user	1m24.657s
+sys	0m0.277s
 
 Testing slatex under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7588,7 +7588,23 @@ java.net.UnknownServiceException: protocol doesn't support output
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
 	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-150.lambda2(slatex.scm:1964)
+	at atInteractiveLevel-150.lambda2(slatex.scm:1980)
+	at atInteractiveLevel-150.apply1(slatex.scm:1926)
+	at gnu.expr.ModuleMethod.apply1(ModuleMethod.java:213)
+	at kawa.lib.ports.callWithInputFile(ports.scm:28)
+	at atInteractiveLevel-150.lambda1(slatex.scm:1926)
+	at atInteractiveLevel-150.apply1(slatex.scm:1914)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-153.lambda1(slatex.scm:2252)
+	at atInteractiveLevel-153.apply3(slatex.scm:2225)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-150.lambda2(slatex.scm:1976)
 	at atInteractiveLevel-150.apply1(slatex.scm:1926)
 	at gnu.expr.ModuleMethod.apply1(ModuleMethod.java:213)
 	at kawa.lib.ports.callWithInputFile(ports.scm:28)
@@ -7628,9 +7644,9 @@ java.net.UnknownServiceException: protocol doesn't support output
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m9.619s
-user	0m16.987s
-sys	0m1.093s
+real	0m8.267s
+user	0m15.043s
+sys	0m0.907s
 
 Testing nboyer under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7649,9 +7665,9 @@ Running...
 Running nboyer:5:1
 ERROR: returned incorrect result: #t
 
-real	0m0.463s
-user	0m0.907s
-sys	0m0.040s
+real	0m0.394s
+user	0m0.790s
+sys	0m0.027s
 
 Testing sboyer under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7697,9 +7713,9 @@ gnu.mapping.WrongArguments: call to 'test-boyer' has too many arguments (3; must
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m0.426s
-user	0m0.917s
-sys	0m0.020s
+real	0m0.404s
+user	0m0.823s
+sys	0m0.037s
 
 Testing gcbench under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7747,12 +7763,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 7.126476567 seconds (7.127) for gcbench:20:1
-+!CSVLINE!+kawa-2.1,gcbench:20:1,7.126476567
+Elapsed time: 6.310893192 seconds (6.311) for gcbench:20:1
++!CSVLINE!+kawa-2.1,gcbench:20:1,6.310893192
 
-real	0m7.519s
-user	0m9.137s
-sys	0m0.280s
+real	0m6.663s
+user	0m8.187s
+sys	0m0.253s
 
 Testing mperm under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7766,12 +7782,11 @@ Running...
 /tmp/larcenous/Kawa/mperm.scm:226:25: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/mperm.scm:227:25: warning - no declaration seen for hide
 Running perm20:10:2:1
-Elapsed time: 102.767956855 seconds (102.768) for perm20:10:2:1
-+!CSVLINE!+kawa-2.1,perm20:10:2:1,102.767956855
+./bench: line 672:  8955 Killed                  "${KAWA}" -f "$1" < "$2"
 
-real	1m49.862s
-user	4m42.207s
-sys	0m2.337s
+real	1m32.009s
+user	4m57.563s
+sys	0m2.630s
 
 Testing equal under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7791,12 +7806,12 @@ Running...
 /tmp/larcenous/Kawa/equal.scm:173:29: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/equal.scm:174:29: warning - no declaration seen for hide
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 6.236076558 seconds (6.236) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+kawa-2.1,equal:100:100:8:1000:2000:5000,6.236076558
+Elapsed time: 6.053343213 seconds (6.053) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+kawa-2.1,equal:100:100:8:1000:2000:5000,6.053343213
 
-real	0m6.690s
-user	0m7.800s
-sys	0m0.110s
+real	0m6.413s
+user	0m7.293s
+sys	0m0.130s
 
 Testing bv2string under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -7808,9 +7823,9 @@ Running...
 /tmp/larcenous/Kawa/bv2string.scm:148:33: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/bv2string.scm:148:53: warning - no declaration seen for hide
 Running bv2string:1000:1000:100
-Elapsed time: 20.12100583 seconds (20.121) for bv2string:1000:1000:100
-+!CSVLINE!+kawa-2.1,bv2string:1000:1000:100,20.12100583
+Elapsed time: 19.651649214 seconds (19.652) for bv2string:1000:1000:100
++!CSVLINE!+kawa-2.1,bv2string:1000:1000:100,19.651649214
 
-real	0m20.493s
-user	0m21.347s
-sys	0m0.117s
+real	0m19.995s
+user	0m20.693s
+sys	0m0.103s

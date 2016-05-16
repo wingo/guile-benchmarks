@@ -1,29 +1,29 @@
 
 ****************************
-Benchmarking Picrin on Sat 14 May 15:39:07 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+Benchmarking Picrin on Sun 15 May 12:37:37 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 87.632287 seconds (87.0) for browse:2000
-+!CSVLINE!+picrin-unknown,browse:2000,87.632287
+Elapsed time: 70.427572 seconds (71.0) for browse:2000
++!CSVLINE!+picrin-unknown,browse:2000,70.427572
 
-real	1m27.775s
-user	1m27.750s
-sys	0m0.010s
+real	1m10.510s
+user	1m10.503s
+sys	0m0.000s
 
 Testing deriv under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 66.808395 seconds (66.0) for deriv:10000000
-+!CSVLINE!+picrin-unknown,deriv:10000000,66.808395
+Elapsed time: 60.610449 seconds (60.0) for deriv:10000000
++!CSVLINE!+picrin-unknown,deriv:10000000,60.610449
 
-real	1m6.888s
-user	1m6.880s
+real	1m0.683s
+user	1m0.677s
 sys	0m0.000s
 
 Testing destruc under Picrin
@@ -31,59 +31,59 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 98.58351 seconds (99.0) for destruc:600:50:4000
-+!CSVLINE!+picrin-unknown,destruc:600:50:4000,98.58351
+Elapsed time: 87.802362 seconds (88.0) for destruc:600:50:4000
++!CSVLINE!+picrin-unknown,destruc:600:50:4000,87.802362
 
-real	1m38.665s
-user	1m38.657s
-sys	0m0.000s
+real	1m27.878s
+user	1m27.863s
+sys	0m0.003s
 
 Testing diviter under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 56.391623 seconds (57.0) for diviter:1000:1000000
-+!CSVLINE!+picrin-unknown,diviter:1000:1000000,56.391623
+Elapsed time: 51.60588 seconds (52.0) for diviter:1000:1000000
++!CSVLINE!+picrin-unknown,diviter:1000:1000000,51.60588
 
-real	0m56.471s
-user	0m56.463s
-sys	0m0.000s
+real	0m51.684s
+user	0m51.673s
+sys	0m0.003s
 
 Testing divrec under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 66.974198 seconds (67.0) for divrec:1000:1000000
-+!CSVLINE!+picrin-unknown,divrec:1000:1000000,66.974198
+Elapsed time: 61.261172 seconds (61.0) for divrec:1000:1000000
++!CSVLINE!+picrin-unknown,divrec:1000:1000000,61.261172
 
-real	1m7.054s
-user	1m7.043s
-sys	0m0.003s
+real	1m1.334s
+user	1m1.327s
+sys	0m0.000s
 
 Testing puzzle under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 236.615365 seconds (236.0) for puzzle:1000
-+!CSVLINE!+picrin-unknown,puzzle:1000,236.615365
+Elapsed time: 228.831831 seconds (229.0) for puzzle:1000
++!CSVLINE!+picrin-unknown,puzzle:1000,228.831831
 
-real	3m56.737s
-user	3m50.013s
-sys	0m6.700s
+real	3m48.951s
+user	3m42.390s
+sys	0m6.533s
 
 Testing triangl under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 137.964765 seconds (138.0) for triangl:22:1:50
-+!CSVLINE!+picrin-unknown,triangl:22:1:50,137.964765
+Elapsed time: 133.293135 seconds (133.0) for triangl:22:1:50
++!CSVLINE!+picrin-unknown,triangl:22:1:50,133.293135
 
-real	2m18.051s
-user	2m18.037s
+real	2m13.378s
+user	2m13.367s
 sys	0m0.000s
 
 Testing tak under Picrin
@@ -91,11 +91,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 71.757753 seconds (72.0) for tak:40:20:11:1
-+!CSVLINE!+picrin-unknown,tak:40:20:11:1,71.757753
+Elapsed time: 69.763958 seconds (69.0) for tak:40:20:11:1
++!CSVLINE!+picrin-unknown,tak:40:20:11:1,69.763958
 
-real	1m11.838s
-user	1m11.827s
+real	1m9.842s
+user	1m9.830s
 sys	0m0.003s
 
 Testing takl under Picrin
@@ -103,11 +103,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 203.571612 seconds (204.0) for takl:40:20:12:1
-+!CSVLINE!+picrin-unknown,takl:40:20:12:1,203.571612
+Elapsed time: 197.643545 seconds (198.0) for takl:40:20:12:1
++!CSVLINE!+picrin-unknown,takl:40:20:12:1,197.643545
 
-real	3m23.660s
-user	3m23.643s
+real	3m17.728s
+user	3m17.710s
 sys	0m0.000s
 
 Testing ntakl under Picrin
@@ -115,11 +115,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 159.852427 seconds (160.0) for ntakl:40:20:12:1
-+!CSVLINE!+picrin-unknown,ntakl:40:20:12:1,159.852427
+Elapsed time: 153.42935 seconds (154.0) for ntakl:40:20:12:1
++!CSVLINE!+picrin-unknown,ntakl:40:20:12:1,153.42935
 
-real	2m39.943s
-user	2m39.927s
+real	2m33.510s
+user	2m33.497s
 sys	0m0.000s
 
 Testing cpstak under Picrin
@@ -127,11 +127,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 101.215308 seconds (101.0) for cpstak:40:20:11:1
-+!CSVLINE!+picrin-unknown,cpstak:40:20:11:1,101.215308
+Elapsed time: 88.404566 seconds (88.0) for cpstak:40:20:11:1
++!CSVLINE!+picrin-unknown,cpstak:40:20:11:1,88.404566
 
-real	1m41.297s
-user	1m41.287s
+real	1m28.479s
+user	1m28.470s
 sys	0m0.000s
 
 Testing ctak under Picrin
@@ -139,22 +139,22 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-./bench: line 703: 14964 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12263 Killed                  "${PICRIN}" "$1" < "$2"
 
-real	5m0.113s
-user	4m34.137s
-sys	0m25.937s
+real	5m0.095s
+user	4m32.670s
+sys	0m27.397s
 
 Testing fib under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 141.191597 seconds (142.0) for fib:40:5
-+!CSVLINE!+picrin-unknown,fib:40:5,141.191597
+Elapsed time: 135.965608 seconds (136.0) for fib:40:5
++!CSVLINE!+picrin-unknown,fib:40:5,135.965608
 
-real	2m21.282s
-user	2m21.263s
+real	2m16.044s
+user	2m16.027s
 sys	0m0.003s
 
 Testing fibc under Picrin
@@ -162,22 +162,22 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running fibc:30:10
-./bench: line 703: 15332 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12334 Killed                  "${PICRIN}" "$1" < "$2"
 
-real	5m0.110s
-user	4m34.900s
-sys	0m25.183s
+real	5m0.087s
+user	4m34.883s
+sys	0m25.180s
 
 Testing fibfp under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 27.16182 seconds (27.0) for fibfp:35.0:10
-+!CSVLINE!+picrin-unknown,fibfp:35.0:10,27.16182
+Elapsed time: 26.438066 seconds (27.0) for fibfp:35.0:10
++!CSVLINE!+picrin-unknown,fibfp:35.0:10,26.438066
 
-real	0m27.238s
-user	0m27.233s
+real	0m26.507s
+user	0m26.503s
 sys	0m0.000s
 
 Testing sum under Picrin
@@ -185,23 +185,23 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 105.145552 seconds (105.0) for sum:10000:200000
-+!CSVLINE!+picrin-unknown,sum:10000:200000,105.145552
+Elapsed time: 101.255797 seconds (101.0) for sum:10000:200000
++!CSVLINE!+picrin-unknown,sum:10000:200000,101.255797
 
-real	1m45.226s
-user	1m45.213s
-sys	0m0.003s
+real	1m41.334s
+user	1m41.323s
+sys	0m0.000s
 
 Testing sumfp under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 27.884039 seconds (28.0) for sumfp:1000000.0:500
-+!CSVLINE!+picrin-unknown,sumfp:1000000.0:500,27.884039
+Elapsed time: 27.425197 seconds (28.0) for sumfp:1000000.0:500
++!CSVLINE!+picrin-unknown,sumfp:1000000.0:500,27.425197
 
-real	0m27.961s
-user	0m27.957s
+real	0m27.495s
+user	0m27.490s
 sys	0m0.000s
 
 Testing fft under Picrin
@@ -210,22 +210,22 @@ Compiling...
 Running...
 Running fft:65536:100
 picrin panic!: VM stack overflow
-./bench: line 703: 15946 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12402 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
 
-real	0m0.151s
-user	0m0.123s
-sys	0m0.010s
+real	0m0.140s
+user	0m0.113s
+sys	0m0.007s
 
 Testing mbrot under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 43.018123 seconds (43.0) for mbrot:75:1000
-+!CSVLINE!+picrin-unknown,mbrot:75:1000,43.018123
+Elapsed time: 40.5118 seconds (40.0) for mbrot:75:1000
++!CSVLINE!+picrin-unknown,mbrot:75:1000,40.5118
 
-real	0m43.199s
-user	0m43.093s
+real	0m40.582s
+user	0m40.577s
 sys	0m0.000s
 
 Testing mbrotZ under Picrin
@@ -238,8 +238,8 @@ error: "library not found" (scheme complex)
   at (anonymous lambda) (native function)
   at (anonymous lambda) (native function)
 
-real	0m0.115s
-user	0m0.107s
+real	0m0.066s
+user	0m0.063s
 sys	0m0.000s
 
 Testing nucleic under Picrin
@@ -258,9 +258,9 @@ error: "index out of range" 29
   at (anonymous lambda) (unknown location)
   at (anonymous lambda) (native function)
 
-real	0m0.155s
-user	0m0.137s
-sys	0m0.013s
+real	0m0.091s
+user	0m0.083s
+sys	0m0.007s
 
 Testing pi under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -272,9 +272,9 @@ error: "library not found" (scheme char)
   at (anonymous lambda) (native function)
   at (anonymous lambda) (native function)
 
-real	0m0.107s
-user	0m0.103s
-sys	0m0.003s
+real	0m0.067s
+user	0m0.063s
+sys	0m0.000s
 
 Testing pnpoly under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -286,8 +286,8 @@ error: "undefined variable" picrin.repl/.5
   at (anonymous lambda) (unknown location)
   at (anonymous lambda) (native function)
 
-real	0m0.070s
-user	0m0.067s
+real	0m0.071s
+user	0m0.070s
 sys	0m0.000s
 
 Testing ray under Picrin
@@ -295,11 +295,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 60.792104 seconds (61.0) for ray:50
-+!CSVLINE!+picrin-unknown,ray:50,60.792104
+Elapsed time: 57.874443 seconds (58.0) for ray:50
++!CSVLINE!+picrin-unknown,ray:50,57.874443
 
-real	1m0.872s
-user	1m0.850s
+real	0m57.949s
+user	0m57.930s
 sys	0m0.013s
 
 Testing simplex under Picrin
@@ -307,12 +307,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 109.934857 seconds (110.0) for simplex:1000000
-+!CSVLINE!+picrin-unknown,simplex:1000000,109.934857
+Elapsed time: 107.614555 seconds (107.0) for simplex:1000000
++!CSVLINE!+picrin-unknown,simplex:1000000,107.614555
 
-real	1m50.016s
-user	1m49.997s
-sys	0m0.007s
+real	1m47.694s
+user	1m47.683s
+sys	0m0.000s
 
 Testing ack under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -320,34 +320,34 @@ Compiling...
 Running...
 Running ack:3:12:2
 picrin panic!: VM stack overflow
-./bench: line 703: 16236 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12483 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
 
-real	0m0.111s
-user	0m0.073s
-sys	0m0.007s
+real	0m0.097s
+user	0m0.067s
+sys	0m0.010s
 
 Testing array1 under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 137.832486 seconds (138.0) for array1:1000000:500
-+!CSVLINE!+picrin-unknown,array1:1000000:500,137.832486
+Elapsed time: 135.331698 seconds (136.0) for array1:1000000:500
++!CSVLINE!+picrin-unknown,array1:1000000:500,135.331698
 
-real	2m18.008s
-user	2m17.283s
-sys	0m0.710s
+real	2m15.486s
+user	2m14.767s
+sys	0m0.707s
 
 Testing string under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 0.011849 seconds (0.0) for string:500000:25
-+!CSVLINE!+picrin-unknown,string:500000:25,0.011849
+Elapsed time: 0.010495 seconds (0.0) for string:500000:25
++!CSVLINE!+picrin-unknown,string:500000:25,0.010495
 
-real	0m0.088s
-user	0m0.087s
+real	0m0.078s
+user	0m0.077s
 sys	0m0.000s
 
 Testing sum1 under Picrin
@@ -355,11 +355,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 7.413246 seconds (8.0) for sum1:25
-+!CSVLINE!+picrin-unknown,sum1:25,7.413246
+Elapsed time: 5.99454 seconds (6.0) for sum1:25
++!CSVLINE!+picrin-unknown,sum1:25,5.99454
 
-real	0m7.490s
-user	0m7.480s
+real	0m6.064s
+user	0m6.053s
 sys	0m0.007s
 
 Testing cat under Picrin
@@ -367,46 +367,47 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running cat:50
-./bench: line 703: 16420 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12527 Killed                  "${PICRIN}" "$1" < "$2"
 
-real	5m0.003s
-user	4m59.307s
-sys	0m0.657s
+real	5m0.001s
+user	4m59.557s
+sys	0m0.390s
 
 Testing tail under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running tail:25
-./bench: line 703: 16857 Killed                  "${PICRIN}" "$1" < "$2"
+Elapsed time: 273.344017 seconds (273.0) for tail:25
++!CSVLINE!+picrin-unknown,tail:25,273.344017
 
-real	5m0.037s
-user	4m59.260s
-sys	0m0.740s
+real	4m33.471s
+user	4m32.823s
+sys	0m0.617s
 
 Testing wc under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 229.414316 seconds (229.0) for wc:inputs/bib:50
-+!CSVLINE!+picrin-unknown,wc:inputs/bib:50,229.414316
+Elapsed time: 198.738607 seconds (198.0) for wc:inputs/bib:50
++!CSVLINE!+picrin-unknown,wc:inputs/bib:50,198.738607
 
-real	3m49.586s
-user	3m49.427s
-sys	0m0.083s
+real	3m18.824s
+user	3m18.757s
+sys	0m0.050s
 
 Testing read1 under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 3.255861 seconds (4.0) for read1:2500
-+!CSVLINE!+picrin-unknown,read1:2500,3.255861
+Elapsed time: 2.76502 seconds (3.0) for read1:2500
++!CSVLINE!+picrin-unknown,read1:2500,2.76502
 
-real	0m3.386s
-user	0m3.363s
-sys	0m0.017s
+real	0m2.832s
+user	0m2.807s
+sys	0m0.023s
 
 Testing compiler under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -418,8 +419,8 @@ error: "library not found" (scheme char)
   at (anonymous lambda) (native function)
   at (anonymous lambda) (native function)
 
-real	0m0.071s
-user	0m0.070s
+real	0m0.068s
+user	0m0.067s
 sys	0m0.000s
 
 Testing conform under Picrin
@@ -428,12 +429,12 @@ Compiling...
 Running...
 warn: redefining variable: picrin.repl/join
 Running conform:500
-Elapsed time: 165.168875 seconds (165.0) for conform:500
-+!CSVLINE!+picrin-unknown,conform:500,165.168875
+Elapsed time: 155.937623 seconds (156.0) for conform:500
++!CSVLINE!+picrin-unknown,conform:500,155.937623
 
-real	2m45.260s
-user	2m45.240s
-sys	0m0.003s
+real	2m36.022s
+user	2m36.010s
+sys	0m0.000s
 
 Testing dynamic under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -441,10 +442,10 @@ Compiling...
 Running...
 Running dynamic:500
 picrin panic!: VM stack overflow
-./bench: line 703: 17868 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12662 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
 
-real	0m0.232s
-user	0m0.187s
+real	0m0.207s
+user	0m0.177s
 sys	0m0.017s
 
 Testing earley under Picrin
@@ -452,21 +453,21 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running earley:1
-./bench: line 703: 17884 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12676 Killed                  "${PICRIN}" "$1" < "$2"
 
-real	5m0.028s
-user	4m59.827s
-sys	0m0.173s
+real	5m0.026s
+user	4m59.853s
+sys	0m0.147s
 
 Testing graphs under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running graphs:7:3
-./bench: line 703: 18242 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12713 Killed                  "${PICRIN}" "$1" < "$2"
 
-real	5m0.000s
-user	4m59.967s
+real	4m59.999s
+user	4m59.970s
 sys	0m0.000s
 
 Testing lattice under Picrin
@@ -474,23 +475,23 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 258.042743 seconds (258.0) for lattice:44:10
-+!CSVLINE!+picrin-unknown,lattice:44:10,258.042743
+Elapsed time: 245.067827 seconds (245.0) for lattice:44:10
++!CSVLINE!+picrin-unknown,lattice:44:10,245.067827
 
-real	4m18.348s
-user	4m18.110s
-sys	0m0.003s
+real	4m5.161s
+user	4m5.140s
+sys	0m0.000s
 
 Testing matrix under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 83.421459 seconds (83.0) for matrix:5:5:2500
-+!CSVLINE!+picrin-unknown,matrix:5:5:2500,83.421459
+Elapsed time: 76.814856 seconds (77.0) for matrix:5:5:2500
++!CSVLINE!+picrin-unknown,matrix:5:5:2500,76.814856
 
-real	1m23.561s
-user	1m23.550s
+real	1m16.893s
+user	1m16.887s
 sys	0m0.000s
 
 Testing maze under Picrin
@@ -498,35 +499,35 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 113.166241 seconds (113.0) for maze:20:7:10000
-+!CSVLINE!+picrin-unknown,maze:20:7:10000,113.166241
+Elapsed time: 107.729661 seconds (107.0) for maze:20:7:10000
++!CSVLINE!+picrin-unknown,maze:20:7:10000,107.729661
 
-real	1m53.252s
-user	1m52.763s
-sys	0m0.477s
+real	1m47.811s
+user	1m47.410s
+sys	0m0.390s
 
 Testing mazefun under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 81.906184 seconds (82.0) for mazefun:11:11:10000
-+!CSVLINE!+picrin-unknown,mazefun:11:11:10000,81.906184
+Elapsed time: 77.924456 seconds (78.0) for mazefun:11:11:10000
++!CSVLINE!+picrin-unknown,mazefun:11:11:10000,77.924456
 
-real	1m21.986s
-user	1m21.973s
-sys	0m0.003s
+real	1m18.004s
+user	1m17.997s
+sys	0m0.000s
 
 Testing nqueens under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 151.061891 seconds (151.0) for nqueens:13:10
-+!CSVLINE!+picrin-unknown,nqueens:13:10,151.061891
+Elapsed time: 128.767582 seconds (129.0) for nqueens:13:10
++!CSVLINE!+picrin-unknown,nqueens:13:10,128.767582
 
-real	2m31.149s
-user	2m31.133s
+real	2m8.845s
+user	2m8.833s
 sys	0m0.000s
 
 Testing paraffins under Picrin
@@ -535,11 +536,11 @@ Compiling...
 Running...
 Running paraffins:23:10
 picrin panic!: VM stack overflow
-./bench: line 703: 18998 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12848 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
 
-real	0m0.105s
+real	0m0.100s
 user	0m0.070s
-sys	0m0.010s
+sys	0m0.007s
 
 Testing parsing under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -551,8 +552,8 @@ error: "library not found" (scheme char)
   at (anonymous lambda) (native function)
   at (anonymous lambda) (native function)
 
-real	0m0.070s
-user	0m0.067s
+real	0m0.066s
+user	0m0.063s
 sys	0m0.000s
 
 Testing peval under Picrin
@@ -560,12 +561,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 104.301691 seconds (104.0) for peval:2000
-+!CSVLINE!+picrin-unknown,peval:2000,104.301691
+Elapsed time: 93.659903 seconds (94.0) for peval:2000
++!CSVLINE!+picrin-unknown,peval:2000,93.659903
 
-real	1m44.431s
-user	1m44.407s
-sys	0m0.013s
+real	1m33.741s
+user	1m33.727s
+sys	0m0.003s
 
 Testing primes under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -573,10 +574,10 @@ Compiling...
 Running...
 Running primes:1000:10000
 picrin panic!: VM stack overflow
-./bench: line 703: 19110 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12880 Aborted                 (core dumped) "${PICRIN}" "$1" < "$2"
 
-real	0m0.091s
-user	0m0.067s
+real	0m0.089s
+user	0m0.063s
 sys	0m0.007s
 
 Testing quicksort under Picrin
@@ -584,11 +585,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 112.123294 seconds (112.0) for quicksort:10000:2500
-+!CSVLINE!+picrin-unknown,quicksort:10000:2500,112.123294
+Elapsed time: 106.470992 seconds (107.0) for quicksort:10000:2500
++!CSVLINE!+picrin-unknown,quicksort:10000:2500,106.470992
 
-real	1m52.232s
-user	1m52.220s
+real	1m46.572s
+user	1m46.560s
 sys	0m0.000s
 
 Testing scheme under Picrin
@@ -601,8 +602,8 @@ error: "library not found" (scheme char)
   at (anonymous lambda) (native function)
   at (anonymous lambda) (native function)
 
-real	0m0.085s
-user	0m0.083s
+real	0m0.067s
+user	0m0.067s
 sys	0m0.000s
 
 Testing slatex under Picrin
@@ -615,33 +616,33 @@ error: "library not found" (scheme char)
   at (anonymous lambda) (native function)
   at (anonymous lambda) (native function)
 
-real	0m0.095s
-user	0m0.087s
-sys	0m0.007s
+real	0m0.067s
+user	0m0.063s
+sys	0m0.000s
 
 Testing nboyer under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 89.647759 seconds (89.0) for nboyer:5:1
-+!CSVLINE!+picrin-unknown,nboyer:5:1,89.647759
+Elapsed time: 74.55988 seconds (75.0) for nboyer:5:1
++!CSVLINE!+picrin-unknown,nboyer:5:1,74.55988
 
-real	1m29.907s
-user	1m29.780s
-sys	0m0.117s
+real	1m14.795s
+user	1m14.730s
+sys	0m0.057s
 
 Testing sboyer under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 73.521359 seconds (73.0) for sboyer:5:1
-+!CSVLINE!+picrin-unknown,sboyer:5:1,73.521359
+Elapsed time: 65.082703 seconds (65.0) for sboyer:5:1
++!CSVLINE!+picrin-unknown,sboyer:5:1,65.082703
 
-real	1m13.656s
-user	1m13.620s
-sys	0m0.027s
+real	1m5.210s
+user	1m5.163s
+sys	0m0.040s
 
 Testing gcbench under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
@@ -682,22 +683,22 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 76.530078 seconds (77.0) for gcbench:20:1
-+!CSVLINE!+picrin-unknown,gcbench:20:1,76.530078
+Elapsed time: 71.60658 seconds (72.0) for gcbench:20:1
++!CSVLINE!+picrin-unknown,gcbench:20:1,71.60658
 
-real	1m16.691s
-user	1m16.643s
-sys	0m0.040s
+real	1m11.764s
+user	1m11.733s
+sys	0m0.023s
 
 Testing mperm under Picrin
 Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running perm20:10:2:1
-./bench: line 703: 19380 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 12972 Killed                  "${PICRIN}" "$1" < "$2"
 
-real	5m0.033s
-user	4m59.830s
+real	5m0.025s
+user	4m59.833s
 sys	0m0.167s
 
 Testing equal under Picrin
@@ -705,10 +706,10 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 703: 19504 Killed                  "${PICRIN}" "$1" < "$2"
+./bench: line 703: 13009 Killed                  "${PICRIN}" "$1" < "$2"
 
 real	4m59.998s
-user	4m59.970s
+user	4m59.973s
 sys	0m0.000s
 
 Testing bv2string under Picrin
@@ -716,9 +717,9 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Picrin-postlude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 119.216499 seconds (119.0) for bv2string:1000:1000:100
-+!CSVLINE!+picrin-unknown,bv2string:1000:1000:100,119.216499
+Elapsed time: 99.658496 seconds (99.0) for bv2string:1000:1000:100
++!CSVLINE!+picrin-unknown,bv2string:1000:1000:100,99.658496
 
-real	1m59.310s
-user	1m59.297s
+real	1m39.735s
+user	1m39.727s
 sys	0m0.000s

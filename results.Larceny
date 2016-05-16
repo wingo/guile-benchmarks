@@ -1,125 +1,125 @@
 
 ****************************
-Benchmarking Larceny on Sat 14 May 14:20:01 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+Benchmarking Larceny on Sun 15 May 10:25:52 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 5.064876 seconds (5.0) for browse:2000
-+!CSVLINE!+larceny-0.98,browse:2000,5.064876
+Elapsed time: 2.862146 seconds (3.0) for browse:2000
++!CSVLINE!+larceny-0.98,browse:2000,2.862146
 
-real	0m6.382s
-user	0m6.317s
-sys	0m0.010s
+real	0m3.964s
+user	0m3.903s
+sys	0m0.013s
 
 Testing deriv under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 3.160261 seconds (3.0) for deriv:10000000
-+!CSVLINE!+larceny-0.98,deriv:10000000,3.160261
+Elapsed time: 2.881498 seconds (2.0) for deriv:10000000
++!CSVLINE!+larceny-0.98,deriv:10000000,2.881498
 
-real	0m4.071s
-user	0m4.047s
-sys	0m0.013s
+real	0m3.740s
+user	0m3.703s
+sys	0m0.023s
 
 Testing destruc under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 3.37308 seconds (4.0) for destruc:600:50:4000
-+!CSVLINE!+larceny-0.98,destruc:600:50:4000,3.37308
+Elapsed time: 3.305098 seconds (4.0) for destruc:600:50:4000
++!CSVLINE!+larceny-0.98,destruc:600:50:4000,3.305098
 
-real	0m4.257s
-user	0m4.243s
-sys	0m0.003s
+real	0m4.161s
+user	0m4.137s
+sys	0m0.013s
 
 Testing diviter under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 3.824888 seconds (4.0) for diviter:1000:1000000
-+!CSVLINE!+larceny-0.98,diviter:1000:1000000,3.824888
+Elapsed time: 3.74149 seconds (4.0) for diviter:1000:1000000
++!CSVLINE!+larceny-0.98,diviter:1000:1000000,3.74149
 
-real	0m4.703s
-user	0m4.673s
-sys	0m0.020s
+real	0m4.581s
+user	0m4.557s
+sys	0m0.013s
 
 Testing divrec under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 5.184674 seconds (5.0) for divrec:1000:1000000
-+!CSVLINE!+larceny-0.98,divrec:1000:1000000,5.184674
+Elapsed time: 5.052494 seconds (5.0) for divrec:1000:1000000
++!CSVLINE!+larceny-0.98,divrec:1000:1000000,5.052494
 
-real	0m6.057s
-user	0m6.033s
-sys	0m0.013s
+real	0m5.899s
+user	0m5.867s
+sys	0m0.020s
 
 Testing puzzle under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 4.941269 seconds (5.0) for puzzle:1000
-+!CSVLINE!+larceny-0.98,puzzle:1000,4.941269
+Elapsed time: 4.784749 seconds (5.0) for puzzle:1000
++!CSVLINE!+larceny-0.98,puzzle:1000,4.784749
 
-real	0m5.890s
-user	0m5.870s
-sys	0m0.010s
+real	0m5.710s
+user	0m5.687s
+sys	0m0.013s
 
 Testing triangl under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 3.524274 seconds (4.0) for triangl:22:1:50
-+!CSVLINE!+larceny-0.98,triangl:22:1:50,3.524274
+Elapsed time: 3.53709 seconds (3.0) for triangl:22:1:50
++!CSVLINE!+larceny-0.98,triangl:22:1:50,3.53709
 
-real	0m4.440s
-user	0m4.417s
-sys	0m0.013s
+real	0m4.434s
+user	0m4.420s
+sys	0m0.003s
 
 Testing tak under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 2.42218 seconds (3.0) for tak:40:20:11:1
-+!CSVLINE!+larceny-0.98,tak:40:20:11:1,2.42218
+Elapsed time: 1.861402 seconds (2.0) for tak:40:20:11:1
++!CSVLINE!+larceny-0.98,tak:40:20:11:1,1.861402
 
-real	0m3.286s
-user	0m3.263s
-sys	0m0.013s
+real	0m2.711s
+user	0m2.690s
+sys	0m0.010s
 
 Testing takl under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 4.283011 seconds (4.0) for takl:40:20:12:1
-+!CSVLINE!+larceny-0.98,takl:40:20:12:1,4.283011
+Elapsed time: 4.231465 seconds (4.0) for takl:40:20:12:1
++!CSVLINE!+larceny-0.98,takl:40:20:12:1,4.231465
 
-real	0m5.160s
-user	0m5.147s
-sys	0m0.003s
+real	0m5.078s
+user	0m5.057s
+sys	0m0.010s
 
 Testing ntakl under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 3.719738 seconds (4.0) for ntakl:40:20:12:1
-+!CSVLINE!+larceny-0.98,ntakl:40:20:12:1,3.719738
+Elapsed time: 3.769308 seconds (4.0) for ntakl:40:20:12:1
++!CSVLINE!+larceny-0.98,ntakl:40:20:12:1,3.769308
 
-real	0m4.588s
-user	0m4.563s
+real	0m4.615s
+user	0m4.590s
 sys	0m0.013s
 
 Testing cpstak under Larceny
@@ -127,84 +127,84 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 4.047882 seconds (4.0) for cpstak:40:20:11:1
-+!CSVLINE!+larceny-0.98,cpstak:40:20:11:1,4.047882
+Elapsed time: 3.931905 seconds (4.0) for cpstak:40:20:11:1
++!CSVLINE!+larceny-0.98,cpstak:40:20:11:1,3.931905
 
-real	0m4.916s
-user	0m4.903s
-sys	0m0.003s
+real	0m4.776s
+user	0m4.743s
+sys	0m0.023s
 
 Testing ctak under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 7.249946 seconds (7.0) for ctak:32:16:8:1
-+!CSVLINE!+larceny-0.98,ctak:32:16:8:1,7.249946
+Elapsed time: 7.067543 seconds (7.0) for ctak:32:16:8:1
++!CSVLINE!+larceny-0.98,ctak:32:16:8:1,7.067543
 
-real	0m8.155s
-user	0m8.127s
-sys	0m0.020s
+real	0m7.918s
+user	0m7.900s
+sys	0m0.007s
 
 Testing fib under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 6.212391 seconds (6.0) for fib:40:5
-+!CSVLINE!+larceny-0.98,fib:40:5,6.212391
+Elapsed time: 5.37397 seconds (6.0) for fib:40:5
++!CSVLINE!+larceny-0.98,fib:40:5,5.37397
 
-real	0m7.071s
-user	0m7.050s
-sys	0m0.010s
+real	0m6.210s
+user	0m6.187s
+sys	0m0.013s
 
 Testing fibc under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 4.762845 seconds (4.0) for fibc:30:10
-+!CSVLINE!+larceny-0.98,fibc:30:10,4.762845
+Elapsed time: 4.633848 seconds (5.0) for fibc:30:10
++!CSVLINE!+larceny-0.98,fibc:30:10,4.633848
 
-real	0m5.625s
-user	0m5.610s
-sys	0m0.007s
+real	0m5.474s
+user	0m5.450s
+sys	0m0.013s
 
 Testing fibfp under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 3.020008 seconds (3.0) for fibfp:35.0:10
-+!CSVLINE!+larceny-0.98,fibfp:35.0:10,3.020008
+Elapsed time: 2.9213 seconds (3.0) for fibfp:35.0:10
++!CSVLINE!+larceny-0.98,fibfp:35.0:10,2.9213
 
-real	0m3.888s
-user	0m3.853s
-sys	0m0.023s
+real	0m3.763s
+user	0m3.747s
+sys	0m0.007s
 
 Testing sum under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 3.183638 seconds (3.0) for sum:10000:200000
-+!CSVLINE!+larceny-0.98,sum:10000:200000,3.183638
+Elapsed time: 3.243825 seconds (3.0) for sum:10000:200000
++!CSVLINE!+larceny-0.98,sum:10000:200000,3.243825
 
-real	0m4.042s
-user	0m4.030s
-sys	0m0.003s
+real	0m4.089s
+user	0m4.070s
+sys	0m0.007s
 
 Testing sumfp under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 4.541765 seconds (5.0) for sumfp:1000000.0:500
-+!CSVLINE!+larceny-0.98,sumfp:1000000.0:500,4.541765
+Elapsed time: 4.454452 seconds (4.0) for sumfp:1000000.0:500
++!CSVLINE!+larceny-0.98,sumfp:1000000.0:500,4.454452
 
-real	0m5.402s
-user	0m5.377s
-sys	0m0.017s
+real	0m5.294s
+user	0m5.270s
+sys	0m0.013s
 
 Testing fft under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
@@ -212,57 +212,57 @@ Compiling...
 Running...
 Running fft:65536:100
 Larceny Panic: Sys/semispace.c;145: Assertion failed.
-./bench: line 274: 10223 Aborted                 (core dumped) "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
+./bench: line 274:  9344 Aborted                 (core dumped) "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
 
-real	0m7.598s
-user	0m4.740s
-sys	0m1.157s
+real	0m5.497s
+user	0m2.720s
+sys	0m1.090s
 
 Testing mbrot under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 4.82333 seconds (5.0) for mbrot:75:1000
-+!CSVLINE!+larceny-0.98,mbrot:75:1000,4.82333
+Elapsed time: 4.690481 seconds (4.0) for mbrot:75:1000
++!CSVLINE!+larceny-0.98,mbrot:75:1000,4.690481
 
-real	0m5.697s
-user	0m5.657s
-sys	0m0.030s
+real	0m5.546s
+user	0m5.513s
+sys	0m0.023s
 
 Testing mbrotZ under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-./bench: line 274: 10271 Killed                  "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
+./bench: line 274:  9385 Killed                  "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
 
-real	5m0.009s
-user	4m59.810s
-sys	0m0.160s
+real	5m0.018s
+user	4m59.790s
+sys	0m0.180s
 
 Testing nucleic under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 3.630543 seconds (3.0) for nucleic:50
-+!CSVLINE!+larceny-0.98,nucleic:50,3.630543
+Elapsed time: 3.550573 seconds (3.0) for nucleic:50
++!CSVLINE!+larceny-0.98,nucleic:50,3.550573
 
-real	0m5.215s
-user	0m5.183s
-sys	0m0.020s
+real	0m5.102s
+user	0m5.073s
+sys	0m0.017s
 
 Testing pi under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running pi:50:500:50:2
-Elapsed time: 16.247518 seconds (17.0) for pi:50:500:50:2
-+!CSVLINE!+larceny-0.98,pi:50:500:50:2,16.247518
+Elapsed time: 15.870175 seconds (16.0) for pi:50:500:50:2
++!CSVLINE!+larceny-0.98,pi:50:500:50:2,15.870175
 
-real	0m17.211s
-user	0m17.190s
+real	0m16.761s
+user	0m16.740s
 sys	0m0.007s
 
 Testing pnpoly under Larceny
@@ -270,132 +270,132 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 5.312856 seconds (6.0) for pnpoly:1000000
-+!CSVLINE!+larceny-0.98,pnpoly:1000000,5.312856
+Elapsed time: 5.117931 seconds (5.0) for pnpoly:1000000
++!CSVLINE!+larceny-0.98,pnpoly:1000000,5.117931
 
-real	0m6.224s
-user	0m6.207s
-sys	0m0.007s
+real	0m5.980s
+user	0m5.953s
+sys	0m0.017s
 
 Testing ray under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 7.612436 seconds (7.0) for ray:50
-+!CSVLINE!+larceny-0.98,ray:50,7.612436
+Elapsed time: 4.966071 seconds (5.0) for ray:50
++!CSVLINE!+larceny-0.98,ray:50,4.966071
 
-real	0m8.684s
-user	0m8.637s
-sys	0m0.033s
+real	0m5.888s
+user	0m5.853s
+sys	0m0.020s
 
 Testing simplex under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 6.665671 seconds (6.0) for simplex:1000000
-+!CSVLINE!+larceny-0.98,simplex:1000000,6.665671
+Elapsed time: 6.40129 seconds (6.0) for simplex:1000000
++!CSVLINE!+larceny-0.98,simplex:1000000,6.40129
 
-real	0m7.744s
-user	0m7.713s
-sys	0m0.020s
+real	0m7.405s
+user	0m7.383s
+sys	0m0.010s
 
 Testing ack under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 4.880866 seconds (5.0) for ack:3:12:2
-+!CSVLINE!+larceny-0.98,ack:3:12:2,4.880866
+Elapsed time: 4.496529 seconds (5.0) for ack:3:12:2
++!CSVLINE!+larceny-0.98,ack:3:12:2,4.496529
 
-real	0m5.774s
-user	0m5.750s
-sys	0m0.013s
+real	0m5.348s
+user	0m5.327s
+sys	0m0.010s
 
 Testing array1 under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 3.33307 seconds (3.0) for array1:1000000:500
-+!CSVLINE!+larceny-0.98,array1:1000000:500,3.33307
+Elapsed time: 3.167862 seconds (3.0) for array1:1000000:500
++!CSVLINE!+larceny-0.98,array1:1000000:500,3.167862
 
-real	0m4.246s
-user	0m4.230s
-sys	0m0.007s
+real	0m4.017s
+user	0m3.993s
+sys	0m0.013s
 
 Testing string under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 3.920413 seconds (4.0) for string:500000:25
-+!CSVLINE!+larceny-0.98,string:500000:25,3.920413
+Elapsed time: 3.744063 seconds (3.0) for string:500000:25
++!CSVLINE!+larceny-0.98,string:500000:25,3.744063
 
-real	0m4.829s
-user	0m4.663s
-sys	0m0.153s
+real	0m4.583s
+user	0m4.387s
+sys	0m0.187s
 
 Testing sum1 under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 5.584983 seconds (6.0) for sum1:25
-+!CSVLINE!+larceny-0.98,sum1:25,5.584983
+Elapsed time: 5.284751 seconds (6.0) for sum1:25
++!CSVLINE!+larceny-0.98,sum1:25,5.284751
 
-real	0m6.488s
-user	0m6.447s
-sys	0m0.030s
+real	0m6.120s
+user	0m6.090s
+sys	0m0.020s
 
 Testing cat under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 3.834933 seconds (4.0) for cat:50
-+!CSVLINE!+larceny-0.98,cat:50,3.834933
+Elapsed time: 3.908733 seconds (4.0) for cat:50
++!CSVLINE!+larceny-0.98,cat:50,3.908733
 
-real	0m4.757s
-user	0m4.247s
-sys	0m0.500s
+real	0m4.803s
+user	0m4.250s
+sys	0m0.420s
 
 Testing tail under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running tail:25
-Elapsed time: 8.882223 seconds (9.0) for tail:25
-+!CSVLINE!+larceny-0.98,tail:25,8.882223
+Elapsed time: 4.828293 seconds (5.0) for tail:25
++!CSVLINE!+larceny-0.98,tail:25,4.828293
 
-real	0m9.807s
-user	0m9.323s
-sys	0m0.470s
+real	0m5.686s
+user	0m5.463s
+sys	0m0.210s
 
 Testing wc under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 2.944144 seconds (3.0) for wc:inputs/bib:50
-+!CSVLINE!+larceny-0.98,wc:inputs/bib:50,2.944144
+Elapsed time: 2.783566 seconds (3.0) for wc:inputs/bib:50
++!CSVLINE!+larceny-0.98,wc:inputs/bib:50,2.783566
 
-real	0m3.859s
-user	0m3.727s
-sys	0m0.120s
+real	0m3.626s
+user	0m3.537s
+sys	0m0.080s
 
 Testing read1 under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 6.305583 seconds (6.0) for read1:2500
-+!CSVLINE!+larceny-0.98,read1:2500,6.305583
+Elapsed time: 6.31842 seconds (6.0) for read1:2500
++!CSVLINE!+larceny-0.98,read1:2500,6.31842
 
-real	0m7.224s
-user	0m7.163s
-sys	0m0.050s
+real	0m7.189s
+user	0m7.143s
+sys	0m0.037s
 
 Testing compiler under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
@@ -404,12 +404,12 @@ Running...
 WARNING from compiler:
 ANF size: 60442
 Running compiler:2000
-Elapsed time: 4.343359 seconds (5.0) for compiler:2000
-+!CSVLINE!+larceny-0.98,compiler:2000,4.343359
+Elapsed time: 4.124895 seconds (4.0) for compiler:2000
++!CSVLINE!+larceny-0.98,compiler:2000,4.124895
 
-real	1m20.539s
-user	1m20.410s
-sys	0m0.110s
+real	1m17.087s
+user	1m16.977s
+sys	0m0.093s
 
 Testing conform under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
@@ -418,7 +418,7 @@ Running...
 
 Syntax violation: invalid reference
 
-No binding available for name in library ( program~1ndNFi~59)
+No binding available for name in library ( program~1ne3js~59)
 
 Form: name
 
@@ -446,7 +446,7 @@ Compound condition has these components:
 #<record &who>
     who : "invalid reference"
 #<record &message>
-    message : "No binding available for name in library (\x0;program~1ndNFi~59)"
+    message : "No binding available for name in library (\x0;program~1ne3js~59)"
 #<record &syntax>
     form : name
     subform : #f
@@ -460,213 +460,213 @@ larceny.heap, built on Sat Mar  7 01:06:50 EST 2015
 
 > 
 
-real	0m0.916s
-user	0m0.893s
-sys	0m0.013s
+real	0m0.836s
+user	0m0.820s
+sys	0m0.007s
 
 Testing dynamic under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 6.167423 seconds (6.0) for dynamic:500
-+!CSVLINE!+larceny-0.98,dynamic:500,6.167423
+Elapsed time: 5.647768 seconds (5.0) for dynamic:500
++!CSVLINE!+larceny-0.98,dynamic:500,5.647768
 
-real	0m8.207s
-user	0m8.123s
-sys	0m0.073s
+real	0m7.563s
+user	0m7.527s
+sys	0m0.023s
 
 Testing earley under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 4.708246 seconds (5.0) for earley:1
-+!CSVLINE!+larceny-0.98,earley:1,4.708246
+Elapsed time: 4.276423 seconds (5.0) for earley:1
++!CSVLINE!+larceny-0.98,earley:1,4.276423
 
-real	0m5.956s
-user	0m5.727s
-sys	0m0.220s
+real	0m5.428s
+user	0m5.210s
+sys	0m0.207s
 
 Testing graphs under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 5.628824 seconds (6.0) for graphs:7:3
-+!CSVLINE!+larceny-0.98,graphs:7:3,5.628824
+Elapsed time: 4.42946 seconds (4.0) for graphs:7:3
++!CSVLINE!+larceny-0.98,graphs:7:3,4.42946
 
-real	0m6.695s
-user	0m6.640s
-sys	0m0.043s
+real	0m5.381s
+user	0m5.353s
+sys	0m0.017s
 
 Testing lattice under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 5.056219 seconds (5.0) for lattice:44:10
-+!CSVLINE!+larceny-0.98,lattice:44:10,5.056219
+Elapsed time: 4.949308 seconds (5.0) for lattice:44:10
++!CSVLINE!+larceny-0.98,lattice:44:10,4.949308
 
-real	0m5.993s
-user	0m5.970s
-sys	0m0.013s
+real	0m5.849s
+user	0m5.830s
+sys	0m0.007s
 
 Testing matrix under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 3.076297 seconds (3.0) for matrix:5:5:2500
-+!CSVLINE!+larceny-0.98,matrix:5:5:2500,3.076297
+Elapsed time: 2.91536 seconds (3.0) for matrix:5:5:2500
++!CSVLINE!+larceny-0.98,matrix:5:5:2500,2.91536
 
-real	0m4.133s
-user	0m4.110s
-sys	0m0.013s
+real	0m3.910s
+user	0m3.873s
+sys	0m0.027s
 
 Testing maze under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 3.471532 seconds (3.0) for maze:20:7:10000
-+!CSVLINE!+larceny-0.98,maze:20:7:10000,3.471532
+Elapsed time: 3.326169 seconds (3.0) for maze:20:7:10000
++!CSVLINE!+larceny-0.98,maze:20:7:10000,3.326169
 
-real	0m4.567s
-user	0m4.550s
-sys	0m0.007s
+real	0m4.333s
+user	0m4.303s
+sys	0m0.017s
 
 Testing mazefun under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 3.809341 seconds (4.0) for mazefun:11:11:10000
-+!CSVLINE!+larceny-0.98,mazefun:11:11:10000,3.809341
+Elapsed time: 3.911624 seconds (4.0) for mazefun:11:11:10000
++!CSVLINE!+larceny-0.98,mazefun:11:11:10000,3.911624
 
-real	0m4.777s
-user	0m4.750s
-sys	0m0.017s
+real	0m4.801s
+user	0m4.787s
+sys	0m0.003s
 
 Testing nqueens under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 8.359145 seconds (8.0) for nqueens:13:10
-+!CSVLINE!+larceny-0.98,nqueens:13:10,8.359145
+Elapsed time: 8.286825 seconds (8.0) for nqueens:13:10
++!CSVLINE!+larceny-0.98,nqueens:13:10,8.286825
 
-real	0m9.276s
-user	0m9.247s
-sys	0m0.017s
+real	0m9.130s
+user	0m9.093s
+sys	0m0.027s
 
 Testing paraffins under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-Elapsed time: 4.649312 seconds (5.0) for paraffins:23:10
-+!CSVLINE!+larceny-0.98,paraffins:23:10,4.649312
+Elapsed time: 4.423288 seconds (5.0) for paraffins:23:10
++!CSVLINE!+larceny-0.98,paraffins:23:10,4.423288
 
-real	0m5.625s
-user	0m5.330s
-sys	0m0.283s
+real	0m5.333s
+user	0m5.057s
+sys	0m0.267s
 
 Testing parsing under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 5.72902 seconds (6.0) for parsing:2500
-+!CSVLINE!+larceny-0.98,parsing:2500,5.72902
+Elapsed time: 5.458494 seconds (5.0) for parsing:2500
++!CSVLINE!+larceny-0.98,parsing:2500,5.458494
 
-real	0m7.006s
-user	0m6.980s
-sys	0m0.017s
+real	0m6.666s
+user	0m6.650s
+sys	0m0.007s
 
 Testing peval under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 4.552455 seconds (5.0) for peval:2000
-+!CSVLINE!+larceny-0.98,peval:2000,4.552455
+Elapsed time: 4.389605 seconds (5.0) for peval:2000
++!CSVLINE!+larceny-0.98,peval:2000,4.389605
 
-real	0m5.837s
-user	0m5.807s
-sys	0m0.020s
+real	0m5.555s
+user	0m5.513s
+sys	0m0.030s
 
 Testing primes under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 2.546359 seconds (2.0) for primes:1000:10000
-+!CSVLINE!+larceny-0.98,primes:1000:10000,2.546359
+Elapsed time: 2.461423 seconds (2.0) for primes:1000:10000
++!CSVLINE!+larceny-0.98,primes:1000:10000,2.461423
 
-real	0m3.502s
-user	0m3.480s
-sys	0m0.010s
+real	0m3.308s
+user	0m3.290s
+sys	0m0.007s
 
 Testing quicksort under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 5.37687 seconds (6.0) for quicksort:10000:2500
-+!CSVLINE!+larceny-0.98,quicksort:10000:2500,5.37687
+Elapsed time: 5.228428 seconds (5.0) for quicksort:10000:2500
++!CSVLINE!+larceny-0.98,quicksort:10000:2500,5.228428
 
-real	0m6.319s
-user	0m6.307s
-sys	0m0.000s
+real	0m6.120s
+user	0m6.100s
+sys	0m0.010s
 
 Testing scheme under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 4.245993 seconds (5.0) for scheme:100000
-+!CSVLINE!+larceny-0.98,scheme:100000,4.245993
+Elapsed time: 4.463766 seconds (4.0) for scheme:100000
++!CSVLINE!+larceny-0.98,scheme:100000,4.463766
 
-real	0m6.069s
-user	0m6.037s
-sys	0m0.020s
+real	0m6.174s
+user	0m6.147s
+sys	0m0.017s
 
 Testing slatex under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 4.29457 seconds (4.0) for slatex:500
-+!CSVLINE!+larceny-0.98,slatex:500,4.29457
+Elapsed time: 3.635685 seconds (4.0) for slatex:500
++!CSVLINE!+larceny-0.98,slatex:500,3.635685
 
-real	0m7.492s
-user	0m5.947s
-sys	0m1.500s
+real	0m6.599s
+user	0m5.423s
+sys	0m1.140s
 
 Testing nboyer under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 3.342732 seconds (4.0) for nboyer:5:1
-+!CSVLINE!+larceny-0.98,nboyer:5:1,3.342732
+Elapsed time: 3.175417 seconds (3.0) for nboyer:5:1
++!CSVLINE!+larceny-0.98,nboyer:5:1,3.175417
 
-real	0m4.399s
-user	0m4.277s
-sys	0m0.113s
+real	0m4.191s
+user	0m4.040s
+sys	0m0.140s
 
 Testing sboyer under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 2.020846 seconds (2.0) for sboyer:5:1
-+!CSVLINE!+larceny-0.98,sboyer:5:1,2.020846
+Elapsed time: 1.888144 seconds (2.0) for sboyer:5:1
++!CSVLINE!+larceny-0.98,sboyer:5:1,1.888144
 
-real	0m3.067s
-user	0m3.030s
-sys	0m0.027s
+real	0m2.884s
+user	0m2.850s
+sys	0m0.023s
 
 Testing gcbench under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
@@ -707,45 +707,45 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 10.990836 seconds (11.0) for gcbench:20:1
-+!CSVLINE!+larceny-0.98,gcbench:20:1,10.990836
+Elapsed time: 10.484907 seconds (10.0) for gcbench:20:1
++!CSVLINE!+larceny-0.98,gcbench:20:1,10.484907
 
-real	0m11.965s
-user	0m11.860s
-sys	0m0.093s
+real	0m11.387s
+user	0m11.287s
+sys	0m0.090s
 
 Testing mperm under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running perm20:10:2:1
-Elapsed time: 8.008198 seconds (8.0) for perm20:10:2:1
-+!CSVLINE!+larceny-0.98,perm20:10:2:1,8.008198
+Elapsed time: 6.538619 seconds (6.0) for perm20:10:2:1
++!CSVLINE!+larceny-0.98,perm20:10:2:1,6.538619
 
-real	0m9.367s
-user	0m9.053s
-sys	0m0.303s
+real	0m7.820s
+user	0m7.520s
+sys	0m0.287s
 
 Testing equal under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 3.86117 seconds (4.0) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+larceny-0.98,equal:100:100:8:1000:2000:5000,3.86117
+Elapsed time: 4.061358 seconds (4.0) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+larceny-0.98,equal:100:100:8:1000:2000:5000,4.061358
 
-real	0m4.777s
-user	0m4.767s
-sys	0m0.000s
+real	0m5.131s
+user	0m5.110s
+sys	0m0.010s
 
 Testing bv2string under Larceny
 Including postlude /home/nex/src/r7rs-benchmarks/src/Larceny-postlude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 4.627694 seconds (4.0) for bv2string:1000:1000:100
-+!CSVLINE!+larceny-0.98,bv2string:1000:1000:100,4.627694
+Elapsed time: 4.710549 seconds (5.0) for bv2string:1000:1000:100
++!CSVLINE!+larceny-0.98,bv2string:1000:1000:100,4.710549
 
-real	0m5.543s
-user	0m5.520s
-sys	0m0.013s
+real	0m5.583s
+user	0m5.563s
+sys	0m0.010s
