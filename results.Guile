@@ -781,3 +781,784 @@ Elapsed time: 8.11464886 seconds (8) for bv2string:1000:1000:100
 real	0m8.131s
 user	0m8.310s
 sys	0m0.000s
+
+****************************
+Benchmarking Guile on Mon 16 May 21:45:45 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/browse.scm.go'
+Running...
+Running browse:2000
+Elapsed time: 14.478339042 seconds (14) for browse:2000
++!CSVLINE!+guile-2.1.2.1-43a03,browse:2000,14.478339042
+
+real	0m14.490s
+user	0m19.580s
+sys	0m0.577s
+
+Testing deriv under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/deriv.scm.go'
+Running...
+Running deriv:10000000
+Elapsed time: 18.233455358 seconds (18) for deriv:10000000
++!CSVLINE!+guile-2.1.2.1-43a03,deriv:10000000,18.233455358
+
+real	0m18.243s
+user	0m32.390s
+sys	0m1.800s
+
+Testing destruc under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/destruc.scm.go'
+Running...
+Running destruc:600:50:4000
+Elapsed time: 8.977758691 seconds (9) for destruc:600:50:4000
++!CSVLINE!+guile-2.1.2.1-43a03,destruc:600:50:4000,8.977758691
+
+real	0m8.987s
+user	0m12.617s
+sys	0m0.453s
+
+Testing diviter under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/diviter.scm.go'
+Running...
+Running diviter:1000:1000000
+Elapsed time: 8.402943843 seconds (8) for diviter:1000:1000000
++!CSVLINE!+guile-2.1.2.1-43a03,diviter:1000:1000000,8.402943843
+
+real	0m8.412s
+user	0m14.573s
+sys	0m0.810s
+
+Testing divrec under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/divrec.scm.go'
+Running...
+Running divrec:1000:1000000
+Elapsed time: 16.183335983 seconds (16) for divrec:1000:1000000
++!CSVLINE!+guile-2.1.2.1-43a03,divrec:1000:1000000,16.183335983
+
+real	0m16.193s
+user	0m22.420s
+sys	0m0.880s
+
+Testing puzzle under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/puzzle.scm.go'
+Running...
+Running puzzle:1000
+Elapsed time: 17.360912446 seconds (18) for puzzle:1000
++!CSVLINE!+guile-2.1.2.1-43a03,puzzle:1000,17.360912446
+
+real	0m17.370s
+user	0m26.370s
+sys	0m1.183s
+
+Testing triangl under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/triangl.scm.go'
+Running...
+Running triangl:22:1:50
+Elapsed time: 17.147927764 seconds (17) for triangl:22:1:50
++!CSVLINE!+guile-2.1.2.1-43a03,triangl:22:1:50,17.147927764
+
+real	0m17.157s
+user	0m17.160s
+sys	0m0.007s
+
+Testing tak under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/tak.scm.go'
+Running...
+Running tak:40:20:11:1
+Elapsed time: 18.079511313 seconds (18) for tak:40:20:11:1
++!CSVLINE!+guile-2.1.2.1-43a03,tak:40:20:11:1,18.079511313
+
+real	0m18.089s
+user	0m18.087s
+sys	0m0.000s
+
+Testing takl under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/takl.scm.go'
+Running...
+Running takl:40:20:12:1
+Elapsed time: 32.92942702 seconds (33) for takl:40:20:12:1
++!CSVLINE!+guile-2.1.2.1-43a03,takl:40:20:12:1,32.92942702
+
+real	0m32.939s
+user	0m32.937s
+sys	0m0.000s
+
+Testing ntakl under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/ntakl.scm.go'
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 33.022061856 seconds (33) for ntakl:40:20:12:1
++!CSVLINE!+guile-2.1.2.1-43a03,ntakl:40:20:12:1,33.022061856
+
+real	0m33.032s
+user	0m33.030s
+sys	0m0.000s
+
+Testing cpstak under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/cpstak.scm.go'
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 38.59007646 seconds (39) for cpstak:40:20:11:1
++!CSVLINE!+guile-2.1.2.1-43a03,cpstak:40:20:11:1,38.59007646
+
+real	0m38.600s
+user	1m3.500s
+sys	0m3.453s
+
+Testing ctak under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/ctak.scm.go'
+Running...
+Running ctak:32:16:8:1
+./bench: line 597: 32317 Killed                  ${GUILE} "$1" < "$2"
+
+real	1m51.491s
+user	4m48.360s
+sys	0m21.317s
+
+Testing fib under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/fib.scm.go'
+Running...
+Running fib:40:5
+Elapsed time: 38.305931003 seconds (38) for fib:40:5
++!CSVLINE!+guile-2.1.2.1-43a03,fib:40:5,38.305931003
+
+real	0m38.315s
+user	0m38.313s
+sys	0m0.000s
+
+Testing fibc under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/fibc.scm.go'
+Running...
+Running fibc:30:10
+Elapsed time: 75.121168254 seconds (75) for fibc:30:10
++!CSVLINE!+guile-2.1.2.1-43a03,fibc:30:10,75.121168254
+
+real	1m15.131s
+user	3m2.160s
+sys	0m12.980s
+
+Testing fibfp under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/fibfp.scm.go'
+Running...
+Running fibfp:35.0:10
+Elapsed time: 20.061358066 seconds (20) for fibfp:35.0:10
++!CSVLINE!+guile-2.1.2.1-43a03,fibfp:35.0:10,20.061358066
+
+real	0m20.071s
+user	0m31.183s
+sys	0m1.313s
+
+Testing sum under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/sum.scm.go'
+Running...
+Running sum:10000:200000
+Elapsed time: 15.029203615 seconds (15) for sum:10000:200000
++!CSVLINE!+guile-2.1.2.1-43a03,sum:10000:200000,15.029203615
+
+real	0m15.039s
+user	0m15.037s
+sys	0m0.010s
+
+Testing sumfp under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/sumfp.scm.go'
+Running...
+Running sumfp:1000000.0:500
+Elapsed time: 28.363384991 seconds (28) for sumfp:1000000.0:500
++!CSVLINE!+guile-2.1.2.1-43a03,sumfp:1000000.0:500,28.363384991
+
+real	0m28.373s
+user	0m52.923s
+sys	0m3.167s
+
+Testing fft under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/fft.scm.go'
+Running...
+Running fft:65536:100
+./bench: line 597: 32492 Killed                  ${GUILE} "$1" < "$2"
+
+real	2m37.789s
+user	4m46.800s
+sys	0m16.133s
+
+Testing mbrot under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/mbrot.scm.go'
+Running...
+Running mbrot:75:1000
+Elapsed time: 37.954285932 seconds (38) for mbrot:75:1000
++!CSVLINE!+guile-2.1.2.1-43a03,mbrot:75:1000,37.954285932
+
+real	0m37.964s
+user	1m15.427s
+sys	0m4.717s
+
+Testing mbrotZ under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/mbrotZ.scm.go'
+Running...
+Running mbrotZ:75:1000
+./bench: line 597: 32558 Killed                  ${GUILE} "$1" < "$2"
+
+real	2m37.253s
+user	4m52.893s
+sys	0m15.977s
+
+Testing nucleic under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/nucleic.scm.go'
+Running...
+Running nucleic:50
+Elapsed time: 19.137600747 seconds (19) for nucleic:50
++!CSVLINE!+guile-2.1.2.1-43a03,nucleic:50,19.137600747
+
+real	0m19.149s
+user	0m31.583s
+sys	0m1.583s
+
+Testing pi under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/pi.scm.go'
+Running...
+Running pi:50:500:50:2
+Elapsed time: 0.957711048 seconds (1) for pi:50:500:50:2
++!CSVLINE!+guile-2.1.2.1-43a03,pi:50:500:50:2,0.957711048
+
+real	0m0.968s
+user	0m1.967s
+sys	0m0.380s
+
+Testing pnpoly under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/pnpoly.scm.go'
+Running...
+Running pnpoly:1000000
+Elapsed time: 22.144996966 seconds (22) for pnpoly:1000000
++!CSVLINE!+guile-2.1.2.1-43a03,pnpoly:1000000,22.144996966
+
+real	0m22.155s
+user	0m31.287s
+sys	0m1.030s
+
+Testing ray under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/ray.scm.go'
+Running...
+Running ray:50
+Elapsed time: 23.097330928 seconds (23) for ray:50
++!CSVLINE!+guile-2.1.2.1-43a03,ray:50,23.097330928
+
+real	0m23.107s
+user	0m35.837s
+sys	0m1.620s
+
+Testing simplex under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/simplex.scm.go'
+Running...
+Running simplex:1000000
+Elapsed time: 26.029848719 seconds (26) for simplex:1000000
++!CSVLINE!+guile-2.1.2.1-43a03,simplex:1000000,26.029848719
+
+real	0m26.039s
+user	0m36.443s
+sys	0m1.077s
+
+Testing ack under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/ack.scm.go'
+Running...
+Running ack:3:12:2
+Elapsed time: 28.180739888 seconds (28) for ack:3:12:2
++!CSVLINE!+guile-2.1.2.1-43a03,ack:3:12:2,28.180739888
+
+real	0m28.190s
+user	0m28.187s
+sys	0m0.000s
+
+Testing array1 under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/array1.scm.go'
+Running...
+Running array1:1000000:500
+Elapsed time: 10.540612815 seconds (11) for array1:1000000:500
++!CSVLINE!+guile-2.1.2.1-43a03,array1:1000000:500,10.540612815
+
+real	0m10.550s
+user	0m13.513s
+sys	0m0.143s
+
+Testing string under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/string.scm.go'
+Running...
+Running string:500000:25
+Elapsed time: 0.132410376 seconds (0) for string:500000:25
++!CSVLINE!+guile-2.1.2.1-43a03,string:500000:25,0.132410376
+
+real	0m0.142s
+user	0m0.433s
+sys	0m0.030s
+
+Testing sum1 under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/sum1.scm.go'
+Running...
+Running sum1:25
+Elapsed time: 4.064897881 seconds (4) for sum1:25
++!CSVLINE!+guile-2.1.2.1-43a03,sum1:25,4.064897881
+
+real	0m4.075s
+user	0m4.563s
+sys	0m0.030s
+
+Testing cat under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/cat.scm.go'
+Running...
+Running cat:50
+Elapsed time: 20.038497737 seconds (20) for cat:50
++!CSVLINE!+guile-2.1.2.1-43a03,cat:50,20.038497737
+
+real	0m20.050s
+user	0m19.883s
+sys	0m0.153s
+
+Testing tail under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/tail.scm.go'
+Running...
+Running tail:25
+Backtrace:
+In unknown file:
+   ?: 10 [apply-smob/1 #<catch-closure 2097c80>]
+In ice-9/boot-9.scm:
+ 732: 9 [call-with-prompt _ _ #<procedure default-prompt-handler (k proc)>]
+In ice-9/eval.scm:
+ 608: 8 [_ #(#(#<directory # 20842d0>))]
+In ice-9/boot-9.scm:
+2610: 7 [save-module-excursion _]
+4093: 6 [_]
+In unknown file:
+   ?: 5 [load-compiled/vm "/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/tail.scm.go"]
+In /tmp/larcenous/Guile/tail.scm:
+ 104: 4 [run-r7rs-benchmark "tail:25" 25 ...]
+In ice-9/boot-9.scm:
+1517: 3 [call-with-input-file _ _ #:binary _ #:encoding _ #:guess-encoding _]
+1535: 2 [call-with-output-file _ _ #:binary _ #:encoding _]
+ 289: 1 [for-each1 #]
+In /tmp/larcenous/Guile/tail.scm:
+  38: 0 [_ _]
+
+/tmp/larcenous/Guile/tail.scm:38:12: /tmp/larcenous/Guile/tail.scm:38:12: In procedure module-lookup: Unbound variable: write-string
+
+real	0m0.096s
+user	0m0.140s
+sys	0m0.003s
+
+Testing wc under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/wc.scm.go'
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 19.510814769 seconds (20) for wc:inputs/bib:50
++!CSVLINE!+guile-2.1.2.1-43a03,wc:inputs/bib:50,19.510814769
+
+real	0m19.520s
+user	0m19.503s
+sys	0m0.013s
+
+Testing read1 under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/read1.scm.go'
+Running...
+Running read1:2500
+Elapsed time: 5.353100032 seconds (5) for read1:2500
++!CSVLINE!+guile-2.1.2.1-43a03,read1:2500,5.353100032
+
+real	0m5.364s
+user	0m5.797s
+sys	0m0.047s
+
+Testing compiler under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/compiler.scm.go'
+Running...
+Running compiler:2000
+Elapsed time: 14.86674131 seconds (15) for compiler:2000
++!CSVLINE!+guile-2.1.2.1-43a03,compiler:2000,14.86674131
+
+real	0m14.881s
+user	0m16.563s
+sys	0m0.107s
+
+Testing conform under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/conform.scm.go'
+Running...
+Running conform:500
+Elapsed time: 30.088424997 seconds (30) for conform:500
++!CSVLINE!+guile-2.1.2.1-43a03,conform:500,30.088424997
+
+real	0m30.098s
+user	0m31.537s
+sys	0m0.150s
+
+Testing dynamic under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/dynamic.scm.go'
+Running...
+Running dynamic:500
+Elapsed time: 11.490523133 seconds (11) for dynamic:500
++!CSVLINE!+guile-2.1.2.1-43a03,dynamic:500,11.490523133
+
+real	0m11.501s
+user	0m12.537s
+sys	0m0.080s
+
+Testing earley under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/earley.scm.go'
+Running...
+Running earley:1
+Elapsed time: 6.408079431 seconds (7) for earley:1
++!CSVLINE!+guile-2.1.2.1-43a03,earley:1,6.408079431
+
+real	0m6.432s
+user	0m14.807s
+sys	0m0.260s
+
+Testing graphs under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/graphs.scm.go'
+Running...
+Running graphs:7:3
+Elapsed time: 25.950402299 seconds (26) for graphs:7:3
++!CSVLINE!+guile-2.1.2.1-43a03,graphs:7:3,25.950402299
+
+real	0m25.961s
+user	0m40.257s
+sys	0m1.770s
+
+Testing lattice under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/lattice.scm.go'
+Running...
+Running lattice:44:10
+Elapsed time: 30.948699674 seconds (31) for lattice:44:10
++!CSVLINE!+guile-2.1.2.1-43a03,lattice:44:10,30.948699674
+
+real	0m30.958s
+user	0m32.643s
+sys	0m0.220s
+
+Testing matrix under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/matrix.scm.go'
+Running...
+Running matrix:5:5:2500
+Elapsed time: 12.831756012 seconds (13) for matrix:5:5:2500
++!CSVLINE!+guile-2.1.2.1-43a03,matrix:5:5:2500,12.831756012
+
+real	0m12.841s
+user	0m18.113s
+sys	0m0.697s
+
+Testing maze under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/maze.scm.go'
+Running...
+Running maze:20:7:10000
+Elapsed time: 12.416964866 seconds (13) for maze:20:7:10000
++!CSVLINE!+guile-2.1.2.1-43a03,maze:20:7:10000,12.416964866
+
+real	0m12.427s
+user	0m13.080s
+sys	0m0.033s
+
+Testing mazefun under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/mazefun.scm.go'
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 18.931207033 seconds (19) for mazefun:11:11:10000
++!CSVLINE!+guile-2.1.2.1-43a03,mazefun:11:11:10000,18.931207033
+
+real	0m18.941s
+user	0m23.163s
+sys	0m0.493s
+
+Testing nqueens under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/nqueens.scm.go'
+Running...
+Running nqueens:13:10
+Elapsed time: 26.103330378 seconds (27) for nqueens:13:10
++!CSVLINE!+guile-2.1.2.1-43a03,nqueens:13:10,26.103330378
+
+real	0m26.113s
+user	0m34.147s
+sys	0m0.993s
+
+Testing paraffins under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/paraffins.scm.go'
+Running...
+Running paraffins:23:10
+Elapsed time: 6.341425014 seconds (6) for paraffins:23:10
++!CSVLINE!+guile-2.1.2.1-43a03,paraffins:23:10,6.341425014
+
+real	0m6.362s
+user	0m16.357s
+sys	0m0.777s
+
+Testing parsing under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/parsing.scm.go'
+Running...
+Running parsing:2500
+Elapsed time: 25.308126636 seconds (25) for parsing:2500
++!CSVLINE!+guile-2.1.2.1-43a03,parsing:2500,25.308126636
+
+real	0m25.317s
+user	0m28.543s
+sys	0m0.357s
+
+Testing peval under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/peval.scm.go'
+Running...
+Running peval:2000
+Elapsed time: 20.930497658 seconds (21) for peval:2000
++!CSVLINE!+guile-2.1.2.1-43a03,peval:2000,20.930497658
+
+real	0m20.940s
+user	0m26.070s
+sys	0m0.720s
+
+Testing primes under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/primes.scm.go'
+Running...
+Running primes:1000:10000
+Elapsed time: 7.263439349 seconds (7) for primes:1000:10000
++!CSVLINE!+guile-2.1.2.1-43a03,primes:1000:10000,7.263439349
+
+real	0m7.273s
+user	0m9.230s
+sys	0m0.247s
+
+Testing quicksort under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/quicksort.scm.go'
+Running...
+Running quicksort:10000:2500
+Elapsed time: 17.510058413 seconds (17) for quicksort:10000:2500
++!CSVLINE!+guile-2.1.2.1-43a03,quicksort:10000:2500,17.510058413
+
+real	0m17.533s
+user	0m18.280s
+sys	0m0.090s
+
+Testing scheme under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/scheme.scm.go'
+Running...
+Running scheme:100000
+Elapsed time: 21.375733233 seconds (22) for scheme:100000
++!CSVLINE!+guile-2.1.2.1-43a03,scheme:100000,21.375733233
+
+real	0m21.386s
+user	0m24.440s
+sys	0m0.377s
+
+Testing slatex under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/slatex.scm.go'
+Running...
+Running slatex:500
+Elapsed time: 8.59822157 seconds (8) for slatex:500
++!CSVLINE!+guile-2.1.2.1-43a03,slatex:500,8.59822157
+
+real	0m8.608s
+user	0m7.990s
+sys	0m1.400s
+
+Testing nboyer under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/nboyer.scm.go'
+Running...
+Running nboyer:5:1
+Elapsed time: 6.681939819 seconds (6) for nboyer:5:1
++!CSVLINE!+guile-2.1.2.1-43a03,nboyer:5:1,6.681939819
+
+real	0m6.696s
+user	0m9.133s
+sys	0m0.067s
+
+Testing sboyer under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/sboyer.scm.go'
+Running...
+Running sboyer:5:1
+Elapsed time: 7.298026741 seconds (7) for sboyer:5:1
++!CSVLINE!+guile-2.1.2.1-43a03,sboyer:5:1,7.298026741
+
+real	0m7.310s
+user	0m7.850s
+sys	0m0.017s
+
+Testing gcbench under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/gcbench.scm.go'
+Running...
+The garbage collector should touch about 128 megabytes of heap storage.
+The use of more or less memory will skew the results.
+Running gcbench:20:1
+Garbage Collector Test
+ Stretching memory with a binary tree of depth 20
+ Total memory available= ???????? bytes  Free memory= ???????? bytes
+GCBench: Main
+ Creating a long-lived binary tree of depth 18
+ Creating a long-lived array of 2097148 inexact reals
+ Total memory available= ???????? bytes  Free memory= ???????? bytes
+Creating 135300 trees of depth 4
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 33026 trees of depth 6
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 8208 trees of depth 8
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 2048 trees of depth 10
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 512 trees of depth 12
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 128 trees of depth 14
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 32 trees of depth 16
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 8 trees of depth 18
+GCBench: Top down construction
+GCBench: Bottom up construction
+ Total memory available= ???????? bytes  Free memory= ???????? bytes
+Elapsed time: 4.844883924 seconds (5) for gcbench:20:1
++!CSVLINE!+guile-2.1.2.1-43a03,gcbench:20:1,4.844883924
+
+real	0m4.856s
+user	0m6.930s
+sys	0m0.037s
+
+Testing mperm under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/mperm.scm.go'
+Running...
+Running perm20:10:2:1
+Elapsed time: 12.714937315 seconds (13) for perm20:10:2:1
++!CSVLINE!+guile-2.1.2.1-43a03,perm20:10:2:1,12.714937315
+
+real	0m13.700s
+user	0m33.713s
+sys	0m0.557s
+
+Testing equal under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/equal.scm.go'
+Running...
+Running equal:100:100:8:1000:2000:5000
+./bench: line 597:  1071 Killed                  ${GUILE} "$1" < "$2"
+
+real	5m0.000s
+user	4m59.977s
+sys	0m0.000s
+
+Testing bv2string under Guile
+Including prelude /home/nex/src/r7rs-benchmarks/src/Guile-prelude.scm
+Compiling...
+wrote `/home/nex/src/r7rs-benchmarks/.cache/guile/ccache/2.2-LE-8-3.7/tmp/larcenous/Guile/bv2string.scm.go'
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 5.957626231 seconds (6) for bv2string:1000:1000:100
++!CSVLINE!+guile-2.1.2.1-43a03,bv2string:1000:1000:100,5.957626231
+
+real	0m5.967s
+user	0m6.193s
+sys	0m0.030s
