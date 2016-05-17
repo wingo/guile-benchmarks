@@ -1,7 +1,5 @@
 *~
-*.csv
 .mosh
 .cache
-results.*
 outputs/*.output
 outputs/*.tex
