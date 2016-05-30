@@ -1,0 +1,942 @@
+
+****************************
+Benchmarking Vicare on Mon 30 May 03:33:04 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running browse:2000
+Elapsed time: 13.293127 seconds (14) for browse:2000
++!CSVLINE!+vicare-0.4d0,browse:2000,13.293127
+
+real	0m13.373s
+user	0m11.817s
+sys	0m1.553s
+
+Testing deriv under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running deriv:10000000
+Elapsed time: 2.071378 seconds (2) for deriv:10000000
++!CSVLINE!+vicare-0.4d0,deriv:10000000,2.071378
+
+real	0m2.144s
+user	0m2.123s
+sys	0m0.020s
+
+Testing destruc under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running destruc:600:50:4000
+Elapsed time: 51.156159 seconds (51) for destruc:600:50:4000
++!CSVLINE!+vicare-0.4d0,destruc:600:50:4000,51.156159
+
+real	0m51.231s
+user	0m44.757s
+sys	0m6.470s
+
+Testing diviter under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running diviter:1000:1000000
+Elapsed time: 34.347525000000005 seconds (35) for diviter:1000:1000000
++!CSVLINE!+vicare-0.4d0,diviter:1000:1000000,34.347525000000005
+
+real	0m34.424s
+user	0m29.890s
+sys	0m4.530s
+
+Testing divrec under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running divrec:1000:1000000
+Elapsed time: 4.591175 seconds (5) for divrec:1000:1000000
++!CSVLINE!+vicare-0.4d0,divrec:1000:1000000,4.591175
+
+real	0m4.710s
+user	0m4.663s
+sys	0m0.043s
+
+Testing puzzle under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running puzzle:1000
+Elapsed time: 64.388288 seconds (64) for puzzle:1000
++!CSVLINE!+vicare-0.4d0,puzzle:1000,64.388288
+
+real	1m4.463s
+user	0m56.907s
+sys	0m7.550s
+
+Testing triangl under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running triangl:22:1:50
+Elapsed time: 28.901326 seconds (29) for triangl:22:1:50
++!CSVLINE!+vicare-0.4d0,triangl:22:1:50,28.901326
+
+real	0m28.977s
+user	0m25.910s
+sys	0m3.063s
+
+Testing tak under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running tak:40:20:11:1
+Elapsed time: 2.513802 seconds (3) for tak:40:20:11:1
++!CSVLINE!+vicare-0.4d0,tak:40:20:11:1,2.513802
+
+real	0m2.591s
+user	0m2.557s
+sys	0m0.033s
+
+Testing takl under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running takl:40:20:12:1
+Elapsed time: 22.810448 seconds (23) for takl:40:20:12:1
++!CSVLINE!+vicare-0.4d0,takl:40:20:12:1,22.810448
+
+real	0m22.886s
+user	0m22.857s
+sys	0m0.027s
+
+Testing ntakl under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 6.211286 seconds (6) for ntakl:40:20:12:1
++!CSVLINE!+vicare-0.4d0,ntakl:40:20:12:1,6.211286
+
+real	0m6.287s
+user	0m6.270s
+sys	0m0.013s
+
+Testing cpstak under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 4.957363 seconds (4) for cpstak:40:20:11:1
++!CSVLINE!+vicare-0.4d0,cpstak:40:20:11:1,4.957363
+
+real	0m5.030s
+user	0m4.990s
+sys	0m0.040s
+
+Testing ctak under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 3.060405 seconds (3) for ctak:32:16:8:1
++!CSVLINE!+vicare-0.4d0,ctak:32:16:8:1,3.060405
+
+real	0m3.137s
+user	0m2.643s
+sys	0m0.490s
+
+Testing fib under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running fib:40:5
+Elapsed time: 4.732361 seconds (5) for fib:40:5
++!CSVLINE!+vicare-0.4d0,fib:40:5,4.732361
+
+real	0m4.807s
+user	0m4.777s
+sys	0m0.027s
+
+Testing fibc under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running fibc:30:10
+Elapsed time: 2.421368 seconds (2) for fibc:30:10
++!CSVLINE!+vicare-0.4d0,fibc:30:10,2.421368
+
+real	0m2.496s
+user	0m2.193s
+sys	0m0.300s
+
+Testing fibfp under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running fibfp:35.0:10
+Elapsed time: 7.101333 seconds (7) for fibfp:35.0:10
++!CSVLINE!+vicare-0.4d0,fibfp:35.0:10,7.101333
+
+real	0m7.176s
+user	0m7.150s
+sys	0m0.023s
+
+Testing sum under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running sum:10000:200000
+Elapsed time: 4.620373 seconds (4) for sum:10000:200000
++!CSVLINE!+vicare-0.4d0,sum:10000:200000,4.620373
+
+real	0m4.695s
+user	0m4.680s
+sys	0m0.013s
+
+Testing sumfp under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running sumfp:1e6:500
+Elapsed time: 12.477442 seconds (13) for sumfp:1e6:500
++!CSVLINE!+vicare-0.4d0,sumfp:1e6:500,12.477442
+
+real	0m12.554s
+user	0m12.527s
+sys	0m0.023s
+
+Testing fft under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running fft:65536:100
+./bench: line 504: 25863 Killed                  ${VICARE} --binary-program "$1" < "$2"
+
+real	4m59.999s
+user	4m56.703s
+sys	0m3.273s
+
+Testing mbrot under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running mbrot:75:1000
+Elapsed time: 21.443586 seconds (22) for mbrot:75:1000
++!CSVLINE!+vicare-0.4d0,mbrot:75:1000,21.443586
+
+real	0m21.545s
+user	0m21.510s
+sys	0m0.027s
+
+Testing mbrotZ under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running mbrotZ:75:1000
+./bench: line 504: 25985 Killed                  ${VICARE} --binary-program "$1" < "$2"
+
+real	5m0.000s
+user	4m59.517s
+sys	0m0.463s
+
+Testing nucleic under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running nucleic:50
+Elapsed time: 7.014714 seconds (7) for nucleic:50
++!CSVLINE!+vicare-0.4d0,nucleic:50,7.014714
+
+real	0m7.143s
+user	0m7.103s
+sys	0m0.037s
+
+Testing pi under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: expander
+   2. &message: "multiple definitions of identifier"
+   3. &syntax:
+       form: #<syntax expr=div mark*=(top) line=18 column=10 source=/tmp/larcenous/Vicare/pi.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/pi.sps"
+       byte: 571
+       character: 562
+       line: 18
+       column: 10
+   5. &macro-expansion-trace: #<syntax expr=div mark*=(top) line=18 column=10 source=/tmp/larcenous/Vicare/pi.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/pi.sps">)
+
+real	0m0.087s
+user	0m0.047s
+sys	0m0.037s
+
+Testing pnpoly under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running pnpoly:1000000
+Elapsed time: 17.920422 seconds (18) for pnpoly:1000000
++!CSVLINE!+vicare-0.4d0,pnpoly:1000000,17.920422
+
+real	0m18.003s
+user	0m17.960s
+sys	0m0.040s
+
+Testing ray under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running ray:50
+Elapsed time: 10.965234 seconds (11) for ray:50
++!CSVLINE!+vicare-0.4d0,ray:50,10.965234
+
+real	0m11.080s
+user	0m11.017s
+sys	0m0.057s
+
+Testing simplex under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running simplex:1000000
+Elapsed time: 25.471429 seconds (25) for simplex:1000000
++!CSVLINE!+vicare-0.4d0,simplex:1000000,25.471429
+
+real	0m25.567s
+user	0m22.980s
+sys	0m2.583s
+
+Testing ack under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running ack:3:12:2
+Elapsed time: 4.823737 seconds (5) for ack:3:12:2
++!CSVLINE!+vicare-0.4d0,ack:3:12:2,4.823737
+
+real	0m4.935s
+user	0m4.903s
+sys	0m0.030s
+
+Testing array1 under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running array1:1000000:500
+Elapsed time: 80.69568000000001 seconds (81) for array1:1000000:500
++!CSVLINE!+vicare-0.4d0,array1:1000000:500,80.69568000000001
+
+real	1m20.816s
+user	1m9.407s
+sys	0m11.400s
+
+Testing string under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running string:500000:25
+Elapsed time: 3.225329 seconds (4) for string:500000:25
++!CSVLINE!+vicare-0.4d0,string:500000:25,3.225329
+
+real	0m3.320s
+user	0m2.957s
+sys	0m0.360s
+
+Testing sum1 under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running sum1:25
+Elapsed time: 11.355363 seconds (11) for sum1:25
++!CSVLINE!+vicare-0.4d0,sum1:25,11.355363
+
+real	0m11.429s
+user	0m11.387s
+sys	0m0.037s
+
+Testing cat under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running cat:50
+Elapsed time: 15.159044 seconds (15) for cat:50
++!CSVLINE!+vicare-0.4d0,cat:50,15.159044
+
+real	0m15.233s
+user	0m14.987s
+sys	0m0.243s
+
+Testing tail under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: read-line
+   2. &message: "unbound identifier"
+   3. &undefined
+   4. &syntax:
+       form: #<syntax expr=(read-line port) mark*=(top) line=22 column=12 source=/tmp/larcenous/Vicare/tail.sps>
+       subform: #<syntax expr=read-line mark*=(top) line=22 column=13 source=/tmp/larcenous/Vicare/tail.sps>
+   5. &source-position:
+       port-id: "/tmp/larcenous/Vicare/tail.sps"
+       byte: 803
+       character: 794
+       line: 22
+       column: 12
+   6. &macro-expansion-trace: #<syntax expr=(read-line port) mark*=(top) line=22 column=12 source=/tmp/larcenous/Vicare/tail.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/tail.sps">)
+
+real	0m0.052s
+user	0m0.023s
+sys	0m0.027s
+
+Testing wc under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 6.756515 seconds (6) for wc:inputs/bib:50
++!CSVLINE!+vicare-0.4d0,wc:inputs/bib:50,6.756515
+
+real	0m6.828s
+user	0m6.727s
+sys	0m0.100s
+
+Testing read1 under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running read1:2500
+Elapsed time: 26.162739 seconds (26) for read1:2500
++!CSVLINE!+vicare-0.4d0,read1:2500,26.162739
+
+real	0m26.235s
+user	0m25.960s
+sys	0m0.270s
+
+Testing compiler under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: expander
+   2. &message: "multiple definitions of identifier"
+   3. &syntax:
+       form: #<syntax expr=bitwise-not mark*=(top) line=14 column=10 source=/tmp/larcenous/Vicare/compiler.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/compiler.sps"
+       byte: 437
+       character: 428
+       line: 14
+       column: 10
+   5. &macro-expansion-trace: #<syntax expr=bitwise-not mark*=(top) line=14 column=10 source=/tmp/larcenous/Vicare/compiler.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/compiler.sps">)
+
+real	0m0.078s
+user	0m0.040s
+sys	0m0.037s
+
+Testing conform under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: name
+   2. &message: "unbound identifier"
+   3. &undefined
+   4. &syntax:
+       form: #<syntax expr=(name node) mark*=(top) line=80 column=23 source=/tmp/larcenous/Vicare/conform.sps>
+       subform: #<syntax expr=name mark*=(top) line=80 column=24 source=/tmp/larcenous/Vicare/conform.sps>
+   5. &source-position:
+       port-id: "/tmp/larcenous/Vicare/conform.sps"
+       byte: 2552
+       character: 2543
+       line: 80
+       column: 23
+   6. &macro-expansion-trace: #<syntax expr=(name node) mark*=(top) line=80 column=23 source=/tmp/larcenous/Vicare/conform.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/conform.sps">)
+
+real	0m0.060s
+user	0m0.040s
+sys	0m0.017s
+
+Testing dynamic under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running dynamic:500
+Elapsed time: 24.516532 seconds (24) for dynamic:500
++!CSVLINE!+vicare-0.4d0,dynamic:500,24.516532
+
+real	0m24.647s
+user	0m24.540s
+sys	0m0.103s
+
+Testing earley under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running earley:1
+Elapsed time: 6.726961 seconds (6) for earley:1
++!CSVLINE!+vicare-0.4d0,earley:1,6.726961
+
+real	0m6.968s
+user	0m5.947s
+sys	0m1.013s
+
+Testing graphs under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running graphs:7:3
+Elapsed time: 27.034632 seconds (27) for graphs:7:3
++!CSVLINE!+vicare-0.4d0,graphs:7:3,27.034632
+
+real	0m27.151s
+user	0m25.260s
+sys	0m1.887s
+
+Testing lattice under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running lattice:44:10
+Elapsed time: 22.082513 seconds (22) for lattice:44:10
++!CSVLINE!+vicare-0.4d0,lattice:44:10,22.082513
+
+real	0m22.193s
+user	0m22.133s
+sys	0m0.053s
+
+Testing matrix under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: expander
+   2. &message: "multiple definitions of identifier"
+   3. &syntax:
+       form: #<syntax expr=div mark*=(top) line=16 column=10 source=/tmp/larcenous/Vicare/matrix.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/matrix.sps"
+       byte: 509
+       character: 500
+       line: 16
+       column: 10
+   5. &macro-expansion-trace: #<syntax expr=div mark*=(top) line=16 column=10 source=/tmp/larcenous/Vicare/matrix.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/matrix.sps">)
+
+real	0m0.079s
+user	0m0.040s
+sys	0m0.037s
+
+Testing maze under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: expander
+   2. &message: "multiple definitions of identifier"
+   3. &syntax:
+       form: #<syntax expr=bitwise-not mark*=(top) line=16 column=10 source=/tmp/larcenous/Vicare/maze.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/maze.sps"
+       byte: 539
+       character: 530
+       line: 16
+       column: 10
+   5. &macro-expansion-trace: #<syntax expr=bitwise-not mark*=(top) line=16 column=10 source=/tmp/larcenous/Vicare/maze.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/maze.sps">)
+
+real	0m0.074s
+user	0m0.050s
+sys	0m0.023s
+
+Testing mazefun under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 7.015777 seconds (7) for mazefun:11:11:10000
++!CSVLINE!+vicare-0.4d0,mazefun:11:11:10000,7.015777
+
+real	0m7.127s
+user	0m7.097s
+sys	0m0.027s
+
+Testing nqueens under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running nqueens:13:10
+Elapsed time: 10.353371 seconds (10) for nqueens:13:10
++!CSVLINE!+vicare-0.4d0,nqueens:13:10,10.353371
+
+real	0m10.439s
+user	0m10.417s
+sys	0m0.017s
+
+Testing paraffins under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: expander
+   2. &message: "multiple definitions of identifier"
+   3. &syntax:
+       form: #<syntax expr=div mark*=(top) line=16 column=10 source=/tmp/larcenous/Vicare/paraffins.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/paraffins.sps"
+       byte: 543
+       character: 534
+       line: 16
+       column: 10
+   5. &macro-expansion-trace: #<syntax expr=div mark*=(top) line=16 column=10 source=/tmp/larcenous/Vicare/paraffins.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/paraffins.sps">)
+
+real	0m0.079s
+user	0m0.043s
+sys	0m0.033s
+
+Testing parsing under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: string-set!
+   2. &message: "unbound identifier"
+   3. &undefined
+   4. &syntax:
+       form: #<syntax expr=(string-set! string_accumulator string_accumulator_length
+  nextCharacter) mark*=(top) line=849 column=18 source=/tmp/larcenous/Vicare/parsing.sps>
+       subform: #<syntax expr=string-set! mark*=(top) line=849 column=19 source=/tmp/larcenous/Vicare/parsing.sps>
+   5. &source-position:
+       port-id: "/tmp/larcenous/Vicare/parsing.sps"
+       byte: 23925
+       character: 23910
+       line: 849
+       column: 18
+   6. &macro-expansion-trace: #<syntax expr=(string-set! string_accumulator string_accumulator_length
+  nextCharacter) mark*=(top) line=849 column=18 source=/tmp/larcenous/Vicare/parsing.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/parsing.sps">)
+
+real	0m0.055s
+user	0m0.037s
+sys	0m0.017s
+
+Testing peval under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running peval:2000
+Elapsed time: 6.567902 seconds (7) for peval:2000
++!CSVLINE!+vicare-0.4d0,peval:2000,6.567902
+
+real	0m6.646s
+user	0m6.583s
+sys	0m0.060s
+
+Testing primes under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running primes:1000:10000
+Elapsed time: 8.575467 seconds (8) for primes:1000:10000
++!CSVLINE!+vicare-0.4d0,primes:1000:10000,8.575467
+
+real	0m8.686s
+user	0m8.653s
+sys	0m0.030s
+
+Testing quicksort under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: expander
+   2. &message: "multiple definitions of identifier"
+   3. &syntax:
+       form: #<syntax expr=partition mark*=(top) line=30 column=10 source=/tmp/larcenous/Vicare/quicksort.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/quicksort.sps"
+       byte: 953
+       character: 944
+       line: 30
+       column: 10
+   5. &macro-expansion-trace: #<syntax expr=partition mark*=(top) line=30 column=10 source=/tmp/larcenous/Vicare/quicksort.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/quicksort.sps">)
+
+real	0m0.065s
+user	0m0.040s
+sys	0m0.023s
+
+Testing scheme under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: string-set!
+   2. &message: "unbound identifier"
+   3. &undefined
+   4. &syntax:
+       form: #<syntax expr=string-set! mark*=(top) line=1008 column=43 source=/tmp/larcenous/Vicare/scheme.sps>
+       subform: #<syntax expr=string-set! mark*=(top) line=1008 column=43 source=/tmp/larcenous/Vicare/scheme.sps>
+   5. &source-position:
+       port-id: "/tmp/larcenous/Vicare/scheme.sps"
+       byte: 35231
+       character: 35218
+       line: 1008
+       column: 43
+   6. &macro-expansion-trace: #<syntax expr=string-set! mark*=(top) line=1008 column=43 source=/tmp/larcenous/Vicare/scheme.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/scheme.sps">)
+
+real	0m0.066s
+user	0m0.047s
+sys	0m0.017s
+
+Testing slatex under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: string-set!
+   2. &message: "unbound identifier"
+   3. &undefined
+   4. &syntax:
+       form: #<syntax expr=(string-set! (vector-ref line slatex.=notab) (- i 1)
+  slatex.&end-string) mark*=(top) line=537 column=31 source=/tmp/larcenous/Vicare/slatex.sps>
+       subform: #<syntax expr=string-set! mark*=(top) line=537 column=32 source=/tmp/larcenous/Vicare/slatex.sps>
+   5. &source-position:
+       port-id: "/tmp/larcenous/Vicare/slatex.sps"
+       byte: 16180
+       character: 16168
+       line: 537
+       column: 31
+   6. &macro-expansion-trace: #<syntax expr=(string-set! (vector-ref line slatex.=notab) (- i 1)
+  slatex.&end-string) mark*=(top) line=537 column=31 source=/tmp/larcenous/Vicare/slatex.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/slatex.sps">)
+
+real	0m0.081s
+user	0m0.043s
+sys	0m0.037s
+
+Testing nboyer under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: tag-assert-and-return
+   2. &message: "expand-time return values signature mismatch"
+   3. &expand-time-retvals-signature-violation:
+       expected-signature: #["retvals-signature" (#<syntax expr=setup-boyer mark*=(top)>)]
+       returned-signature: #["retvals-signature" (#<syntax expr=#{g0 |NGJENU$bKN>US3?!|} mark*=(top)>)]
+   4. &syntax:
+       form: (#<syntax expr=tag-assert-and-return mark*=(top)>
+  (#<syntax expr=setup-boyer mark*=(top)>)
+  #<syntax expr=(lambda () (set! *symbol-records-alist* '())
+  (set! if-constructor (symbol->symbol-record 'if))
+  (set! false-term (translate-term '(f)))
+  (set! true-term (translate-term '(t)))
+  (setup)) mark*=(top) line=765 column=9 source=/tmp/larcenous/Vicare/nboyer.sps>)
+       subform: #<syntax expr=(lambda () (set! *symbol-records-alist* '())
+  (set! if-constructor (symbol->symbol-record 'if))
+  (set! false-term (translate-term '(f)))
+  (set! true-term (translate-term '(t)))
+  (setup)) mark*=(top) line=765 column=9 source=/tmp/larcenous/Vicare/nboyer.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/nboyer.sps">)
+
+real	0m0.068s
+user	0m0.043s
+sys	0m0.023s
+
+Testing sboyer under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: chi-application
+   2. &message: "more given operands than expected arguments"
+   3. &syntax:
+       form: #<syntax expr=(test-boyer alist term (hide count input)) mark*=(top) line=81 column=8 source=/tmp/larcenous/Vicare/sboyer.sps>
+       subform: #f
+   4. &expected-arguments-count: 0
+   5. &given-operands-count: 3
+   6. &source-position:
+       port-id: "/tmp/larcenous/Vicare/sboyer.sps"
+       byte: 3506
+       character: 3497
+       line: 81
+       column: 8
+   7. &macro-expansion-trace: #<syntax expr=(test-boyer alist term (hide count input)) mark*=(top) line=81 column=8 source=/tmp/larcenous/Vicare/sboyer.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/sboyer.sps">)
+
+real	0m0.078s
+user	0m0.050s
+sys	0m0.027s
+
+Testing gcbench under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &who: make-node-raw
+   2. &message: "not a valid DEFINE-RECORD-TYPE keyword"
+   3. &syntax:
+       form: #<syntax expr=make-node-raw mark*=(#f top) line=86 column=8 source=/tmp/larcenous/Vicare/gcbench.sps>
+       subform: #f
+   4. &source-position:
+       port-id: "/tmp/larcenous/Vicare/gcbench.sps"
+       byte: 3860
+       character: 3851
+       line: 86
+       column: 8
+   5. &macro-expansion-trace: #<syntax expr=make-node-raw mark*=(#f top) line=86 column=8 source=/tmp/larcenous/Vicare/gcbench.sps>
+Running...
+*** Vicare: unhandled exception:
+ Condition components:
+   1. &assertion
+   2. &i/o-wrong-fasl-header-error
+   3. &who: fasl-read
+   4. &message: "while reading fasl header expected #\\#, got #\\(\n"
+   5. &irritants: (#<input-port (binary) "/tmp/larcenous/Vicare/gcbench.sps">)
+
+real	0m0.079s
+user	0m0.057s
+sys	0m0.020s
+
+Testing mperm under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running perm20:10:2:1
+Elapsed time: 43.060276 seconds (43) for perm20:10:2:1
++!CSVLINE!+vicare-0.4d0,perm20:10:2:1,43.060276
+
+real	0m45.389s
+user	0m39.423s
+sys	0m5.957s
+
+Testing equal under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: 3.629794 seconds (3) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+vicare-0.4d0,equal:100:100:8:1000:2000:5000,3.629794
+
+real	0m3.745s
+user	0m3.710s
+sys	0m0.033s
+
+Testing bv2string under Vicare
+Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
+Compiling...
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 23.015838 seconds (23) for bv2string:1000:1000:100
++!CSVLINE!+vicare-0.4d0,bv2string:1000:1000:100,23.015838
+
+real	0m23.131s
+user	0m22.400s
+sys	0m0.727s

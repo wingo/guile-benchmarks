@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Bigloo on Mon 16 May 22:45:12 CEST 2016 under Linux nexion 4.5.1-1-ARCH #1 SMP PREEMPT Thu Apr 14 19:19:32 CEST 2016 x86_64 GNU/Linux
+Benchmarking Bigloo on Sun 29 May 21:29:58 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -13,11 +13,11 @@ File "/tmp/larcenous/Bigloo/browse.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running browse:2000
-Elapsed time: 3.022253056 seconds (#e3) for browse:2000
-+!CSVLINE!+bigloo-4.2c,browse:2000,3.022253056
+Elapsed time: 3.14883712 seconds (#e4) for browse:2000
++!CSVLINE!+bigloo-4.2c,browse:2000,3.14883712
 
-real	0m3.033s
-user	0m3.023s
+real	0m3.161s
+user	0m3.153s
 sys	0m0.000s
 
 Testing deriv under Bigloo
@@ -31,12 +31,12 @@ File "/tmp/larcenous/Bigloo/deriv.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running deriv:10000000
-Elapsed time: 3.433820928 seconds (#e3) for deriv:10000000
-+!CSVLINE!+bigloo-4.2c,deriv:10000000,3.433820928
+Elapsed time: 4.730843904 seconds (#e4) for deriv:10000000
++!CSVLINE!+bigloo-4.2c,deriv:10000000,4.730843904
 
-real	0m3.437s
-user	0m3.433s
-sys	0m0.000s
+real	0m4.734s
+user	0m4.730s
+sys	0m0.003s
 
 Testing destruc under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -49,11 +49,11 @@ File "/tmp/larcenous/Bigloo/destruc.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running destruc:600:50:4000
-Elapsed time: 4.378526976 seconds (#e5) for destruc:600:50:4000
-+!CSVLINE!+bigloo-4.2c,destruc:600:50:4000,4.378526976
+Elapsed time: 4.6139328 seconds (#e4) for destruc:600:50:4000
++!CSVLINE!+bigloo-4.2c,destruc:600:50:4000,4.6139328
 
-real	0m4.382s
-user	0m4.380s
+real	0m4.617s
+user	0m4.617s
 sys	0m0.000s
 
 Testing diviter under Bigloo
@@ -67,11 +67,11 @@ File "/tmp/larcenous/Bigloo/diviter.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running diviter:1000:1000000
-Elapsed time: 3.150134016 seconds (#e3) for diviter:1000:1000000
-+!CSVLINE!+bigloo-4.2c,diviter:1000:1000000,3.150134016
+Elapsed time: 3.985414144 seconds (#e4) for diviter:1000:1000000
++!CSVLINE!+bigloo-4.2c,diviter:1000:1000000,3.985414144
 
-real	0m3.153s
-user	0m3.150s
+real	0m3.989s
+user	0m3.987s
 sys	0m0.000s
 
 Testing divrec under Bigloo
@@ -85,12 +85,12 @@ File "/tmp/larcenous/Bigloo/divrec.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running divrec:1000:1000000
-Elapsed time: 4.854529024 seconds (#e5) for divrec:1000:1000000
-+!CSVLINE!+bigloo-4.2c,divrec:1000:1000000,4.854529024
+Elapsed time: 5.30086912 seconds (#e5) for divrec:1000:1000000
++!CSVLINE!+bigloo-4.2c,divrec:1000:1000000,5.30086912
 
-real	0m4.857s
-user	0m4.853s
-sys	0m0.003s
+real	0m5.304s
+user	0m5.300s
+sys	0m0.000s
 
 Testing puzzle under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -103,11 +103,11 @@ File "/tmp/larcenous/Bigloo/puzzle.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running puzzle:1000
-Elapsed time: 9.602877952 seconds (#e10) for puzzle:1000
-+!CSVLINE!+bigloo-4.2c,puzzle:1000,9.602877952
+Elapsed time: 11.435591168 seconds (#e12) for puzzle:1000
++!CSVLINE!+bigloo-4.2c,puzzle:1000,11.435591168
 
-real	0m9.606s
-user	0m9.600s
+real	0m11.439s
+user	0m11.433s
 sys	0m0.000s
 
 Testing triangl under Bigloo
@@ -121,11 +121,11 @@ File "/tmp/larcenous/Bigloo/triangl.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running triangl:22:1:50
-Elapsed time: 3.62567808 seconds (#e4) for triangl:22:1:50
-+!CSVLINE!+bigloo-4.2c,triangl:22:1:50,3.62567808
+Elapsed time: 4.044524032 seconds (#e4) for triangl:22:1:50
++!CSVLINE!+bigloo-4.2c,triangl:22:1:50,4.044524032
 
-real	0m3.628s
-user	0m3.627s
+real	0m4.048s
+user	0m4.047s
 sys	0m0.000s
 
 Testing tak under Bigloo
@@ -139,12 +139,12 @@ File "/tmp/larcenous/Bigloo/tak.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running tak:40:20:11:1
-Elapsed time: 5.579092992 seconds (#e6) for tak:40:20:11:1
-+!CSVLINE!+bigloo-4.2c,tak:40:20:11:1,5.579092992
+Elapsed time: 5.880743936 seconds (#e6) for tak:40:20:11:1
++!CSVLINE!+bigloo-4.2c,tak:40:20:11:1,5.880743936
 
-real	0m5.582s
-user	0m5.580s
-sys	0m0.000s
+real	0m5.884s
+user	0m5.880s
+sys	0m0.003s
 
 Testing takl under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -157,11 +157,11 @@ File "/tmp/larcenous/Bigloo/takl.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running takl:40:20:12:1
-Elapsed time: 2.059184128 seconds (#e2) for takl:40:20:12:1
-+!CSVLINE!+bigloo-4.2c,takl:40:20:12:1,2.059184128
+Elapsed time: 2.166534912 seconds (#e2) for takl:40:20:12:1
++!CSVLINE!+bigloo-4.2c,takl:40:20:12:1,2.166534912
 
-real	0m2.062s
-user	0m2.060s
+real	0m2.170s
+user	0m2.167s
 sys	0m0.000s
 
 Testing ntakl under Bigloo
@@ -175,12 +175,12 @@ File "/tmp/larcenous/Bigloo/ntakl.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 2.094417152 seconds (#e2) for ntakl:40:20:12:1
-+!CSVLINE!+bigloo-4.2c,ntakl:40:20:12:1,2.094417152
+Elapsed time: 2.129441024 seconds (#e3) for ntakl:40:20:12:1
++!CSVLINE!+bigloo-4.2c,ntakl:40:20:12:1,2.129441024
 
-real	0m2.097s
-user	0m2.093s
-sys	0m0.003s
+real	0m2.134s
+user	0m2.133s
+sys	0m0.000s
 
 Testing cpstak under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -193,11 +193,11 @@ File "/tmp/larcenous/Bigloo/cpstak.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 17.202540032 seconds (#e17) for cpstak:40:20:11:1
-+!CSVLINE!+bigloo-4.2c,cpstak:40:20:11:1,17.202540032
+Elapsed time: 23.535638016 seconds (#e23) for cpstak:40:20:11:1
++!CSVLINE!+bigloo-4.2c,cpstak:40:20:11:1,23.535638016
 
-real	0m17.205s
-user	0m17.203s
+real	0m23.539s
+user	0m23.537s
 sys	0m0.000s
 
 Testing ctak under Bigloo
@@ -211,12 +211,11 @@ File "/tmp/larcenous/Bigloo/ctak.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 257.666236928 seconds (#e257) for ctak:32:16:8:1
-+!CSVLINE!+bigloo-4.2c,ctak:32:16:8:1,257.666236928
+./bench: line 556:  6316 Killed                  "$1" < "$2"
 
-real	4m17.669s
-user	4m17.613s
-sys	0m0.033s
+real	5m0.000s
+user	4m59.807s
+sys	0m0.173s
 
 Testing fib under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -229,12 +228,12 @@ File "/tmp/larcenous/Bigloo/fib.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running fib:40:5
-Elapsed time: 8.187734016 seconds (#e8) for fib:40:5
-+!CSVLINE!+bigloo-4.2c,fib:40:5,8.187734016
+Elapsed time: 8.678893824 seconds (#e8) for fib:40:5
++!CSVLINE!+bigloo-4.2c,fib:40:5,8.678893824
 
-real	0m8.190s
-user	0m8.187s
-sys	0m0.000s
+real	0m8.683s
+user	0m8.677s
+sys	0m0.003s
 
 Testing fibc under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -247,12 +246,12 @@ File "/tmp/larcenous/Bigloo/fibc.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running fibc:30:10
-Elapsed time: 49.614466048 seconds (#e49) for fibc:30:10
-+!CSVLINE!+bigloo-4.2c,fibc:30:10,49.614466048
+Elapsed time: 79.55352704 seconds (#e79) for fibc:30:10
++!CSVLINE!+bigloo-4.2c,fibc:30:10,79.55352704
 
-real	0m49.617s
-user	0m49.610s
-sys	0m0.003s
+real	1m19.557s
+user	1m19.500s
+sys	0m0.050s
 
 Testing fibfp under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -265,12 +264,12 @@ File "/tmp/larcenous/Bigloo/fibfp.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running fibfp:35.0:10
-Elapsed time: 5.913554176 seconds (#e6) for fibfp:35.0:10
-+!CSVLINE!+bigloo-4.2c,fibfp:35.0:10,5.913554176
+Elapsed time: 7.746515968 seconds (#e8) for fibfp:35.0:10
++!CSVLINE!+bigloo-4.2c,fibfp:35.0:10,7.746515968
 
-real	0m5.916s
-user	0m5.913s
-sys	0m0.000s
+real	0m7.751s
+user	0m7.743s
+sys	0m0.007s
 
 Testing sum under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -283,11 +282,11 @@ File "/tmp/larcenous/Bigloo/sum.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running sum:10000:200000
-Elapsed time: 12.878622208 seconds (#e13) for sum:10000:200000
-+!CSVLINE!+bigloo-4.2c,sum:10000:200000,12.878622208
+Elapsed time: 13.201871104 seconds (#e13) for sum:10000:200000
++!CSVLINE!+bigloo-4.2c,sum:10000:200000,13.201871104
 
-real	0m12.882s
-user	0m12.880s
+real	0m13.207s
+user	0m13.203s
 sys	0m0.000s
 
 Testing sumfp under Bigloo
@@ -301,12 +300,12 @@ File "/tmp/larcenous/Bigloo/sumfp.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 10.738427904 seconds (#e11) for sumfp:1000000.0:500
-+!CSVLINE!+bigloo-4.2c,sumfp:1000000.0:500,10.738427904
+Elapsed time: 15.347748864 seconds (#e15) for sumfp:1000000.0:500
++!CSVLINE!+bigloo-4.2c,sumfp:1000000.0:500,15.347748864
 
-real	0m10.741s
-user	0m10.740s
-sys	0m0.000s
+real	0m15.352s
+user	0m15.347s
+sys	0m0.003s
 
 Testing fft under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -319,11 +318,11 @@ File "/tmp/larcenous/Bigloo/fft.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running fft:65536:100
-./bench: line 541:  1731 Killed                  "$1" < "$2"
+./bench: line 556:  6602 Killed                  "$1" < "$2"
 
 real	4m59.999s
-user	4m59.947s
-sys	0m0.027s
+user	4m59.937s
+sys	0m0.040s
 
 Testing mbrot under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -336,12 +335,12 @@ File "/tmp/larcenous/Bigloo/mbrot.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running mbrot:75:1000
-Elapsed time: 13.728918784 seconds (#e13) for mbrot:75:1000
-+!CSVLINE!+bigloo-4.2c,mbrot:75:1000,13.728918784
+Elapsed time: 15.813965824 seconds (#e16) for mbrot:75:1000
++!CSVLINE!+bigloo-4.2c,mbrot:75:1000,15.813965824
 
-real	0m13.732s
-user	0m13.730s
-sys	0m0.000s
+real	0m15.817s
+user	0m15.807s
+sys	0m0.007s
 
 Testing mbrotZ under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -378,7 +377,7 @@ File "/tmp/larcenous/Bigloo/mbrotZ.scm", line 59, character 1733:
 Unbound variable -- -1.0-0.5i
 4 errors occured, ending ...
 Running...
-./bench: line 542: /tmp/larcenous/Bigloo/mbrotZ.exe: No such file or directory
+./bench: line 557: /tmp/larcenous/Bigloo/mbrotZ.exe: No such file or directory
 
 real	0m0.000s
 user	0m0.000s
@@ -501,7 +500,7 @@ File "/tmp/larcenous/Bigloo/pi.scm", line 118, character 3253:
 Unbound variable -- square
 14 errors occured, ending ...
 Running...
-./bench: line 542: /tmp/larcenous/Bigloo/pi.exe: No such file or directory
+./bench: line 557: /tmp/larcenous/Bigloo/pi.exe: No such file or directory
 
 real	0m0.000s
 user	0m0.000s
@@ -518,11 +517,11 @@ File "/tmp/larcenous/Bigloo/pnpoly.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running pnpoly:1000000
-Elapsed time: 12.502878976 seconds (#e13) for pnpoly:1000000
-+!CSVLINE!+bigloo-4.2c,pnpoly:1000000,12.502878976
+Elapsed time: 13.445923072 seconds (#e13) for pnpoly:1000000
++!CSVLINE!+bigloo-4.2c,pnpoly:1000000,13.445923072
 
-real	0m12.506s
-user	0m12.503s
+real	0m13.449s
+user	0m13.447s
 sys	0m0.000s
 
 Testing ray under Bigloo
@@ -536,12 +535,12 @@ File "/tmp/larcenous/Bigloo/ray.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running ray:50
-Elapsed time: 6.563003136 seconds (#e7) for ray:50
-+!CSVLINE!+bigloo-4.2c,ray:50,6.563003136
+Elapsed time: 6.087539968 seconds (#e6) for ray:50
++!CSVLINE!+bigloo-4.2c,ray:50,6.087539968
 
-real	0m6.566s
-user	0m6.553s
-sys	0m0.010s
+real	0m6.090s
+user	0m6.087s
+sys	0m0.003s
 
 Testing simplex under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -554,11 +553,11 @@ File "/tmp/larcenous/Bigloo/simplex.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running simplex:1000000
-Elapsed time: 5.09400576 seconds (#e5) for simplex:1000000
-+!CSVLINE!+bigloo-4.2c,simplex:1000000,5.09400576
+Elapsed time: 4.985043968 seconds (#e5) for simplex:1000000
++!CSVLINE!+bigloo-4.2c,simplex:1000000,4.985043968
 
-real	0m5.097s
-user	0m5.093s
+real	0m4.988s
+user	0m4.987s
 sys	0m0.000s
 
 Testing ack under Bigloo
@@ -572,12 +571,12 @@ File "/tmp/larcenous/Bigloo/ack.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running ack:3:12:2
-Elapsed time: 7.681991168 seconds (#e7) for ack:3:12:2
-+!CSVLINE!+bigloo-4.2c,ack:3:12:2,7.681991168
+Elapsed time: 8.03287296 seconds (#e8) for ack:3:12:2
++!CSVLINE!+bigloo-4.2c,ack:3:12:2,8.03287296
 
-real	0m7.685s
-user	0m7.683s
-sys	0m0.000s
+real	0m8.036s
+user	0m8.030s
+sys	0m0.003s
 
 Testing array1 under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -590,12 +589,12 @@ File "/tmp/larcenous/Bigloo/array1.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running array1:1000000:500
-Elapsed time: 5.847418112 seconds (#e6) for array1:1000000:500
-+!CSVLINE!+bigloo-4.2c,array1:1000000:500,5.847418112
+Elapsed time: 6.32895616 seconds (#e7) for array1:1000000:500
++!CSVLINE!+bigloo-4.2c,array1:1000000:500,6.32895616
 
-real	0m5.851s
-user	0m5.847s
-sys	0m0.000s
+real	0m6.332s
+user	0m6.327s
+sys	0m0.003s
 
 Testing string under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -608,12 +607,12 @@ File "/tmp/larcenous/Bigloo/string.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running string:500000:25
-Elapsed time: 0.09751014400000001 seconds (#e0) for string:500000:25
-+!CSVLINE!+bigloo-4.2c,string:500000:25,0.09751014400000001
+Elapsed time: 0.105790976 seconds (#e0) for string:500000:25
++!CSVLINE!+bigloo-4.2c,string:500000:25,0.105790976
 
-real	0m0.100s
-user	0m0.097s
-sys	0m0.003s
+real	0m0.109s
+user	0m0.107s
+sys	0m0.000s
 
 Testing sum1 under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -626,12 +625,12 @@ File "/tmp/larcenous/Bigloo/sum1.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running sum1:25
-Elapsed time: 0.545268992 seconds (#e0) for sum1:25
-+!CSVLINE!+bigloo-4.2c,sum1:25,0.545268992
+Elapsed time: 0.566442752 seconds (#e1) for sum1:25
++!CSVLINE!+bigloo-4.2c,sum1:25,0.566442752
 
-real	0m0.548s
-user	0m0.543s
-sys	0m0.003s
+real	0m0.569s
+user	0m0.553s
+sys	0m0.013s
 
 Testing cat under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -644,12 +643,12 @@ File "/tmp/larcenous/Bigloo/cat.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running cat:50
-Elapsed time: 1.88402688 seconds (#e2) for cat:50
-+!CSVLINE!+bigloo-4.2c,cat:50,1.88402688
+Elapsed time: 2.833735936 seconds (#e3) for cat:50
++!CSVLINE!+bigloo-4.2c,cat:50,2.833735936
 
-real	0m1.887s
-user	0m1.763s
-sys	0m0.120s
+real	0m2.837s
+user	0m2.627s
+sys	0m0.207s
 
 Testing tail under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -662,12 +661,12 @@ File "/tmp/larcenous/Bigloo/tail.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running tail:25
-Elapsed time: 0.635828992 seconds (#e1) for tail:25
-+!CSVLINE!+bigloo-4.2c,tail:25,0.635828992
+Elapsed time: 0.673394944 seconds (#e0) for tail:25
++!CSVLINE!+bigloo-4.2c,tail:25,0.673394944
 
-real	0m0.639s
-user	0m0.577s
-sys	0m0.060s
+real	0m0.676s
+user	0m0.593s
+sys	0m0.080s
 
 Testing wc under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -680,12 +679,12 @@ File "/tmp/larcenous/Bigloo/wc.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.777686016 seconds (#e2) for wc:inputs/bib:50
-+!CSVLINE!+bigloo-4.2c,wc:inputs/bib:50,1.777686016
+Elapsed time: 1.841662976 seconds (#e1) for wc:inputs/bib:50
++!CSVLINE!+bigloo-4.2c,wc:inputs/bib:50,1.841662976
 
-real	0m1.781s
-user	0m1.770s
-sys	0m0.010s
+real	0m1.845s
+user	0m1.817s
+sys	0m0.027s
 
 Testing read1 under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -698,12 +697,12 @@ File "/tmp/larcenous/Bigloo/read1.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running read1:2500
-Elapsed time: 0.527731968 seconds (#e1) for read1:2500
-+!CSVLINE!+bigloo-4.2c,read1:2500,0.527731968
+Elapsed time: 0.521113088 seconds (#e0) for read1:2500
++!CSVLINE!+bigloo-4.2c,read1:2500,0.521113088
 
-real	0m0.531s
-user	0m0.530s
-sys	0m0.000s
+real	0m0.524s
+user	0m0.507s
+sys	0m0.017s
 
 Testing compiler under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -788,7 +787,7 @@ File "/tmp/larcenous/Bigloo/compiler.scm", line 8429, character 346404:
 Unbound variable -- imag-part
 11 errors occured, ending ...
 Running...
-./bench: line 542: /tmp/larcenous/Bigloo/compiler.exe: No such file or directory
+./bench: line 557: /tmp/larcenous/Bigloo/compiler.exe: No such file or directory
 
 real	0m0.000s
 user	0m0.000s
@@ -811,12 +810,10 @@ File "/tmp/larcenous/Bigloo/conform.scm", line 84, character 2620:
 Unbound variable -- name
 1 error occured, ending ...
 Running...
-Running conform:500
-Elapsed time: 2.30689408 seconds (#e2) for conform:500
-+!CSVLINE!+bigloo-4.2c,conform:500,2.30689408
+./bench: line 557: /tmp/larcenous/Bigloo/conform.exe: No such file or directory
 
-real	0m2.310s
-user	0m2.307s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing dynamic under Bigloo
@@ -830,12 +827,12 @@ File "/tmp/larcenous/Bigloo/dynamic.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running dynamic:500
-Elapsed time: 2.83951104 seconds (#e3) for dynamic:500
-+!CSVLINE!+bigloo-4.2c,dynamic:500,2.83951104
+Elapsed time: 3.013778944 seconds (#e3) for dynamic:500
++!CSVLINE!+bigloo-4.2c,dynamic:500,3.013778944
 
-real	0m2.843s
-user	0m2.840s
-sys	0m0.000s
+real	0m3.017s
+user	0m3.000s
+sys	0m0.013s
 
 Testing earley under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -854,12 +851,12 @@ File "/tmp/larcenous/Bigloo/earley.scm", line 641, character 28339:
 Possible funcall arity error -- 1 arg(s) expected, 9 provided
 Running...
 Running earley:1
-Elapsed time: 5.479003904 seconds (#e6) for earley:1
-+!CSVLINE!+bigloo-4.2c,earley:1,5.479003904
+Elapsed time: 5.919449088 seconds (#e6) for earley:1
++!CSVLINE!+bigloo-4.2c,earley:1,5.919449088
 
-real	0m5.493s
-user	0m5.403s
-sys	0m0.087s
+real	0m5.934s
+user	0m5.807s
+sys	0m0.127s
 
 Testing graphs under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -872,11 +869,11 @@ File "/tmp/larcenous/Bigloo/graphs.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running graphs:7:3
-Elapsed time: 20.946310912 seconds (#e21) for graphs:7:3
-+!CSVLINE!+bigloo-4.2c,graphs:7:3,20.946310912
+Elapsed time: 29.487998976 seconds (#e30) for graphs:7:3
++!CSVLINE!+bigloo-4.2c,graphs:7:3,29.487998976
 
-real	0m20.950s
-user	0m20.937s
+real	0m29.492s
+user	0m29.480s
 sys	0m0.010s
 
 Testing lattice under Bigloo
@@ -890,11 +887,11 @@ File "/tmp/larcenous/Bigloo/lattice.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running lattice:44:10
-Elapsed time: 2.986996992 seconds (#e3) for lattice:44:10
-+!CSVLINE!+bigloo-4.2c,lattice:44:10,2.986996992
+Elapsed time: 2.732729088 seconds (#e3) for lattice:44:10
++!CSVLINE!+bigloo-4.2c,lattice:44:10,2.732729088
 
-real	0m2.990s
-user	0m2.987s
+real	0m2.736s
+user	0m2.733s
 sys	0m0.000s
 
 Testing matrix under Bigloo
@@ -932,7 +929,7 @@ File "/tmp/larcenous/Bigloo/matrix.scm", line 41, character 1089:
 Unbound variable -- exact-integer?
 4 errors occured, ending ...
 Running...
-./bench: line 542: /tmp/larcenous/Bigloo/matrix.exe: No such file or directory
+./bench: line 557: /tmp/larcenous/Bigloo/matrix.exe: No such file or directory
 
 real	0m0.000s
 user	0m0.000s
@@ -973,7 +970,7 @@ File "/tmp/larcenous/Bigloo/maze.scm", line 55, character 1474:
 Unbound variable -- exact-integer?
 4 errors occured, ending ...
 Running...
-./bench: line 542: /tmp/larcenous/Bigloo/maze.exe: No such file or directory
+./bench: line 557: /tmp/larcenous/Bigloo/maze.exe: No such file or directory
 
 real	0m0.000s
 user	0m0.000s
@@ -990,11 +987,11 @@ File "/tmp/larcenous/Bigloo/mazefun.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 4.754087168 seconds (#e4) for mazefun:11:11:10000
-+!CSVLINE!+bigloo-4.2c,mazefun:11:11:10000,4.754087168
+Elapsed time: 5.010616064 seconds (#e5) for mazefun:11:11:10000
++!CSVLINE!+bigloo-4.2c,mazefun:11:11:10000,5.010616064
 
-real	0m4.757s
-user	0m4.757s
+real	0m5.014s
+user	0m5.010s
 sys	0m0.000s
 
 Testing nqueens under Bigloo
@@ -1008,12 +1005,12 @@ File "/tmp/larcenous/Bigloo/nqueens.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running nqueens:13:10
-Elapsed time: 15.677964032 seconds (#e15) for nqueens:13:10
-+!CSVLINE!+bigloo-4.2c,nqueens:13:10,15.677964032
+Elapsed time: 16.84791808 seconds (#e17) for nqueens:13:10
++!CSVLINE!+bigloo-4.2c,nqueens:13:10,16.84791808
 
-real	0m15.681s
-user	0m15.673s
-sys	0m0.003s
+real	0m16.851s
+user	0m16.850s
+sys	0m0.000s
 
 Testing paraffins under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -1026,12 +1023,12 @@ File "/tmp/larcenous/Bigloo/paraffins.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running paraffins:23:10
-Elapsed time: 3.539934976 seconds (#e4) for paraffins:23:10
-+!CSVLINE!+bigloo-4.2c,paraffins:23:10,3.539934976
+Elapsed time: 5.814885888 seconds (#e5) for paraffins:23:10
++!CSVLINE!+bigloo-4.2c,paraffins:23:10,5.814885888
 
-real	0m3.554s
-user	0m3.480s
-sys	0m0.070s
+real	0m5.838s
+user	0m5.677s
+sys	0m0.160s
 
 Testing parsing under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -1044,11 +1041,11 @@ File "/tmp/larcenous/Bigloo/parsing.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running parsing:2500
-Elapsed time: 2.685164032 seconds (#e3) for parsing:2500
-+!CSVLINE!+bigloo-4.2c,parsing:2500,2.685164032
+Elapsed time: 2.69565184 seconds (#e3) for parsing:2500
++!CSVLINE!+bigloo-4.2c,parsing:2500,2.69565184
 
-real	0m2.688s
-user	0m2.687s
+real	0m2.699s
+user	0m2.697s
 sys	0m0.000s
 
 Testing peval under Bigloo
@@ -1062,11 +1059,11 @@ File "/tmp/larcenous/Bigloo/peval.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running peval:2000
-Elapsed time: 1.86337408 seconds (#e2) for peval:2000
-+!CSVLINE!+bigloo-4.2c,peval:2000,1.86337408
+Elapsed time: 1.89732096 seconds (#e2) for peval:2000
++!CSVLINE!+bigloo-4.2c,peval:2000,1.89732096
 
-real	0m1.866s
-user	0m1.863s
+real	0m1.900s
+user	0m1.897s
 sys	0m0.000s
 
 Testing primes under Bigloo
@@ -1080,11 +1077,11 @@ File "/tmp/larcenous/Bigloo/primes.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running primes:1000:10000
-Elapsed time: 3.260380928 seconds (#e3) for primes:1000:10000
-+!CSVLINE!+bigloo-4.2c,primes:1000:10000,3.260380928
+Elapsed time: 3.602086912 seconds (#e4) for primes:1000:10000
++!CSVLINE!+bigloo-4.2c,primes:1000:10000,3.602086912
 
-real	0m3.263s
-user	0m3.260s
+real	0m3.605s
+user	0m3.603s
 sys	0m0.000s
 
 Testing quicksort under Bigloo
@@ -1098,11 +1095,11 @@ File "/tmp/larcenous/Bigloo/quicksort.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running quicksort:10000:2500
-Elapsed time: 6.689925888 seconds (#e7) for quicksort:10000:2500
-+!CSVLINE!+bigloo-4.2c,quicksort:10000:2500,6.689925888
+Elapsed time: 6.8828032 seconds (#e7) for quicksort:10000:2500
++!CSVLINE!+bigloo-4.2c,quicksort:10000:2500,6.8828032
 
-real	0m6.695s
-user	0m6.693s
+real	0m6.888s
+user	0m6.887s
 sys	0m0.000s
 
 Testing scheme under Bigloo
@@ -1146,11 +1143,11 @@ File "/tmp/larcenous/Bigloo/scheme.scm", line 802, character 25581:
 Possible funcall arity error -- -6 arg(s) expected, 0 provided
 Running...
 Running scheme:100000
-Elapsed time: 3.59677824 seconds (#e4) for scheme:100000
-+!CSVLINE!+bigloo-4.2c,scheme:100000,3.59677824
+Elapsed time: 3.668630016 seconds (#e3) for scheme:100000
++!CSVLINE!+bigloo-4.2c,scheme:100000,3.668630016
 
-real	0m3.600s
-user	0m3.597s
+real	0m3.672s
+user	0m3.670s
 sys	0m0.000s
 
 Testing slatex under Bigloo
@@ -1164,12 +1161,12 @@ File "/tmp/larcenous/Bigloo/slatex.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running slatex:500
-Elapsed time: 1.670036992 seconds (#e2) for slatex:500
-+!CSVLINE!+bigloo-4.2c,slatex:500,1.670036992
+Elapsed time: 1.880933888 seconds (#e2) for slatex:500
++!CSVLINE!+bigloo-4.2c,slatex:500,1.880933888
 
-real	0m1.673s
-user	0m0.830s
-sys	0m0.827s
+real	0m1.884s
+user	0m0.797s
+sys	0m1.047s
 
 Testing nboyer under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -1182,12 +1179,12 @@ File "/tmp/larcenous/Bigloo/nboyer.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running nboyer:5:1
-Elapsed time: 3.341257216 seconds (#e3) for nboyer:5:1
-+!CSVLINE!+bigloo-4.2c,nboyer:5:1,3.341257216
+Elapsed time: 3.820344064 seconds (#e4) for nboyer:5:1
++!CSVLINE!+bigloo-4.2c,nboyer:5:1,3.820344064
 
-real	0m3.348s
-user	0m3.307s
-sys	0m0.040s
+real	0m3.828s
+user	0m3.783s
+sys	0m0.043s
 
 Testing sboyer under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -1206,11 +1203,11 @@ File "/tmp/larcenous/Bigloo/sboyer.scm", line 85, character 3587:
 Possible funcall arity error -- 0 arg(s) expected, 3 provided
 Running...
 Running sboyer:5:1
-Elapsed time: 1.188004096 seconds (#e1) for sboyer:5:1
-+!CSVLINE!+bigloo-4.2c,sboyer:5:1,1.188004096
+Elapsed time: 1.392985856 seconds (#e1) for sboyer:5:1
++!CSVLINE!+bigloo-4.2c,sboyer:5:1,1.392985856
 
-real	0m1.192s
-user	0m1.183s
+real	0m1.398s
+user	0m1.390s
 sys	0m0.007s
 
 Testing gcbench under Bigloo
@@ -1258,11 +1255,11 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 2.112033792 seconds (#e2) for gcbench:20:1
-+!CSVLINE!+bigloo-4.2c,gcbench:20:1,2.112033792
+Elapsed time: 2.361549824 seconds (#e2) for gcbench:20:1
++!CSVLINE!+bigloo-4.2c,gcbench:20:1,2.361549824
 
-real	0m2.117s
-user	0m2.090s
+real	0m2.368s
+user	0m2.340s
 sys	0m0.027s
 
 Testing mperm under Bigloo
@@ -1276,12 +1273,12 @@ File "/tmp/larcenous/Bigloo/mperm.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running perm20:10:2:1
-Elapsed time: 9.88373504 seconds (#e10) for perm20:10:2:1
-+!CSVLINE!+bigloo-4.2c,perm20:10:2:1,9.88373504
+Elapsed time: 9.857643008 seconds (#e10) for perm20:10:2:1
++!CSVLINE!+bigloo-4.2c,perm20:10:2:1,9.857643008
 
-real	0m10.461s
-user	0m10.367s
-sys	0m0.090s
+real	0m10.488s
+user	0m10.387s
+sys	0m0.100s
 
 Testing equal under Bigloo
 Including prelude /home/nex/src/r7rs-benchmarks/src/Bigloo-prelude.scm
@@ -1294,10 +1291,10 @@ File "/tmp/larcenous/Bigloo/equal.scm", line 12, character 375:
 Disabling optimization for library function -- error
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 541:  2293 Killed                  "$1" < "$2"
+./bench: line 556:  7894 Killed                  "$1" < "$2"
 
-real	4m59.999s
-user	4m59.973s
+real	5m0.000s
+user	4m59.980s
 sys	0m0.000s
 
 Testing bv2string under Bigloo
@@ -1371,9 +1368,8 @@ File "/tmp/larcenous/Bigloo/bv2string.scm", line 97, character 3139:
 Unbound variable -- make-bytevector
 10 errors occured, ending ...
 Running...
-./bench: line 542: /tmp/larcenous/Bigloo/bv2string.exe: No such file or directory
+./bench: line 557: /tmp/larcenous/Bigloo/bv2string.exe: No such file or directory
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
-

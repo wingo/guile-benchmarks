@@ -1,0 +1,937 @@
+
+****************************
+Benchmarking Ypsilon on Mon 30 May 03:42:23 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+
+Testing browse under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running browse:2000
+Elapsed time: 26.9968 seconds (27) for browse:2000
++!CSVLINE!+ypsilon-unknown,browse:2000,26.9968
+
+real	0m26.782s
+user	0m28.617s
+sys	0m0.027s
+
+Testing deriv under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running deriv:10000000
+Elapsed time: 22.00558 seconds (22) for deriv:10000000
++!CSVLINE!+ypsilon-unknown,deriv:10000000,22.00558
+
+real	0m22.621s
+user	0m32.017s
+sys	0m0.070s
+
+Testing destruc under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running destruc:600:50:4000
+Elapsed time: 28.99467 seconds (29) for destruc:600:50:4000
++!CSVLINE!+ypsilon-unknown,destruc:600:50:4000,28.99467
+
+real	0m28.529s
+user	0m31.210s
+sys	0m0.017s
+
+Testing diviter under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running diviter:1000:1000000
+Elapsed time: 16.99663 seconds (17) for diviter:1000:1000000
++!CSVLINE!+ypsilon-unknown,diviter:1000:1000000,16.99663
+
+real	0m16.725s
+user	0m25.583s
+sys	0m0.040s
+
+Testing divrec under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running divrec:1000:1000000
+Elapsed time: 59.9999 seconds (60) for divrec:1000:1000000
++!CSVLINE!+ypsilon-unknown,divrec:1000:1000000,59.9999
+
+real	1m0.053s
+user	1m52.913s
+sys	0m0.357s
+
+Testing puzzle under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running puzzle:1000
+Elapsed time: 44.99898 seconds (45) for puzzle:1000
++!CSVLINE!+ypsilon-unknown,puzzle:1000,44.99898
+
+real	0m44.967s
+user	0m45.650s
+sys	0m0.000s
+
+Testing triangl under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running triangl:22:1:50
+Elapsed time: 26.00594 seconds (26) for triangl:22:1:50
++!CSVLINE!+ypsilon-unknown,triangl:22:1:50,26.00594
+
+real	0m26.657s
+user	0m26.670s
+sys	0m0.000s
+
+Testing tak under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running tak:40:20:11:1
+Elapsed time: 23.99637 seconds (24) for tak:40:20:11:1
++!CSVLINE!+ypsilon-unknown,tak:40:20:11:1,23.99637
+
+real	0m23.709s
+user	0m23.710s
+sys	0m0.003s
+
+Testing takl under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running takl:40:20:12:1
+Elapsed time: 47.9955 seconds (48) for takl:40:20:12:1
++!CSVLINE!+ypsilon-unknown,takl:40:20:12:1,47.9955
+
+real	0m47.613s
+user	0m47.617s
+sys	0m0.000s
+
+Testing ntakl under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 47.00215 seconds (47) for ntakl:40:20:12:1
++!CSVLINE!+ypsilon-unknown,ntakl:40:20:12:1,47.00215
+
+real	0m47.277s
+user	0m47.280s
+sys	0m0.000s
+
+Testing cpstak under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 71.00543 seconds (71) for cpstak:40:20:11:1
++!CSVLINE!+ypsilon-unknown,cpstak:40:20:11:1,71.00543
+
+real	1m11.603s
+user	2m1.523s
+sys	0m0.323s
+
+Testing ctak under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 9.99581 seconds (10) for ctak:32:16:8:1
++!CSVLINE!+ypsilon-unknown,ctak:32:16:8:1,9.99581
+
+real	0m9.641s
+user	0m15.750s
+sys	0m0.060s
+
+Testing fib under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running fib:40:5
+Elapsed time: 44.00139 seconds (44) for fib:40:5
++!CSVLINE!+ypsilon-unknown,fib:40:5,44.00139
+
+real	0m44.203s
+user	0m44.207s
+sys	0m0.000s
+
+Testing fibc under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running fibc:30:10
+Elapsed time: 13.99781 seconds (14) for fibc:30:10
++!CSVLINE!+ypsilon-unknown,fibc:30:10,13.99781
+
+real	0m13.852s
+user	0m16.927s
+sys	0m0.047s
+
+Testing fibfp under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running fibfp:35.0:10
+Elapsed time: 22.00095 seconds (22) for fibfp:35.0:10
++!CSVLINE!+ypsilon-unknown,fibfp:35.0:10,22.00095
+
+real	0m22.158s
+user	0m28.823s
+sys	0m0.063s
+
+Testing sum under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running sum:10000:200000
+Elapsed time: 54.99877 seconds (55) for sum:10000:200000
++!CSVLINE!+ypsilon-unknown,sum:10000:200000,54.99877
+
+real	0m54.936s
+user	0m54.973s
+sys	0m0.000s
+
+Testing sumfp under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running sumfp:1000000.0:500
+Elapsed time: 36.99316 seconds (37) for sumfp:1000000.0:500
++!CSVLINE!+ypsilon-unknown,sumfp:1000000.0:500,36.99316
+
+real	0m36.375s
+user	0m56.427s
+sys	0m0.120s
+
+Testing fft under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running fft:65536:100
+./bench: line 453: 26390 Killed                  ${YPSILON} "$1" < "$2"
+
+real	3m46.767s
+user	4m59.360s
+sys	0m0.430s
+
+Testing mbrot under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running mbrot:75:1000
+Elapsed time: 39.99358 seconds (40) for mbrot:75:1000
++!CSVLINE!+ypsilon-unknown,mbrot:75:1000,39.99358
+
+real	0m39.414s
+user	1m8.393s
+sys	0m0.093s
+
+Testing mbrotZ under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running mbrotZ:75:1000
+./bench: line 453: 26602 Killed                  ${YPSILON} "$1" < "$2"
+
+real	2m56.781s
+user	4m59.463s
+sys	0m0.420s
+
+Testing nucleic under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running nucleic:50
+Elapsed time: 20.99999 seconds (21) for nucleic:50
++!CSVLINE!+ypsilon-unknown,nucleic:50,20.99999
+
+real	0m21.096s
+user	0m27.530s
+sys	0m0.037s
+
+Testing pi under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running pi:50:500:50:2
+error: unbound variable square
+
+backtrace:
+  0  (square one)
+  ..."/tmp/larcenous/Ypsilon/pi.scm" line 91
+  1  (pi-borwein2 n)
+  ..."/tmp/larcenous/Ypsilon/pi.scm" line 147
+  2  (thunk)
+  ..."/tmp/larcenous/Ypsilon/pi.scm" line 209
+  3  (main)
+  ..."/tmp/larcenous/Ypsilon/pi.scm" line 238
+
+real	0m0.059s
+user	0m0.063s
+sys	0m0.000s
+
+Testing pnpoly under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running pnpoly:1000000
+Elapsed time: 31.00588 seconds (31) for pnpoly:1000000
++!CSVLINE!+ypsilon-unknown,pnpoly:1000000,31.00588
+
+real	0m31.644s
+user	0m33.767s
+sys	0m0.013s
+
+Testing ray under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running ray:50
+Elapsed time: 22.99591 seconds (23) for ray:50
++!CSVLINE!+ypsilon-unknown,ray:50,22.99591
+
+real	0m22.653s
+user	0m29.570s
+sys	0m0.027s
+
+Testing simplex under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running simplex:1000000
+Elapsed time: 41.00099 seconds (41) for simplex:1000000
++!CSVLINE!+ypsilon-unknown,simplex:1000000,41.00099
+
+real	0m41.180s
+user	0m45.223s
+sys	0m0.013s
+
+Testing ack under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running ack:3:12:2
+Elapsed time: 88.9958 seconds (89) for ack:3:12:2
++!CSVLINE!+ypsilon-unknown,ack:3:12:2,88.9958
+
+real	1m28.635s
+user	2m34.317s
+sys	0m0.357s
+
+Testing array1 under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running array1:1000000:500
+Elapsed time: 35.00348 seconds (35) for array1:1000000:500
++!CSVLINE!+ypsilon-unknown,array1:1000000:500,35.00348
+
+real	0m35.404s
+user	0m40.750s
+sys	0m0.040s
+
+Testing string under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running string:500000:25
+Elapsed time: 1.99265 seconds (2) for string:500000:25
++!CSVLINE!+ypsilon-unknown,string:500000:25,1.99265
+
+real	0m1.321s
+user	0m1.727s
+sys	0m0.007s
+
+Testing sum1 under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running sum1:25
+Elapsed time: 1.00274 seconds (1) for sum1:25
++!CSVLINE!+ypsilon-unknown,sum1:25,1.00274
+
+real	0m1.328s
+user	0m1.573s
+sys	0m0.003s
+
+Testing cat under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running cat:50
+Elapsed time: 27.00337 seconds (27) for cat:50
++!CSVLINE!+ypsilon-unknown,cat:50,27.00337
+
+real	0m27.392s
+user	0m27.213s
+sys	0m0.173s
+
+Testing tail under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running tail:25
+error: unbound variable read-line
+
+backtrace:
+  0  (read-line port)
+  ..."/tmp/larcenous/Ypsilon/tail.scm" line 25
+  1  (tail-r-aux in '())
+  ..."/tmp/larcenous/Ypsilon/tail.scm" line 32
+  2  (echo-lines-in-reverse-order in out)
+  ..."/tmp/larcenous/Ypsilon/tail.scm" line 43
+  3  (call-with-output-file output (lambda (out) (echo-lines-in-reverse-order in ...) ...) ...)
+  ..."/tmp/larcenous/Ypsilon/tail.scm" line 40
+  4  (thunk)
+  ..."/tmp/larcenous/Ypsilon/tail.scm" line 97
+  5  (main)
+  ..."/tmp/larcenous/Ypsilon/tail.scm" line 126
+
+real	0m0.055s
+user	0m0.060s
+sys	0m0.000s
+
+Testing wc under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 19.99518 seconds (20) for wc:inputs/bib:50
++!CSVLINE!+ypsilon-unknown,wc:inputs/bib:50,19.99518
+
+real	0m19.573s
+user	0m19.557s
+sys	0m0.020s
+
+Testing read1 under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running read1:2500
+Elapsed time: 1.00249 seconds (1) for read1:2500
++!CSVLINE!+ypsilon-unknown,read1:2500,1.00249
+
+real	0m1.305s
+user	0m1.467s
+sys	0m0.017s
+
+Testing compiler under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+error: unbound variable exact-integer?
+
+backtrace:
+  0  (exact-integer? x)
+  ..."/tmp/larcenous/Ypsilon/compiler.scm" line 41
+  1  (mod offset 65536)
+  ..."/tmp/larcenous/Ypsilon/compiler.scm" line 7520
+  2  (make-disp* pstate-reg (* pointer-size ltq-tail))
+  ..."/tmp/larcenous/Ypsilon/compiler.scm" line 8695
+
+real	0m0.339s
+user	0m0.387s
+sys	0m0.000s
+
+Testing conform under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running conform:500
+Elapsed time: 33.00292 seconds (33) for conform:500
++!CSVLINE!+ypsilon-unknown,conform:500,33.00292
+
+real	0m33.358s
+user	0m35.467s
+sys	0m0.010s
+
+Testing dynamic under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running dynamic:500
+Elapsed time: 11.99636 seconds (12) for dynamic:500
++!CSVLINE!+ypsilon-unknown,dynamic:500,11.99636
+
+real	0m11.738s
+user	0m14.897s
+sys	0m0.020s
+
+Testing earley under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running earley:1
+warning: low heap memory (collect: 43.99ms)
+warning: low heap memory (collect: 44.00ms)
+warning: low heap memory (collect: 46.00ms)
+warning: low heap memory (collect: 45.92ms)
+warning: low heap memory (collect: 48.09ms)
+warning: low heap memory (collect: 50.17ms)
+warning: low heap memory (collect: 51.97ms)
+warning: low heap memory (collect: 52.17ms)
+warning: low heap memory (collect: 54.11ms)
+warning: low heap memory (collect: 54.39ms)
+warning: low heap memory (collect: 56.21ms)
+warning: low heap memory (collect: 58.23ms)
+fatal: heap memory overflow (64MB)
+[exit]
+
+
+real	0m1.605s
+user	0m2.063s
+sys	0m0.010s
+
+Testing graphs under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running graphs:7:3
+warning: low heap memory (collect: 21.70ms)
+warning: low heap memory (collect: 21.67ms)
+warning: low heap memory (collect: 22.03ms)
+warning: low heap memory (collect: 21.83ms)
+warning: low heap memory (collect: 21.86ms)
+warning: low heap memory (collect: 21.66ms)
+warning: low heap memory (collect: 21.76ms)
+warning: low heap memory (collect: 21.98ms)
+warning: low heap memory (collect: 22.18ms)
+warning: low heap memory (collect: 22.13ms)
+warning: low heap memory (collect: 22.00ms)
+warning: low heap memory (collect: 22.26ms)
+warning: low heap memory (collect: 22.29ms)
+warning: low heap memory (collect: 22.36ms)
+warning: low heap memory (collect: 22.40ms)
+warning: low heap memory (collect: 22.45ms)
+warning: low heap memory (collect: 22.37ms)
+warning: low heap memory (collect: 22.57ms)
+warning: low heap memory (collect: 22.62ms)
+warning: low heap memory (collect: 22.29ms)
+warning: low heap memory (collect: 22.72ms)
+warning: low heap memory (collect: 22.47ms)
+warning: low heap memory (collect: 22.39ms)
+warning: low heap memory (collect: 22.46ms)
+warning: low heap memory (collect: 22.81ms)
+warning: low heap memory (collect: 22.86ms)
+warning: low heap memory (collect: 22.85ms)
+warning: low heap memory (collect: 22.81ms)
+warning: low heap memory (collect: 22.49ms)
+warning: low heap memory (collect: 6.85ms)
+warning: low heap memory (collect: 21.71ms)
+warning: low heap memory (collect: 22.03ms)
+warning: low heap memory (collect: 22.10ms)
+warning: low heap memory (collect: 21.81ms)
+warning: low heap memory (collect: 21.88ms)
+warning: low heap memory (collect: 21.88ms)
+warning: low heap memory (collect: 21.95ms)
+warning: low heap memory (collect: 22.01ms)
+warning: low heap memory (collect: 22.06ms)
+warning: low heap memory (collect: 22.00ms)
+warning: low heap memory (collect: 22.14ms)
+warning: low heap memory (collect: 22.43ms)
+warning: low heap memory (collect: 22.25ms)
+warning: low heap memory (collect: 22.19ms)
+warning: low heap memory (collect: 22.39ms)
+warning: low heap memory (collect: 22.49ms)
+warning: low heap memory (collect: 22.46ms)
+warning: low heap memory (collect: 22.61ms)
+warning: low heap memory (collect: 22.63ms)
+warning: low heap memory (collect: 22.38ms)
+warning: low heap memory (collect: 22.72ms)
+warning: low heap memory (collect: 22.80ms)
+warning: low heap memory (collect: 22.81ms)
+warning: low heap memory (collect: 22.86ms)
+warning: low heap memory (collect: 22.95ms)
+warning: low heap memory (collect: 22.84ms)
+warning: low heap memory (collect: 22.83ms)
+warning: low heap memory (collect: 21.85ms)
+warning: low heap memory (collect: 22.10ms)
+warning: low heap memory (collect: 21.79ms)
+warning: low heap memory (collect: 21.91ms)
+warning: low heap memory (collect: 21.86ms)
+warning: low heap memory (collect: 21.77ms)
+warning: low heap memory (collect: 22.00ms)
+warning: low heap memory (collect: 22.07ms)
+warning: low heap memory (collect: 22.12ms)
+warning: low heap memory (collect: 22.15ms)
+warning: low heap memory (collect: 22.21ms)
+warning: low heap memory (collect: 22.26ms)
+warning: low heap memory (collect: 22.31ms)
+warning: low heap memory (collect: 22.25ms)
+warning: low heap memory (collect: 22.41ms)
+warning: low heap memory (collect: 22.58ms)
+warning: low heap memory (collect: 22.71ms)
+warning: low heap memory (collect: 22.58ms)
+warning: low heap memory (collect: 22.64ms)
+warning: low heap memory (collect: 22.67ms)
+warning: low heap memory (collect: 22.74ms)
+warning: low heap memory (collect: 22.83ms)
+warning: low heap memory (collect: 22.81ms)
+warning: low heap memory (collect: 22.90ms)
+warning: low heap memory (collect: 22.56ms)
+warning: low heap memory (collect: 22.82ms)
+warning: low heap memory (collect: 22.82ms)
+Elapsed time: 58.99557 seconds (59) for graphs:7:3
++!CSVLINE!+ypsilon-unknown,graphs:7:3,58.99557
+
+real	0m58.619s
+user	1m48.933s
+sys	0m0.083s
+
+Testing lattice under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running lattice:44:10
+Elapsed time: 52.00341 seconds (52) for lattice:44:10
++!CSVLINE!+ypsilon-unknown,lattice:44:10,52.00341
+
+real	0m52.399s
+user	0m53.707s
+sys	0m0.000s
+
+Testing matrix under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running matrix:5:5:2500
+error: unbound variable exact-integer?
+
+backtrace:
+  0  (exact-integer? x)
+  ..."/tmp/larcenous/Ypsilon/matrix.scm" line 20
+  1  (div size 2)
+  ..."/tmp/larcenous/Ypsilon/matrix.scm" line 585
+  2  (det-upper-bound inv-size)
+  ..."/tmp/larcenous/Ypsilon/matrix.scm" line 599
+  3  (go number-of-cols inv-size go-folder (list -1 -1))
+  ..."/tmp/larcenous/Ypsilon/matrix.scm" line 733
+  4  (thunk)
+  ..."/tmp/larcenous/Ypsilon/matrix.scm" line 856
+  5  (main)
+  ..."/tmp/larcenous/Ypsilon/matrix.scm" line 885
+
+real	0m0.068s
+user	0m0.070s
+sys	0m0.003s
+
+Testing maze under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running maze:20:7:10000
+error: unbound variable exact-integer?
+
+backtrace:
+  0  (exact-integer? x)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 34
+  1  (div y 2)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 410
+  2  (href harr x y)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 505
+  3  (do ((y (+ (* (- nrows 1) 2) (bitwise-and x 1)) (- y 2))) ((<= y 1)) (let ((hex ...) ...) ...) ...)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 502
+  4  (do ((x (* (- ncols 1) 3) (- x 3))) ((< x 0)) (do ((y (+ (* (- nrows 1) 2) (bitwise-and ...) ...) ...) ...) ...) ...)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 500
+  5  (make-wall-vec cells)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 603
+  6  (make-maze nrows ncols)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 617
+  7  (pmaze nrows ncols)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 746
+  8  (thunk)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 801
+  9  (main)
+  ..."/tmp/larcenous/Ypsilon/maze.scm" line 830
+
+real	0m0.072s
+user	0m0.080s
+sys	0m0.000s
+
+Testing mazefun under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 22.99972 seconds (23) for mazefun:11:11:10000
++!CSVLINE!+ypsilon-unknown,mazefun:11:11:10000,22.99972
+
+real	0m23.030s
+user	0m27.363s
+sys	0m0.037s
+
+Testing nqueens under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running nqueens:13:10
+Elapsed time: 68.00031 seconds (68) for nqueens:13:10
++!CSVLINE!+ypsilon-unknown,nqueens:13:10,68.00031
+
+real	1m8.087s
+user	1m10.717s
+sys	0m0.020s
+
+Testing paraffins under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running paraffins:23:10
+warning: low heap memory (collect: 23.48ms)
+warning: low heap memory (collect: 24.11ms)
+warning: low heap memory (collect: 24.92ms)
+warning: low heap memory (collect: 25.68ms)
+warning: low heap memory (collect: 26.54ms)
+warning: low heap memory (collect: 27.53ms)
+warning: low heap memory (collect: 28.51ms)
+warning: low heap memory (collect: 29.45ms)
+warning: low heap memory (collect: 30.65ms)
+warning: low heap memory (collect: 27.25ms)
+fatal: heap memory overflow (64MB)
+[exit]
+
+
+real	0m0.486s
+user	0m0.583s
+sys	0m0.000s
+
+Testing parsing under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running parsing:2500
+Elapsed time: 26.99843 seconds (27) for parsing:2500
++!CSVLINE!+ypsilon-unknown,parsing:2500,26.99843
+
+real	0m28.933s
+user	0m29.640s
+sys	0m0.010s
+
+Testing peval under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running peval:2000
+Elapsed time: 25.00187 seconds (25) for peval:2000
++!CSVLINE!+ypsilon-unknown,peval:2000,25.00187
+
+real	0m25.256s
+user	0m29.130s
+sys	0m0.030s
+
+Testing primes under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running primes:1000:10000
+Elapsed time: 16.99824 seconds (17) for primes:1000:10000
++!CSVLINE!+ypsilon-unknown,primes:1000:10000,16.99824
+
+real	0m16.880s
+user	0m25.253s
+sys	0m0.047s
+
+Testing quicksort under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running quicksort:10000:2500
+Elapsed time: 41.00088 seconds (41) for quicksort:10000:2500
++!CSVLINE!+ypsilon-unknown,quicksort:10000:2500,41.00088
+
+real	0m41.155s
+user	0m46.310s
+sys	0m0.047s
+
+Testing scheme under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running scheme:100000
+Elapsed time: 26.99351 seconds (27) for scheme:100000
++!CSVLINE!+ypsilon-unknown,scheme:100000,26.99351
+
+real	0m26.436s
+user	0m28.580s
+sys	0m0.017s
+
+Testing slatex under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running slatex:500
+Elapsed time: 8.00315 seconds (8) for slatex:500
++!CSVLINE!+ypsilon-unknown,slatex:500,8.00315
+
+real	0m8.419s
+user	0m8.123s
+sys	0m1.047s
+
+Testing nboyer under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running nboyer:5:1
+warning: low heap memory (collect: 39.58ms)
+warning: low heap memory (collect: 39.82ms)
+warning: low heap memory (collect: 39.90ms)
+warning: low heap memory (collect: 47.22ms)
+warning: low heap memory (collect: 47.32ms)
+warning: low heap memory (collect: 47.38ms)
+warning: low heap memory (collect: 48.17ms)
+warning: low heap memory (collect: 48.80ms)
+warning: low heap memory (collect: 40.36ms)
+warning: low heap memory (collect: 41.87ms)
+warning: low heap memory (collect: 43.30ms)
+warning: low heap memory (collect: 50.14ms)
+warning: low heap memory (collect: 51.28ms)
+warning: low heap memory (collect: 52.53ms)
+warning: low heap memory (collect: 53.60ms)
+warning: low heap memory (collect: 46.17ms)
+warning: low heap memory (collect: 53.96ms)
+warning: low heap memory (collect: 54.06ms)
+warning: low heap memory (collect: 51.04ms)
+warning: low heap memory (collect: 52.49ms)
+warning: low heap memory (collect: 52.02ms)
+warning: low heap memory (collect: 46.50ms)
+warning: low heap memory (collect: 46.54ms)
+warning: low heap memory (collect: 46.41ms)
+warning: low heap memory (collect: 47.80ms)
+warning: low heap memory (collect: 56.88ms)
+warning: low heap memory (collect: 56.40ms)
+warning: low heap memory (collect: 57.74ms)
+warning: low heap memory (collect: 57.61ms)
+warning: low heap memory (collect: 58.15ms)
+warning: low heap memory (collect: 58.58ms)
+warning: low heap memory (collect: 49.53ms)
+warning: low heap memory (collect: 53.17ms)
+warning: low heap memory (collect: 56.61ms)
+warning: low heap memory (collect: 59.13ms)
+warning: low heap memory (collect: 62.20ms)
+warning: low heap memory (collect: 57.87ms)
+warning: low heap memory (collect: 64.54ms)
+warning: low heap memory (collect: 64.82ms)
+warning: low heap memory (collect: 56.97ms)
+warning: low heap memory (collect: 55.64ms)
+fatal: heap memory overflow (64MB)
+[exit]
+
+
+real	0m4.903s
+user	0m6.380s
+sys	0m0.007s
+
+Testing sboyer under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running sboyer:5:1
+warning: low heap memory (collect: 49.55ms)
+warning: low heap memory (collect: 51.01ms)
+warning: low heap memory (collect: 52.49ms)
+warning: low heap memory (collect: 53.76ms)
+warning: low heap memory (collect: 55.04ms)
+warning: low heap memory (collect: 56.10ms)
+warning: low heap memory (collect: 57.60ms)
+warning: low heap memory (collect: 74.36ms)
+warning: low heap memory (collect: 78.00ms)
+warning: low heap memory (collect: 79.86ms)
+warning: low heap memory (collect: 78.14ms)
+warning: low heap memory (collect: 80.47ms)
+fatal: heap memory overflow (64MB)
+[exit]
+
+
+real	0m12.186s
+user	0m13.450s
+sys	0m0.007s
+
+Testing gcbench under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+error in define-record-type: malformed record clauses
+  >  (define-record-type
+       (classNode make-classNode classNode?)
+       (make-node-raw left right i j)
+       classNode?
+       (left node.left node.left-set!)
+       ...
+  ..."/tmp/larcenous/Ypsilon/gcbench.scm"
+  @  (make-node-raw left right i j)
+  ..."/tmp/larcenous/Ypsilon/gcbench.scm" line 89
+
+expanding:
+  >  (define-record-type
+         (classNode make-classNode classNode?)
+         (make-node-raw left right i j)
+         classNode?
+         (left node.left node.left-set!)
+         (right node.right node.right-set!)
+         (i node.i node.i-set!)
+         (j node.j node.j-set!))
+  ..."/tmp/larcenous/Ypsilon/gcbench.scm"
+  *  (define-record-type
+         (classNode make-classNode classNode?)
+         (make-node-raw left right i j)
+         classNode?
+         (left node.left node.left-set!)
+         (right node.right node.right-set!)
+         (i node.i node.i-set!)
+         (j node.j node.j-set!))
+  ..."/tmp/larcenous/Ypsilon/gcbench.scm"
+  *  (define-record-type
+         classNode
+         (make-node-raw left right i j)
+         classNode?
+         (left node.left node.left-set!)
+         (right node.right node.right-set!)
+         (i node.i node.i-set!)
+         (j node.j node.j-set!))
+  ..."/tmp/larcenous/Ypsilon/gcbench.scm" line 88
+
+real	0m0.052s
+user	0m0.057s
+sys	0m0.000s
+
+Testing mperm under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+warning: low heap memory (collect: 36.95ms)
+warning: low heap memory (collect: 39.72ms)
+warning: low heap memory (collect: 42.66ms)
+fatal: heap memory overflow (64MB)
+[exit]
+
+
+real	0m0.848s
+user	0m1.263s
+sys	0m0.017s
+
+Testing equal under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: 0.99711 seconds (1) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+ypsilon-unknown,equal:100:100:8:1000:2000:5000,0.99711
+
+real	0m0.769s
+user	0m0.960s
+sys	0m0.000s
+
+Testing bv2string under Ypsilon
+Including prelude /home/nex/src/r7rs-benchmarks/src/Ypsilon-prelude.scm
+Compiling...
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 7.9999 seconds (8) for bv2string:1000:1000:100
++!CSVLINE!+ypsilon-unknown,bv2string:1000:1000:100,7.9999
+
+real	0m8.045s
+user	0m8.190s
+sys	0m0.003s
