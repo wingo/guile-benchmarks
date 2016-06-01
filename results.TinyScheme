@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking TinyScheme on Mon 30 May 03:32:08 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+Benchmarking TinyScheme on Tue 31 May 20:52:25 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
@@ -8,7 +8,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -118,7 +118,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -148,7 +148,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -228,7 +228,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -238,7 +238,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -258,7 +258,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -328,7 +328,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -368,7 +368,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -428,7 +428,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -468,7 +468,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -498,7 +498,7 @@ Compiling...
 Running...
 ./bench: line 390: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 

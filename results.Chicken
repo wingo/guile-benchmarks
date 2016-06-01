@@ -1,941 +1,101 @@
 
 ****************************
-Benchmarking Chicken on Sun 29 May 21:43:07 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+Benchmarking Chicken on Tue 31 May 15:04:29 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 12.571 seconds (13.0) for browse:2000
-+!CSVLINE!+chicken-4.10.0,browse:2000,12.571
-
-real	0m12.576s
-user	0m12.540s
-sys	0m0.033s
-
-Testing deriv under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running deriv:10000000
-Elapsed time: 6.553 seconds (7.0) for deriv:10000000
-+!CSVLINE!+chicken-4.10.0,deriv:10000000,6.553
-
-real	0m6.556s
-user	0m6.533s
-sys	0m0.020s
-
-Testing destruc under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running destruc:600:50:4000
-Elapsed time: 9.032 seconds (9.0) for destruc:600:50:4000
-+!CSVLINE!+chicken-4.10.0,destruc:600:50:4000,9.032
-
-real	0m9.035s
-user	0m8.997s
-sys	0m0.037s
-
-Testing diviter under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running diviter:1000:1000000
-Elapsed time: 3.203 seconds (3.0) for diviter:1000:1000000
-+!CSVLINE!+chicken-4.10.0,diviter:1000:1000000,3.203
-
-real	0m3.206s
-user	0m3.180s
-sys	0m0.023s
-
-Testing divrec under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running divrec:1000:1000000
-Elapsed time: 10.063 seconds (10.0) for divrec:1000:1000000
-+!CSVLINE!+chicken-4.10.0,divrec:1000:1000000,10.063
-
-real	0m10.065s
-user	0m10.003s
-sys	0m0.060s
-
-Testing puzzle under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running puzzle:1000
-Elapsed time: 15.822 seconds (16.0) for puzzle:1000
-+!CSVLINE!+chicken-4.10.0,puzzle:1000,15.822
-
-real	0m15.825s
-user	0m15.750s
-sys	0m0.073s
-
-Testing triangl under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running triangl:22:1:50
-Elapsed time: 13.519 seconds (14.0) for triangl:22:1:50
-+!CSVLINE!+chicken-4.10.0,triangl:22:1:50,13.519
-
-real	0m13.522s
-user	0m13.457s
-sys	0m0.063s
-
-Testing tak under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running tak:40:20:11:1
-Elapsed time: 11.338 seconds (12.0) for tak:40:20:11:1
-+!CSVLINE!+chicken-4.10.0,tak:40:20:11:1,11.338
-
-real	0m11.341s
-user	0m11.283s
-sys	0m0.057s
-
-Testing takl under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running takl:40:20:12:1
-Elapsed time: 9.551 seconds (10.0) for takl:40:20:12:1
-+!CSVLINE!+chicken-4.10.0,takl:40:20:12:1,9.551
-
-real	0m9.553s
-user	0m9.550s
-sys	0m0.000s
-
-Testing ntakl under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running ntakl:40:20:12:1
-Elapsed time: 9.482 seconds (9.0) for ntakl:40:20:12:1
-+!CSVLINE!+chicken-4.10.0,ntakl:40:20:12:1,9.482
-
-real	0m9.484s
-user	0m9.480s
-sys	0m0.000s
-
-Testing cpstak under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running cpstak:40:20:11:1
-Elapsed time: 15.374 seconds (15.0) for cpstak:40:20:11:1
-+!CSVLINE!+chicken-4.10.0,cpstak:40:20:11:1,15.374
-
-real	0m15.377s
-user	0m15.287s
-sys	0m0.087s
-
-Testing ctak under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running ctak:32:16:8:1
-Elapsed time: 3.64 seconds (3.0) for ctak:32:16:8:1
-+!CSVLINE!+chicken-4.10.0,ctak:32:16:8:1,3.64
-
-real	0m3.643s
-user	0m3.633s
-sys	0m0.007s
-
-Testing fib under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running fib:40:5
-Elapsed time: 28.976 seconds (29.0) for fib:40:5
-+!CSVLINE!+chicken-4.10.0,fib:40:5,28.976
-
-real	0m28.979s
-user	0m28.770s
-sys	0m0.207s
-
-Testing fibc under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running fibc:30:10
-Elapsed time: 3.264 seconds (3.0) for fibc:30:10
-+!CSVLINE!+chicken-4.10.0,fibc:30:10,3.264
-
-real	0m3.267s
-user	0m3.260s
-sys	0m0.007s
-
-Testing fibfp under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running fibfp:35.0:10
-Elapsed time: 5.422 seconds (5.0) for fibfp:35.0:10
-+!CSVLINE!+chicken-4.10.0,fibfp:35.0:10,5.422
-
-real	0m5.425s
-user	0m5.380s
-sys	0m0.043s
-
-Testing sum under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running sum:10000:200000
-Elapsed time: 31.059 seconds (31.0) for sum:10000:200000
-+!CSVLINE!+chicken-4.10.0,sum:10000:200000,31.059
-
-real	0m31.061s
-user	0m30.903s
-sys	0m0.153s
-
-Testing sumfp under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running sumfp:1000000.0:500
-Elapsed time: 7.865 seconds (8.0) for sumfp:1000000.0:500
-+!CSVLINE!+chicken-4.10.0,sumfp:1000000.0:500,7.865
-
-real	0m7.867s
-user	0m7.833s
-sys	0m0.030s
-
-Testing fft under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running fft:65536:100
-./bench: line 332:  7802 Killed                  "$1" < "$2"
-
-real	4m59.997s
-user	4m59.737s
-sys	0m0.240s
-
-Testing mbrot under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: at toplevel:
-  assignment of value of type `(procedure count (number number number number number) . *)' to toplevel variable `count' does not match declared type `(forall (a294) (procedure count ((procedure (a294 #!rest *) *) (list-of a294) #!rest list) fixnum))'
-Running...
-Running mbrot:75:1000
-Elapsed time: 7.504 seconds (7.0) for mbrot:75:1000
-+!CSVLINE!+chicken-4.10.0,mbrot:75:1000,7.504
-
-real	0m7.507s
-user	0m7.490s
-sys	0m0.013s
-
-Testing mbrotZ under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: at toplevel:
-  assignment of value of type `(procedure count (number number number) . *)' to toplevel variable `count' does not match declared type `(forall (a291) (procedure count ((procedure (a291 #!rest *) *) (list-of a291) #!rest list) fixnum))'
-Running...
-Running mbrotZ:75:1000
-
-Error: unbound variable: -1.0-0.5i
-
-	Call history:
-
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  	<--
-
-real	0m0.002s
-user	0m0.000s
-sys	0m0.000s
-
-Testing nucleic under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running nucleic:50
-Elapsed time: 4.242 seconds (4.0) for nucleic:50
-+!CSVLINE!+chicken-4.10.0,nucleic:50,4.242
-
-real	0m4.248s
-user	0m4.243s
-sys	0m0.003s
-
-Testing pi under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running pi:50:500:50:2
-
-Error: (quotient) bad argument type - not an integer: +nan.0
-
-	Call history:
-
-	/tmp/larcenous/Chicken/pi.scm:55: expt	  
-	/tmp/larcenous/Chicken/pi.scm:58: expt	  
-	/tmp/larcenous/Chicken/pi.scm:61: div	  
-	/tmp/larcenous/Chicken/pi.scm:62: loop	  
-	/tmp/larcenous/Chicken/pi.scm:58: expt	  
-	/tmp/larcenous/Chicken/pi.scm:61: div	  
-	/tmp/larcenous/Chicken/pi.scm:62: loop	  
-	/tmp/larcenous/Chicken/pi.scm:58: expt	  
-	/tmp/larcenous/Chicken/pi.scm:61: div	  
-	/tmp/larcenous/Chicken/pi.scm:62: loop	  
-	/tmp/larcenous/Chicken/pi.scm:58: expt	  
-	/tmp/larcenous/Chicken/pi.scm:61: div	  
-	/tmp/larcenous/Chicken/pi.scm:62: loop	  
-	/tmp/larcenous/Chicken/pi.scm:58: expt	  
-	/tmp/larcenous/Chicken/pi.scm:61: div	  
-	/tmp/larcenous/Chicken/pi.scm:87: div	  	<--
-
-real	0m0.009s
-user	0m0.003s
-sys	0m0.003s
-
-Testing pnpoly under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running pnpoly:1000000
-Elapsed time: 13.473 seconds (13.0) for pnpoly:1000000
-+!CSVLINE!+chicken-4.10.0,pnpoly:1000000,13.473
-
-real	0m13.475s
-user	0m13.417s
-sys	0m0.057s
-
-Testing ray under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running ray:50
-Elapsed time: 4.102 seconds (4.0) for ray:50
-+!CSVLINE!+chicken-4.10.0,ray:50,4.102
-
-real	0m4.105s
-user	0m4.083s
-sys	0m0.020s
-
-Testing simplex under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running simplex:1000000
-Elapsed time: 9.427 seconds (10.0) for simplex:1000000
-+!CSVLINE!+chicken-4.10.0,simplex:1000000,9.427
-
-real	0m9.429s
-user	0m9.307s
-sys	0m0.120s
-
-Testing ack under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running ack:3:12:2
-Elapsed time: 52.498 seconds (53.0) for ack:3:12:2
-+!CSVLINE!+chicken-4.10.0,ack:3:12:2,52.498
-
-real	0m52.501s
-user	0m52.140s
-sys	0m0.353s
-
-Testing array1 under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running array1:1000000:500
-Elapsed time: 14.546 seconds (15.0) for array1:1000000:500
-+!CSVLINE!+chicken-4.10.0,array1:1000000:500,14.546
-
-real	0m14.549s
-user	0m14.487s
-sys	0m0.060s
-
-Testing string under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running string:500000:25
-Elapsed time: 0.183 seconds (0.0) for string:500000:25
-+!CSVLINE!+chicken-4.10.0,string:500000:25,0.183
-
-real	0m0.186s
-user	0m0.180s
-sys	0m0.003s
-
-Testing sum1 under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running sum1:25
-Elapsed time: 4.446 seconds (4.0) for sum1:25
-+!CSVLINE!+chicken-4.10.0,sum1:25,4.446
-
-real	0m4.449s
-user	0m4.437s
-sys	0m0.010s
-
-Testing cat under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running cat:50
-Elapsed time: 27.835 seconds (28.0) for cat:50
-+!CSVLINE!+chicken-4.10.0,cat:50,27.835
-
-real	0m27.838s
-user	0m27.543s
-sys	0m0.283s
-
-Testing tail under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: in local procedure `g75',
-  in toplevel procedure `echo-lines-in-reverse-order':
-  (/tmp/larcenous/Chicken/tail.scm:36) in procedure call to `newline', expected argument #1 of type `output-port', but was given an argument of type `(or fixnum false)'
-Running...
-Running tail:25
-
-Error: (write-string) bad argument type - not a fixnum: #<output port "outputs/tail.output">
-
-	Call history:
-
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:33: tail-r-aux	  
-	/tmp/larcenous/Chicken/tail.scm:30: read-line	  
-	/tmp/larcenous/Chicken/tail.scm:35: g75	  
-	/tmp/larcenous/Chicken/tail.scm:36: write-string	  	<--
-
-real	0m0.036s
-user	0m0.030s
-sys	0m0.003s
-
-Testing wc under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running wc:inputs/bib:50
-Elapsed time: 13.313 seconds (13.0) for wc:inputs/bib:50
-+!CSVLINE!+chicken-4.10.0,wc:inputs/bib:50,13.313
-
-real	0m13.315s
-user	0m13.253s
-sys	0m0.060s
-
-Testing read1 under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running read1:2500
-Elapsed time: 9.702 seconds (9.0) for read1:2500
-+!CSVLINE!+chicken-4.10.0,read1:2500,9.702
-
-real	0m9.704s
-user	0m9.687s
-sys	0m0.013s
-
-Testing compiler under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: at toplevel:
-  assignment of value of type `(procedure open-input-file (string #!rest symbol) input-port)' to toplevel variable `open-input-file*' does not match declared type `(procedure open-input-file* (fixnum #!optional symbol) input-port)'
-
-Warning: at toplevel:
-  assignment of value of type `(procedure topological-sort (*) (or null pair))' to toplevel variable `topological-sort' does not match declared type `(procedure topological-sort ((list-of list) (procedure (* *) *)) list)'
-
-Warning: at toplevel:
-  assignment of value of type `(procedure list->queue (*) pair)' to toplevel variable `list->queue' does not match declared type `(procedure list->queue (list) (struct queue))'
-
-Warning: at toplevel:
-  assignment of value of type `(procedure queue->list (pair) *)' to toplevel variable `queue->list' does not match declared type `(procedure queue->list ((struct queue)) list)'
-
-Warning: at toplevel:
-  assignment of value of type `(procedure queue-empty? (pair) boolean)' to toplevel variable `queue-empty?' does not match declared type `(procedure queue-empty? ((struct queue)) boolean)'
-
-Warning: redefinition of extended binding: bitwise-not
-Running...
-Running compiler:2000
-Elapsed time: 8.148 seconds (9.0) for compiler:2000
-+!CSVLINE!+chicken-4.10.0,compiler:2000,8.148
-
-real	0m8.153s
-user	0m8.080s
-sys	0m0.070s
-
-Testing conform under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: at toplevel:
-  assignment of value of type `(procedure join (* * *) *)' to toplevel variable `join' does not match declared type `(procedure join ((list-of list) #!optional list) list)'
-Running...
-Running conform:500
-Elapsed time: 12.297 seconds (13.0) for conform:500
-+!CSVLINE!+chicken-4.10.0,conform:500,12.297
-
-real	0m12.301s
-user	0m12.233s
-sys	0m0.067s
-
-Testing dynamic under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running dynamic:500
-Elapsed time: 13.194 seconds (14.0) for dynamic:500
-+!CSVLINE!+chicken-4.10.0,dynamic:500,13.194
-
-real	0m13.198s
-user	0m13.173s
-sys	0m0.023s
-
-Testing earley under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running earley:1
-[panic] out of memory - heap full while resizing - execution terminated
-
-...more...
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:543: loop1
-/tmp/larcenous/Chicken/earley.scm:523: conf-set-member?
-/tmp/larcenous/Chicken/earley.scm:526: deriv-trees
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:542: loop2
-/tmp/larcenous/Chicken/earley.scm:543: loop1
-/tmp/larcenous/Chicken/earley.scm:523: conf-set-member?
-/tmp/larcenous/Chicken/earley.scm:526: deriv-trees
-/tmp/larcenous/Chicken/earley.scm:529: deriv-trees
-/tmp/larcenous/Chicken/earley.scm:523: conf-set-member?
-/tmp/larcenous/Chicken/earley.scm:526: deriv-trees 	<--
-
-real	0m35.501s
-user	0m34.060s
-sys	0m1.437s
-
-Testing graphs under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running graphs:7:3
-Elapsed time: 12.118 seconds (12.0) for graphs:7:3
-+!CSVLINE!+chicken-4.10.0,graphs:7:3,12.118
-
-real	0m12.121s
-user	0m12.057s
-sys	0m0.063s
-
-Testing lattice under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running lattice:44:10
-Elapsed time: 18.803 seconds (19.0) for lattice:44:10
-+!CSVLINE!+chicken-4.10.0,lattice:44:10,18.803
-
-real	0m18.806s
-user	0m18.700s
-sys	0m0.103s
-
-Testing matrix under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running matrix:5:5:2500
-Elapsed time: 8.957 seconds (9.0) for matrix:5:5:2500
-+!CSVLINE!+chicken-4.10.0,matrix:5:5:2500,8.957
-
-real	0m8.961s
-user	0m8.813s
-sys	0m0.147s
-
-Testing maze under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: redefinition of extended binding: bitwise-not
-
-Warning: redefinition of extended binding: bitwise-and
-Running...
-Running maze:20:7:10000
-Elapsed time: 4.132 seconds (5.0) for maze:20:7:10000
-+!CSVLINE!+chicken-4.10.0,maze:20:7:10000,4.132
-
-real	0m4.135s
-user	0m4.110s
-sys	0m0.023s
-
-Testing mazefun under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: redefinition of extended binding: foldr
-
-Warning: redefinition of extended binding: foldl
-Running...
-Running mazefun:11:11:10000
-Elapsed time: 13.094 seconds (13.0) for mazefun:11:11:10000
-+!CSVLINE!+chicken-4.10.0,mazefun:11:11:10000,13.094
-
-real	0m13.096s
-user	0m13.040s
-sys	0m0.053s
-
-Testing nqueens under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running nqueens:13:10
-Elapsed time: 27.321 seconds (27.0) for nqueens:13:10
-+!CSVLINE!+chicken-4.10.0,nqueens:13:10,27.321
-
-real	0m27.324s
-user	0m27.203s
-sys	0m0.117s
-
-Testing paraffins under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running paraffins:23:10
-Elapsed time: 13.61 seconds (13.0) for paraffins:23:10
-+!CSVLINE!+chicken-4.10.0,paraffins:23:10,13.61
-
-real	0m13.615s
-user	0m13.450s
-sys	0m0.163s
-
-Testing parsing under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running parsing:2500
-Elapsed time: 8.949 seconds (9.0) for parsing:2500
-+!CSVLINE!+chicken-4.10.0,parsing:2500,8.949
-
-real	0m8.952s
-user	0m8.843s
-sys	0m0.107s
-
-Testing peval under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running peval:2000
-Elapsed time: 12.903 seconds (13.0) for peval:2000
-+!CSVLINE!+chicken-4.10.0,peval:2000,12.903
-
-real	0m12.906s
-user	0m12.840s
-sys	0m0.063s
-
-Testing primes under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running primes:1000:10000
-Elapsed time: 9.647 seconds (9.0) for primes:1000:10000
-+!CSVLINE!+chicken-4.10.0,primes:1000:10000,9.647
-
-real	0m9.649s
-user	0m9.627s
-sys	0m0.020s
-
-Testing quicksort under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-
-Warning: at toplevel:
-  assignment of value of type `(procedure partition (vector number fixnum *) . *)' to toplevel variable `partition' does not match declared type `(forall (a387) (procedure partition ((procedure (a387) *) (list-of a387)) (list-of a387) (list-of a387)))'
-Running...
-Running quicksort:10000:2500
-./bench: line 332:  8727 Killed                  "$1" < "$2"
-
-real	5m0.000s
-user	4m58.603s
-sys	0m1.377s
-
-Testing scheme under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running scheme:100000
-Elapsed time: 13.562 seconds (14.0) for scheme:100000
-+!CSVLINE!+chicken-4.10.0,scheme:100000,13.562
-
-real	0m13.565s
-user	0m13.510s
-sys	0m0.053s
-
-Testing slatex under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running slatex:500
-Elapsed time: 7.486 seconds (8.0) for slatex:500
-+!CSVLINE!+chicken-4.10.0,slatex:500,7.486
-
-real	0m7.489s
-user	0m5.900s
-sys	0m1.550s
-
-Testing nboyer under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running nboyer:5:1
-Elapsed time: 24.515 seconds (24.0) for nboyer:5:1
-+!CSVLINE!+chicken-4.10.0,nboyer:5:1,24.515
-
-real	0m24.520s
-user	0m24.383s
-sys	0m0.133s
-
-Testing sboyer under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running sboyer:5:1
-Elapsed time: 8.147 seconds (8.0) for sboyer:5:1
-+!CSVLINE!+chicken-4.10.0,sboyer:5:1,8.147
-
-real	0m8.150s
-user	0m8.100s
+Elapsed time: 15.323 seconds (15.0) for browse:2000
++!CSVLINE!+chicken-4.11.0,browse:2000,15.323
+
+real	0m15.329s
+user	0m15.280s
 sys	0m0.047s
 
-Testing gcbench under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-The garbage collector should touch about 128 megabytes of heap storage.
-The use of more or less memory will skew the results.
-Running gcbench:20:1
-Garbage Collector Test
- Stretching memory with a binary tree of depth 20
- Total memory available= ???????? bytes  Free memory= ???????? bytes
-GCBench: Main
- Creating a long-lived binary tree of depth 18
- Creating a long-lived array of 2097148 inexact reals
- Total memory available= ???????? bytes  Free memory= ???????? bytes
-Creating 135300 trees of depth 4
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 33026 trees of depth 6
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 8208 trees of depth 8
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 2048 trees of depth 10
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 512 trees of depth 12
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 128 trees of depth 14
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 32 trees of depth 16
-GCBench: Top down construction
-GCBench: Bottom up construction
-Creating 8 trees of depth 18
-GCBench: Top down construction
-GCBench: Bottom up construction
- Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 5.461 seconds (5.0) for gcbench:20:1
-+!CSVLINE!+chicken-4.10.0,gcbench:20:1,5.461
-
-real	0m5.465s
-user	0m5.403s
-sys	0m0.060s
-
-Testing mperm under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running perm20:10:2:1
-Elapsed time: 32.133 seconds (32.0) for perm20:10:2:1
-+!CSVLINE!+chicken-4.10.0,perm20:10:2:1,32.133
-
-real	0m34.728s
-user	0m34.460s
-sys	0m0.263s
-
-Testing equal under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running equal:100:100:8:1000:2000:5000
-./bench: line 332:  8915 Killed                  "$1" < "$2"
-
-real	4m59.998s
-user	4m59.980s
-sys	0m0.000s
-
-Testing bv2string under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running bv2string:1000:1000:100
-
-Error: unbound variable: make-bytevector
-
-	Call history:
-
-	/tmp/larcenous/Chicken/bv2string.scm:185: current-jiffy	  
-	/tmp/larcenous/Chicken/bv2string.scm:189: thunk	  
-	/tmp/larcenous/Chicken/bv2string.scm:148: hide	  
-	/tmp/larcenous/Chicken/bv2string.scm:159: call-with-values	  
-	/tmp/larcenous/Chicken/bv2string.scm:161: values	  
-	/tmp/larcenous/Chicken/bv2string.scm:163: g171	  
-	/tmp/larcenous/Chicken/bv2string.scm:148: hide	  
-	/tmp/larcenous/Chicken/bv2string.scm:159: call-with-values	  
-	/tmp/larcenous/Chicken/bv2string.scm:161: values	  
-	/tmp/larcenous/Chicken/bv2string.scm:163: g171	  
-	/tmp/larcenous/Chicken/bv2string.scm:126: random-bytevector	  
-	/tmp/larcenous/Chicken/bv2string.scm:100: random	  
-	/tmp/larcenous/Chicken/bv2string.scm:93: random14	  
-	/tmp/larcenous/Chicken/bv2string.scm:78: remainder	  
-	/tmp/larcenous/Chicken/bv2string.scm:79: remainder	  
-	/tmp/larcenous/Chicken/bv2string.scm:101: make-bytevector	  	<--
-
-real	0m0.002s
-user	0m0.000s
-sys	0m0.000s
-
-****************************
-Benchmarking Chicken on Mon 30 May 20:11:54 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
-
-Testing browse under Chicken
-Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
-Compiling...
-Running...
-Running browse:2000
-Elapsed time: 13.385 seconds (13.0) for browse:2000
-+!CSVLINE!+chicken-4.11.0,browse:2000,13.385
-
-real	0m13.388s
-user	0m13.370s
-sys	0m0.017s
-
 Testing deriv under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 6.569 seconds (7.0) for deriv:10000000
-+!CSVLINE!+chicken-4.11.0,deriv:10000000,6.569
+Elapsed time: 8.651 seconds (8.0) for deriv:10000000
++!CSVLINE!+chicken-4.11.0,deriv:10000000,8.651
 
-real	0m6.572s
-user	0m6.547s
-sys	0m0.023s
+real	0m8.654s
+user	0m8.600s
+sys	0m0.050s
 
 Testing destruc under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 8.624 seconds (9.0) for destruc:600:50:4000
-+!CSVLINE!+chicken-4.11.0,destruc:600:50:4000,8.624
+Elapsed time: 10.368 seconds (10.0) for destruc:600:50:4000
++!CSVLINE!+chicken-4.11.0,destruc:600:50:4000,10.368
 
-real	0m8.626s
-user	0m8.590s
-sys	0m0.033s
+real	0m10.371s
+user	0m10.307s
+sys	0m0.063s
 
 Testing diviter under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 2.89 seconds (3.0) for diviter:1000:1000000
-+!CSVLINE!+chicken-4.11.0,diviter:1000:1000000,2.89
+Elapsed time: 4.308 seconds (5.0) for diviter:1000:1000000
++!CSVLINE!+chicken-4.11.0,diviter:1000:1000000,4.308
 
-real	0m2.893s
-user	0m2.857s
-sys	0m0.033s
+real	0m4.314s
+user	0m4.250s
+sys	0m0.060s
 
 Testing divrec under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 11.331 seconds (11.0) for divrec:1000:1000000
-+!CSVLINE!+chicken-4.11.0,divrec:1000:1000000,11.331
+Elapsed time: 13.075 seconds (13.0) for divrec:1000:1000000
++!CSVLINE!+chicken-4.11.0,divrec:1000:1000000,13.075
 
-real	0m11.333s
-user	0m11.267s
-sys	0m0.063s
+real	0m13.079s
+user	0m12.980s
+sys	0m0.097s
 
 Testing puzzle under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 15.114 seconds (15.0) for puzzle:1000
-+!CSVLINE!+chicken-4.11.0,puzzle:1000,15.114
+Elapsed time: 17.974 seconds (18.0) for puzzle:1000
++!CSVLINE!+chicken-4.11.0,puzzle:1000,17.974
 
-real	0m15.116s
-user	0m15.023s
-sys	0m0.090s
+real	0m17.977s
+user	0m17.823s
+sys	0m0.150s
 
 Testing triangl under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 13.87 seconds (14.0) for triangl:22:1:50
-+!CSVLINE!+chicken-4.11.0,triangl:22:1:50,13.87
+Elapsed time: 18.329 seconds (19.0) for triangl:22:1:50
++!CSVLINE!+chicken-4.11.0,triangl:22:1:50,18.329
 
-real	0m13.872s
-user	0m13.793s
-sys	0m0.077s
+real	0m18.335s
+user	0m18.183s
+sys	0m0.147s
 
 Testing tak under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 12.203 seconds (12.0) for tak:40:20:11:1
-+!CSVLINE!+chicken-4.11.0,tak:40:20:11:1,12.203
+Elapsed time: 14.142 seconds (15.0) for tak:40:20:11:1
++!CSVLINE!+chicken-4.11.0,tak:40:20:11:1,14.142
 
-real	0m12.205s
-user	0m12.120s
+real	0m14.147s
+user	0m14.060s
 sys	0m0.083s
 
 Testing takl under Chicken
@@ -943,11 +103,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 10.355 seconds (11.0) for takl:40:20:12:1
-+!CSVLINE!+chicken-4.11.0,takl:40:20:12:1,10.355
+Elapsed time: 11.482 seconds (11.0) for takl:40:20:12:1
++!CSVLINE!+chicken-4.11.0,takl:40:20:12:1,11.482
 
-real	0m10.358s
-user	0m10.357s
+real	0m11.486s
+user	0m11.483s
 sys	0m0.000s
 
 Testing ntakl under Chicken
@@ -955,107 +115,108 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 10.048 seconds (10.0) for ntakl:40:20:12:1
-+!CSVLINE!+chicken-4.11.0,ntakl:40:20:12:1,10.048
+Elapsed time: 11.715 seconds (12.0) for ntakl:40:20:12:1
++!CSVLINE!+chicken-4.11.0,ntakl:40:20:12:1,11.715
 
-real	0m10.050s
-user	0m10.047s
-sys	0m0.000s
+real	0m11.722s
+user	0m11.713s
+sys	0m0.007s
 
 Testing cpstak under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 15.487 seconds (15.0) for cpstak:40:20:11:1
-+!CSVLINE!+chicken-4.11.0,cpstak:40:20:11:1,15.487
+Elapsed time: 18.749 seconds (18.0) for cpstak:40:20:11:1
++!CSVLINE!+chicken-4.11.0,cpstak:40:20:11:1,18.749
 
-real	0m15.489s
-user	0m15.433s
-sys	0m0.053s
+real	0m18.752s
+user	0m18.610s
+sys	0m0.137s
 
 Testing ctak under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 3.204 seconds (3.0) for ctak:32:16:8:1
-+!CSVLINE!+chicken-4.11.0,ctak:32:16:8:1,3.204
+Elapsed time: 4.416 seconds (5.0) for ctak:32:16:8:1
++!CSVLINE!+chicken-4.11.0,ctak:32:16:8:1,4.416
 
-real	0m3.206s
-user	0m3.200s
-sys	0m0.003s
+real	0m4.422s
+user	0m4.407s
+sys	0m0.013s
 
 Testing fib under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 28.231 seconds (29.0) for fib:40:5
-+!CSVLINE!+chicken-4.11.0,fib:40:5,28.231
+Elapsed time: 35.14 seconds (35.0) for fib:40:5
++!CSVLINE!+chicken-4.11.0,fib:40:5,35.14
 
-real	0m28.234s
-user	0m28.067s
-sys	0m0.163s
+real	0m35.145s
+user	0m34.850s
+sys	0m0.290s
 
 Testing fibc under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 2.959 seconds (3.0) for fibc:30:10
-+!CSVLINE!+chicken-4.11.0,fibc:30:10,2.959
+Elapsed time: 4.409 seconds (4.0) for fibc:30:10
++!CSVLINE!+chicken-4.11.0,fibc:30:10,4.409
 
-real	0m2.961s
-user	0m2.950s
-sys	0m0.010s
+real	0m4.414s
+user	0m4.383s
+sys	0m0.030s
 
 Testing fibfp under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 5.131 seconds (5.0) for fibfp:35.0:10
-+!CSVLINE!+chicken-4.11.0,fibfp:35.0:10,5.131
+Elapsed time: 7.464 seconds (8.0) for fibfp:35.0:10
++!CSVLINE!+chicken-4.11.0,fibfp:35.0:10,7.464
 
-real	0m5.134s
-user	0m5.090s
-sys	0m0.043s
+real	0m7.470s
+user	0m7.407s
+sys	0m0.060s
 
 Testing sum under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 28.287 seconds (28.0) for sum:10000:200000
-+!CSVLINE!+chicken-4.11.0,sum:10000:200000,28.287
+Elapsed time: 35.767 seconds (35.0) for sum:10000:200000
++!CSVLINE!+chicken-4.11.0,sum:10000:200000,35.767
 
-real	0m28.289s
-user	0m28.173s
-sys	0m0.113s
+real	0m35.774s
+user	0m35.523s
+sys	0m0.243s
 
 Testing sumfp under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 7.061 seconds (7.0) for sumfp:1000000.0:500
-+!CSVLINE!+chicken-4.11.0,sumfp:1000000.0:500,7.061
+Elapsed time: 9.328 seconds (9.0) for sumfp:1000000.0:500
++!CSVLINE!+chicken-4.11.0,sumfp:1000000.0:500,9.328
 
-real	0m7.064s
-user	0m7.033s
-sys	0m0.027s
+real	0m9.331s
+user	0m9.287s
+sys	0m0.040s
 
 Testing fft under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running fft:65536:100
-./bench: line 332:  2736 Killed                  "$1" < "$2"
+Elapsed time: 23.622 seconds (24.0) for fft:65536:100
++!CSVLINE!+chicken-4.11.0,fft:65536:100,23.622
 
-real	4m59.999s
-user	4m59.833s
-sys	0m0.143s
+real	0m23.627s
+user	0m23.553s
+sys	0m0.070s
 
 Testing mbrot under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1065,12 +226,12 @@ Warning: at toplevel:
   assignment of value of type `(procedure count (number number number number number) . *)' to toplevel variable `count' does not match declared type `(forall (a) (procedure count ((procedure (a #!rest *) *) (list-of a) #!rest list) fixnum))'
 Running...
 Running mbrot:75:1000
-Elapsed time: 6.872 seconds (6.0) for mbrot:75:1000
-+!CSVLINE!+chicken-4.11.0,mbrot:75:1000,6.872
+Elapsed time: 9.929 seconds (10.0) for mbrot:75:1000
++!CSVLINE!+chicken-4.11.0,mbrot:75:1000,9.929
 
-real	0m6.875s
-user	0m6.870s
-sys	0m0.003s
+real	0m9.936s
+user	0m9.880s
+sys	0m0.053s
 
 Testing mbrotZ under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1085,25 +246,25 @@ Error: unbound variable: -1.0-0.5i
 
 	Call history:
 
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:61: make-vector	  
-	/tmp/larcenous/Chicken/mbrotZ.scm:62: loop	  	<--
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:62: make-vector	  
+	/tmp/larcenous/Chicken/mbrotZ.scm:63: loop	  	<--
 
-real	0m0.002s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 
 Testing nucleic under Chicken
@@ -1111,12 +272,12 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 3.883 seconds (3.0) for nucleic:50
-+!CSVLINE!+chicken-4.11.0,nucleic:50,3.883
+Elapsed time: 5.167 seconds (5.0) for nucleic:50
++!CSVLINE!+chicken-4.11.0,nucleic:50,5.167
 
-real	0m3.888s
-user	0m3.870s
-sys	0m0.017s
+real	0m5.175s
+user	0m5.170s
+sys	0m0.003s
 
 Testing pi under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1145,8 +306,8 @@ Error: (quotient) bad argument type - not an integer: +nan.0
 	/tmp/larcenous/Chicken/pi.scm:61: div	  
 	/tmp/larcenous/Chicken/pi.scm:87: div	  	<--
 
-real	0m0.009s
-user	0m0.007s
+real	0m0.018s
+user	0m0.017s
 sys	0m0.000s
 
 Testing pnpoly under Chicken
@@ -1154,96 +315,96 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 14.004 seconds (14.0) for pnpoly:1000000
-+!CSVLINE!+chicken-4.11.0,pnpoly:1000000,14.004
+Elapsed time: 16.864 seconds (17.0) for pnpoly:1000000
++!CSVLINE!+chicken-4.11.0,pnpoly:1000000,16.864
 
-real	0m14.007s
-user	0m13.940s
-sys	0m0.063s
+real	0m16.868s
+user	0m16.780s
+sys	0m0.087s
 
 Testing ray under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 3.825 seconds (4.0) for ray:50
-+!CSVLINE!+chicken-4.11.0,ray:50,3.825
+Elapsed time: 4.173 seconds (4.0) for ray:50
++!CSVLINE!+chicken-4.11.0,ray:50,4.173
 
-real	0m3.827s
-user	0m3.797s
-sys	0m0.027s
+real	0m4.176s
+user	0m4.150s
+sys	0m0.023s
 
 Testing simplex under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 8.471 seconds (9.0) for simplex:1000000
-+!CSVLINE!+chicken-4.11.0,simplex:1000000,8.471
+Elapsed time: 15.504 seconds (16.0) for simplex:1000000
++!CSVLINE!+chicken-4.11.0,simplex:1000000,15.504
 
-real	0m8.474s
-user	0m8.423s
-sys	0m0.050s
+real	0m15.508s
+user	0m15.330s
+sys	0m0.173s
 
 Testing ack under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 51.561 seconds (52.0) for ack:3:12:2
-+!CSVLINE!+chicken-4.11.0,ack:3:12:2,51.561
+Elapsed time: 81.066 seconds (81.0) for ack:3:12:2
++!CSVLINE!+chicken-4.11.0,ack:3:12:2,81.066
 
-real	0m51.564s
-user	0m51.210s
-sys	0m0.350s
+real	1m21.071s
+user	1m20.390s
+sys	0m0.673s
 
 Testing array1 under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 13.747 seconds (14.0) for array1:1000000:500
-+!CSVLINE!+chicken-4.11.0,array1:1000000:500,13.747
+Elapsed time: 17.562 seconds (17.0) for array1:1000000:500
++!CSVLINE!+chicken-4.11.0,array1:1000000:500,17.562
 
-real	0m13.750s
-user	0m13.680s
-sys	0m0.067s
+real	0m17.567s
+user	0m17.483s
+sys	0m0.080s
 
 Testing string under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 0.162 seconds (0.0) for string:500000:25
-+!CSVLINE!+chicken-4.11.0,string:500000:25,0.162
+Elapsed time: 0.449 seconds (1.0) for string:500000:25
++!CSVLINE!+chicken-4.11.0,string:500000:25,0.449
 
-real	0m0.165s
-user	0m0.160s
-sys	0m0.003s
+real	0m0.457s
+user	0m0.433s
+sys	0m0.020s
 
 Testing sum1 under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 4.563 seconds (5.0) for sum1:25
-+!CSVLINE!+chicken-4.11.0,sum1:25,4.563
+Elapsed time: 7.098 seconds (7.0) for sum1:25
++!CSVLINE!+chicken-4.11.0,sum1:25,7.098
 
-real	0m4.565s
-user	0m4.527s
-sys	0m0.037s
+real	0m7.104s
+user	0m6.990s
+sys	0m0.110s
 
 Testing cat under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 13.703 seconds (14.0) for cat:50
-+!CSVLINE!+chicken-4.11.0,cat:50,13.703
+Elapsed time: 25.383 seconds (25.0) for cat:50
++!CSVLINE!+chicken-4.11.0,cat:50,25.383
 
-real	0m13.706s
-user	0m13.507s
-sys	0m0.190s
+real	0m25.387s
+user	0m24.927s
+sys	0m0.450s
 
 Testing tail under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1276,33 +437,33 @@ Error: (write-string) bad argument type - not a fixnum: #<output port "outputs/t
 	/tmp/larcenous/Chicken/tail.scm:35: g75	  
 	/tmp/larcenous/Chicken/tail.scm:36: write-string	  	<--
 
-real	0m0.034s
-user	0m0.030s
-sys	0m0.003s
+real	0m0.055s
+user	0m0.047s
+sys	0m0.007s
 
 Testing wc under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 9.785 seconds (9.0) for wc:inputs/bib:50
-+!CSVLINE!+chicken-4.11.0,wc:inputs/bib:50,9.785
+Elapsed time: 13.991 seconds (14.0) for wc:inputs/bib:50
++!CSVLINE!+chicken-4.11.0,wc:inputs/bib:50,13.991
 
-real	0m9.788s
-user	0m9.747s
-sys	0m0.040s
+real	0m13.994s
+user	0m13.927s
+sys	0m0.063s
 
 Testing read1 under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 9.791 seconds (10.0) for read1:2500
-+!CSVLINE!+chicken-4.11.0,read1:2500,9.791
+Elapsed time: 15.573 seconds (16.0) for read1:2500
++!CSVLINE!+chicken-4.11.0,read1:2500,15.573
 
-real	0m9.794s
-user	0m9.677s
-sys	0m0.113s
+real	0m15.577s
+user	0m15.397s
+sys	0m0.177s
 
 Testing compiler under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1326,12 +487,12 @@ Warning: at toplevel:
 Warning: redefinition of extended binding: bitwise-not
 Running...
 Running compiler:2000
-Elapsed time: 7.993 seconds (8.0) for compiler:2000
-+!CSVLINE!+chicken-4.11.0,compiler:2000,7.993
+Elapsed time: 9.658 seconds (9.0) for compiler:2000
++!CSVLINE!+chicken-4.11.0,compiler:2000,9.658
 
-real	0m8.001s
-user	0m7.897s
-sys	0m0.103s
+real	0m9.669s
+user	0m9.543s
+sys	0m0.123s
 
 Testing conform under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1341,23 +502,23 @@ Warning: at toplevel:
   assignment of value of type `(procedure join (* * *) *)' to toplevel variable `join' does not match declared type `(procedure join ((list-of list) #!optional list) list)'
 Running...
 Running conform:500
-Elapsed time: 13.361 seconds (13.0) for conform:500
-+!CSVLINE!+chicken-4.11.0,conform:500,13.361
+Elapsed time: 24.756 seconds (25.0) for conform:500
++!CSVLINE!+chicken-4.11.0,conform:500,24.756
 
-real	0m13.364s
-user	0m13.283s
-sys	0m0.080s
+real	0m24.761s
+user	0m24.617s
+sys	0m0.140s
 
 Testing dynamic under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 13.286 seconds (13.0) for dynamic:500
-+!CSVLINE!+chicken-4.11.0,dynamic:500,13.286
+Elapsed time: 16.871 seconds (17.0) for dynamic:500
++!CSVLINE!+chicken-4.11.0,dynamic:500,16.871
 
-real	0m13.290s
-user	0m13.197s
+real	0m16.877s
+user	0m16.783s
 sys	0m0.090s
 
 Testing earley under Chicken
@@ -1385,32 +546,32 @@ Running earley:1
 /tmp/larcenous/Chicken/earley.scm:537: append
 /tmp/larcenous/Chicken/earley.scm:536: loop4 	<--
 
-real	0m34.939s
-user	0m34.560s
-sys	0m0.377s
+real	0m53.634s
+user	0m53.183s
+sys	0m0.443s
 
 Testing graphs under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 11.859 seconds (12.0) for graphs:7:3
-+!CSVLINE!+chicken-4.11.0,graphs:7:3,11.859
+Elapsed time: 13.106 seconds (13.0) for graphs:7:3
++!CSVLINE!+chicken-4.11.0,graphs:7:3,13.106
 
-real	0m11.863s
-user	0m11.783s
-sys	0m0.077s
+real	0m13.111s
+user	0m13.013s
+sys	0m0.097s
 
 Testing lattice under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 20.761 seconds (21.0) for lattice:44:10
-+!CSVLINE!+chicken-4.11.0,lattice:44:10,20.761
+Elapsed time: 28.524 seconds (28.0) for lattice:44:10
++!CSVLINE!+chicken-4.11.0,lattice:44:10,28.524
 
-real	0m20.764s
-user	0m20.623s
+real	0m28.527s
+user	0m28.387s
 sys	0m0.137s
 
 Testing matrix under Chicken
@@ -1418,12 +579,12 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 9.182 seconds (10.0) for matrix:5:5:2500
-+!CSVLINE!+chicken-4.11.0,matrix:5:5:2500,9.182
+Elapsed time: 14.37 seconds (15.0) for matrix:5:5:2500
++!CSVLINE!+chicken-4.11.0,matrix:5:5:2500,14.37
 
-real	0m9.185s
-user	0m8.963s
-sys	0m0.220s
+real	0m14.374s
+user	0m14.023s
+sys	0m0.347s
 
 Testing maze under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1434,12 +595,12 @@ Warning: redefinition of extended binding: bitwise-not
 Warning: redefinition of extended binding: bitwise-and
 Running...
 Running maze:20:7:10000
-Elapsed time: 4.098 seconds (4.0) for maze:20:7:10000
-+!CSVLINE!+chicken-4.11.0,maze:20:7:10000,4.098
+Elapsed time: 6.616 seconds (7.0) for maze:20:7:10000
++!CSVLINE!+chicken-4.11.0,maze:20:7:10000,6.616
 
-real	0m4.101s
-user	0m4.080s
-sys	0m0.020s
+real	0m6.621s
+user	0m6.593s
+sys	0m0.023s
 
 Testing mazefun under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1450,23 +611,23 @@ Warning: redefinition of extended binding: foldr
 Warning: redefinition of extended binding: foldl
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 12.989 seconds (13.0) for mazefun:11:11:10000
-+!CSVLINE!+chicken-4.11.0,mazefun:11:11:10000,12.989
+Elapsed time: 20.339 seconds (20.0) for mazefun:11:11:10000
++!CSVLINE!+chicken-4.11.0,mazefun:11:11:10000,20.339
 
-real	0m12.992s
-user	0m12.893s
-sys	0m0.097s
+real	0m20.343s
+user	0m20.260s
+sys	0m0.080s
 
 Testing nqueens under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 27.562 seconds (28.0) for nqueens:13:10
-+!CSVLINE!+chicken-4.11.0,nqueens:13:10,27.562
+Elapsed time: 29.778 seconds (30.0) for nqueens:13:10
++!CSVLINE!+chicken-4.11.0,nqueens:13:10,29.778
 
-real	0m27.564s
-user	0m27.467s
+real	0m29.782s
+user	0m29.683s
 sys	0m0.093s
 
 Testing paraffins under Chicken
@@ -1474,48 +635,48 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-Elapsed time: 14.957 seconds (15.0) for paraffins:23:10
-+!CSVLINE!+chicken-4.11.0,paraffins:23:10,14.957
+Elapsed time: 15.022 seconds (15.0) for paraffins:23:10
++!CSVLINE!+chicken-4.11.0,paraffins:23:10,15.022
 
-real	0m14.962s
-user	0m14.830s
-sys	0m0.130s
+real	0m15.029s
+user	0m14.840s
+sys	0m0.187s
 
 Testing parsing under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 17.146 seconds (17.0) for parsing:2500
-+!CSVLINE!+chicken-4.11.0,parsing:2500,17.146
+Elapsed time: 21.784 seconds (22.0) for parsing:2500
++!CSVLINE!+chicken-4.11.0,parsing:2500,21.784
 
-real	0m17.149s
-user	0m16.957s
-sys	0m0.190s
+real	0m21.789s
+user	0m21.453s
+sys	0m0.330s
 
 Testing peval under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 13.014 seconds (13.0) for peval:2000
-+!CSVLINE!+chicken-4.11.0,peval:2000,13.014
+Elapsed time: 15.792 seconds (16.0) for peval:2000
++!CSVLINE!+chicken-4.11.0,peval:2000,15.792
 
-real	0m13.016s
-user	0m12.937s
-sys	0m0.077s
+real	0m15.797s
+user	0m15.687s
+sys	0m0.107s
 
 Testing primes under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 10.789 seconds (11.0) for primes:1000:10000
-+!CSVLINE!+chicken-4.11.0,primes:1000:10000,10.789
+Elapsed time: 15.651 seconds (16.0) for primes:1000:10000
++!CSVLINE!+chicken-4.11.0,primes:1000:10000,15.651
 
-real	0m10.791s
-user	0m10.767s
-sys	0m0.023s
+real	0m15.656s
+user	0m15.610s
+sys	0m0.043s
 
 Testing quicksort under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1525,59 +686,59 @@ Warning: at toplevel:
   assignment of value of type `(procedure partition (vector number fixnum *) . *)' to toplevel variable `partition' does not match declared type `(forall (a) (procedure partition ((procedure (a) *) (list-of a)) (list-of a) (list-of a)))'
 Running...
 Running quicksort:10000:2500
-./bench: line 332:  3385 Killed                  "$1" < "$2"
+./bench: line 332: 19923 Killed                  "$1" < "$2"
 
-real	4m59.999s
-user	4m57.913s
-sys	0m2.067s
+real	9m59.999s
+user	9m56.090s
+sys	0m3.867s
 
 Testing scheme under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 14.817 seconds (15.0) for scheme:100000
-+!CSVLINE!+chicken-4.11.0,scheme:100000,14.817
+Elapsed time: 18.406 seconds (19.0) for scheme:100000
++!CSVLINE!+chicken-4.11.0,scheme:100000,18.406
 
-real	0m14.821s
-user	0m14.693s
-sys	0m0.123s
+real	0m18.410s
+user	0m18.263s
+sys	0m0.143s
 
 Testing slatex under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 4.168 seconds (4.0) for slatex:500
-+!CSVLINE!+chicken-4.11.0,slatex:500,4.168
+Elapsed time: 4.577 seconds (5.0) for slatex:500
++!CSVLINE!+chicken-4.11.0,slatex:500,4.577
 
-real	0m4.170s
-user	0m3.073s
-sys	0m1.087s
+real	0m4.581s
+user	0m3.523s
+sys	0m1.043s
 
 Testing nboyer under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 23.415 seconds (23.0) for nboyer:5:1
-+!CSVLINE!+chicken-4.11.0,nboyer:5:1,23.415
+Elapsed time: 25.993 seconds (26.0) for nboyer:5:1
++!CSVLINE!+chicken-4.11.0,nboyer:5:1,25.993
 
-real	0m23.420s
-user	0m23.317s
-sys	0m0.100s
+real	0m25.998s
+user	0m25.887s
+sys	0m0.107s
 
 Testing sboyer under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 8.187 seconds (8.0) for sboyer:5:1
-+!CSVLINE!+chicken-4.11.0,sboyer:5:1,8.187
+Elapsed time: 11.111 seconds (11.0) for sboyer:5:1
++!CSVLINE!+chicken-4.11.0,sboyer:5:1,11.111
 
-real	0m8.190s
-user	0m8.100s
-sys	0m0.087s
+real	0m11.115s
+user	0m11.017s
+sys	0m0.097s
 
 Testing gcbench under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
@@ -1618,34 +779,34 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 5.257 seconds (5.0) for gcbench:20:1
-+!CSVLINE!+chicken-4.11.0,gcbench:20:1,5.257
+Elapsed time: 5.888 seconds (6.0) for gcbench:20:1
++!CSVLINE!+chicken-4.11.0,gcbench:20:1,5.888
 
-real	0m5.261s
-user	0m5.230s
-sys	0m0.030s
+real	0m5.892s
+user	0m5.830s
+sys	0m0.060s
 
 Testing mperm under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running perm20:10:2:1
-Elapsed time: 31.549 seconds (32.0) for perm20:10:2:1
-+!CSVLINE!+chicken-4.11.0,perm20:10:2:1,31.549
+Elapsed time: 41.243 seconds (41.0) for perm20:10:2:1
++!CSVLINE!+chicken-4.11.0,perm20:10:2:1,41.243
 
-real	0m33.788s
-user	0m33.567s
-sys	0m0.217s
+real	0m45.206s
+user	0m44.963s
+sys	0m0.237s
 
 Testing equal under Chicken
 Including prelude /home/nex/src/r7rs-benchmarks/src/Chicken-prelude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 332:  3603 Killed                  "$1" < "$2"
+./bench: line 332: 21029 Killed                  "$1" < "$2"
 
-real	4m59.999s
-user	4m59.980s
+real	9m59.999s
+user	9m59.957s
 sys	0m0.000s
 
 Testing bv2string under Chicken
@@ -1675,6 +836,6 @@ Error: unbound variable: make-bytevector
 	/tmp/larcenous/Chicken/bv2string.scm:79: remainder	  
 	/tmp/larcenous/Chicken/bv2string.scm:101: make-bytevector	  	<--
 
-real	0m0.002s
+real	0m0.003s
 user	0m0.000s
 sys	0m0.000s
