@@ -9,7 +9,7 @@ Compiling...
 Running...
 Running browse:2000
 Elapsed time: 23.894434911 seconds (24) for browse:2000
-+!CSVLINE!+chez-9.4.0-m64,browse:2000,23.894434911
++!CSVLINE!+petite-9.4.0-m64,browse:2000,23.894434911
 
 real	0m24.007s
 user	0m23.977s
@@ -22,7 +22,7 @@ Compiling...
 Running...
 Running deriv:10000000
 Elapsed time: 10.777296701 seconds (11) for deriv:10000000
-+!CSVLINE!+chez-9.4.0-m64,deriv:10000000,10.777296701
++!CSVLINE!+petite-9.4.0-m64,deriv:10000000,10.777296701
 
 real	0m10.881s
 user	0m10.873s
@@ -35,7 +35,7 @@ Compiling...
 Running...
 Running destruc:600:50:4000
 Elapsed time: 25.706189871 seconds (25) for destruc:600:50:4000
-+!CSVLINE!+chez-9.4.0-m64,destruc:600:50:4000,25.706189871
++!CSVLINE!+petite-9.4.0-m64,destruc:600:50:4000,25.706189871
 
 real	0m25.808s
 user	0m25.790s
@@ -48,7 +48,7 @@ Compiling...
 Running...
 Running diviter:1000:1000000
 Elapsed time: 17.746498043 seconds (17) for diviter:1000:1000000
-+!CSVLINE!+chez-9.4.0-m64,diviter:1000:1000000,17.746498043
++!CSVLINE!+petite-9.4.0-m64,diviter:1000:1000000,17.746498043
 
 real	0m17.859s
 user	0m17.817s
@@ -61,7 +61,7 @@ Compiling...
 Running...
 Running divrec:1000:1000000
 Elapsed time: 13.207274199 seconds (14) for divrec:1000:1000000
-+!CSVLINE!+chez-9.4.0-m64,divrec:1000:1000000,13.207274199
++!CSVLINE!+petite-9.4.0-m64,divrec:1000:1000000,13.207274199
 
 real	0m13.311s
 user	0m13.297s
@@ -74,7 +74,7 @@ Compiling...
 Running...
 Running puzzle:1000
 Elapsed time: 50.551192653 seconds (50) for puzzle:1000
-+!CSVLINE!+chez-9.4.0-m64,puzzle:1000,50.551192653
++!CSVLINE!+petite-9.4.0-m64,puzzle:1000,50.551192653
 
 real	0m50.643s
 user	0m50.630s
@@ -87,7 +87,7 @@ Compiling...
 Running...
 Running triangl:22:1:50
 Elapsed time: 36.760417465 seconds (37) for triangl:22:1:50
-+!CSVLINE!+chez-9.4.0-m64,triangl:22:1:50,36.760417465
++!CSVLINE!+petite-9.4.0-m64,triangl:22:1:50,36.760417465
 
 real	0m36.866s
 user	0m36.853s
@@ -100,7 +100,7 @@ Compiling...
 Running...
 Running tak:40:20:11:1
 Elapsed time: 22.232656102 seconds (23) for tak:40:20:11:1
-+!CSVLINE!+chez-9.4.0-m64,tak:40:20:11:1,22.232656102
++!CSVLINE!+petite-9.4.0-m64,tak:40:20:11:1,22.232656102
 
 real	0m22.336s
 user	0m22.317s
@@ -113,7 +113,7 @@ Compiling...
 Running...
 Running takl:40:20:12:1
 Elapsed time: 82.725397108 seconds (82) for takl:40:20:12:1
-+!CSVLINE!+chez-9.4.0-m64,takl:40:20:12:1,82.725397108
++!CSVLINE!+petite-9.4.0-m64,takl:40:20:12:1,82.725397108
 
 real	1m22.830s
 user	1m16.397s
@@ -126,7 +126,7 @@ Compiling...
 Running...
 Running ntakl:40:20:12:1
 Elapsed time: 69.680029113 seconds (70) for ntakl:40:20:12:1
-+!CSVLINE!+chez-9.4.0-m64,ntakl:40:20:12:1,69.680029113
++!CSVLINE!+petite-9.4.0-m64,ntakl:40:20:12:1,69.680029113
 
 real	1m9.779s
 user	1m9.470s
@@ -139,7 +139,7 @@ Compiling...
 Running...
 Running cpstak:40:20:11:1
 Elapsed time: 90.267704175 seconds (90) for cpstak:40:20:11:1
-+!CSVLINE!+chez-9.4.0-m64,cpstak:40:20:11:1,90.267704175
++!CSVLINE!+petite-9.4.0-m64,cpstak:40:20:11:1,90.267704175
 
 real	1m30.344s
 user	1m30.207s
@@ -152,7 +152,7 @@ Compiling...
 Running...
 Running ctak:32:16:8:1
 Elapsed time: 6.256811316 seconds (6) for ctak:32:16:8:1
-+!CSVLINE!+chez-9.4.0-m64,ctak:32:16:8:1,6.256811316
++!CSVLINE!+petite-9.4.0-m64,ctak:32:16:8:1,6.256811316
 
 real	0m6.351s
 user	0m6.340s
@@ -165,7 +165,7 @@ Compiling...
 Running...
 Running fib:40:5
 Elapsed time: 50.953615096 seconds (51) for fib:40:5
-+!CSVLINE!+chez-9.4.0-m64,fib:40:5,50.953615096
++!CSVLINE!+petite-9.4.0-m64,fib:40:5,50.953615096
 
 real	0m51.063s
 user	0m51.020s
@@ -178,7 +178,7 @@ Compiling...
 Running...
 Running fibc:30:10
 Elapsed time: 5.821116281 seconds (6) for fibc:30:10
-+!CSVLINE!+chez-9.4.0-m64,fibc:30:10,5.821116281
++!CSVLINE!+petite-9.4.0-m64,fibc:30:10,5.821116281
 
 real	0m5.923s
 user	0m5.907s
@@ -191,7 +191,7 @@ Compiling...
 Running...
 Running fibfp:35.0:10
 Elapsed time: 11.151223621 seconds (11) for fibfp:35.0:10
-+!CSVLINE!+chez-9.4.0-m64,fibfp:35.0:10,11.151223621
++!CSVLINE!+petite-9.4.0-m64,fibfp:35.0:10,11.151223621
 
 real	0m11.246s
 user	0m11.210s
@@ -204,7 +204,7 @@ Compiling...
 Running...
 Running sum:10000:200000
 Elapsed time: 65.557428399 seconds (66) for sum:10000:200000
-+!CSVLINE!+chez-9.4.0-m64,sum:10000:200000,65.557428399
++!CSVLINE!+petite-9.4.0-m64,sum:10000:200000,65.557428399
 
 real	1m5.654s
 user	1m5.620s
@@ -217,7 +217,7 @@ Compiling...
 Running...
 Running sumfp:1000000.0:500
 Elapsed time: 19.557901439 seconds (19) for sumfp:1000000.0:500
-+!CSVLINE!+chez-9.4.0-m64,sumfp:1000000.0:500,19.557901439
++!CSVLINE!+petite-9.4.0-m64,sumfp:1000000.0:500,19.557901439
 
 real	0m19.658s
 user	0m19.603s
@@ -230,7 +230,7 @@ Compiling...
 Running...
 Running fft:65536:100
 Elapsed time: 23.765149922 seconds (23) for fft:65536:100
-+!CSVLINE!+chez-9.4.0-m64,fft:65536:100,23.765149922
++!CSVLINE!+petite-9.4.0-m64,fft:65536:100,23.765149922
 
 real	0m23.878s
 user	0m22.363s
@@ -243,7 +243,7 @@ Compiling...
 Running...
 Running mbrot:75:1000
 Elapsed time: 49.857090541 seconds (49) for mbrot:75:1000
-+!CSVLINE!+chez-9.4.0-m64,mbrot:75:1000,49.857090541
++!CSVLINE!+petite-9.4.0-m64,mbrot:75:1000,49.857090541
 
 real	0m50.058s
 user	0m43.827s
@@ -256,7 +256,7 @@ Compiling...
 Running...
 Running mbrotZ:75:1000
 Elapsed time: 69.931045851 seconds (70) for mbrotZ:75:1000
-+!CSVLINE!+chez-9.4.0-m64,mbrotZ:75:1000,69.931045851
++!CSVLINE!+petite-9.4.0-m64,mbrotZ:75:1000,69.931045851
 
 real	1m10.111s
 user	1m5.847s
@@ -269,7 +269,7 @@ Compiling...
 Running...
 Running nucleic:50
 Elapsed time: 17.335328169 seconds (17) for nucleic:50
-+!CSVLINE!+chez-9.4.0-m64,nucleic:50,17.335328169
++!CSVLINE!+petite-9.4.0-m64,nucleic:50,17.335328169
 
 real	0m17.467s
 user	0m17.110s
@@ -282,7 +282,7 @@ Compiling...
 Running...
 Running pi:50:500:50:2
 Elapsed time: 0.385627431 seconds (1) for pi:50:500:50:2
-+!CSVLINE!+chez-9.4.0-m64,pi:50:500:50:2,0.385627431
++!CSVLINE!+petite-9.4.0-m64,pi:50:500:50:2,0.385627431
 
 real	0m0.494s
 user	0m0.477s
@@ -295,7 +295,7 @@ Compiling...
 Running...
 Running pnpoly:1000000
 Elapsed time: 37.520111157 seconds (37) for pnpoly:1000000
-+!CSVLINE!+chez-9.4.0-m64,pnpoly:1000000,37.520111157
++!CSVLINE!+petite-9.4.0-m64,pnpoly:1000000,37.520111157
 
 real	0m37.606s
 user	0m37.593s
@@ -308,7 +308,7 @@ Compiling...
 Running...
 Running ray:50
 Elapsed time: 18.42086066 seconds (19) for ray:50
-+!CSVLINE!+chez-9.4.0-m64,ray:50,18.42086066
++!CSVLINE!+petite-9.4.0-m64,ray:50,18.42086066
 
 real	0m18.554s
 user	0m18.487s
@@ -321,7 +321,7 @@ Compiling...
 Running...
 Running simplex:1000000
 Elapsed time: 58.677402045 seconds (59) for simplex:1000000
-+!CSVLINE!+chez-9.4.0-m64,simplex:1000000,58.677402045
++!CSVLINE!+petite-9.4.0-m64,simplex:1000000,58.677402045
 
 real	0m58.783s
 user	0m58.743s
@@ -334,7 +334,7 @@ Compiling...
 Running...
 Running ack:3:12:2
 Elapsed time: 62.001121327 seconds (62) for ack:3:12:2
-+!CSVLINE!+chez-9.4.0-m64,ack:3:12:2,62.001121327
++!CSVLINE!+petite-9.4.0-m64,ack:3:12:2,62.001121327
 
 real	1m2.101s
 user	1m2.077s
@@ -347,7 +347,7 @@ Compiling...
 Running...
 Running array1:1000000:500
 Elapsed time: 45.00438376 seconds (45) for array1:1000000:500
-+!CSVLINE!+chez-9.4.0-m64,array1:1000000:500,45.00438376
++!CSVLINE!+petite-9.4.0-m64,array1:1000000:500,45.00438376
 
 real	0m45.107s
 user	0m43.820s
@@ -360,7 +360,7 @@ Compiling...
 Running...
 Running string:500000:25
 Elapsed time: 1.274934554 seconds (1) for string:500000:25
-+!CSVLINE!+chez-9.4.0-m64,string:500000:25,1.274934554
++!CSVLINE!+petite-9.4.0-m64,string:500000:25,1.274934554
 
 real	0m1.369s
 user	0m1.297s
@@ -373,7 +373,7 @@ Compiling...
 Running...
 Running sum1:25
 Elapsed time: 2.908160987 seconds (3) for sum1:25
-+!CSVLINE!+chez-9.4.0-m64,sum1:25,2.908160987
++!CSVLINE!+petite-9.4.0-m64,sum1:25,2.908160987
 
 real	0m3.013s
 user	0m3.003s
@@ -386,7 +386,7 @@ Compiling...
 Running...
 Running cat:50
 Elapsed time: 18.129672303 seconds (18) for cat:50
-+!CSVLINE!+chez-9.4.0-m64,cat:50,18.129672303
++!CSVLINE!+petite-9.4.0-m64,cat:50,18.129672303
 
 real	0m18.238s
 user	0m17.697s
@@ -399,7 +399,7 @@ Compiling...
 Running...
 Running tail:25
 Elapsed time: 2.544048734 seconds (2) for tail:25
-+!CSVLINE!+chez-9.4.0-m64,tail:25,2.544048734
++!CSVLINE!+petite-9.4.0-m64,tail:25,2.544048734
 
 real	0m2.653s
 user	0m2.390s
@@ -412,7 +412,7 @@ Compiling...
 Running...
 Running wc:inputs/bib:50
 Elapsed time: 41.629008594 seconds (42) for wc:inputs/bib:50
-+!CSVLINE!+chez-9.4.0-m64,wc:inputs/bib:50,41.629008594
++!CSVLINE!+petite-9.4.0-m64,wc:inputs/bib:50,41.629008594
 
 real	0m41.734s
 user	0m41.550s
@@ -425,7 +425,7 @@ Compiling...
 Running...
 Running read1:2500
 Elapsed time: 1.083131858 seconds (1) for read1:2500
-+!CSVLINE!+chez-9.4.0-m64,read1:2500,1.083131858
++!CSVLINE!+petite-9.4.0-m64,read1:2500,1.083131858
 
 real	0m1.183s
 user	0m1.140s
@@ -438,7 +438,7 @@ Compiling...
 Running...
 Running compiler:2000
 Elapsed time: 36.598912877 seconds (36) for compiler:2000
-+!CSVLINE!+chez-9.4.0-m64,compiler:2000,36.598912877
++!CSVLINE!+petite-9.4.0-m64,compiler:2000,36.598912877
 
 real	0m37.173s
 user	0m37.143s
@@ -451,7 +451,7 @@ Compiling...
 Running...
 Running conform:500
 Elapsed time: 38.367660072 seconds (39) for conform:500
-+!CSVLINE!+chez-9.4.0-m64,conform:500,38.367660072
++!CSVLINE!+petite-9.4.0-m64,conform:500,38.367660072
 
 real	0m38.474s
 user	0m38.437s
@@ -464,7 +464,7 @@ Compiling...
 Running...
 Running dynamic:500
 Elapsed time: 15.93221354 seconds (16) for dynamic:500
-+!CSVLINE!+chez-9.4.0-m64,dynamic:500,15.93221354
++!CSVLINE!+petite-9.4.0-m64,dynamic:500,15.93221354
 
 real	0m16.065s
 user	0m16.007s
@@ -477,7 +477,7 @@ Compiling...
 Running...
 Running earley:1
 Elapsed time: 33.355481957 seconds (33) for earley:1
-+!CSVLINE!+chez-9.4.0-m64,earley:1,33.355481957
++!CSVLINE!+petite-9.4.0-m64,earley:1,33.355481957
 
 real	0m33.510s
 user	0m33.033s
@@ -490,7 +490,7 @@ Compiling...
 Running...
 Running graphs:7:3
 Elapsed time: 109.682034566 seconds (110) for graphs:7:3
-+!CSVLINE!+chez-9.4.0-m64,graphs:7:3,109.682034566
++!CSVLINE!+petite-9.4.0-m64,graphs:7:3,109.682034566
 
 real	1m49.785s
 user	1m49.610s
@@ -503,7 +503,7 @@ Compiling...
 Running...
 Running lattice:44:10
 Elapsed time: 98.266725274 seconds (98) for lattice:44:10
-+!CSVLINE!+chez-9.4.0-m64,lattice:44:10,98.266725274
++!CSVLINE!+petite-9.4.0-m64,lattice:44:10,98.266725274
 
 real	1m38.374s
 user	1m38.287s
@@ -516,7 +516,7 @@ Compiling...
 Running...
 Running matrix:5:5:2500
 Elapsed time: 51.290602989 seconds (51) for matrix:5:5:2500
-+!CSVLINE!+chez-9.4.0-m64,matrix:5:5:2500,51.290602989
++!CSVLINE!+petite-9.4.0-m64,matrix:5:5:2500,51.290602989
 
 real	0m51.401s
 user	0m51.377s
@@ -529,7 +529,7 @@ Compiling...
 Running...
 Running maze:20:7:10000
 Elapsed time: 15.289033605 seconds (15) for maze:20:7:10000
-+!CSVLINE!+chez-9.4.0-m64,maze:20:7:10000,15.289033605
++!CSVLINE!+petite-9.4.0-m64,maze:20:7:10000,15.289033605
 
 real	0m15.407s
 user	0m15.370s
@@ -542,7 +542,7 @@ Compiling...
 Running...
 Running mazefun:11:11:10000
 Elapsed time: 33.660853957 seconds (34) for mazefun:11:11:10000
-+!CSVLINE!+chez-9.4.0-m64,mazefun:11:11:10000,33.660853957
++!CSVLINE!+petite-9.4.0-m64,mazefun:11:11:10000,33.660853957
 
 real	0m33.765s
 user	0m33.720s
@@ -555,7 +555,7 @@ Compiling...
 Running...
 Running nqueens:13:10
 Elapsed time: 62.816250584 seconds (63) for nqueens:13:10
-+!CSVLINE!+chez-9.4.0-m64,nqueens:13:10,62.816250584
++!CSVLINE!+petite-9.4.0-m64,nqueens:13:10,62.816250584
 
 real	1m2.923s
 user	1m2.917s
@@ -568,7 +568,7 @@ Compiling...
 Running...
 Running paraffins:23:10
 Elapsed time: 14.349311539 seconds (14) for paraffins:23:10
-+!CSVLINE!+chez-9.4.0-m64,paraffins:23:10,14.349311539
++!CSVLINE!+petite-9.4.0-m64,paraffins:23:10,14.349311539
 
 real	0m14.469s
 user	0m13.743s
@@ -581,7 +581,7 @@ Compiling...
 Running...
 Running parsing:2500
 Elapsed time: 26.524959823 seconds (26) for parsing:2500
-+!CSVLINE!+chez-9.4.0-m64,parsing:2500,26.524959823
++!CSVLINE!+petite-9.4.0-m64,parsing:2500,26.524959823
 
 real	0m26.645s
 user	0m26.623s
@@ -594,7 +594,7 @@ Compiling...
 Running...
 Running peval:2000
 Elapsed time: 31.869093087 seconds (32) for peval:2000
-+!CSVLINE!+chez-9.4.0-m64,peval:2000,31.869093087
++!CSVLINE!+petite-9.4.0-m64,peval:2000,31.869093087
 
 real	0m31.957s
 user	0m31.943s
@@ -607,7 +607,7 @@ Compiling...
 Running...
 Running primes:1000:10000
 Elapsed time: 7.849675805 seconds (8) for primes:1000:10000
-+!CSVLINE!+chez-9.4.0-m64,primes:1000:10000,7.849675805
++!CSVLINE!+petite-9.4.0-m64,primes:1000:10000,7.849675805
 
 real	0m7.935s
 user	0m7.923s
@@ -620,7 +620,7 @@ Compiling...
 Running...
 Running quicksort:10000:2500
 Elapsed time: 74.124984055 seconds (74) for quicksort:10000:2500
-+!CSVLINE!+chez-9.4.0-m64,quicksort:10000:2500,74.124984055
++!CSVLINE!+petite-9.4.0-m64,quicksort:10000:2500,74.124984055
 
 real	1m14.238s
 user	1m14.127s
@@ -633,7 +633,7 @@ Compiling...
 Running...
 Running scheme:100000
 Elapsed time: 30.109686963 seconds (30) for scheme:100000
-+!CSVLINE!+chez-9.4.0-m64,scheme:100000,30.109686963
++!CSVLINE!+petite-9.4.0-m64,scheme:100000,30.109686963
 
 real	0m30.222s
 user	0m30.207s
@@ -646,7 +646,7 @@ Compiling...
 Running...
 Running slatex:500
 Elapsed time: 18.313596255 seconds (18) for slatex:500
-+!CSVLINE!+chez-9.4.0-m64,slatex:500,18.313596255
++!CSVLINE!+petite-9.4.0-m64,slatex:500,18.313596255
 
 real	0m18.439s
 user	0m16.650s
@@ -659,7 +659,7 @@ Compiling...
 Running...
 Running nboyer:5:1
 Elapsed time: 14.068518397 seconds (14) for nboyer:5:1
-+!CSVLINE!+chez-9.4.0-m64,nboyer:5:1,14.068518397
++!CSVLINE!+petite-9.4.0-m64,nboyer:5:1,14.068518397
 
 real	0m14.191s
 user	0m14.070s
@@ -672,7 +672,7 @@ Compiling...
 Running...
 Running sboyer:5:1
 Elapsed time: 18.942143014 seconds (19) for sboyer:5:1
-+!CSVLINE!+chez-9.4.0-m64,sboyer:5:1,18.942143014
++!CSVLINE!+petite-9.4.0-m64,sboyer:5:1,18.942143014
 
 real	0m19.048s
 user	0m19.003s
@@ -719,7 +719,7 @@ GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
 Elapsed time: 14.928752786 seconds (15) for gcbench:20:1
-+!CSVLINE!+chez-9.4.0-m64,gcbench:20:1,14.928752786
++!CSVLINE!+petite-9.4.0-m64,gcbench:20:1,14.928752786
 
 real	0m15.039s
 user	0m14.920s
@@ -732,7 +732,7 @@ Compiling...
 Running...
 Running perm20:10:2:1
 Elapsed time: 50.260231178 seconds (50) for perm20:10:2:1
-+!CSVLINE!+chez-9.4.0-m64,perm20:10:2:1,50.260231178
++!CSVLINE!+petite-9.4.0-m64,perm20:10:2:1,50.260231178
 
 real	0m52.741s
 user	0m51.643s
@@ -745,7 +745,7 @@ Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
 Elapsed time: 1.097079969 seconds (1) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+chez-9.4.0-m64,equal:100:100:8:1000:2000:5000,1.097079969
++!CSVLINE!+petite-9.4.0-m64,equal:100:100:8:1000:2000:5000,1.097079969
 
 real	0m1.198s
 user	0m1.177s
@@ -758,7 +758,7 @@ Compiling...
 Running...
 Running bv2string:1000:1000:100
 Elapsed time: 7.477569124 seconds (8) for bv2string:1000:1000:100
-+!CSVLINE!+chez-9.4.0-m64,bv2string:1000:1000:100,7.477569124
++!CSVLINE!+petite-9.4.0-m64,bv2string:1000:1000:100,7.477569124
 
 real	0m7.578s
 user	0m7.567s
