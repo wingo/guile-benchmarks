@@ -1,65 +1,65 @@
 
 ****************************
-Benchmarking Racket on Tue 31 May 18:46:55 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+Benchmarking Racket on Tue 21 Jun 20:49:06 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 8.155 seconds (8.155) for browse:2000
-+!CSVLINE!+racket-6.5,browse:2000,8.155
+Elapsed time: 7.994 seconds (7.994) for browse:2000
++!CSVLINE!+racket-6.5,browse:2000,7.994
 
-real	0m8.569s
-user	0m8.440s
-sys	0m0.113s
+real	0m8.335s
+user	0m8.253s
+sys	0m0.087s
 
 Testing deriv under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 4.15 seconds (4.15) for deriv:10000000
-+!CSVLINE!+racket-6.5,deriv:10000000,4.15
+Elapsed time: 5.375 seconds (5.376) for deriv:10000000
++!CSVLINE!+racket-6.5,deriv:10000000,5.375
 
-real	0m4.559s
-user	0m4.460s
-sys	0m0.103s
+real	0m5.719s
+user	0m5.610s
+sys	0m0.113s
 
 Testing destruc under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 7.0 seconds (7.0) for destruc:600:50:4000
-+!CSVLINE!+racket-6.5,destruc:600:50:4000,7.0
+Elapsed time: 5.853 seconds (5.853) for destruc:600:50:4000
++!CSVLINE!+racket-6.5,destruc:600:50:4000,5.853
 
-real	0m7.382s
-user	0m7.303s
-sys	0m0.080s
+real	0m6.197s
+user	0m6.123s
+sys	0m0.077s
 
 Testing diviter under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 3.287 seconds (3.287) for diviter:1000:1000000
-+!CSVLINE!+racket-6.5,diviter:1000:1000000,3.287
+Elapsed time: 3.274 seconds (3.273) for diviter:1000:1000000
++!CSVLINE!+racket-6.5,diviter:1000:1000000,3.274
 
-real	0m3.663s
-user	0m3.597s
-sys	0m0.067s
+real	0m3.490s
+user	0m3.417s
+sys	0m0.077s
 
 Testing divrec under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 5.289 seconds (5.288) for divrec:1000:1000000
-+!CSVLINE!+racket-6.5,divrec:1000:1000000,5.289
+Elapsed time: 5.485 seconds (5.485) for divrec:1000:1000000
++!CSVLINE!+racket-6.5,divrec:1000:1000000,5.485
 
-real	0m5.549s
-user	0m5.477s
+real	0m5.826s
+user	0m5.753s
 sys	0m0.077s
 
 Testing puzzle under Racket
@@ -67,203 +67,203 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 11.589 seconds (11.589) for puzzle:1000
-+!CSVLINE!+racket-6.5,puzzle:1000,11.589
+Elapsed time: 8.645 seconds (8.645) for puzzle:1000
++!CSVLINE!+racket-6.5,puzzle:1000,8.645
 
-real	0m11.965s
-user	0m11.907s
-sys	0m0.070s
+real	0m8.976s
+user	0m8.897s
+sys	0m0.087s
 
 Testing triangl under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 6.671 seconds (6.671) for triangl:22:1:50
-+!CSVLINE!+racket-6.5,triangl:22:1:50,6.671
+Elapsed time: 6.6 seconds (6.6) for triangl:22:1:50
++!CSVLINE!+racket-6.5,triangl:22:1:50,6.6
 
-real	0m6.953s
-user	0m6.913s
-sys	0m0.040s
+real	0m6.941s
+user	0m6.907s
+sys	0m0.037s
 
 Testing tak under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 4.785 seconds (4.785) for tak:40:20:11:1
-+!CSVLINE!+racket-6.5,tak:40:20:11:1,4.785
+Elapsed time: 5.365 seconds (5.365) for tak:40:20:11:1
++!CSVLINE!+racket-6.5,tak:40:20:11:1,5.365
 
-real	0m5.179s
-user	0m5.137s
-sys	0m0.047s
+real	0m5.703s
+user	0m5.667s
+sys	0m0.037s
 
 Testing takl under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 11.267 seconds (11.267) for takl:40:20:12:1
-+!CSVLINE!+racket-6.5,takl:40:20:12:1,11.267
+Elapsed time: 12.893 seconds (12.893) for takl:40:20:12:1
++!CSVLINE!+racket-6.5,takl:40:20:12:1,12.893
 
-real	0m11.644s
-user	0m11.600s
-sys	0m0.050s
+real	0m13.202s
+user	0m13.153s
+sys	0m0.057s
 
 Testing ntakl under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 6.747 seconds (6.747) for ntakl:40:20:12:1
-+!CSVLINE!+racket-6.5,ntakl:40:20:12:1,6.747
+Elapsed time: 12.021 seconds (12.021) for ntakl:40:20:12:1
++!CSVLINE!+racket-6.5,ntakl:40:20:12:1,12.021
 
-real	0m7.092s
-user	0m7.053s
-sys	0m0.047s
+real	0m12.333s
+user	0m12.290s
+sys	0m0.050s
 
 Testing cpstak under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 10.538 seconds (10.538) for cpstak:40:20:11:1
-+!CSVLINE!+racket-6.5,cpstak:40:20:11:1,10.538
+Elapsed time: 11.319 seconds (11.319) for cpstak:40:20:11:1
++!CSVLINE!+racket-6.5,cpstak:40:20:11:1,11.319
 
-real	0m10.902s
-user	0m10.777s
-sys	0m0.133s
+real	0m11.611s
+user	0m11.463s
+sys	0m0.160s
 
 Testing ctak under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 176.816 seconds (176.816) for ctak:32:16:8:1
-+!CSVLINE!+racket-6.5,ctak:32:16:8:1,176.816
+Elapsed time: 192.289 seconds (192.288) for ctak:32:16:8:1
++!CSVLINE!+racket-6.5,ctak:32:16:8:1,192.289
 
-real	2m57.182s
-user	2m56.610s
-sys	0m0.730s
+real	3m12.624s
+user	3m11.820s
+sys	0m1.013s
 
 Testing fib under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 9.419 seconds (9.419) for fib:40:5
-+!CSVLINE!+racket-6.5,fib:40:5,9.419
+Elapsed time: 7.816 seconds (7.816) for fib:40:5
++!CSVLINE!+racket-6.5,fib:40:5,7.816
 
-real	0m9.770s
-user	0m9.737s
-sys	0m0.040s
+real	0m8.153s
+user	0m8.103s
+sys	0m0.053s
 
 Testing fibc under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 101.229 seconds (101.229) for fibc:30:10
-+!CSVLINE!+racket-6.5,fibc:30:10,101.229
+Elapsed time: 112.669 seconds (112.669) for fibc:30:10
++!CSVLINE!+racket-6.5,fibc:30:10,112.669
 
-real	1m41.605s
-user	1m41.160s
-sys	0m0.520s
+real	1m53.005s
+user	1m52.523s
+sys	0m0.597s
 
 Testing fibfp under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 2.671 seconds (2.671) for fibfp:35.0:10
-+!CSVLINE!+racket-6.5,fibfp:35.0:10,2.671
+Elapsed time: 4.215 seconds (4.215) for fibfp:35.0:10
++!CSVLINE!+racket-6.5,fibfp:35.0:10,4.215
 
-real	0m2.925s
-user	0m2.877s
-sys	0m0.050s
+real	0m4.590s
+user	0m4.513s
+sys	0m0.080s
 
 Testing sum under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 5.307 seconds (5.307) for sum:10000:200000
-+!CSVLINE!+racket-6.5,sum:10000:200000,5.307
+Elapsed time: 7.062 seconds (7.062) for sum:10000:200000
++!CSVLINE!+racket-6.5,sum:10000:200000,7.062
 
-real	0m5.534s
-user	0m5.500s
-sys	0m0.037s
+real	0m7.352s
+user	0m7.317s
+sys	0m0.040s
 
 Testing sumfp under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 6.418 seconds (6.418) for sumfp:1000000.0:500
-+!CSVLINE!+racket-6.5,sumfp:1000000.0:500,6.418
+Elapsed time: 7.33 seconds (7.33) for sumfp:1000000.0:500
++!CSVLINE!+racket-6.5,sumfp:1000000.0:500,7.33
 
-real	0m6.707s
-user	0m6.613s
-sys	0m0.100s
+real	0m7.664s
+user	0m7.543s
+sys	0m0.127s
 
 Testing fft under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running fft:65536:100
-Elapsed time: 4.686 seconds (4.687) for fft:65536:100
-+!CSVLINE!+racket-6.5,fft:65536:100,4.686
+Elapsed time: 5.644 seconds (5.643) for fft:65536:100
++!CSVLINE!+racket-6.5,fft:65536:100,5.644
 
-real	0m5.039s
-user	0m4.913s
-sys	0m0.127s
+real	0m5.990s
+user	0m5.783s
+sys	0m0.203s
 
 Testing mbrot under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 5.752 seconds (5.751) for mbrot:75:1000
-+!CSVLINE!+racket-6.5,mbrot:75:1000,5.752
+Elapsed time: 9.811 seconds (9.811) for mbrot:75:1000
++!CSVLINE!+racket-6.5,mbrot:75:1000,9.811
 
-real	0m5.984s
-user	0m5.873s
-sys	0m0.117s
+real	0m10.157s
+user	0m9.937s
+sys	0m0.220s
 
 Testing mbrotZ under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 41.097 seconds (41.097) for mbrotZ:75:1000
-+!CSVLINE!+racket-6.5,mbrotZ:75:1000,41.097
+Elapsed time: 38.249 seconds (38.249) for mbrotZ:75:1000
++!CSVLINE!+racket-6.5,mbrotZ:75:1000,38.249
 
-real	0m41.469s
-user	0m41.227s
-sys	0m0.270s
+real	0m38.597s
+user	0m38.353s
+sys	0m0.277s
 
 Testing nucleic under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 3.538 seconds (3.537) for nucleic:50
-+!CSVLINE!+racket-6.5,nucleic:50,3.538
+Elapsed time: 2.763 seconds (2.763) for nucleic:50
++!CSVLINE!+racket-6.5,nucleic:50,2.763
 
-real	0m3.838s
-user	0m3.767s
-sys	0m0.070s
+real	0m3.146s
+user	0m3.063s
+sys	0m0.080s
 
 Testing pi under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running pi:50:500:50:2
-Elapsed time: 0.228 seconds (0.228) for pi:50:500:50:2
-+!CSVLINE!+racket-6.5,pi:50:500:50:2,0.228
+Elapsed time: 0.446 seconds (0.446) for pi:50:500:50:2
++!CSVLINE!+racket-6.5,pi:50:500:50:2,0.446
 
-real	0m0.470s
-user	0m0.433s
+real	0m0.798s
+user	0m0.757s
 sys	0m0.037s
 
 Testing pnpoly under Racket
@@ -271,131 +271,131 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 8.376 seconds (8.376) for pnpoly:1000000
-+!CSVLINE!+racket-6.5,pnpoly:1000000,8.376
+Elapsed time: 8.322 seconds (8.321) for pnpoly:1000000
++!CSVLINE!+racket-6.5,pnpoly:1000000,8.322
 
-real	0m8.728s
-user	0m8.667s
-sys	0m0.067s
+real	0m8.684s
+user	0m8.643s
+sys	0m0.047s
 
 Testing ray under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 3.325 seconds (3.325) for ray:50
-+!CSVLINE!+racket-6.5,ray:50,3.325
+Elapsed time: 2.486 seconds (2.486) for ray:50
++!CSVLINE!+racket-6.5,ray:50,2.486
 
-real	0m3.549s
-user	0m3.460s
-sys	0m0.090s
+real	0m2.780s
+user	0m2.703s
+sys	0m0.077s
 
 Testing simplex under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 4.108 seconds (4.108) for simplex:1000000
-+!CSVLINE!+racket-6.5,simplex:1000000,4.108
+Elapsed time: 4.032 seconds (4.031) for simplex:1000000
++!CSVLINE!+racket-6.5,simplex:1000000,4.032
 
-real	0m4.388s
-user	0m4.340s
-sys	0m0.050s
+real	0m4.297s
+user	0m4.233s
+sys	0m0.063s
 
 Testing ack under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 8.39 seconds (8.39) for ack:3:12:2
-+!CSVLINE!+racket-6.5,ack:3:12:2,8.39
+Elapsed time: 7.663 seconds (7.663) for ack:3:12:2
++!CSVLINE!+racket-6.5,ack:3:12:2,7.663
 
-real	0m8.743s
-user	0m8.677s
-sys	0m0.063s
+real	0m8.013s
+user	0m7.977s
+sys	0m0.040s
 
 Testing array1 under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 9.211 seconds (9.211) for array1:1000000:500
-+!CSVLINE!+racket-6.5,array1:1000000:500,9.211
+Elapsed time: 9.571 seconds (9.571) for array1:1000000:500
++!CSVLINE!+racket-6.5,array1:1000000:500,9.571
 
-real	0m9.569s
-user	0m9.260s
-sys	0m0.313s
+real	0m9.881s
+user	0m9.463s
+sys	0m0.423s
 
 Testing string under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 1.152 seconds (1.152) for string:500000:25
-+!CSVLINE!+racket-6.5,string:500000:25,1.152
+Elapsed time: 1.079 seconds (1.079) for string:500000:25
++!CSVLINE!+racket-6.5,string:500000:25,1.079
 
-real	0m1.542s
-user	0m1.443s
-sys	0m0.097s
+real	0m1.436s
+user	0m1.333s
+sys	0m0.100s
 
 Testing sum1 under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 16.331 seconds (16.332) for sum1:25
-+!CSVLINE!+racket-6.5,sum1:25,16.331
+Elapsed time: 18.814 seconds (18.814) for sum1:25
++!CSVLINE!+racket-6.5,sum1:25,18.814
 
-real	0m16.679s
-user	0m16.620s
-sys	0m0.063s
+real	0m19.159s
+user	0m19.100s
+sys	0m0.073s
 
 Testing cat under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 28.606 seconds (28.605) for cat:50
-+!CSVLINE!+racket-6.5,cat:50,28.606
+Elapsed time: 26.846 seconds (26.846) for cat:50
++!CSVLINE!+racket-6.5,cat:50,26.846
 
-real	0m28.963s
-user	0m28.643s
-sys	0m0.320s
+real	0m27.156s
+user	0m26.783s
+sys	0m0.393s
 
 Testing tail under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running tail:25
-Elapsed time: 2.077 seconds (2.078) for tail:25
-+!CSVLINE!+racket-6.5,tail:25,2.077
+Elapsed time: 2.367 seconds (2.367) for tail:25
++!CSVLINE!+racket-6.5,tail:25,2.367
 
-real	0m2.290s
-user	0m2.077s
-sys	0m0.213s
+real	0m2.694s
+user	0m2.447s
+sys	0m0.243s
 
 Testing wc under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 11.238 seconds (11.238) for wc:inputs/bib:50
-+!CSVLINE!+racket-6.5,wc:inputs/bib:50,11.238
+Elapsed time: 11.403 seconds (11.403) for wc:inputs/bib:50
++!CSVLINE!+racket-6.5,wc:inputs/bib:50,11.403
 
-real	0m11.585s
-user	0m11.480s
-sys	0m0.113s
+real	0m11.695s
+user	0m11.600s
+sys	0m0.093s
 
 Testing read1 under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 23.905 seconds (23.905) for read1:2500
-+!CSVLINE!+racket-6.5,read1:2500,23.905
+Elapsed time: 24.758 seconds (24.758) for read1:2500
++!CSVLINE!+racket-6.5,read1:2500,24.758
 
-real	0m24.251s
-user	0m24.110s
+real	0m25.102s
+user	0m24.977s
 sys	0m0.143s
 
 Testing compiler under Racket
@@ -403,228 +403,228 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running compiler:2000
-Elapsed time: 5.293 seconds (5.292) for compiler:2000
-+!CSVLINE!+racket-6.5,compiler:2000,5.293
+Elapsed time: 4.789 seconds (4.789) for compiler:2000
++!CSVLINE!+racket-6.5,compiler:2000,4.789
 
-real	0m5.627s
-user	0m5.573s
-sys	0m0.050s
+real	0m5.162s
+user	0m5.100s
+sys	0m0.067s
 
 Testing conform under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running conform:500
-Elapsed time: 5.136 seconds (5.136) for conform:500
-+!CSVLINE!+racket-6.5,conform:500,5.136
+Elapsed time: 7.897 seconds (7.897) for conform:500
++!CSVLINE!+racket-6.5,conform:500,7.897
 
-real	0m5.429s
-user	0m5.363s
-sys	0m0.067s
+real	0m8.208s
+user	0m8.150s
+sys	0m0.063s
 
 Testing dynamic under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 17.439 seconds (17.439) for dynamic:500
-+!CSVLINE!+racket-6.5,dynamic:500,17.439
+Elapsed time: 18.097 seconds (18.097) for dynamic:500
++!CSVLINE!+racket-6.5,dynamic:500,18.097
 
-real	0m17.773s
-user	0m17.517s
-sys	0m0.213s
+real	0m18.311s
+user	0m17.950s
+sys	0m0.323s
 
 Testing earley under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 7.225 seconds (7.225) for earley:1
-+!CSVLINE!+racket-6.5,earley:1,7.225
+Elapsed time: 6.76 seconds (6.76) for earley:1
++!CSVLINE!+racket-6.5,earley:1,6.76
 
-real	0m7.554s
-user	0m7.267s
-sys	0m0.287s
+real	0m6.983s
+user	0m6.673s
+sys	0m0.310s
 
 Testing graphs under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 8.833 seconds (8.833) for graphs:7:3
-+!CSVLINE!+racket-6.5,graphs:7:3,8.833
+Elapsed time: 7.633 seconds (7.633) for graphs:7:3
++!CSVLINE!+racket-6.5,graphs:7:3,7.633
 
-real	0m9.150s
-user	0m9.040s
-sys	0m0.113s
+real	0m7.991s
+user	0m7.910s
+sys	0m0.087s
 
 Testing lattice under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 8.802 seconds (8.802) for lattice:44:10
-+!CSVLINE!+racket-6.5,lattice:44:10,8.802
+Elapsed time: 16.863 seconds (16.863) for lattice:44:10
++!CSVLINE!+racket-6.5,lattice:44:10,16.863
 
-real	0m9.153s
-user	0m9.103s
-sys	0m0.047s
+real	0m17.223s
+user	0m17.170s
+sys	0m0.063s
 
 Testing matrix under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 4.979 seconds (4.979) for matrix:5:5:2500
-+!CSVLINE!+racket-6.5,matrix:5:5:2500,4.979
+Elapsed time: 5.494 seconds (5.494) for matrix:5:5:2500
++!CSVLINE!+racket-6.5,matrix:5:5:2500,5.494
 
-real	0m5.300s
-user	0m5.240s
-sys	0m0.060s
+real	0m5.818s
+user	0m5.773s
+sys	0m0.047s
 
 Testing maze under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 2.261 seconds (2.261) for maze:20:7:10000
-+!CSVLINE!+racket-6.5,maze:20:7:10000,2.261
+Elapsed time: 3.418 seconds (3.418) for maze:20:7:10000
++!CSVLINE!+racket-6.5,maze:20:7:10000,3.418
 
-real	0m2.601s
-user	0m2.540s
-sys	0m0.060s
+real	0m3.630s
+user	0m3.590s
+sys	0m0.037s
 
 Testing mazefun under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 5.894 seconds (5.894) for mazefun:11:11:10000
-+!CSVLINE!+racket-6.5,mazefun:11:11:10000,5.894
+Elapsed time: 7.955 seconds (7.955) for mazefun:11:11:10000
++!CSVLINE!+racket-6.5,mazefun:11:11:10000,7.955
 
-real	0m6.191s
-user	0m6.130s
-sys	0m0.063s
+real	0m8.294s
+user	0m8.177s
+sys	0m0.120s
 
 Testing nqueens under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 14.103 seconds (14.103) for nqueens:13:10
-+!CSVLINE!+racket-6.5,nqueens:13:10,14.103
+Elapsed time: 14.184 seconds (14.184) for nqueens:13:10
++!CSVLINE!+racket-6.5,nqueens:13:10,14.184
 
-real	0m14.370s
-user	0m14.283s
-sys	0m0.097s
+real	0m14.442s
+user	0m14.383s
+sys	0m0.067s
 
 Testing paraffins under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-Elapsed time: 12.384 seconds (12.384) for paraffins:23:10
-+!CSVLINE!+racket-6.5,paraffins:23:10,12.384
+Elapsed time: 14.508 seconds (14.508) for paraffins:23:10
++!CSVLINE!+racket-6.5,paraffins:23:10,14.508
 
-real	0m12.675s
-user	0m11.860s
-sys	0m0.817s
+real	0m14.846s
+user	0m14.027s
+sys	0m0.823s
 
 Testing parsing under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 5.633 seconds (5.633) for parsing:2500
-+!CSVLINE!+racket-6.5,parsing:2500,5.633
+Elapsed time: 8.725 seconds (8.725) for parsing:2500
++!CSVLINE!+racket-6.5,parsing:2500,8.725
 
-real	0m5.908s
-user	0m5.843s
-sys	0m0.067s
+real	0m9.058s
+user	0m9.020s
+sys	0m0.040s
 
 Testing peval under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 6.116 seconds (6.116) for peval:2000
-+!CSVLINE!+racket-6.5,peval:2000,6.116
+Elapsed time: 5.623 seconds (5.623) for peval:2000
++!CSVLINE!+racket-6.5,peval:2000,5.623
 
-real	0m6.438s
-user	0m6.370s
-sys	0m0.070s
+real	0m5.957s
+user	0m5.897s
+sys	0m0.063s
 
 Testing primes under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 2.766 seconds (2.766) for primes:1000:10000
-+!CSVLINE!+racket-6.5,primes:1000:10000,2.766
+Elapsed time: 3.938 seconds (3.938) for primes:1000:10000
++!CSVLINE!+racket-6.5,primes:1000:10000,3.938
 
-real	0m2.993s
-user	0m2.960s
-sys	0m0.033s
+real	0m4.277s
+user	0m4.203s
+sys	0m0.073s
 
 Testing quicksort under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 23.318 seconds (23.318) for quicksort:10000:2500
-+!CSVLINE!+racket-6.5,quicksort:10000:2500,23.318
+Elapsed time: 23.573 seconds (23.573) for quicksort:10000:2500
++!CSVLINE!+racket-6.5,quicksort:10000:2500,23.573
 
-real	0m23.627s
-user	0m23.580s
-sys	0m0.060s
+real	0m23.790s
+user	0m23.733s
+sys	0m0.073s
 
 Testing scheme under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 8.801 seconds (8.801) for scheme:100000
-+!CSVLINE!+racket-6.5,scheme:100000,8.801
+Elapsed time: 8.471 seconds (8.47) for scheme:100000
++!CSVLINE!+racket-6.5,scheme:100000,8.471
 
-real	0m9.148s
-user	0m9.103s
-sys	0m0.047s
+real	0m8.823s
+user	0m8.777s
+sys	0m0.050s
 
 Testing slatex under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 8.55 seconds (8.55) for slatex:500
-+!CSVLINE!+racket-6.5,slatex:500,8.55
+Elapsed time: 7.555 seconds (7.556) for slatex:500
++!CSVLINE!+racket-6.5,slatex:500,7.555
 
-real	0m8.880s
-user	0m7.150s
-sys	0m1.697s
+real	0m7.901s
+user	0m6.467s
+sys	0m1.407s
 
 Testing nboyer under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 6.503 seconds (6.503) for nboyer:5:1
-+!CSVLINE!+racket-6.5,nboyer:5:1,6.503
+Elapsed time: 7.572 seconds (7.573) for nboyer:5:1
++!CSVLINE!+racket-6.5,nboyer:5:1,7.572
 
-real	0m6.824s
-user	0m6.457s
-sys	0m0.367s
+real	0m7.906s
+user	0m7.453s
+sys	0m0.457s
 
 Testing sboyer under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 2.375 seconds (2.375) for sboyer:5:1
-+!CSVLINE!+racket-6.5,sboyer:5:1,2.375
+Elapsed time: 3.833 seconds (3.833) for sboyer:5:1
++!CSVLINE!+racket-6.5,sboyer:5:1,3.833
 
-real	0m2.670s
-user	0m2.607s
-sys	0m0.063s
+real	0m4.173s
+user	0m4.107s
+sys	0m0.070s
 
 Testing gcbench under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
@@ -665,45 +665,45 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 5.346 seconds (5.347) for gcbench:20:1
-+!CSVLINE!+racket-6.5,gcbench:20:1,5.346
+Elapsed time: 4.29 seconds (4.29) for gcbench:20:1
++!CSVLINE!+racket-6.5,gcbench:20:1,4.29
 
-real	0m5.655s
-user	0m5.507s
-sys	0m0.150s
+real	0m4.501s
+user	0m4.390s
+sys	0m0.110s
 
 Testing mperm under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running perm20:10:2:1
-Elapsed time: 22.713 seconds (22.714) for perm20:10:2:1
-+!CSVLINE!+racket-6.5,perm20:10:2:1,22.713
+Elapsed time: 23.728 seconds (23.727) for perm20:10:2:1
++!CSVLINE!+racket-6.5,perm20:10:2:1,23.728
 
-real	0m24.268s
-user	0m23.127s
-sys	0m1.143s
+real	0m25.397s
+user	0m24.183s
+sys	0m1.213s
 
 Testing equal under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 5.792 seconds (5.792) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+racket-6.5,equal:100:100:8:1000:2000:5000,5.792
+Elapsed time: 6.899 seconds (6.899) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+racket-6.5,equal:100:100:8:1000:2000:5000,6.899
 
-real	0m6.141s
-user	0m6.067s
-sys	0m0.077s
+real	0m7.210s
+user	0m7.143s
+sys	0m0.070s
 
 Testing bv2string under Racket
 Including prelude /home/nex/src/r7rs-benchmarks/src/Racket-prelude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 3.498 seconds (3.499) for bv2string:1000:1000:100
-+!CSVLINE!+racket-6.5,bv2string:1000:1000:100,3.498
+Elapsed time: 3.664 seconds (3.664) for bv2string:1000:1000:100
++!CSVLINE!+racket-6.5,bv2string:1000:1000:100,3.664
 
-real	0m3.761s
-user	0m3.737s
-sys	0m0.023s
+real	0m3.980s
+user	0m3.920s
+sys	0m0.060s

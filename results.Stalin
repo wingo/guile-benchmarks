@@ -1,18 +1,16 @@
 
 ****************************
-Benchmarking Stalin on Tue 31 May 20:40:27 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+Benchmarking Stalin on Tue 21 Jun 22:12:51 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running browse:2000
-Elapsed time: 1.17000000015832483768463134765625 seconds (1.1699999999999999289457264239899814128875732421875) for browse:2000
-+!CSVLINE!+stalin-unknown,browse:2000,1.17000000015832483768463134765625
+./bench: line 363: /tmp/larcenous/Stalin/browse: No such file or directory
 
-real	0m1.175s
-user	0m1.170s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing deriv under Stalin
@@ -20,64 +18,54 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running deriv:10000000
-Elapsed time: 1.533000000007450580596923828125e1 seconds (1.5330000000000001847411112976260483264923095703125e1) for deriv:10000000
-+!CSVLINE!+stalin-unknown,deriv:10000000,1.533000000007450580596923828125e1
+./bench: line 363: /tmp/larcenous/Stalin/deriv: No such file or directory
 
-real	0m15.330s
-user	0m19.487s
-sys	0m1.080s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing destruc under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running destruc:600:50:4000
-Elapsed time: 8.209999999846331775188446044921875 seconds (8.21000000000000085265128291212022304534912109375) for destruc:600:50:4000
-+!CSVLINE!+stalin-unknown,destruc:600:50:4000,8.209999999846331775188446044921875
+./bench: line 363: /tmp/larcenous/Stalin/destruc: No such file or directory
 
-real	0m8.214s
-user	0m9.747s
-sys	0m0.333s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing diviter under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running diviter:1000:1000000
-Elapsed time: 1.42700000001350435496760837850160896778106689453125e1 seconds (1.427000000000000046185277824406512081623077392578125e1) for diviter:1000:1000000
-+!CSVLINE!+stalin-unknown,diviter:1000:1000000,1.42700000001350435496760837850160896778106689453125e1
+./bench: line 363: /tmp/larcenous/Stalin/diviter: No such file or directory
 
-real	0m14.274s
-user	0m18.663s
-sys	0m0.993s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing divrec under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running divrec:1000:1000000
-Elapsed time: 1.6359999999986030161380767822265625e1 seconds (1.63600000000000012079226507921703159809112548828125e1) for divrec:1000:1000000
-+!CSVLINE!+stalin-unknown,divrec:1000:1000000,1.6359999999986030161380767822265625e1
+./bench: line 363: /tmp/larcenous/Stalin/divrec: No such file or directory
 
-real	0m16.366s
-user	0m21.050s
-sys	0m1.137s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing puzzle under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running puzzle:1000
-Elapsed time: 1.079999999958090484142303466796875 seconds (1.0800000000000000710542735760100185871124267578125) for puzzle:1000
-+!CSVLINE!+stalin-unknown,puzzle:1000,1.079999999958090484142303466796875
+./bench: line 363: /tmp/larcenous/Stalin/puzzle: No such file or directory
 
-real	0m1.082s
-user	0m1.080s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing triangl under Stalin
@@ -85,25 +73,21 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running triangl:22:1:50
-Elapsed time: 2.089999999967403709888458251953125 seconds (2.089999999999999857891452847979962825775146484375) for triangl:22:1:50
-+!CSVLINE!+stalin-unknown,triangl:22:1:50,2.089999999967403709888458251953125
+./bench: line 363: /tmp/larcenous/Stalin/triangl: No such file or directory
 
-real	0m2.097s
-user	0m2.093s
-sys	0m0.003s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing tak under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running tak:40:20:11:1
-Elapsed time: 5.210000000079162418842315673828125 seconds (5.20999999999999996447286321199499070644378662109375) for tak:40:20:11:1
-+!CSVLINE!+stalin-unknown,tak:40:20:11:1,5.210000000079162418842315673828125
+./bench: line 363: /tmp/larcenous/Stalin/tak: No such file or directory
 
-real	0m5.217s
-user	0m5.213s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing takl under Stalin
@@ -111,12 +95,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running takl:40:20:12:1
-Elapsed time: 2.8100000000558793544769287109375 seconds (2.810000000000000142108547152020037174224853515625) for takl:40:20:12:1
-+!CSVLINE!+stalin-unknown,takl:40:20:12:1,2.8100000000558793544769287109375
+./bench: line 363: /tmp/larcenous/Stalin/takl: No such file or directory
 
-real	0m2.812s
-user	0m2.810s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing ntakl under Stalin
@@ -124,12 +106,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running ntakl:40:20:12:1
-Elapsed time: 2.750000000116415321826934814453125 seconds (2.75) for ntakl:40:20:12:1
-+!CSVLINE!+stalin-unknown,ntakl:40:20:12:1,2.750000000116415321826934814453125
+./bench: line 363: /tmp/larcenous/Stalin/ntakl: No such file or directory
 
-real	0m2.745s
-user	0m2.743s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing cpstak under Stalin
@@ -137,25 +117,21 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Too many heap sections: Increase MAXHINCR or MAX_HEAP_SECTS
-Running cpstak:40:20:11:1
-./bench: line 361:  8051 Aborted                 (core dumped) "$exe" < "$2"
+./bench: line 363: /tmp/larcenous/Stalin/cpstak: No such file or directory
 
-real	0m11.690s
-user	0m9.553s
-sys	0m2.083s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing ctak under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running ctak:32:16:8:1
-Elapsed time: 1.259999999892897903919219970703125 seconds (1.2600000000000000088817841970012523233890533447265625) for ctak:32:16:8:1
-+!CSVLINE!+stalin-unknown,ctak:32:16:8:1,1.259999999892897903919219970703125
+./bench: line 363: /tmp/larcenous/Stalin/ctak: No such file or directory
 
-real	0m1.263s
-user	0m1.260s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing fib under Stalin
@@ -163,12 +139,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running fib:40:5
-Elapsed time: 4.890000000013969838619232177734375 seconds (4.88999999999999968025576890795491635799407958984375) for fib:40:5
-+!CSVLINE!+stalin-unknown,fib:40:5,4.890000000013969838619232177734375
+./bench: line 363: /tmp/larcenous/Stalin/fib: No such file or directory
 
-real	0m4.891s
-user	0m4.887s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing fibc under Stalin
@@ -176,12 +150,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running fibc:30:10
-Elapsed time: 4.50000000069849193096160888671875e-1 seconds (4.5e-1) for fibc:30:10
-+!CSVLINE!+stalin-unknown,fibc:30:10,4.50000000069849193096160888671875e-1
+./bench: line 363: /tmp/larcenous/Stalin/fibc: No such file or directory
 
-real	0m0.460s
-user	0m0.460s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing fibfp under Stalin
@@ -189,12 +161,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running fibfp:3.5e1:10
-Elapsed time: 5.69999999948777258396148681640625e-1 seconds (5.699999999999999289457264239899814128875732421875e-1) for fibfp:3.5e1:10
-+!CSVLINE!+stalin-unknown,fibfp:3.5e1:10,5.69999999948777258396148681640625e-1
+./bench: line 363: /tmp/larcenous/Stalin/fibfp: No such file or directory
 
-real	0m0.563s
-user	0m0.560s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing sum under Stalin
@@ -202,12 +172,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running sum:10000:200000
-Elapsed time: 5.3500000000931322574615478515625 seconds (5.3499999999999996447286321199499070644378662109375) for sum:10000:200000
-+!CSVLINE!+stalin-unknown,sum:10000:200000,5.3500000000931322574615478515625
+./bench: line 363: /tmp/larcenous/Stalin/sum: No such file or directory
 
-real	0m5.358s
-user	0m5.353s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing sumfp under Stalin
@@ -215,12 +183,10 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running sumfp:1.0e6:500
-Elapsed time: 6.40000000013969838619232177734375e-1 seconds (6.4000000000000003552713678800500929355621337890625e-1) for sumfp:1.0e6:500
-+!CSVLINE!+stalin-unknown,sumfp:1.0e6:500,6.40000000013969838619232177734375e-1
+./bench: line 363: /tmp/larcenous/Stalin/sumfp: No such file or directory
 
-real	0m0.647s
-user	0m0.647s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing fft under Stalin
@@ -228,23 +194,21 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-./bench: line 361:  8198 Killed                  "$exe" < "$2"
+./bench: line 363: /tmp/larcenous/Stalin/fft: No such file or directory
 
-real	9m11.351s
-user	9m52.303s
-sys	0m10.333s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing mbrot under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running mbrot:75:1000
-Elapsed time: 5.99999999976716935634613037109375e-1 seconds (6.0e-1) for mbrot:75:1000
-+!CSVLINE!+stalin-unknown,mbrot:75:1000,5.99999999976716935634613037109375e-1
+./bench: line 363: /tmp/larcenous/Stalin/mbrot: No such file or directory
 
-real	0m0.596s
-user	0m0.593s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing mbrotZ under Stalin
@@ -263,13 +227,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running nucleic:50
-Elapsed time: 6.899999999441206455230712890625e-1 seconds (6.89999999999999946709294817992486059665679931640625e-1) for nucleic:50
-+!CSVLINE!+stalin-unknown,nucleic:50,6.899999999441206455230712890625e-1
+./bench: line 363: /tmp/larcenous/Stalin/nucleic: No such file or directory
 
-real	0m0.692s
-user	0m0.693s
-sys	0m0.003s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing pi under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -278,7 +240,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/pi: No such file or directory
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
 
@@ -287,13 +249,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running pnpoly:1000000
-Elapsed time: 2.03000000002793967723846435546875 seconds (2.029999999999999804600747665972448885440826416015625) for pnpoly:1000000
-+!CSVLINE!+stalin-unknown,pnpoly:1000000,2.03000000002793967723846435546875
+./bench: line 363: /tmp/larcenous/Stalin/pnpoly: No such file or directory
 
-real	0m2.034s
-user	0m2.193s
-sys	0m0.027s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing ray under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -302,7 +262,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/ray: No such file or directory
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
 
@@ -311,25 +271,21 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running simplex:1000000
-Elapsed time: 5.8000000007450580596923828125e-1 seconds (5.79999999999999982236431605997495353221893310546875e-1) for simplex:1000000
-+!CSVLINE!+stalin-unknown,simplex:1000000,5.8000000007450580596923828125e-1
+./bench: line 363: /tmp/larcenous/Stalin/simplex: No such file or directory
 
-real	0m0.577s
-user	0m0.547s
-sys	0m0.030s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing ack under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running ack:3:12:2
-Elapsed time: 9.51000000000931322574615478515625 seconds (9.5099999999999997868371792719699442386627197265625) for ack:3:12:2
-+!CSVLINE!+stalin-unknown,ack:3:12:2,9.51000000000931322574615478515625
+./bench: line 363: /tmp/larcenous/Stalin/ack: No such file or directory
 
-real	0m9.522s
-user	0m9.463s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing array1 under Stalin
@@ -337,39 +293,33 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running array1:1000000:500
-Elapsed time: 8.3000000007450580596923828125e-1 seconds (8.2999999999999989341858963598497211933135986328125e-1) for array1:1000000:500
-+!CSVLINE!+stalin-unknown,array1:1000000:500,8.3000000007450580596923828125e-1
+./bench: line 363: /tmp/larcenous/Stalin/array1: No such file or directory
 
-real	0m0.834s
-user	0m0.827s
-sys	0m0.003s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing string under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running string:500000:25
-Elapsed time: 5.89999999967403709888458251953125e-1 seconds (5.89999999999999946709294817992486059665679931640625e-1) for string:500000:25
-+!CSVLINE!+stalin-unknown,string:500000:25,5.89999999967403709888458251953125e-1
+./bench: line 363: /tmp/larcenous/Stalin/string: No such file or directory
 
-real	0m0.590s
-user	0m0.727s
-sys	0m0.050s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing sum1 under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running sum1:25
-Elapsed time: 1.48999999999068677425384521484375 seconds (1.49000000000000003552713678800500929355621337890625) for sum1:25
-+!CSVLINE!+stalin-unknown,sum1:25,1.48999999999068677425384521484375
+./bench: line 363: /tmp/larcenous/Stalin/sum1: No such file or directory
 
-real	0m1.499s
-user	0m1.523s
-sys	0m0.010s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing cat under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -378,7 +328,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/cat: No such file or directory
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
 
@@ -389,7 +339,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/tail: No such file or directory
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -398,26 +348,22 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running wc:inputs/bib:50
-Elapsed time: 3.890000000013969838619232177734375 seconds (3.8900000000000002131628207280300557613372802734375) for wc:inputs/bib:50
-+!CSVLINE!+stalin-unknown,wc:inputs/bib:50,3.890000000013969838619232177734375
+./bench: line 363: /tmp/larcenous/Stalin/wc: No such file or directory
 
-real	0m3.886s
-user	0m3.833s
-sys	0m0.050s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing read1 under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running read1:2500
-Elapsed time: 8.83000000007450580596923828125 seconds (8.8300000000000000710542735760100185871124267578125) for read1:2500
-+!CSVLINE!+stalin-unknown,read1:2500,8.83000000007450580596923828125
+./bench: line 363: /tmp/larcenous/Stalin/read1: No such file or directory
 
-real	0m8.835s
-user	0m8.860s
-sys	0m0.033s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing compiler under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -457,37 +403,33 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-./bench: line 361:  9056 Segmentation fault      (core dumped) "$exe" < "$2"
+./bench: line 363: /tmp/larcenous/Stalin/earley: No such file or directory
 
-real	0m7.992s
-user	0m7.107s
-sys	0m1.817s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing graphs under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running graphs:7:3
-Elapsed time: 1.383999999985098927623994313762523233890533447265625e1 seconds (1.3840000000000001278976924368180334568023681640625e1) for graphs:7:3
-+!CSVLINE!+stalin-unknown,graphs:7:3,1.383999999985098927623994313762523233890533447265625e1
+./bench: line 363: /tmp/larcenous/Stalin/graphs: No such file or directory
 
-real	0m13.848s
-user	0m22.297s
-sys	0m0.123s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing lattice under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running lattice:44:10
-Elapsed time: 4.82999999984167516231536865234375 seconds (4.8300000000000000710542735760100185871124267578125) for lattice:44:10
-+!CSVLINE!+stalin-unknown,lattice:44:10,4.82999999984167516231536865234375
+./bench: line 363: /tmp/larcenous/Stalin/lattice: No such file or directory
 
-real	0m4.833s
-user	0m5.207s
-sys	0m0.007s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing matrix under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -516,25 +458,21 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running mazefun:11:11:10000
-Elapsed time: 3.67999999993480741977691650390625 seconds (3.680000000000000159872115546022541821002960205078125) for mazefun:11:11:10000
-+!CSVLINE!+stalin-unknown,mazefun:11:11:10000,3.67999999993480741977691650390625
+./bench: line 363: /tmp/larcenous/Stalin/mazefun: No such file or directory
 
-real	0m3.680s
-user	0m4.293s
-sys	0m0.180s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing nqueens under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running nqueens:13:10
-Elapsed time: 4.299999999930150806903839111328125 seconds (4.29999999999999982236431605997495353221893310546875) for nqueens:13:10
-+!CSVLINE!+stalin-unknown,nqueens:13:10,4.299999999930150806903839111328125
+./bench: line 363: /tmp/larcenous/Stalin/nqueens: No such file or directory
 
-real	0m4.300s
-user	0m4.297s
+real	0m0.000s
+user	0m0.000s
 sys	0m0.000s
 
 Testing paraffins under Stalin
@@ -542,26 +480,22 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running paraffins:23:10
-Elapsed time: 1.630000000004656612873077392578125 seconds (1.62999999999999989341858963598497211933135986328125) for paraffins:23:10
-+!CSVLINE!+stalin-unknown,paraffins:23:10,1.630000000004656612873077392578125
+./bench: line 363: /tmp/larcenous/Stalin/paraffins: No such file or directory
 
-real	0m1.644s
-user	0m1.810s
-sys	0m0.097s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing parsing under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running parsing:2500
-Elapsed time: 8.0 seconds (8.0) for parsing:2500
-+!CSVLINE!+stalin-unknown,parsing:2500,8.0
+./bench: line 363: /tmp/larcenous/Stalin/parsing: No such file or directory
 
-real	0m7.999s
-user	0m8.093s
-sys	0m0.017s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing peval under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -570,7 +504,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/peval: No such file or directory
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -579,26 +513,22 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running primes:1000:10000
-Elapsed time: 1.2700000000186264514923095703125 seconds (1.270000000000000017763568394002504646778106689453125) for primes:1000:10000
-+!CSVLINE!+stalin-unknown,primes:1000:10000,1.2700000000186264514923095703125
+./bench: line 363: /tmp/larcenous/Stalin/primes: No such file or directory
 
-real	0m1.275s
-user	0m1.440s
-sys	0m0.013s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing quicksort under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running quicksort:10000:2500
-Elapsed time: 2.65000000013969838619232177734375 seconds (2.649999999999999911182158029987476766109466552734375) for quicksort:10000:2500
-+!CSVLINE!+stalin-unknown,quicksort:10000:2500,2.65000000013969838619232177734375
+./bench: line 363: /tmp/larcenous/Stalin/quicksort: No such file or directory
 
-real	0m2.645s
-user	0m3.037s
-sys	0m0.077s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing scheme under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -607,7 +537,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/scheme: No such file or directory
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
 
@@ -618,7 +548,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/slatex: No such file or directory
 
-real	0m0.000s
+real	0m0.012s
 user	0m0.000s
 sys	0m0.000s
 
@@ -629,7 +559,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/nboyer: No such file or directory
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
 
@@ -638,13 +568,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running sboyer:5:1
-Elapsed time: 1.870000000111758708953857421875 seconds (1.87000000000000010658141036401502788066864013671875) for sboyer:5:1
-+!CSVLINE!+stalin-unknown,sboyer:5:1,1.870000000111758708953857421875
+./bench: line 363: /tmp/larcenous/Stalin/sboyer: No such file or directory
 
-real	0m1.871s
-user	0m2.437s
-sys	0m0.047s
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
 
 Testing gcbench under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
@@ -653,7 +581,7 @@ chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot op
 Running...
 ./bench: line 363: /tmp/larcenous/Stalin/gcbench: No such file or directory
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
 
@@ -662,23 +590,21 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-Running perm20:10:2:1
-Elapsed time: 1.25e1 seconds (1.25e1) for perm20:10:2:1
-+!CSVLINE!+stalin-unknown,perm20:10:2:1,1.25e1
+./bench: line 363: /tmp/larcenous/Stalin/mperm: No such file or directory
 
-real	0m14.115s
-user	0m24.357s
-sys	0m0.867s
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
 
 Testing equal under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
 Running...
-./bench: line 361:  9780 Killed                  "$exe" < "$2"
+./bench: line 363: /tmp/larcenous/Stalin/equal: No such file or directory
 
-real	10m0.002s
-user	9m59.950s
+real	0m0.001s
+user	0m0.000s
 sys	0m0.000s
 
 Testing bv2string under Stalin

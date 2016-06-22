@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking RScheme on Tue 31 May 19:14:09 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+Benchmarking RScheme on Tue 21 Jun 21:04:35 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -25,9 +25,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.051s
-user	0m0.000s
-sys	0m0.007s
+real	0m0.045s
+user	0m0.003s
+sys	0m0.000s
 
 Testing deriv under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -37,16 +37,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running deriv:10000000
-Elapsed time: 78.5936 seconds (78.) for deriv:10000000
-+!CSVLINE!+rscheme-unknown,deriv:10000000,78.5936
+Elapsed time: 73.2507 seconds (74.) for deriv:10000000
++!CSVLINE!+rscheme-unknown,deriv:10000000,73.2507
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m18.599s
-user	1m18.533s
-sys	0m0.043s
+real	1m13.258s
+user	1m13.227s
+sys	0m0.027s
 
 Testing destruc under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -56,16 +56,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running destruc:600:50:4000
-Elapsed time: 63.4785 seconds (63.) for destruc:600:50:4000
-+!CSVLINE!+rscheme-unknown,destruc:600:50:4000,63.4785
+Elapsed time: 60.0182 seconds (60.) for destruc:600:50:4000
++!CSVLINE!+rscheme-unknown,destruc:600:50:4000,60.0182
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m3.485s
-user	1m3.443s
-sys	0m0.033s
+real	1m0.025s
+user	0m59.970s
+sys	0m0.040s
 
 Testing diviter under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -75,11 +75,11 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running diviter:1000:1000000
-./bench: line 408:  3019 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+./bench: line 408:  4555 Killed                  ${RSCHEME} run-current-test.scm < "$2"
 
-real	0m12.208s
-user	0m7.580s
-sys	0m2.687s
+real	0m16.287s
+user	0m10.397s
+sys	0m2.977s
 
 Testing divrec under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -89,11 +89,11 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running divrec:1000:1000000
-./bench: line 408:  3037 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+./bench: line 408:  4578 Killed                  ${RSCHEME} run-current-test.scm < "$2"
 
-real	0m22.265s
-user	0m8.727s
-sys	0m3.183s
+real	0m11.929s
+user	0m9.000s
+sys	0m2.867s
 
 Testing puzzle under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -103,16 +103,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running puzzle:1000
-Elapsed time: 69.7058 seconds (69.) for puzzle:1000
-+!CSVLINE!+rscheme-unknown,puzzle:1000,69.7058
-top[0]=> 
+Elapsed time: 59.3215 seconds (59.) for puzzle:1000
++!CSVLINE!+rscheme-unknown,puzzle:1000,59.3215
+top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m9.760s
-user	1m9.650s
-sys	0m0.057s
+real	0m59.362s
+user	0m59.303s
+sys	0m0.027s
 
 Testing triangl under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -122,16 +122,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running triangl:22:1:50
-Elapsed time: 43.3595 seconds (44.) for triangl:22:1:50
-+!CSVLINE!+rscheme-unknown,triangl:22:1:50,43.3595
+Elapsed time: 38.0579 seconds (38.) for triangl:22:1:50
++!CSVLINE!+rscheme-unknown,triangl:22:1:50,38.0579
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m43.368s
-user	0m43.347s
-sys	0m0.010s
+real	0m38.064s
+user	0m38.043s
+sys	0m0.020s
 
 Testing tak under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -141,8 +141,8 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running tak:40:20:11:1
-Elapsed time: 33.2621 seconds (33.) for tak:40:20:11:1
-+!CSVLINE!+rscheme-unknown,tak:40:20:11:1,33.2621
+Elapsed time: 45.838 seconds (46.) for tak:40:20:11:1
++!CSVLINE!+rscheme-unknown,tak:40:20:11:1,45.838
    value := 10
  value := 32
  value := 16
@@ -158,9 +158,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m33.269s
-user	0m33.263s
-sys	0m0.000s
+real	0m45.844s
+user	0m45.827s
+sys	0m0.020s
 
 Testing takl under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -170,16 +170,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running takl:40:20:12:1
-Elapsed time: 93.2624 seconds (94.) for takl:40:20:12:1
-+!CSVLINE!+rscheme-unknown,takl:40:20:12:1,93.2624
+Elapsed time: 109.989 seconds (110.) for takl:40:20:12:1
++!CSVLINE!+rscheme-unknown,takl:40:20:12:1,109.989
                        
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m33.268s
-user	1m33.220s
-sys	0m0.030s
+real	1m49.994s
+user	1m49.960s
+sys	0m0.040s
 
 Testing ntakl under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -189,16 +189,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running ntakl:40:20:12:1
-Elapsed time: 59.945 seconds (60.) for ntakl:40:20:12:1
-+!CSVLINE!+rscheme-unknown,ntakl:40:20:12:1,59.945
+Elapsed time: 75.239 seconds (75.) for ntakl:40:20:12:1
++!CSVLINE!+rscheme-unknown,ntakl:40:20:12:1,75.239
                        
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m59.951s
-user	0m59.923s
-sys	0m0.017s
+real	1m15.246s
+user	1m15.220s
+sys	0m0.027s
 
 Testing cpstak under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -208,8 +208,8 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running cpstak:40:20:11:1
-Elapsed time: 260.965 seconds (261.) for cpstak:40:20:11:1
-+!CSVLINE!+rscheme-unknown,cpstak:40:20:11:1,260.965
+Elapsed time: 249.523 seconds (250.) for cpstak:40:20:11:1
++!CSVLINE!+rscheme-unknown,cpstak:40:20:11:1,249.523
    value := 5
  value := 32
  value := 16
@@ -225,9 +225,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	4m20.973s
-user	4m20.760s
-sys	0m0.173s
+real	4m9.530s
+user	4m9.380s
+sys	0m0.150s
 
 Testing ctak under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -237,8 +237,8 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running ctak:32:16:8:1
-Elapsed time: 61.1953 seconds (61.) for ctak:32:16:8:1
-+!CSVLINE!+rscheme-unknown,ctak:32:16:8:1,61.1953
+Elapsed time: 76.8954 seconds (77.) for ctak:32:16:8:1
++!CSVLINE!+rscheme-unknown,ctak:32:16:8:1,76.8954
    value := 160
  value := 18
  value := 12
@@ -249,9 +249,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m1.203s
-user	1m1.137s
-sys	0m0.060s
+real	1m16.905s
+user	1m16.837s
+sys	0m0.067s
 
 Testing fib under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -261,16 +261,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running fib:40:5
-Elapsed time: 69.6959 seconds (69.) for fib:40:5
-+!CSVLINE!+rscheme-unknown,fib:40:5,69.6959
+Elapsed time: 84.6148 seconds (85.) for fib:40:5
++!CSVLINE!+rscheme-unknown,fib:40:5,84.6148
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m9.703s
-user	1m9.640s
-sys	0m0.053s
+real	1m24.625s
+user	1m24.563s
+sys	0m0.057s
 
 Testing fibc under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -280,16 +280,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running fibc:30:10
-Elapsed time: 48.0544 seconds (48.) for fibc:30:10
-+!CSVLINE!+rscheme-unknown,fibc:30:10,48.0544
+Elapsed time: 52.9852 seconds (53.) for fibc:30:10
++!CSVLINE!+rscheme-unknown,fibc:30:10,52.9852
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m48.061s
-user	0m48.033s
-sys	0m0.023s
+real	0m52.994s
+user	0m52.950s
+sys	0m0.043s
 
 Testing fibfp under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -299,16 +299,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running fibfp:35.:10
-Elapsed time: 40.6656 seconds (41.) for fibfp:35.:10
-+!CSVLINE!+rscheme-unknown,fibfp:35.:10,40.6656
+Elapsed time: 38.6303 seconds (39.) for fibfp:35.:10
++!CSVLINE!+rscheme-unknown,fibfp:35.:10,38.6303
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m40.673s
-user	0m40.627s
-sys	0m0.040s
+real	0m38.637s
+user	0m38.600s
+sys	0m0.033s
 
 Testing sum under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -318,16 +318,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running sum:10000:200000
-Elapsed time: 59.457 seconds (59.) for sum:10000:200000
-+!CSVLINE!+rscheme-unknown,sum:10000:200000,59.457
+Elapsed time: 59.9878 seconds (60.) for sum:10000:200000
++!CSVLINE!+rscheme-unknown,sum:10000:200000,59.9878
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m59.466s
-user	0m59.393s
-sys	0m0.063s
+real	0m59.993s
+user	0m59.967s
+sys	0m0.023s
 
 Testing sumfp under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -337,16 +337,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running sumfp:1e+06:500
-Elapsed time: 54.1818 seconds (54.) for sumfp:1e+06:500
-+!CSVLINE!+rscheme-unknown,sumfp:1e+06:500,54.1818
+Elapsed time: 48.1149 seconds (49.) for sumfp:1e+06:500
++!CSVLINE!+rscheme-unknown,sumfp:1e+06:500,48.1149
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m54.188s
-user	0m54.143s
-sys	0m0.037s
+real	0m48.121s
+user	0m48.097s
+sys	0m0.027s
 
 Testing fft under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -356,11 +356,11 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running fft:65536:100
-./bench: line 408:  4032 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+./bench: line 408:  5344 Killed                  ${RSCHEME} run-current-test.scm < "$2"
 
-real	0m59.779s
-user	0m55.203s
-sys	0m2.743s
+real	2m43.758s
+user	1m1.197s
+sys	0m2.860s
 
 Testing mbrot under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -370,16 +370,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running mbrot:75:1000
-Elapsed time: 61.7235 seconds (62.) for mbrot:75:1000
-+!CSVLINE!+rscheme-unknown,mbrot:75:1000,61.7235
+Elapsed time: 77.7431 seconds (78.) for mbrot:75:1000
++!CSVLINE!+rscheme-unknown,mbrot:75:1000,77.7431
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m1.773s
-user	1m1.667s
-sys	0m0.053s
+real	1m17.793s
+user	1m17.690s
+sys	0m0.063s
 
 Testing mbrotZ under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -402,9 +402,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.003s
+real	0m0.004s
 user	0m0.000s
-sys	0m0.000s
+sys	0m0.003s
 
 Testing nucleic under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -426,8 +426,8 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.003s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 
 Testing pi under RScheme
@@ -446,8 +446,8 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.006s
-user	0m0.000s
+real	0m0.008s
+user	0m0.003s
 sys	0m0.003s
 
 Testing pnpoly under RScheme
@@ -458,16 +458,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running pnpoly:1000000
-Elapsed time: 60.9833 seconds (61.) for pnpoly:1000000
-+!CSVLINE!+rscheme-unknown,pnpoly:1000000,60.9833
+Elapsed time: 83.8046 seconds (83.) for pnpoly:1000000
++!CSVLINE!+rscheme-unknown,pnpoly:1000000,83.8046
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m0.989s
-user	1m0.940s
-sys	0m0.033s
+real	1m23.813s
+user	1m23.740s
+sys	0m0.073s
 
 Testing ray under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -488,7 +488,7 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.004s
+real	0m0.006s
 user	0m0.000s
 sys	0m0.003s
 
@@ -500,16 +500,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running simplex:1000000
-Elapsed time: 72.8278 seconds (73.) for simplex:1000000
-+!CSVLINE!+rscheme-unknown,simplex:1000000,72.8278
+Elapsed time: 116.315 seconds (117.) for simplex:1000000
++!CSVLINE!+rscheme-unknown,simplex:1000000,116.315
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m12.834s
-user	1m12.773s
-sys	0m0.050s
+real	1m56.323s
+user	1m56.227s
+sys	0m0.100s
 
 Testing ack under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -519,11 +519,11 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running ack:3:12:2
-./bench: line 408:  4519 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+./bench: line 408:  5764 Killed                  ${RSCHEME} run-current-test.scm < "$2"
 
-real	0m41.892s
-user	0m35.347s
-sys	0m2.967s
+real	4m14.952s
+user	0m32.270s
+sys	0m4.690s
 
 Testing array1 under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -533,16 +533,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running array1:1000000:500
-Elapsed time: 35.3331 seconds (36.) for array1:1000000:500
-+!CSVLINE!+rscheme-unknown,array1:1000000:500,35.3331
+Elapsed time: 41.8672 seconds (42.) for array1:1000000:500
++!CSVLINE!+rscheme-unknown,array1:1000000:500,41.8672
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m35.468s
-user	0m34.610s
-sys	0m0.800s
+real	0m42.021s
+user	0m41.013s
+sys	0m0.953s
 
 Testing string under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -552,16 +552,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running string:500000:25
-Elapsed time: 0.169684 seconds (0.) for string:500000:25
-+!CSVLINE!+rscheme-unknown,string:500000:25,0.169684
+Elapsed time: 0.202994 seconds (0.) for string:500000:25
++!CSVLINE!+rscheme-unknown,string:500000:25,0.202994
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.176s
-user	0m0.143s
-sys	0m0.030s
+real	0m0.211s
+user	0m0.177s
+sys	0m0.033s
 
 Testing sum1 under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -571,15 +571,15 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running sum1:25
-Elapsed time: 13.0387 seconds (13.) for sum1:25
-+!CSVLINE!+rscheme-unknown,sum1:25,13.0387
+Elapsed time: 14.1913 seconds (14.) for sum1:25
++!CSVLINE!+rscheme-unknown,sum1:25,14.1913
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m13.044s
-user	0m13.010s
+real	0m14.198s
+user	0m14.167s
 sys	0m0.030s
 
 Testing cat under RScheme
@@ -601,7 +601,7 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.006s
+real	0m0.005s
 user	0m0.003s
 sys	0m0.000s
 
@@ -624,7 +624,7 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.006s
+real	0m0.005s
 user	0m0.003s
 sys	0m0.000s
 
@@ -636,16 +636,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running wc:inputs/bib:50
-Elapsed time: 55.9483 seconds (56.) for wc:inputs/bib:50
-+!CSVLINE!+rscheme-unknown,wc:inputs/bib:50,55.9483
+Elapsed time: 64.7994 seconds (65.) for wc:inputs/bib:50
++!CSVLINE!+rscheme-unknown,wc:inputs/bib:50,64.7994
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m55.954s
-user	0m55.840s
-sys	0m0.103s
+real	1m4.805s
+user	1m4.740s
+sys	0m0.067s
 
 Testing read1 under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -655,16 +655,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running read1:2500
-Elapsed time: 11.006 seconds (11.) for read1:2500
-+!CSVLINE!+rscheme-unknown,read1:2500,11.006
+Elapsed time: 9.68797 seconds (10.) for read1:2500
++!CSVLINE!+rscheme-unknown,read1:2500,9.68797
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m11.012s
-user	0m10.980s
-sys	0m0.030s
+real	0m9.693s
+user	0m9.650s
+sys	0m0.043s
 
 Testing compiler under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -700,16 +700,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running conform:500
-Elapsed time: 114.017 seconds (114.) for conform:500
-+!CSVLINE!+rscheme-unknown,conform:500,114.017
+Elapsed time: 115.295 seconds (116.) for conform:500
++!CSVLINE!+rscheme-unknown,conform:500,115.295
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m54.023s
-user	1m53.933s
-sys	0m0.070s
+real	1m55.301s
+user	1m55.270s
+sys	0m0.037s
 
 Testing dynamic under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -722,16 +722,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running dynamic:500
-Elapsed time: 61.5134 seconds (61.) for dynamic:500
-+!CSVLINE!+rscheme-unknown,dynamic:500,61.5134
+Elapsed time: 73.4212 seconds (73.) for dynamic:500
++!CSVLINE!+rscheme-unknown,dynamic:500,73.4212
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m1.520s
-user	1m1.443s
-sys	0m0.070s
+real	1m13.431s
+user	1m13.377s
+sys	0m0.057s
 
 Testing earley under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -741,16 +741,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running earley:1
-Elapsed time: 38.4557 seconds (38.) for earley:1
-+!CSVLINE!+rscheme-unknown,earley:1,38.4557
+Elapsed time: 38.8745 seconds (39.) for earley:1
++!CSVLINE!+rscheme-unknown,earley:1,38.8745
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m38.622s
-user	0m37.260s
-sys	0m1.353s
+real	0m39.057s
+user	0m37.727s
+sys	0m1.320s
 
 Testing graphs under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -760,16 +760,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running graphs:7:3
-Elapsed time: 146.569 seconds (146.) for graphs:7:3
-+!CSVLINE!+rscheme-unknown,graphs:7:3,146.569
+Elapsed time: 173.254 seconds (173.) for graphs:7:3
++!CSVLINE!+rscheme-unknown,graphs:7:3,173.254
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	2m26.581s
-user	2m26.450s
-sys	0m0.113s
+real	2m53.268s
+user	2m53.107s
+sys	0m0.133s
 
 Testing lattice under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -779,16 +779,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running lattice:44:10
-Elapsed time: 153.204 seconds (153.) for lattice:44:10
-+!CSVLINE!+rscheme-unknown,lattice:44:10,153.204
+Elapsed time: 155.723 seconds (156.) for lattice:44:10
++!CSVLINE!+rscheme-unknown,lattice:44:10,155.723
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	2m33.211s
-user	2m33.130s
-sys	0m0.060s
+real	2m35.729s
+user	2m35.647s
+sys	0m0.077s
 
 Testing matrix under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -799,8 +799,8 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running matrix:5:5:2500
-Elapsed time: 79.3969 seconds (79.) for matrix:5:5:2500
-+!CSVLINE!+rscheme-unknown,matrix:5:5:2500,79.3969
+Elapsed time: 94.9388 seconds (95.) for matrix:5:5:2500
++!CSVLINE!+rscheme-unknown,matrix:5:5:2500,94.9388
 12:read: Unmatched <close-paren>
 12:read: Unmatched <close-paren>
  break^2[0]=>
@@ -810,9 +810,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m19.404s
-user	1m19.340s
-sys	0m0.057s
+real	1m34.946s
+user	1m34.877s
+sys	0m0.073s
 
 Testing maze under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -834,9 +834,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.004s
+real	0m0.003s
 user	0m0.000s
-sys	0m0.003s
+sys	0m0.000s
 
 Testing mazefun under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -846,16 +846,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running mazefun:11:11:10000
-Elapsed time: 62.8306 seconds (63.) for mazefun:11:11:10000
-+!CSVLINE!+rscheme-unknown,mazefun:11:11:10000,62.8306
+Elapsed time: 71.8332 seconds (71.) for mazefun:11:11:10000
++!CSVLINE!+rscheme-unknown,mazefun:11:11:10000,71.8332
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m2.839s
-user	1m2.783s
-sys	0m0.047s
+real	1m11.839s
+user	1m11.787s
+sys	0m0.027s
 
 Testing nqueens under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -865,16 +865,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running nqueens:13:10
-Elapsed time: 100.703 seconds (100.) for nqueens:13:10
-+!CSVLINE!+rscheme-unknown,nqueens:13:10,100.703
+Elapsed time: 122.807 seconds (122.) for nqueens:13:10
++!CSVLINE!+rscheme-unknown,nqueens:13:10,122.807
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m40.709s
-user	1m40.643s
-sys	0m0.057s
+real	2m2.813s
+user	2m2.723s
+sys	0m0.083s
 
 Testing paraffins under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -884,11 +884,19 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running paraffins:23:10
-./bench: line 408:  5788 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+Elapsed time: 13.8017 seconds (13.) for paraffins:23:10
++!CSVLINE!+rscheme-unknown,paraffins:23:10,13.8017
+   value := 5
+ value := 24
+ value := 14490245
+top[3]=>
+RScheme (v0.7.3.4-b7u, 2007-05-30)
+Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
+RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m17.706s
-user	0m14.390s
-sys	0m3.287s
+real	0m14.305s
+user	0m11.173s
+sys	0m3.117s
 
 Testing parsing under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -898,16 +906,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running parsing:2500
-Elapsed time: 57.863 seconds (58.) for parsing:2500
-+!CSVLINE!+rscheme-unknown,parsing:2500,57.863
+Elapsed time: 68.3397 seconds (69.) for parsing:2500
++!CSVLINE!+rscheme-unknown,parsing:2500,68.3397
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m57.914s
-user	0m57.823s
-sys	0m0.040s
+real	1m8.345s
+user	1m8.293s
+sys	0m0.053s
 
 Testing peval under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -929,7 +937,7 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.003s
+real	0m0.004s
 user	0m0.000s
 sys	0m0.000s
 
@@ -941,16 +949,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running primes:1000:10000
-Elapsed time: 18.3266 seconds (19.) for primes:1000:10000
-+!CSVLINE!+rscheme-unknown,primes:1000:10000,18.3266
+Elapsed time: 26.4532 seconds (27.) for primes:1000:10000
++!CSVLINE!+rscheme-unknown,primes:1000:10000,26.4532
 top[0]=>
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m18.605s
-user	0m16.367s
-sys	0m2.217s
+real	0m26.777s
+user	0m23.957s
+sys	0m2.820s
 
 Testing quicksort under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -996,9 +1004,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.003s
+real	0m0.004s
 user	0m0.000s
-sys	0m0.000s
+sys	0m0.003s
 
 Testing slatex under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1020,9 +1028,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.003s
+real	0m0.004s
 user	0m0.000s
-sys	0m0.000s
+sys	0m0.003s
 
 Testing nboyer under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1032,8 +1040,8 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running nboyer:5:1
-Elapsed time: 18.0524 seconds (18.) for nboyer:5:1
-+!CSVLINE!+rscheme-unknown,nboyer:5:1,18.0524
+Elapsed time: 17.2493 seconds (17.) for nboyer:5:1
++!CSVLINE!+rscheme-unknown,nboyer:5:1,17.2493
  value := 16445406
       value := 1
  value := 4
@@ -1044,9 +1052,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m18.149s
-user	0m17.633s
-sys	0m0.513s
+real	0m17.335s
+user	0m16.800s
+sys	0m0.533s
 
 Testing sboyer under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1056,17 +1064,17 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running sboyer:5:1
-Elapsed time: 21.3592 seconds (21.) for sboyer:5:1
-+!CSVLINE!+rscheme-unknown,sboyer:5:1,21.3592
+Elapsed time: 25.5155 seconds (26.) for sboyer:5:1
++!CSVLINE!+rscheme-unknown,sboyer:5:1,25.5155
  value := 16445406
  
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m21.391s
-user	0m21.233s
-sys	0m0.153s
+real	0m25.541s
+user	0m25.397s
+sys	0m0.143s
 
 Testing gcbench under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1117,9 +1125,9 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.004s
-user	0m0.003s
-sys	0m0.000s
+real	0m0.005s
+user	0m0.000s
+sys	0m0.003s
 
 Testing mperm under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1129,16 +1137,16 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running perm20:10:2:1
-Elapsed time: 97.9504 seconds (98.) for perm20:10:2:1
-+!CSVLINE!+rscheme-unknown,perm20:10:2:1,97.9504
+Elapsed time: 100.048 seconds (100.) for perm20:10:2:1
++!CSVLINE!+rscheme-unknown,perm20:10:2:1,100.048
  
 RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	1m41.563s
-user	1m39.597s
-sys	0m1.957s
+real	1m45.528s
+user	1m43.057s
+sys	0m2.477s
 
 Testing equal under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1148,11 +1156,11 @@ saving mif: /tmp/larcenous/RScheme/test.mif
 Running...
 type ",warranty" for details; type ",help" for some help
 ? Running equal:100:100:8:1000:2000:5000
-./bench: line 408:  6046 Killed                  ${RSCHEME} run-current-test.scm < "$2"
+./bench: line 408:  7442 Killed                  ${RSCHEME} run-current-test.scm < "$2"
 
-real	9m59.999s
-user	9m59.727s
-sys	0m0.227s
+real	5m0.026s
+user	4m59.893s
+sys	0m0.130s
 
 Testing bv2string under RScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/RScheme-prelude.scm
@@ -1177,6 +1185,6 @@ RScheme (v0.7.3.4-b7u, 2007-05-30)
 Copyright (C) 1995-2005 Donovan Kolbly <d.kolbly@rscheme.org>
 RScheme comes with ABSOLUTELY NO WARRANTY.
 
-real	0m0.006s
+real	0m0.004s
 user	0m0.003s
 sys	0m0.000s

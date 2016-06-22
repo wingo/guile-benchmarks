@@ -1,89 +1,89 @@
 
 ****************************
-Benchmarking Sagittarius on Tue 31 May 20:06:34 CEST 2016 under Linux nexion 4.5.4-1-ARCH #1 SMP PREEMPT Wed May 11 22:21:28 CEST 2016 x86_64 GNU/Linux
+Benchmarking Sagittarius on Tue 21 Jun 21:41:00 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 28.847134976 seconds (28.847) for browse:2000
-+!CSVLINE!+sagittarius-0.7.2,browse:2000,28.847134976
+Elapsed time: 27.437883904 seconds (27.438) for browse:2000
++!CSVLINE!+sagittarius-0.7.2,browse:2000,27.437883904
 
-real	0m30.246s
-user	0m34.060s
-sys	0m0.073s
+real	0m28.886s
+user	0m31.240s
+sys	0m0.107s
 
 Testing deriv under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 40.305351936 seconds (40.305) for deriv:10000000
-+!CSVLINE!+sagittarius-0.7.2,deriv:10000000,40.305351936
+Elapsed time: 47.832134912 seconds (47.832) for deriv:10000000
++!CSVLINE!+sagittarius-0.7.2,deriv:10000000,47.832134912
 
-real	0m41.621s
-user	0m51.970s
-sys	0m0.217s
+real	0m49.186s
+user	1m0.287s
+sys	0m0.233s
 
 Testing destruc under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 35.321309952 seconds (35.321) for destruc:600:50:4000
-+!CSVLINE!+sagittarius-0.7.2,destruc:600:50:4000,35.321309952
+Elapsed time: 36.025570816 seconds (36.026) for destruc:600:50:4000
++!CSVLINE!+sagittarius-0.7.2,destruc:600:50:4000,36.025570816
 
-real	0m36.606s
-user	0m39.703s
-sys	0m0.050s
+real	0m37.406s
+user	0m40.957s
+sys	0m0.073s
 
 Testing diviter under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 35.899977728 seconds (35.9) for diviter:1000:1000000
-+!CSVLINE!+sagittarius-0.7.2,diviter:1000:1000000,35.899977728
+Elapsed time: 40.799744 seconds (40.8) for diviter:1000:1000000
++!CSVLINE!+sagittarius-0.7.2,diviter:1000:1000000,40.799744
 
-real	0m37.198s
-user	0m50.430s
-sys	0m0.300s
+real	0m42.183s
+user	0m54.937s
+sys	0m0.187s
 
 Testing divrec under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 38.214480384 seconds (38.215) for divrec:1000:1000000
-+!CSVLINE!+sagittarius-0.7.2,divrec:1000:1000000,38.214480384
+Elapsed time: 40.912214016 seconds (40.912) for divrec:1000:1000000
++!CSVLINE!+sagittarius-0.7.2,divrec:1000:1000000,40.912214016
 
-real	0m39.559s
-user	0m50.493s
-sys	0m0.210s
+real	0m42.241s
+user	0m51.413s
+sys	0m0.153s
 
 Testing puzzle under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 46.773350912 seconds (46.773) for puzzle:1000
-+!CSVLINE!+sagittarius-0.7.2,puzzle:1000,46.773350912
+Elapsed time: 43.67954304 seconds (43.68) for puzzle:1000
++!CSVLINE!+sagittarius-0.7.2,puzzle:1000,43.67954304
 
-real	0m48.116s
-user	0m48.873s
-sys	0m0.023s
+real	0m45.040s
+user	0m45.467s
+sys	0m0.027s
 
 Testing triangl under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 25.115830784 seconds (25.116) for triangl:22:1:50
-+!CSVLINE!+sagittarius-0.7.2,triangl:22:1:50,25.115830784
+Elapsed time: 29.133114112 seconds (29.133) for triangl:22:1:50
++!CSVLINE!+sagittarius-0.7.2,triangl:22:1:50,29.133114112
 
-real	0m26.312s
-user	0m26.427s
+real	0m30.234s
+user	0m30.317s
 sys	0m0.010s
 
 Testing tak under Sagittarius
@@ -91,11 +91,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 33.514870784 seconds (33.515) for tak:40:20:11:1
-+!CSVLINE!+sagittarius-0.7.2,tak:40:20:11:1,33.514870784
+Elapsed time: 30.366362112 seconds (30.366) for tak:40:20:11:1
++!CSVLINE!+sagittarius-0.7.2,tak:40:20:11:1,30.366362112
 
-real	0m34.824s
-user	0m34.910s
+real	0m31.719s
+user	0m31.797s
 sys	0m0.010s
 
 Testing takl under Sagittarius
@@ -103,59 +103,59 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 80.38276608 seconds (80.383) for takl:40:20:12:1
-+!CSVLINE!+sagittarius-0.7.2,takl:40:20:12:1,80.38276608
+Elapsed time: 81.435572992 seconds (81.436) for takl:40:20:12:1
++!CSVLINE!+sagittarius-0.7.2,takl:40:20:12:1,81.435572992
 
-real	1m21.659s
-user	1m21.770s
-sys	0m0.010s
+real	1m22.785s
+user	1m22.867s
+sys	0m0.017s
 
 Testing ntakl under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 72.419363072 seconds (72.419) for ntakl:40:20:12:1
-+!CSVLINE!+sagittarius-0.7.2,ntakl:40:20:12:1,72.419363072
+Elapsed time: 70.552011776 seconds (70.552) for ntakl:40:20:12:1
++!CSVLINE!+sagittarius-0.7.2,ntakl:40:20:12:1,70.552011776
 
-real	1m13.713s
-user	1m13.800s
-sys	0m0.007s
+real	1m11.918s
+user	1m12.003s
+sys	0m0.017s
 
 Testing cpstak under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 125.24950016 seconds (125.25) for cpstak:40:20:11:1
-+!CSVLINE!+sagittarius-0.7.2,cpstak:40:20:11:1,125.24950016
+Elapsed time: 132.018999808 seconds (132.019) for cpstak:40:20:11:1
++!CSVLINE!+sagittarius-0.7.2,cpstak:40:20:11:1,132.018999808
 
-real	2m6.551s
-user	2m48.367s
-sys	0m1.087s
+real	2m13.336s
+user	2m48.123s
+sys	0m0.673s
 
 Testing ctak under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 34.012329728 seconds (34.012) for ctak:32:16:8:1
-+!CSVLINE!+sagittarius-0.7.2,ctak:32:16:8:1,34.012329728
+Elapsed time: 36.317347072 seconds (36.317) for ctak:32:16:8:1
++!CSVLINE!+sagittarius-0.7.2,ctak:32:16:8:1,36.317347072
 
-real	0m35.282s
-user	0m47.017s
-sys	0m0.397s
+real	0m37.727s
+user	0m48.800s
+sys	0m0.210s
 
 Testing fib under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 63.988173056 seconds (63.988) for fib:40:5
-+!CSVLINE!+sagittarius-0.7.2,fib:40:5,63.988173056
+Elapsed time: 68.39163392 seconds (68.392) for fib:40:5
++!CSVLINE!+sagittarius-0.7.2,fib:40:5,68.39163392
 
-real	1m5.384s
-user	1m5.493s
+real	1m9.593s
+user	1m9.667s
 sys	0m0.023s
 
 Testing fibc under Sagittarius
@@ -163,179 +163,179 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 28.132723968 seconds (28.133) for fibc:30:10
-+!CSVLINE!+sagittarius-0.7.2,fibc:30:10,28.132723968
+Elapsed time: 28.360056064 seconds (28.36) for fibc:30:10
++!CSVLINE!+sagittarius-0.7.2,fibc:30:10,28.360056064
 
-real	0m29.472s
-user	0m35.580s
-sys	0m0.173s
+real	0m29.692s
+user	0m35.007s
+sys	0m0.103s
 
 Testing fibfp under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 15.785897984 seconds (15.786) for fibfp:35.0:10
-+!CSVLINE!+sagittarius-0.7.2,fibfp:35.0:10,15.785897984
+Elapsed time: 12.250435072 seconds (12.25) for fibfp:35.0:10
++!CSVLINE!+sagittarius-0.7.2,fibfp:35.0:10,12.250435072
 
-real	0m16.983s
-user	0m17.087s
-sys	0m0.020s
+real	0m13.552s
+user	0m13.620s
+sys	0m0.010s
 
 Testing sum under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 61.68528 seconds (61.685) for sum:10000:200000
-+!CSVLINE!+sagittarius-0.7.2,sum:10000:200000,61.68528
+Elapsed time: 67.254546176 seconds (67.255) for sum:10000:200000
++!CSVLINE!+sagittarius-0.7.2,sum:10000:200000,67.254546176
 
-real	1m2.952s
-user	1m3.093s
-sys	0m0.023s
+real	1m8.589s
+user	1m8.693s
+sys	0m0.030s
 
 Testing sumfp under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 23.48558592 seconds (23.486) for sumfp:1000000.0:500
-+!CSVLINE!+sagittarius-0.7.2,sumfp:1000000.0:500,23.48558592
+Elapsed time: 20.378196992 seconds (20.378) for sumfp:1000000.0:500
++!CSVLINE!+sagittarius-0.7.2,sumfp:1000000.0:500,20.378196992
 
-real	0m24.816s
-user	0m24.913s
-sys	0m0.017s
+real	0m21.721s
+user	0m21.783s
+sys	0m0.030s
 
 Testing fft under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running fft:65536:100
-Elapsed time: 10.222196992 seconds (10.222) for fft:65536:100
-+!CSVLINE!+sagittarius-0.7.2,fft:65536:100,10.222196992
+Elapsed time: 9.185880064 seconds (9.186) for fft:65536:100
++!CSVLINE!+sagittarius-0.7.2,fft:65536:100,9.185880064
 
-real	0m11.550s
-user	0m11.723s
-sys	0m0.047s
+real	0m10.501s
+user	0m10.663s
+sys	0m0.043s
 
 Testing mbrot under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 85.216126976 seconds (85.216) for mbrot:75:1000
-+!CSVLINE!+sagittarius-0.7.2,mbrot:75:1000,85.216126976
+Elapsed time: 88.334971904 seconds (88.335) for mbrot:75:1000
++!CSVLINE!+sagittarius-0.7.2,mbrot:75:1000,88.334971904
 
-real	1m26.484s
-user	2m3.810s
-sys	0m0.853s
+real	1m29.554s
+user	1m52.050s
+sys	0m0.380s
 
 Testing mbrotZ under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 140.728144896 seconds (140.728) for mbrotZ:75:1000
-+!CSVLINE!+sagittarius-0.7.2,mbrotZ:75:1000,140.728144896
+Elapsed time: 152.479006976 seconds (152.479) for mbrotZ:75:1000
++!CSVLINE!+sagittarius-0.7.2,mbrotZ:75:1000,152.479006976
 
-real	2m22.049s
-user	2m56.297s
-sys	0m0.733s
+real	2m33.821s
+user	3m2.137s
+sys	0m0.407s
 
 Testing nucleic under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 37.499126784 seconds (37.499) for nucleic:50
-+!CSVLINE!+sagittarius-0.7.2,nucleic:50,37.499126784
+Elapsed time: 36.747730944 seconds (36.748) for nucleic:50
++!CSVLINE!+sagittarius-0.7.2,nucleic:50,36.747730944
 
-real	0m38.844s
-user	0m48.800s
-sys	0m0.187s
+real	0m38.157s
+user	0m45.690s
+sys	0m0.087s
 
 Testing pi under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running pi:50:500:50:2
-Elapsed time: 1.329306112 seconds (1.329) for pi:50:500:50:2
-+!CSVLINE!+sagittarius-0.7.2,pi:50:500:50:2,1.329306112
+Elapsed time: 1.579876096 seconds (1.58) for pi:50:500:50:2
++!CSVLINE!+sagittarius-0.7.2,pi:50:500:50:2,1.579876096
 
-real	0m2.657s
-user	0m2.367s
-sys	0m0.613s
+real	0m2.947s
+user	0m2.620s
+sys	0m0.620s
 
 Testing pnpoly under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 37.336578816 seconds (37.337) for pnpoly:1000000
-+!CSVLINE!+sagittarius-0.7.2,pnpoly:1000000,37.336578816
+Elapsed time: 33.28876416 seconds (33.289) for pnpoly:1000000
++!CSVLINE!+sagittarius-0.7.2,pnpoly:1000000,33.28876416
 
-real	0m38.443s
-user	0m40.370s
-sys	0m0.057s
+real	0m34.670s
+user	0m35.557s
+sys	0m0.040s
 
 Testing ray under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 35.412336896 seconds (35.412) for ray:50
-+!CSVLINE!+sagittarius-0.7.2,ray:50,35.412336896
+Elapsed time: 35.56752512 seconds (35.568) for ray:50
++!CSVLINE!+sagittarius-0.7.2,ray:50,35.56752512
 
-real	0m36.722s
-user	0m42.340s
-sys	0m0.187s
+real	0m36.868s
+user	0m41.173s
+sys	0m0.117s
 
 Testing simplex under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 48.790754048 seconds (48.791) for simplex:1000000
-+!CSVLINE!+sagittarius-0.7.2,simplex:1000000,48.790754048
+Elapsed time: 49.327746816 seconds (49.328) for simplex:1000000
++!CSVLINE!+sagittarius-0.7.2,simplex:1000000,49.327746816
 
-real	0m50.124s
-user	0m55.093s
-sys	0m0.150s
+real	0m50.633s
+user	0m54.823s
+sys	0m0.103s
 
 Testing ack under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 117.632900864 seconds (117.633) for ack:3:12:2
-+!CSVLINE!+sagittarius-0.7.2,ack:3:12:2,117.632900864
+Elapsed time: 142.149218048 seconds (142.149) for ack:3:12:2
++!CSVLINE!+sagittarius-0.7.2,ack:3:12:2,142.149218048
 
-real	1m58.917s
-user	2m27.540s
-sys	0m0.597s
+real	2m23.498s
+user	3m0.270s
+sys	0m0.623s
 
 Testing array1 under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 36.802551808 seconds (36.803) for array1:1000000:500
-+!CSVLINE!+sagittarius-0.7.2,array1:1000000:500,36.802551808
+Elapsed time: 44.972108032 seconds (44.972) for array1:1000000:500
++!CSVLINE!+sagittarius-0.7.2,array1:1000000:500,44.972108032
 
-real	0m38.136s
-user	0m39.807s
-sys	0m0.583s
+real	0m46.422s
+user	0m48.520s
+sys	0m0.930s
 
 Testing string under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 0.961517824 seconds (0.962) for string:500000:25
-+!CSVLINE!+sagittarius-0.7.2,string:500000:25,0.961517824
+Elapsed time: 1.099325952 seconds (1.099) for string:500000:25
++!CSVLINE!+sagittarius-0.7.2,string:500000:25,1.099325952
 
-real	0m2.199s
-user	0m2.453s
+real	0m2.437s
+user	0m2.603s
 sys	0m0.310s
 
 Testing sum1 under Sagittarius
@@ -343,11 +343,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 9.332627968 seconds (9.333) for sum1:25
-+!CSVLINE!+sagittarius-0.7.2,sum1:25,9.332627968
+Elapsed time: 10.108359168 seconds (10.108) for sum1:25
++!CSVLINE!+sagittarius-0.7.2,sum1:25,10.108359168
 
-real	0m10.622s
-user	0m11.490s
+real	0m11.458s
+user	0m11.783s
 sys	0m0.040s
 
 Testing cat under Sagittarius
@@ -355,276 +355,276 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 194.993419008 seconds (194.994) for cat:50
-+!CSVLINE!+sagittarius-0.7.2,cat:50,194.993419008
+Elapsed time: 183.367238912 seconds (183.367) for cat:50
++!CSVLINE!+sagittarius-0.7.2,cat:50,183.367238912
 
-real	3m16.270s
-user	3m51.897s
-sys	0m1.177s
+real	3m4.749s
+user	3m24.647s
+sys	0m1.000s
 
 Testing tail under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running tail:25
-Elapsed time: 14.512253952 seconds (14.512) for tail:25
-+!CSVLINE!+sagittarius-0.7.2,tail:25,14.512253952
+Elapsed time: 14.753630208 seconds (14.754) for tail:25
++!CSVLINE!+sagittarius-0.7.2,tail:25,14.753630208
 
-real	0m15.873s
-user	0m17.150s
-sys	0m0.160s
+real	0m15.861s
+user	0m16.597s
+sys	0m0.173s
 
 Testing wc under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 50.490109184 seconds (50.49) for wc:inputs/bib:50
-+!CSVLINE!+sagittarius-0.7.2,wc:inputs/bib:50,50.490109184
+Elapsed time: 84.431597056 seconds (84.432) for wc:inputs/bib:50
++!CSVLINE!+sagittarius-0.7.2,wc:inputs/bib:50,84.431597056
 
-real	0m51.784s
-user	0m51.803s
-sys	0m0.080s
+real	1m25.724s
+user	1m25.693s
+sys	0m0.110s
 
 Testing read1 under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 11.452795904 seconds (11.453) for read1:2500
-+!CSVLINE!+sagittarius-0.7.2,read1:2500,11.452795904
+Elapsed time: 14.486434048 seconds (14.486) for read1:2500
++!CSVLINE!+sagittarius-0.7.2,read1:2500,14.486434048
 
-real	0m12.807s
-user	0m13.617s
-sys	0m0.070s
+real	0m15.813s
+user	0m16.757s
+sys	0m0.093s
 
 Testing compiler under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running compiler:2000
-Elapsed time: 27.503620864 seconds (27.504) for compiler:2000
-+!CSVLINE!+sagittarius-0.7.2,compiler:2000,27.503620864
+Elapsed time: 28.863918848 seconds (28.864) for compiler:2000
++!CSVLINE!+sagittarius-0.7.2,compiler:2000,28.863918848
 
-real	0m29.849s
-user	0m32.180s
-sys	0m0.040s
+real	0m30.945s
+user	0m33.570s
+sys	0m0.053s
 
 Testing conform under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running conform:500
-Elapsed time: 49.206529024 seconds (49.207) for conform:500
-+!CSVLINE!+sagittarius-0.7.2,conform:500,49.206529024
+Elapsed time: 48.686366208 seconds (48.686) for conform:500
++!CSVLINE!+sagittarius-0.7.2,conform:500,48.686366208
 
-real	0m50.596s
-user	0m52.637s
-sys	0m0.070s
+real	0m50.083s
+user	0m52.407s
+sys	0m0.050s
 
 Testing dynamic under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 34.004512 seconds (34.005) for dynamic:500
-+!CSVLINE!+sagittarius-0.7.2,dynamic:500,34.004512
+Elapsed time: 36.59620096 seconds (36.596) for dynamic:500
++!CSVLINE!+sagittarius-0.7.2,dynamic:500,36.59620096
 
-real	0m35.536s
-user	0m38.617s
-sys	0m0.113s
+real	0m38.185s
+user	0m40.900s
+sys	0m0.090s
 
 Testing earley under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 13.510528 seconds (13.511) for earley:1
-+!CSVLINE!+sagittarius-0.7.2,earley:1,13.510528
+Elapsed time: 13.263329024 seconds (13.263) for earley:1
++!CSVLINE!+sagittarius-0.7.2,earley:1,13.263329024
 
-real	0m14.929s
-user	0m19.513s
-sys	0m0.317s
+real	0m14.725s
+user	0m19.587s
+sys	0m0.413s
 
 Testing graphs under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 72.99104384 seconds (72.991) for graphs:7:3
-+!CSVLINE!+sagittarius-0.7.2,graphs:7:3,72.99104384
+Elapsed time: 72.934800896 seconds (72.935) for graphs:7:3
++!CSVLINE!+sagittarius-0.7.2,graphs:7:3,72.934800896
 
-real	1m14.350s
-user	1m36.730s
-sys	0m1.177s
+real	1m14.273s
+user	1m35.497s
+sys	0m1.273s
 
 Testing lattice under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 89.111593984 seconds (89.112) for lattice:44:10
-+!CSVLINE!+sagittarius-0.7.2,lattice:44:10,89.111593984
+Elapsed time: 76.660935936 seconds (76.661) for lattice:44:10
++!CSVLINE!+sagittarius-0.7.2,lattice:44:10,76.660935936
 
-real	1m30.477s
-user	1m32.977s
-sys	0m0.040s
+real	1m18.018s
+user	1m20.337s
+sys	0m0.067s
 
 Testing matrix under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 39.238479104 seconds (39.239) for matrix:5:5:2500
-+!CSVLINE!+sagittarius-0.7.2,matrix:5:5:2500,39.238479104
+Elapsed time: 40.500476928 seconds (40.501) for matrix:5:5:2500
++!CSVLINE!+sagittarius-0.7.2,matrix:5:5:2500,40.500476928
 
-real	0m40.642s
-user	0m47.397s
-sys	0m0.160s
+real	0m41.886s
+user	0m47.100s
+sys	0m0.100s
 
 Testing maze under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 33.30555904 seconds (33.306) for maze:20:7:10000
-+!CSVLINE!+sagittarius-0.7.2,maze:20:7:10000,33.30555904
+Elapsed time: 36.219191296 seconds (36.219) for maze:20:7:10000
++!CSVLINE!+sagittarius-0.7.2,maze:20:7:10000,36.219191296
 
-real	0m34.582s
-user	0m37.667s
-sys	0m0.070s
+real	0m37.618s
+user	0m39.787s
+sys	0m0.050s
 
 Testing mazefun under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 36.739337984 seconds (36.739) for mazefun:11:11:10000
-+!CSVLINE!+sagittarius-0.7.2,mazefun:11:11:10000,36.739337984
+Elapsed time: 39.999183104 seconds (39.999) for mazefun:11:11:10000
++!CSVLINE!+sagittarius-0.7.2,mazefun:11:11:10000,39.999183104
 
-real	0m37.754s
-user	0m40.933s
-sys	0m0.097s
+real	0m41.400s
+user	0m44.097s
+sys	0m0.070s
 
 Testing nqueens under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 80.454868224 seconds (80.455) for nqueens:13:10
-+!CSVLINE!+sagittarius-0.7.2,nqueens:13:10,80.454868224
+Elapsed time: 79.774265088 seconds (79.774) for nqueens:13:10
++!CSVLINE!+sagittarius-0.7.2,nqueens:13:10,79.774265088
 
-real	1m21.893s
-user	1m28.517s
-sys	0m0.163s
+real	1m21.061s
+user	1m25.267s
+sys	0m0.080s
 
 Testing paraffins under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-Elapsed time: 15.749069312 seconds (15.749) for paraffins:23:10
-+!CSVLINE!+sagittarius-0.7.2,paraffins:23:10,15.749069312
+Elapsed time: 13.244550144 seconds (13.245) for paraffins:23:10
++!CSVLINE!+sagittarius-0.7.2,paraffins:23:10,13.244550144
 
-real	0m17.034s
-user	0m22.763s
-sys	0m0.903s
+real	0m14.651s
+user	0m17.483s
+sys	0m0.813s
 
 Testing parsing under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 33.509024 seconds (33.509) for parsing:2500
-+!CSVLINE!+sagittarius-0.7.2,parsing:2500,33.509024
+Elapsed time: 42.09367808 seconds (42.094) for parsing:2500
++!CSVLINE!+sagittarius-0.7.2,parsing:2500,42.09367808
 
-real	0m34.888s
-user	0m35.300s
-sys	0m0.023s
+real	0m43.371s
+user	0m43.830s
+sys	0m0.013s
 
 Testing peval under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 40.19208704 seconds (40.192) for peval:2000
-+!CSVLINE!+sagittarius-0.7.2,peval:2000,40.19208704
+Elapsed time: 37.980503808 seconds (37.981) for peval:2000
++!CSVLINE!+sagittarius-0.7.2,peval:2000,37.980503808
 
-real	0m41.267s
-user	0m46.197s
-sys	0m0.130s
+real	0m39.230s
+user	0m42.140s
+sys	0m0.043s
 
 Testing primes under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 20.319683072 seconds (20.32) for primes:1000:10000
-+!CSVLINE!+sagittarius-0.7.2,primes:1000:10000,20.319683072
+Elapsed time: 20.553595136 seconds (20.554) for primes:1000:10000
++!CSVLINE!+sagittarius-0.7.2,primes:1000:10000,20.553595136
 
-real	0m21.598s
-user	0m24.797s
-sys	0m0.087s
+real	0m21.847s
+user	0m24.093s
+sys	0m0.040s
 
 Testing quicksort under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 36.935046144 seconds (36.935) for quicksort:10000:2500
-+!CSVLINE!+sagittarius-0.7.2,quicksort:10000:2500,36.935046144
+Elapsed time: 42.354196736 seconds (42.354) for quicksort:10000:2500
++!CSVLINE!+sagittarius-0.7.2,quicksort:10000:2500,42.354196736
 
-real	0m38.141s
-user	0m38.990s
-sys	0m0.013s
+real	0m43.704s
+user	0m44.447s
+sys	0m0.010s
 
 Testing scheme under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 37.028313088 seconds (37.028) for scheme:100000
-+!CSVLINE!+sagittarius-0.7.2,scheme:100000,37.028313088
+Elapsed time: 38.234113024 seconds (38.234) for scheme:100000
++!CSVLINE!+sagittarius-0.7.2,scheme:100000,38.234113024
 
-real	0m38.312s
-user	0m41.933s
-sys	0m0.060s
+real	0m39.617s
+user	0m42.310s
+sys	0m0.057s
 
 Testing slatex under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 19.078235904 seconds (19.078) for slatex:500
-+!CSVLINE!+sagittarius-0.7.2,slatex:500,19.078235904
+Elapsed time: 22.817992704 seconds (22.818) for slatex:500
++!CSVLINE!+sagittarius-0.7.2,slatex:500,22.817992704
 
-real	0m20.355s
-user	0m19.847s
-sys	0m1.783s
+real	0m24.358s
+user	0m23.557s
+sys	0m1.997s
 
 Testing nboyer under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 14.706052096 seconds (14.706) for nboyer:5:1
-+!CSVLINE!+sagittarius-0.7.2,nboyer:5:1,14.706052096
+Elapsed time: 18.194496256 seconds (18.195) for nboyer:5:1
++!CSVLINE!+sagittarius-0.7.2,nboyer:5:1,18.194496256
 
-real	0m15.914s
-user	0m18.763s
-sys	0m0.153s
+real	0m19.560s
+user	0m22.000s
+sys	0m0.133s
 
 Testing sboyer under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 16.182722304 seconds (16.183) for sboyer:5:1
-+!CSVLINE!+sagittarius-0.7.2,sboyer:5:1,16.182722304
+Elapsed time: 14.243796992 seconds (14.244) for sboyer:5:1
++!CSVLINE!+sagittarius-0.7.2,sboyer:5:1,14.243796992
 
-real	0m17.396s
-user	0m18.107s
-sys	0m0.050s
+real	0m15.673s
+user	0m16.147s
+sys	0m0.043s
 
 Testing gcbench under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
@@ -665,45 +665,45 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 218.66688 seconds (218.667) for gcbench:20:1
-+!CSVLINE!+sagittarius-0.7.2,gcbench:20:1,218.66688
+Elapsed time: 236.824258816 seconds (236.824) for gcbench:20:1
++!CSVLINE!+sagittarius-0.7.2,gcbench:20:1,236.824258816
 
-real	3m39.986s
-user	4m51.990s
-sys	0m0.613s
+real	3m58.165s
+user	4m54.447s
+sys	0m0.570s
 
 Testing mperm under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running perm20:10:2:1
-Elapsed time: 36.879110912 seconds (36.879) for perm20:10:2:1
-+!CSVLINE!+sagittarius-0.7.2,perm20:10:2:1,36.879110912
+Elapsed time: 41.209789952 seconds (41.21) for perm20:10:2:1
++!CSVLINE!+sagittarius-0.7.2,perm20:10:2:1,41.209789952
 
-real	0m40.179s
-user	0m47.530s
-sys	0m0.807s
+real	0m45.702s
+user	0m47.417s
+sys	0m0.707s
 
 Testing equal under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 9.369787904 seconds (9.37) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+sagittarius-0.7.2,equal:100:100:8:1000:2000:5000,9.369787904
+Elapsed time: 18.129863936 seconds (18.13) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+sagittarius-0.7.2,equal:100:100:8:1000:2000:5000,18.129863936
 
-real	0m10.641s
-user	0m22.767s
-sys	0m0.050s
+real	0m19.317s
+user	0m24.377s
+sys	0m0.080s
 
 Testing bv2string under Sagittarius
 Including postlude /home/nex/src/r7rs-benchmarks/src/Sagittarius-postlude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 22.59532032 seconds (22.595) for bv2string:1000:1000:100
-+!CSVLINE!+sagittarius-0.7.2,bv2string:1000:1000:100,22.59532032
+Elapsed time: 23.297414144 seconds (23.297) for bv2string:1000:1000:100
++!CSVLINE!+sagittarius-0.7.2,bv2string:1000:1000:100,23.297414144
 
-real	0m23.818s
-user	0m27.827s
-sys	0m0.120s
+real	0m24.716s
+user	0m27.287s
+sys	0m0.070s
