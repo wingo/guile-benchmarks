@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Foment on Tue 21 Jun 18:29:19 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking Foment on Wed 22 Jun 17:04:52 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -8,12 +8,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 349.086 seconds (349.0) for browse:2000
-+!CSVLINE!+foment-0.4,browse:2000,349.086
+Elapsed time: 335.828 seconds (336.0) for browse:2000
++!CSVLINE!+foment-0.4,browse:2000,335.828
 
-real	5m49.150s
-user	5m49.160s
-sys	0m0.000s
+real	5m35.892s
+user	5m35.897s
+sys	0m0.007s
 
 Testing deriv under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -21,11 +21,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 507.74 seconds (507.0) for deriv:10000000
-+!CSVLINE!+foment-0.4,deriv:10000000,507.74
+Elapsed time: 492.658 seconds (493.0) for deriv:10000000
++!CSVLINE!+foment-0.4,deriv:10000000,492.658
 
-real	8m27.782s
-user	8m27.803s
+real	8m12.699s
+user	8m12.717s
 sys	0m0.003s
 
 Testing destruc under Foment
@@ -34,12 +34,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 346.832 seconds (347.0) for destruc:600:50:4000
-+!CSVLINE!+foment-0.4,destruc:600:50:4000,346.832
+Elapsed time: 341.571 seconds (341.0) for destruc:600:50:4000
++!CSVLINE!+foment-0.4,destruc:600:50:4000,341.571
 
-real	5m46.876s
-user	5m46.887s
-sys	0m0.000s
+real	5m41.615s
+user	5m41.613s
+sys	0m0.003s
 
 Testing diviter under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -47,12 +47,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 363.275 seconds (364.0) for diviter:1000:1000000
-+!CSVLINE!+foment-0.4,diviter:1000:1000000,363.275
+Elapsed time: 385.784 seconds (386.0) for diviter:1000:1000000
++!CSVLINE!+foment-0.4,diviter:1000:1000000,385.784
 
-real	6m3.326s
-user	6m0.233s
-sys	0m0.043s
+real	6m25.992s
+user	6m21.007s
+sys	0m0.067s
 
 Testing divrec under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -60,12 +60,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 355.071 seconds (355.0) for divrec:1000:1000000
-+!CSVLINE!+foment-0.4,divrec:1000:1000000,355.071
+Elapsed time: 338.884 seconds (339.0) for divrec:1000:1000000
++!CSVLINE!+foment-0.4,divrec:1000:1000000,338.884
 
-real	5m55.102s
-user	5m55.087s
-sys	0m0.007s
+real	5m38.913s
+user	5m38.900s
+sys	0m0.003s
 
 Testing puzzle under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -73,12 +73,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 454.573 seconds (454.0) for puzzle:1000
-+!CSVLINE!+foment-0.4,puzzle:1000,454.573
+Elapsed time: 457.048 seconds (457.0) for puzzle:1000
++!CSVLINE!+foment-0.4,puzzle:1000,457.048
 
-real	7m34.617s
-user	7m34.577s
-sys	0m0.007s
+real	7m37.087s
+user	7m37.063s
+sys	0m0.000s
 
 Testing triangl under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -86,12 +86,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 405.574 seconds (406.0) for triangl:22:1:50
-+!CSVLINE!+foment-0.4,triangl:22:1:50,405.574
+Elapsed time: 396.306 seconds (397.0) for triangl:22:1:50
++!CSVLINE!+foment-0.4,triangl:22:1:50,396.306
 
-real	6m45.612s
-user	6m45.600s
-sys	0m0.007s
+real	6m36.350s
+user	6m36.353s
+sys	0m0.000s
 
 Testing tak under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -99,11 +99,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 258.704 seconds (259.0) for tak:40:20:11:1
-+!CSVLINE!+foment-0.4,tak:40:20:11:1,258.704
+Elapsed time: 248.381 seconds (248.0) for tak:40:20:11:1
++!CSVLINE!+foment-0.4,tak:40:20:11:1,248.381
 
-real	4m18.745s
-user	4m18.717s
+real	4m8.411s
+user	4m8.387s
 sys	0m0.000s
 
 Testing takl under Foment
@@ -112,11 +112,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-./bench: line 640: 28506 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657: 22997 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.106s
-user	9m59.990s
-sys	0m0.000s
+real	10m0.135s
+user	10m0.000s
+sys	0m0.007s
++!CSVLINE!+foment,takl,ULIMITKILLED
 
 Testing ntakl under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -124,11 +125,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-./bench: line 640: 29124 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657: 23821 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.764s
-user	9m59.977s
+real	10m0.839s
+user	9m59.920s
 sys	0m0.000s
++!CSVLINE!+foment,ntakl,ULIMITKILLED
 
 Testing cpstak under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -136,11 +138,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-./bench: line 640: 29933 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657: 24482 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.417s
-user	10m0.017s
-sys	0m0.007s
+real	10m0.547s
+user	9m59.993s
+sys	0m0.010s
++!CSVLINE!+foment,cpstak,ULIMITKILLED
 
 Testing ctak under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -148,11 +151,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-./bench: line 640: 30623 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657: 24973 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.056s
-user	10m0.037s
+real	10m0.036s
+user	10m0.020s
 sys	0m0.003s
++!CSVLINE!+foment,ctak,ULIMITKILLED
 
 Testing fib under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -160,11 +164,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 512.376 seconds (512.0) for fib:40:5
-+!CSVLINE!+foment-0.4,fib:40:5,512.376
+Elapsed time: 481.918 seconds (482.0) for fib:40:5
++!CSVLINE!+foment-0.4,fib:40:5,481.918
 
-real	8m32.417s
-user	8m32.333s
+real	8m1.954s
+user	8m1.953s
 sys	0m0.000s
 
 Testing fibc under Foment
@@ -173,12 +177,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 418.345 seconds (418.0) for fibc:30:10
-+!CSVLINE!+foment-0.4,fibc:30:10,418.345
+Elapsed time: 419.342 seconds (419.0) for fibc:30:10
++!CSVLINE!+foment-0.4,fibc:30:10,419.342
 
-real	6m58.381s
-user	6m58.033s
-sys	0m0.000s
+real	6m59.382s
+user	6m59.030s
+sys	0m0.003s
 
 Testing fibfp under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -186,11 +190,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 167.95 seconds (168.0) for fibfp:35.0:10
-+!CSVLINE!+foment-0.4,fibfp:35.0:10,167.95
+Elapsed time: 134.831 seconds (135.0) for fibfp:35.0:10
++!CSVLINE!+foment-0.4,fibfp:35.0:10,134.831
 
-real	2m47.992s
-user	2m47.983s
+real	2m14.870s
+user	2m14.873s
 sys	0m0.000s
 
 Testing sum under Foment
@@ -199,12 +203,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 582.483 seconds (582.0) for sum:10000:200000
-+!CSVLINE!+foment-0.4,sum:10000:200000,582.483
+Elapsed time: 557.925 seconds (558.0) for sum:10000:200000
++!CSVLINE!+foment-0.4,sum:10000:200000,557.925
 
-real	9m42.522s
-user	9m39.660s
-sys	0m0.000s
+real	9m17.964s
+user	9m15.500s
+sys	0m0.003s
 
 Testing sumfp under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -212,11 +216,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 283.704 seconds (284.0) for sumfp:1000000.0:500
-+!CSVLINE!+foment-0.4,sumfp:1000000.0:500,283.704
+Elapsed time: 284.279 seconds (284.0) for sumfp:1000000.0:500
++!CSVLINE!+foment-0.4,sumfp:1000000.0:500,284.279
 
-real	4m43.743s
-user	4m43.717s
+real	4m44.326s
+user	4m44.310s
 sys	0m0.000s
 
 Testing fft under Foment
@@ -225,11 +229,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running fft:65536:100
-Elapsed time: 253.412 seconds (254.0) for fft:65536:100
-+!CSVLINE!+foment-0.4,fft:65536:100,253.412
+Elapsed time: 249.642 seconds (250.0) for fft:65536:100
++!CSVLINE!+foment-0.4,fft:65536:100,249.642
 
-real	4m13.439s
-user	4m7.933s
+real	4m9.684s
+user	4m2.680s
 sys	0m0.000s
 
 Testing mbrot under Foment
@@ -238,11 +242,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 432.486 seconds (432.0) for mbrot:75:1000
-+!CSVLINE!+foment-0.4,mbrot:75:1000,432.486
+Elapsed time: 406.79 seconds (407.0) for mbrot:75:1000
++!CSVLINE!+foment-0.4,mbrot:75:1000,406.79
 
-real	7m12.528s
-user	7m0.193s
+real	6m46.816s
+user	6m41.353s
 sys	0m0.007s
 
 Testing mbrotZ under Foment
@@ -251,11 +255,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 517.288 seconds (517.0) for mbrotZ:75:1000
-+!CSVLINE!+foment-0.4,mbrotZ:75:1000,517.288
+Elapsed time: 553.501 seconds (553.0) for mbrotZ:75:1000
++!CSVLINE!+foment-0.4,mbrotZ:75:1000,553.501
 
-real	8m37.328s
-user	8m37.293s
+real	9m13.541s
+user	9m6.637s
 sys	0m0.007s
 
 Testing nucleic under Foment
@@ -264,11 +268,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 195.932 seconds (195.0) for nucleic:50
-+!CSVLINE!+foment-0.4,nucleic:50,195.932
+Elapsed time: 190.204 seconds (191.0) for nucleic:50
++!CSVLINE!+foment-0.4,nucleic:50,190.204
 
-real	3m16.004s
-user	3m15.977s
+real	3m10.274s
+user	3m10.273s
 sys	0m0.003s
 
 Testing pi under Foment
@@ -279,7 +283,8 @@ Running...
 
 real	0m0.045s
 user	0m0.037s
-sys	0m0.007s
+sys	0m0.003s
++!CSVLINE!+foment,pi,CRASHED
 
 Testing pnpoly under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -287,11 +292,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 305.832 seconds (305.0) for pnpoly:1000000
-+!CSVLINE!+foment-0.4,pnpoly:1000000,305.832
+Elapsed time: 310.316 seconds (310.0) for pnpoly:1000000
++!CSVLINE!+foment-0.4,pnpoly:1000000,310.316
 
-real	5m5.875s
-user	5m5.833s
+real	5m10.359s
+user	5m10.347s
 sys	0m0.003s
 
 Testing ray under Foment
@@ -300,12 +305,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 214.379 seconds (215.0) for ray:50
-+!CSVLINE!+foment-0.4,ray:50,214.379
+Elapsed time: 215.764 seconds (216.0) for ray:50
++!CSVLINE!+foment-0.4,ray:50,215.764
 
-real	3m34.405s
-user	3m34.040s
-sys	0m0.040s
+real	3m35.806s
+user	3m35.207s
+sys	0m0.037s
 
 Testing simplex under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -313,12 +318,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 428.081 seconds (428.0) for simplex:1000000
-+!CSVLINE!+foment-0.4,simplex:1000000,428.081
+Elapsed time: 469.38 seconds (469.0) for simplex:1000000
++!CSVLINE!+foment-0.4,simplex:1000000,469.38
 
-real	7m8.113s
-user	7m5.100s
-sys	0m0.063s
+real	7m49.429s
+user	7m12.567s
+sys	0m0.370s
 
 Testing ack under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -326,11 +331,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 491.859 seconds (492.0) for ack:3:12:2
-+!CSVLINE!+foment-0.4,ack:3:12:2,491.859
+Elapsed time: 446.803 seconds (447.0) for ack:3:12:2
++!CSVLINE!+foment-0.4,ack:3:12:2,446.803
 
-real	8m11.902s
-user	8m11.907s
+real	7m26.845s
+user	7m26.850s
 sys	0m0.003s
 
 Testing array1 under Foment
@@ -339,12 +344,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 533.711 seconds (534.0) for array1:1000000:500
-+!CSVLINE!+foment-0.4,array1:1000000:500,533.711
+Elapsed time: 899.349 seconds (899.0) for array1:1000000:500
++!CSVLINE!+foment-0.4,array1:1000000:500,899.349
 
-real	8m53.904s
-user	7m12.643s
-sys	0m1.607s
+real	14m59.476s
+user	7m11.900s
+sys	0m2.857s
 
 Testing string under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -352,12 +357,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 1.219 seconds (1.0) for string:500000:25
-+!CSVLINE!+foment-0.4,string:500000:25,1.219
+Elapsed time: 0.876 seconds (0.0) for string:500000:25
++!CSVLINE!+foment-0.4,string:500000:25,0.876
 
-real	0m1.293s
-user	0m1.203s
-sys	0m0.087s
+real	0m0.929s
+user	0m0.827s
+sys	0m0.100s
 
 Testing sum1 under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -365,12 +370,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 6.782 seconds (7.0) for sum1:25
-+!CSVLINE!+foment-0.4,sum1:25,6.782
+Elapsed time: 6.555 seconds (6.0) for sum1:25
++!CSVLINE!+foment-0.4,sum1:25,6.555
 
-real	0m6.832s
-user	0m6.783s
-sys	0m0.047s
+real	0m6.596s
+user	0m6.577s
+sys	0m0.017s
 
 Testing cat under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -378,12 +383,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 374.199 seconds (374.0) for cat:50
-+!CSVLINE!+foment-0.4,cat:50,374.199
+Elapsed time: 141.661 seconds (142.0) for cat:50
++!CSVLINE!+foment-0.4,cat:50,141.661
 
-real	6m14.249s
-user	2m32.783s
-sys	0m2.850s
+real	2m21.702s
+user	2m19.197s
+sys	0m1.097s
 
 Testing tail under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -391,12 +396,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running tail:25
-Elapsed time: 73.431 seconds (74.0) for tail:25
-+!CSVLINE!+foment-0.4,tail:25,73.431
+Elapsed time: 185.551 seconds (185.0) for tail:25
++!CSVLINE!+foment-0.4,tail:25,185.551
 
-real	1m13.475s
-user	1m12.673s
-sys	0m0.273s
+real	3m5.579s
+user	3m4.503s
+sys	0m0.603s
 
 Testing wc under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -404,12 +409,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 113.11 seconds (113.0) for wc:inputs/bib:50
-+!CSVLINE!+foment-0.4,wc:inputs/bib:50,113.11
+Elapsed time: 831.157 seconds (832.0) for wc:inputs/bib:50
++!CSVLINE!+foment-0.4,wc:inputs/bib:50,831.157
 
-real	1m53.149s
-user	1m52.997s
-sys	0m0.157s
+real	13m51.220s
+user	2m0.103s
+sys	0m3.857s
 
 Testing read1 under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -417,12 +422,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 8.674 seconds (8.0) for read1:2500
-+!CSVLINE!+foment-0.4,read1:2500,8.674
+Elapsed time: 11.277 seconds (11.0) for read1:2500
++!CSVLINE!+foment-0.4,read1:2500,11.277
 
-real	0m8.714s
-user	0m8.670s
-sys	0m0.043s
+real	0m11.317s
+user	0m11.253s
+sys	0m0.057s
 
 Testing compiler under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -430,12 +435,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running compiler:2000
-Elapsed time: 230.133 seconds (230.0) for compiler:2000
-+!CSVLINE!+foment-0.4,compiler:2000,230.133
+Elapsed time: 222.841 seconds (223.0) for compiler:2000
++!CSVLINE!+foment-0.4,compiler:2000,222.841
 
-real	3m50.344s
-user	3m50.323s
-sys	0m0.007s
+real	3m43.040s
+user	3m43.013s
+sys	0m0.023s
 
 Testing conform under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -443,12 +448,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running conform:500
-Elapsed time: 324.514 seconds (324.0) for conform:500
-+!CSVLINE!+foment-0.4,conform:500,324.514
+Elapsed time: 328.959 seconds (329.0) for conform:500
++!CSVLINE!+foment-0.4,conform:500,328.959
 
-real	5m24.561s
-user	5m24.547s
-sys	0m0.003s
+real	5m29.005s
+user	5m29.017s
+sys	0m0.000s
 
 Testing dynamic under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -456,12 +461,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 379.475 seconds (380.0) for dynamic:500
-+!CSVLINE!+foment-0.4,dynamic:500,379.475
+Elapsed time: 348.971 seconds (349.0) for dynamic:500
++!CSVLINE!+foment-0.4,dynamic:500,348.971
 
-real	6m19.538s
-user	6m19.457s
-sys	0m0.057s
+real	5m49.033s
+user	5m48.997s
+sys	0m0.043s
 
 Testing earley under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -469,11 +474,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running earley:1
-./bench: line 640:  7323 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:   304 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.149s
-user	10m0.017s
-sys	0m0.047s
+real	10m0.070s
+user	9m59.953s
+sys	0m0.043s
++!CSVLINE!+foment,earley,ULIMITKILLED
 
 Testing graphs under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -481,11 +487,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running graphs:7:3
-./bench: line 640:  7937 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  1053 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.392s
-user	9m59.993s
-sys	0m0.000s
+real	10m0.312s
+user	10m0.003s
+sys	0m0.037s
++!CSVLINE!+foment,graphs,ULIMITKILLED
 
 Testing lattice under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -493,11 +500,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running lattice:44:10
-./bench: line 640:  9184 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  1487 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.250s
-user	9m59.963s
-sys	0m0.000s
+real	10m0.325s
+user	9m59.993s
+sys	0m0.007s
++!CSVLINE!+foment,lattice,ULIMITKILLED
 
 Testing matrix under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -505,12 +513,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 377.481 seconds (377.0) for matrix:5:5:2500
-+!CSVLINE!+foment-0.4,matrix:5:5:2500,377.481
+Elapsed time: 377.817 seconds (378.0) for matrix:5:5:2500
++!CSVLINE!+foment-0.4,matrix:5:5:2500,377.817
 
-real	6m17.530s
-user	6m16.910s
-sys	0m0.003s
+real	6m17.847s
+user	6m17.187s
+sys	0m0.000s
 
 Testing maze under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -518,12 +526,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 119.165 seconds (119.0) for maze:20:7:10000
-+!CSVLINE!+foment-0.4,maze:20:7:10000,119.165
+Elapsed time: 134.063 seconds (134.0) for maze:20:7:10000
++!CSVLINE!+foment-0.4,maze:20:7:10000,134.063
 
-real	1m59.212s
-user	1m59.200s
-sys	0m0.000s
+real	2m14.113s
+user	2m14.077s
+sys	0m0.007s
 
 Testing mazefun under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -531,12 +539,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 329.19 seconds (329.0) for mazefun:11:11:10000
-+!CSVLINE!+foment-0.4,mazefun:11:11:10000,329.19
+Elapsed time: 330.739 seconds (330.0) for mazefun:11:11:10000
++!CSVLINE!+foment-0.4,mazefun:11:11:10000,330.739
 
-real	5m29.233s
-user	5m29.247s
-sys	0m0.003s
+real	5m30.767s
+user	5m30.770s
+sys	0m0.007s
 
 Testing nqueens under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -544,11 +552,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-./bench: line 640: 10545 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  3519 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.005s
-user	9m59.990s
-sys	0m0.000s
+real	9m59.998s
+user	10m0.027s
+sys	0m0.003s
++!CSVLINE!+foment,nqueens,ULIMITKILLED
 
 Testing paraffins under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -556,11 +565,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-./bench: line 640: 10842 Segmentation fault      (core dumped) "${FOMENT}" "$1" < "$2"
+./bench: line 657:  3872 Segmentation fault      (core dumped) "${FOMENT}" "$1" < "$2"
 
-real	0m0.433s
-user	0m0.390s
-sys	0m0.023s
+real	0m0.653s
+user	0m0.613s
+sys	0m0.020s
++!CSVLINE!+foment,paraffins,CRASHED
 
 Testing parsing under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -568,11 +578,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 270.909 seconds (271.0) for parsing:2500
-+!CSVLINE!+foment-0.4,parsing:2500,270.909
+Elapsed time: 282.305 seconds (282.0) for parsing:2500
++!CSVLINE!+foment-0.4,parsing:2500,282.305
 
-real	4m30.938s
-user	4m30.917s
+real	4m42.354s
+user	4m42.357s
 sys	0m0.000s
 
 Testing peval under Foment
@@ -581,12 +591,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 492.703 seconds (493.0) for peval:2000
-+!CSVLINE!+foment-0.4,peval:2000,492.703
+Elapsed time: 488.048 seconds (488.0) for peval:2000
++!CSVLINE!+foment-0.4,peval:2000,488.048
 
-real	8m12.753s
-user	8m12.753s
-sys	0m0.013s
+real	8m8.081s
+user	8m8.097s
+sys	0m0.000s
 
 Testing primes under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -594,11 +604,11 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 109.545 seconds (109.0) for primes:1000:10000
-+!CSVLINE!+foment-0.4,primes:1000:10000,109.545
+Elapsed time: 111.79 seconds (111.0) for primes:1000:10000
++!CSVLINE!+foment-0.4,primes:1000:10000,111.79
 
-real	1m49.569s
-user	1m49.577s
+real	1m51.816s
+user	1m51.823s
 sys	0m0.000s
 
 Testing quicksort under Foment
@@ -607,12 +617,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 265.871 seconds (265.0) for quicksort:10000:2500
-+!CSVLINE!+foment-0.4,quicksort:10000:2500,265.871
+Elapsed time: 266.336 seconds (267.0) for quicksort:10000:2500
++!CSVLINE!+foment-0.4,quicksort:10000:2500,266.336
 
-real	4m25.949s
-user	4m25.967s
-sys	0m0.003s
+real	4m26.417s
+user	4m26.437s
+sys	0m0.000s
 
 Testing scheme under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -620,12 +630,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 164.848 seconds (165.0) for scheme:100000
-+!CSVLINE!+foment-0.4,scheme:100000,164.848
+Elapsed time: 165.125 seconds (165.0) for scheme:100000
++!CSVLINE!+foment-0.4,scheme:100000,165.125
 
-real	2m44.878s
-user	2m44.883s
-sys	0m0.007s
+real	2m45.155s
+user	2m45.163s
+sys	0m0.003s
 
 Testing slatex under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -633,12 +643,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 133.475 seconds (134.0) for slatex:500
-+!CSVLINE!+foment-0.4,slatex:500,133.475
+Elapsed time: 133.029 seconds (133.0) for slatex:500
++!CSVLINE!+foment-0.4,slatex:500,133.029
 
-real	2m13.514s
-user	0m29.760s
-sys	0m2.860s
+real	2m13.068s
+user	0m29.060s
+sys	0m2.887s
 
 Testing nboyer under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -646,11 +656,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-./bench: line 640: 11476 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  4618 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	9m59.999s
-user	10m0.023s
-sys	0m0.017s
+real	9m59.998s
+user	10m0.033s
+sys	0m0.010s
++!CSVLINE!+foment,nboyer,ULIMITKILLED
 
 Testing sboyer under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -658,11 +669,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-./bench: line 640: 11532 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  4675 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.000s
-user	10m0.047s
-sys	0m0.000s
+real	9m59.998s
+user	10m0.037s
+sys	0m0.007s
++!CSVLINE!+foment,sboyer,ULIMITKILLED
 
 Testing gcbench under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -672,22 +684,24 @@ Running...
 The garbage collector should touch about 128 megabytes of heap storage.
 The use of more or less memory will skew the results.
 Running gcbench:20:1
-./bench: line 640: 11588 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  4734 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	9m59.998s
-user	10m0.007s
+real	10m0.000s
+user	10m0.010s
 sys	0m0.037s
++!CSVLINE!+foment,gcbench,ULIMITKILLED
 
 Testing mperm under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
 Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
-./bench: line 640: 11644 Killed                  "${FOMENT}" "$1" < "$2"
+./bench: line 657:  4790 Killed                  "${FOMENT}" "$1" < "$2"
 
-real	10m0.001s
-user	10m0.010s
-sys	0m0.037s
+real	9m59.998s
+user	10m0.007s
+sys	0m0.033s
++!CSVLINE!+foment,mperm,ULIMITKILLED
 
 Testing equal under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -695,12 +709,12 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 47.547 seconds (47.0) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+foment-0.4,equal:100:100:8:1000:2000:5000,47.547
+Elapsed time: 47.967 seconds (48.0) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+foment-0.4,equal:100:100:8:1000:2000:5000,47.967
 
-real	0m47.574s
-user	0m47.560s
-sys	0m0.017s
+real	0m47.994s
+user	0m47.977s
+sys	0m0.020s
 
 Testing bv2string under Foment
 Including prelude /home/nex/src/r7rs-benchmarks/src/Foment-prelude.scm
@@ -708,9 +722,9 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Foment-postlude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 148.322 seconds (149.0) for bv2string:1000:1000:100
-+!CSVLINE!+foment-0.4,bv2string:1000:1000:100,148.322
+Elapsed time: 150.05 seconds (150.0) for bv2string:1000:1000:100
++!CSVLINE!+foment-0.4,bv2string:1000:1000:100,150.05
 
-real	2m28.347s
-user	2m28.353s
-sys	0m0.003s
+real	2m30.074s
+user	2m30.083s
+sys	0m0.000s

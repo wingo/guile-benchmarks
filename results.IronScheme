@@ -1,311 +1,324 @@
 
 ****************************
-Benchmarking IronScheme on Tue 21 Jun 18:59:44 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking IronScheme on Wed 22 Jun 17:35:52 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running browse:2000
-Elapsed time: 24.070098 seconds (24) for browse:2000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,browse:2000,24.070098
+Elapsed time: 26.132416 seconds (26) for browse:2000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,browse:2000,26.132416
 
-real	0m25.901s
-user	0m25.763s
-sys	0m0.293s
+real	0m27.823s
+user	0m27.540s
+sys	0m0.350s
 
 Testing deriv under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running deriv:10000000
-Elapsed time: 18.984769 seconds (19) for deriv:10000000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,deriv:10000000,18.984769
+Elapsed time: 24.795358 seconds (24) for deriv:10000000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,deriv:10000000,24.795358
 
-real	0m20.823s
-user	0m20.637s
-sys	0m0.203s
+real	0m26.454s
+user	0m26.107s
+sys	0m0.247s
 
 Testing destruc under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running destruc:600:50:4000
-/home/nex/bin/ironscheme: line 2: 27259 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 21865 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
 real	4m59.997s
-user	4m58.880s
-sys	0m1.210s
+user	4m58.793s
+sys	0m1.250s
++!CSVLINE!+ironscheme,destruc,ULIMITKILLED
 
 Testing diviter under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running diviter:1000:1000000
-Elapsed time: 14.085826 seconds (14) for diviter:1000:1000000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,diviter:1000:1000000,14.085826
+Elapsed time: 17.29677 seconds (17) for diviter:1000:1000000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,diviter:1000:1000000,17.29677
 
-real	0m15.924s
-user	0m15.760s
-sys	0m0.170s
+real	0m18.991s
+user	0m18.573s
+sys	0m0.273s
 
 Testing divrec under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running divrec:1000:1000000
-Elapsed time: 19.58501 seconds (19) for divrec:1000:1000000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,divrec:1000:1000000,19.58501
+Elapsed time: 20.533298 seconds (21) for divrec:1000:1000000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,divrec:1000:1000000,20.533298
 
-real	0m21.288s
-user	0m21.063s
-sys	0m0.223s
+real	0m22.225s
+user	0m21.937s
+sys	0m0.220s
 
 Testing puzzle under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running puzzle:1000
-/home/nex/bin/ironscheme: line 2: 27549 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 22149 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	4m59.959s
-user	4m59.903s
-sys	0m0.070s
+real	4m59.951s
+user	4m59.877s
+sys	0m0.090s
++!CSVLINE!+ironscheme,puzzle,ULIMITKILLED
 
 Testing triangl under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running triangl:22:1:50
-Elapsed time: 148.086307 seconds (148) for triangl:22:1:50
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,triangl:22:1:50,148.086307
+Elapsed time: 151.551272 seconds (152) for triangl:22:1:50
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,triangl:22:1:50,151.551272
 
-real	2m29.718s
-user	2m29.620s
-sys	0m0.073s
+real	2m33.296s
+user	2m33.220s
+sys	0m0.060s
 
 Testing tak under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running tak:40:20:11:1
-Elapsed time: 132.447962 seconds (132) for tak:40:20:11:1
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,tak:40:20:11:1,132.447962
+Elapsed time: 123.314093 seconds (123) for tak:40:20:11:1
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,tak:40:20:11:1,123.314093
 
-real	2m14.079s
-user	2m14.033s
-sys	0m0.037s
+real	2m5.047s
+user	2m4.947s
+sys	0m0.053s
 
 Testing takl under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running takl:40:20:12:1
-Elapsed time: 19.41398 seconds (20) for takl:40:20:12:1
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,takl:40:20:12:1,19.41398
+Elapsed time: 18.288009 seconds (18) for takl:40:20:12:1
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,takl:40:20:12:1,18.288009
 
-real	0m21.396s
-user	0m21.310s
-sys	0m0.053s
+real	0m19.905s
+user	0m19.857s
+sys	0m0.033s
 
 Testing ntakl under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running ntakl:40:20:12:1
-Elapsed time: 16.402961 seconds (17) for ntakl:40:20:12:1
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,ntakl:40:20:12:1,16.402961
+Elapsed time: 18.77192 seconds (18) for ntakl:40:20:12:1
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,ntakl:40:20:12:1,18.77192
 
-real	0m18.061s
-user	0m18.010s
-sys	0m0.043s
+real	0m20.486s
+user	0m20.427s
+sys	0m0.057s
 
 Testing cpstak under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running cpstak:40:20:11:1
-Stack overflow in unmanaged: IP: 0x60f9a8, fault addr: 0x7f7c04643ff8
-Stack overflow in unmanaged: IP: 0x56ca2a, fault addr: 0x7f7c04642f70
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f7c04641ff8
-Stack overflow in unmanaged: IP: 0x4a0763, fault addr: 0x7f7c04642ff8
-Stack overflow in unmanaged: IP: 0x4a0fd9, fault addr: 0x7f7c04642ee0
-Stack overflow in unmanaged: IP: 0x4bdc18, fault addr: 0x7f7c04641fa0
-Stack overflow in unmanaged: IP: 0x7f7c08360923, fault addr: 0x7f7c04642ff8
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f7c04641eb8
-Stack overflow in unmanaged: IP: 0x4a0279, fault addr: 0x7f7c04642ed0
-Stack overflow in unmanaged: IP: 0x4aae1e, fault addr: 0x7f7c04642fa8
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f7c04641bb8
-Stack overflow in unmanaged: IP: 0x5c01cc, fault addr: 0x7f7c04641f40
-Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f7c04641edc
+Stack overflow in unmanaged: IP: 0x60f9a8, fault addr: 0x7fd9eb743ff8
+Stack overflow in unmanaged: IP: 0x56ca2a, fault addr: 0x7fd9eb742f70
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7fd9eb741ff8
+Stack overflow in unmanaged: IP: 0x4a0763, fault addr: 0x7fd9eb742ff8
+Stack overflow in unmanaged: IP: 0x4a0fd9, fault addr: 0x7fd9eb742ee0
+Stack overflow in unmanaged: IP: 0x4bdc18, fault addr: 0x7fd9eb741fa0
+Stack overflow in unmanaged: IP: 0x7fd9f3430923, fault addr: 0x7fd9eb742ff8
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7fd9eb741eb8
+Stack overflow in unmanaged: IP: 0x4a0279, fault addr: 0x7fd9eb742ed0
+Stack overflow in unmanaged: IP: 0x4aae1e, fault addr: 0x7fd9eb742fa8
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7fd9eb741bb8
+Stack overflow in unmanaged: IP: 0x5c01cc, fault addr: 0x7fd9eb741f40
+Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7fd9eb741edc
 Unhandled CLR exception reading input:
 CLR Exception: System.NullReferenceException
 System.NullReferenceException: Object reference not set to an instance of an object
-  at #.psyntax.main::with-guard#1$2672 (IronScheme.Scripting.CodeContext $context, System.Object e) <0x4126e780 + 0x00091> in <filename unknown>:0 
-  at IronScheme.Runtime.Closure+SimpleClosure.Call (System.Object arg1) <0x416ff6a0 + 0x00040> in <filename unknown>:0 
-  at IronScheme.Runtime.R6RS.Exceptions.WithClrExceptionHandler (System.Object handler, System.Object thunk) <0x411ae9c0 + 0x0008f> in <filename unknown>:0 
-  at #.psyntax.main::with-guard (System.Object f) <0x411ae700 + 0x0025b> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x4176f1c0 + 0x000f0> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x4176f120 + 0x00087> in <filename unknown>:0 
-  at IronScheme.Runtime.Builtins+<>c__DisplayClass52_1.<CompileCore>b__1 () <0x4176f0e0 + 0x00037> in <filename unknown>:0 
-  at IronScheme.Runtime.Closure+SimpleClosure.Call () <0x41733f20 + 0x00034> in <filename unknown>:0 
-  at #.psyntax.expander::eval (System.Object x, System.Object env) <0x4173db50 + 0x0010b> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x4176f1c0 + 0x00138> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x4176f120 + 0x00087> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.CompiledCode.Evaluate (IScriptModule module) <0x417b3470 + 0x00077> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.CompiledCode.Execute (IScriptModule module) <0x417b3440 + 0x00013> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.ExecuteSourceUnit (IronScheme.Scripting.Hosting.SourceUnit sourceUnit, IScriptModule module) <0x417752e0 + 0x0002d> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code, IScriptModule module) <0x417752a0 + 0x0002b> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code) <0x411ae340 + 0x00013> in <filename unknown>:0 
-  at IronScheme.Hosting.IronSchemeLanguageProvider+CommandLineX+<>c__DisplayClass5_0.<RunFile>b__0 () <0x411ae0d0 + 0x0009b> in <filename unknown>:0 
+  at #.psyntax.main::with-guard#1$2672 (IronScheme.Scripting.CodeContext $context, System.Object e) <0x40b9c780 + 0x00091> in <filename unknown>:0 
+  at IronScheme.Runtime.Closure+SimpleClosure.Call (System.Object arg1) <0x40a1d6a0 + 0x00040> in <filename unknown>:0 
+  at IronScheme.Runtime.R6RS.Exceptions.WithClrExceptionHandler (System.Object handler, System.Object thunk) <0x40adc9c0 + 0x0008f> in <filename unknown>:0 
+  at #.psyntax.main::with-guard (System.Object f) <0x40adc700 + 0x0025b> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x40a8d1c0 + 0x000f0> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x40a8d120 + 0x00087> in <filename unknown>:0 
+  at IronScheme.Runtime.Builtins+<>c__DisplayClass52_1.<CompileCore>b__1 () <0x40a8d0e0 + 0x00037> in <filename unknown>:0 
+  at IronScheme.Runtime.Closure+SimpleClosure.Call () <0x40a51f20 + 0x00034> in <filename unknown>:0 
+  at #.psyntax.expander::eval (System.Object x, System.Object env) <0x40a5bb50 + 0x0010b> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x40a8d1c0 + 0x00138> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x40a8d120 + 0x00087> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.CompiledCode.Evaluate (IScriptModule module) <0x40ad1470 + 0x00077> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.CompiledCode.Execute (IScriptModule module) <0x40ad1440 + 0x00013> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.ExecuteSourceUnit (IronScheme.Scripting.Hosting.SourceUnit sourceUnit, IScriptModule module) <0x40a932e0 + 0x0002d> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code, IScriptModule module) <0x40a932a0 + 0x0002b> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code) <0x40adc340 + 0x00013> in <filename unknown>:0 
+  at IronScheme.Hosting.IronSchemeLanguageProvider+CommandLineX+<>c__DisplayClass5_0.<RunFile>b__0 () <0x40adc0d0 + 0x0009b> in <filename unknown>:0 
 
 
-real	0m1.996s
-user	0m1.920s
-sys	0m0.067s
+real	0m1.715s
+user	0m1.667s
+sys	0m0.047s
++!CSVLINE!+ironscheme,cpstak,CRASHED
 
 Testing ctak under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running ctak:32:16:8:1
-/home/nex/bin/ironscheme: line 2: 28231 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 22867 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.115s
-user	4m59.903s
-sys	0m0.063s
+real	5m0.251s
+user	4m59.873s
+sys	0m0.093s
++!CSVLINE!+ironscheme,ctak,ULIMITKILLED
 
 Testing fib under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running fib:40:5
-/home/nex/bin/ironscheme: line 2: 28591 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 23284 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.028s
-user	4m59.950s
-sys	0m0.047s
+real	5m0.079s
+user	4m59.953s
+sys	0m0.040s
++!CSVLINE!+ironscheme,fib,ULIMITKILLED
 
 Testing fibc under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running fibc:30:10
-/home/nex/bin/ironscheme: line 2: 28949 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 23753 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.408s
-user	4m59.887s
-sys	0m0.083s
+real	5m0.211s
+user	4m59.907s
+sys	0m0.090s
++!CSVLINE!+ironscheme,fibc,ULIMITKILLED
 
 Testing fibfp under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running fibfp:35.0:10
-/home/nex/bin/ironscheme: line 2: 29228 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 23987 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.985s
-user	4m59.197s
-sys	0m1.033s
+real	5m1.696s
+user	4m59.063s
+sys	0m1.123s
++!CSVLINE!+ironscheme,fibfp,ULIMITKILLED
 
 Testing sum under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running sum:10000:200000
-/home/nex/bin/ironscheme: line 2: 29638 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 24359 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.975s
-user	4m59.380s
-sys	0m0.660s
+real	5m0.268s
+user	4m59.443s
+sys	0m0.777s
++!CSVLINE!+ironscheme,sum,ULIMITKILLED
 
 Testing sumfp under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running sumfp:1000000.0:500
-/home/nex/bin/ironscheme: line 2: 30040 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 24645 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.783s
-user	4m59.053s
-sys	0m1.173s
+real	5m1.369s
+user	4m59.103s
+sys	0m1.127s
++!CSVLINE!+ironscheme,sumfp,ULIMITKILLED
 
 Testing fft under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running fft:65536:100
-Stack overflow in unmanaged: IP: 0x60618d, fault addr: 0x7f451621bff8
-Stack overflow in unmanaged: IP: 0x56ca2a, fault addr: 0x7f451621af50
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f4516219fd8
-Stack overflow in unmanaged: IP: 0x4a0763, fault addr: 0x7f451621afd8
-Stack overflow in unmanaged: IP: 0x4a0fd9, fault addr: 0x7f451621aec0
-Stack overflow in unmanaged: IP: 0x4bdc18, fault addr: 0x7f4516219f80
-Stack overflow in unmanaged: IP: 0x7f4519e1d15b, fault addr: 0x7f451621afe0
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f4516219e98
-Stack overflow in unmanaged: IP: 0x49d11a, fault addr: 0x7f451621aff8
-Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f451621affc
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f4516219b98
-Stack overflow in unmanaged: IP: 0x5c01cc, fault addr: 0x7f4516219f20
-Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f4516219ebc
+Stack overflow in unmanaged: IP: 0x60618d, fault addr: 0x7f0931e9bff8
+Stack overflow in unmanaged: IP: 0x56ca2a, fault addr: 0x7f0931e9af50
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f0931e99fd8
+Stack overflow in unmanaged: IP: 0x4a0763, fault addr: 0x7f0931e9afd8
+Stack overflow in unmanaged: IP: 0x4a0fd9, fault addr: 0x7f0931e9aec0
+Stack overflow in unmanaged: IP: 0x4bdc18, fault addr: 0x7f0931e99f80
+Stack overflow in unmanaged: IP: 0x7f0935ab215b, fault addr: 0x7f0931e9afe0
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f0931e99e98
+Stack overflow in unmanaged: IP: 0x49d11a, fault addr: 0x7f0931e9aff8
+Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f0931e9affc
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f0931e99b98
+Stack overflow in unmanaged: IP: 0x5c01cc, fault addr: 0x7f0931e99f20
+Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f0931e99ebc
 Unhandled CLR exception reading input:
 CLR Exception: System.NullReferenceException
 System.NullReferenceException: Object reference not set to an instance of an object
-  at #.psyntax.main::with-guard#1$2672 (IronScheme.Scripting.CodeContext $context, System.Object e) <0x41827640 + 0x00091> in <filename unknown>:0 
-  at IronScheme.Runtime.Closure+SimpleClosure.Call (System.Object arg1) <0x416a86a0 + 0x00040> in <filename unknown>:0 
-  at IronScheme.Runtime.R6RS.Exceptions.WithClrExceptionHandler (System.Object handler, System.Object thunk) <0x417679c0 + 0x0008f> in <filename unknown>:0 
-  at #.psyntax.main::with-guard (System.Object f) <0x41767700 + 0x0025b> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x417181c0 + 0x000f0> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x41718120 + 0x00087> in <filename unknown>:0 
-  at IronScheme.Runtime.Builtins+<>c__DisplayClass52_1.<CompileCore>b__1 () <0x417180e0 + 0x00037> in <filename unknown>:0 
-  at IronScheme.Runtime.Closure+SimpleClosure.Call () <0x416dcf20 + 0x00034> in <filename unknown>:0 
-  at #.psyntax.expander::eval (System.Object x, System.Object env) <0x416e6b50 + 0x0010b> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x417181c0 + 0x00138> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x41718120 + 0x00087> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.CompiledCode.Evaluate (IScriptModule module) <0x4175c470 + 0x00077> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.CompiledCode.Execute (IScriptModule module) <0x4175c440 + 0x00013> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.ExecuteSourceUnit (IronScheme.Scripting.Hosting.SourceUnit sourceUnit, IScriptModule module) <0x4171e2e0 + 0x0002d> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code, IScriptModule module) <0x4171e2a0 + 0x0002b> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code) <0x41767340 + 0x00013> in <filename unknown>:0 
-  at IronScheme.Hosting.IronSchemeLanguageProvider+CommandLineX+<>c__DisplayClass5_0.<RunFile>b__0 () <0x417670d0 + 0x0009b> in <filename unknown>:0 
+  at #.psyntax.main::with-guard#1$2672 (IronScheme.Scripting.CodeContext $context, System.Object e) <0x41f69640 + 0x00091> in <filename unknown>:0 
+  at IronScheme.Runtime.Closure+SimpleClosure.Call (System.Object arg1) <0x41dea6a0 + 0x00040> in <filename unknown>:0 
+  at IronScheme.Runtime.R6RS.Exceptions.WithClrExceptionHandler (System.Object handler, System.Object thunk) <0x41ea99c0 + 0x0008f> in <filename unknown>:0 
+  at #.psyntax.main::with-guard (System.Object f) <0x41ea9700 + 0x0025b> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x41e5a1c0 + 0x000f0> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x41e5a120 + 0x00087> in <filename unknown>:0 
+  at IronScheme.Runtime.Builtins+<>c__DisplayClass52_1.<CompileCore>b__1 () <0x41e5a0e0 + 0x00037> in <filename unknown>:0 
+  at IronScheme.Runtime.Closure+SimpleClosure.Call () <0x41e1ef20 + 0x00034> in <filename unknown>:0 
+  at #.psyntax.expander::eval (System.Object x, System.Object env) <0x41e28b50 + 0x0010b> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x41e5a1c0 + 0x00138> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x41e5a120 + 0x00087> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.CompiledCode.Evaluate (IScriptModule module) <0x41e9e470 + 0x00077> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.CompiledCode.Execute (IScriptModule module) <0x41e9e440 + 0x00013> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.ExecuteSourceUnit (IronScheme.Scripting.Hosting.SourceUnit sourceUnit, IScriptModule module) <0x41e602e0 + 0x0002d> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code, IScriptModule module) <0x41e602a0 + 0x0002b> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code) <0x41ea9340 + 0x00013> in <filename unknown>:0 
+  at IronScheme.Hosting.IronSchemeLanguageProvider+CommandLineX+<>c__DisplayClass5_0.<RunFile>b__0 () <0x41ea90d0 + 0x0009b> in <filename unknown>:0 
 
 
-real	0m3.227s
-user	0m3.143s
-sys	0m0.083s
+real	0m3.068s
+user	0m3.003s
+sys	0m0.073s
++!CSVLINE!+ironscheme,fft,CRASHED
 
 Testing mbrot under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running mbrot:75:1000
-/home/nex/bin/ironscheme: line 2: 30393 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 24927 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
 real	5m0.143s
-user	4m59.023s
-sys	0m1.160s
+user	4m59.007s
+sys	0m1.133s
++!CSVLINE!+ironscheme,mbrot,ULIMITKILLED
 
 Testing mbrotZ under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running mbrotZ:75:1000
-/home/nex/bin/ironscheme: line 2: 30910 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 25371 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.076s
-user	4m58.997s
-sys	0m1.183s
+real	5m0.135s
+user	4m59.023s
+sys	0m1.133s
++!CSVLINE!+ironscheme,mbrotZ,ULIMITKILLED
 
 Testing nucleic under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running nucleic:50
-/home/nex/bin/ironscheme: line 2: 31348 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 25747 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	4m59.903s
-user	4m58.077s
-sys	0m2.137s
+real	4m59.982s
+user	4m58.040s
+sys	0m2.220s
++!CSVLINE!+ironscheme,nucleic,ULIMITKILLED
 
 Testing pi under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
@@ -320,7 +333,7 @@ Native stacktrace:
 	mono() [0x4ac77f]
 	mono() [0x50014e]
 	mono() [0x428653]
-	/usr/lib/libpthread.so.0(+0x10f00) [0x7f5746b83f00]
+	/usr/lib/libpthread.so.0(+0x10f00) [0x7fccc21bdf00]
 	mono() [0x5fca90]
 	mono() [0x5fd1cf]
 	mono() [0x5ff0fb]
@@ -328,13 +341,13 @@ Native stacktrace:
 	mono() [0x5f4cbe]
 	mono() [0x5f5156]
 	mono() [0x5e1889]
-	[0x41e4d358]
+	[0x41c05358]
 
 Debug info from gdb:
 
-[New LWP 31969]
-[New LWP 31970]
-[New LWP 31971]
+[New LWP 26298]
+[New LWP 26299]
+[New LWP 26302]
 warning: File "/usr/bin/mono-sgen-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
 To enable execution of this file add
 	add-auto-load-safe-path /usr/bin/mono-sgen-gdb.py
@@ -347,15 +360,15 @@ For more information about this security protection see the
 	info "(gdb)Auto-loading safe path"
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/usr/lib/libthread_db.so.1".
-0x00007f57465ef686 in sigsuspend () from /usr/lib/libc.so.6
+0x00007fccc1c29686 in sigsuspend () from /usr/lib/libc.so.6
   Id   Target Id         Frame 
-* 1    Thread 0x7f5747684780 (LWP 31968) "mono" 0x00007f57465ef686 in sigsuspend () from /usr/lib/libc.so.6
-  2    Thread 0x7f5745bff700 (LWP 31969) "mono" 0x00007f5746b800af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
-  3    Thread 0x7f5743a78700 (LWP 31970) "Finalizer" 0x00007f5746b82497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
-  4    Thread 0x7f5742ed7700 (LWP 31971) "mono" 0x00007f5746b83b5b in waitpid () from /usr/lib/libpthread.so.0
+* 1    Thread 0x7fccc2cbe780 (LWP 26297) "mono" 0x00007fccc1c29686 in sigsuspend () from /usr/lib/libc.so.6
+  2    Thread 0x7fccc13ff700 (LWP 26298) "mono" 0x00007fccc21ba0af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+  3    Thread 0x7fccc1a0f700 (LWP 26299) "Finalizer" 0x00007fccc21bc497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  4    Thread 0x7fccbe557700 (LWP 26302) "mono" 0x00007fccc21bdb5b in waitpid () from /usr/lib/libpthread.so.0
 
-Thread 4 (Thread 0x7f5742ed7700 (LWP 31971)):
-#0  0x00007f5746b83b5b in waitpid () from /usr/lib/libpthread.so.0
+Thread 4 (Thread 0x7fccbe557700 (LWP 26302)):
+#0  0x00007fccc21bdb5b in waitpid () from /usr/lib/libpthread.so.0
 #1  0x00000000004ac856 in ?? ()
 #2  0x000000000050014e in ?? ()
 #3  0x0000000000428653 in ?? ()
@@ -367,125 +380,125 @@ Thread 4 (Thread 0x7f5742ed7700 (LWP 31971)):
 #9  0x00000000005f4cbe in ?? ()
 #10 0x00000000005f5156 in ?? ()
 #11 0x00000000005e1889 in ?? ()
-#12 0x0000000041e4d358 in ?? ()
-#13 0x00007f5745ff1da0 in ?? ()
-#14 0x00007f5742ed76e8 in ?? ()
-#15 0x00007f57432c6fb0 in ?? ()
-#16 0x0000000002b6ebb8 in ?? ()
-#17 0x00007f5745ff1dc0 in ?? ()
-#18 0x00007f5734001960 in ?? ()
-#19 0x00007f5745ff1cb0 in ?? ()
+#12 0x0000000041c05358 in ?? ()
+#13 0x00007fccc17f1da0 in ?? ()
+#14 0x00007fccbe5576e8 in ?? ()
+#15 0x00007fccbea76fb0 in ?? ()
+#16 0x000000000297fbb8 in ?? ()
+#17 0x00007fccc17f1dc0 in ?? ()
+#18 0x00007fccb0001960 in ?? ()
+#19 0x00007fccc17f1cb0 in ?? ()
 #20 0x000000000000000f in ?? ()
-#21 0x00007f5742ed5b40 in ?? ()
-#22 0x0000000041e49f24 in ?? ()
-#23 0x00007f5745ff1c90 in ?? ()
+#21 0x00007fccbe555b40 in ?? ()
+#22 0x0000000041c01f24 in ?? ()
+#23 0x00007fccc17f1c90 in ?? ()
 #24 0x000000000000000f in ?? ()
-#25 0x00007f57432c6fb0 in ?? ()
-#26 0x00007f57432c6fb0 in ?? ()
+#25 0x00007fccbea76fb0 in ?? ()
+#26 0x00007fccbea76fb0 in ?? ()
 #27 0x0000000000000020 in ?? ()
-#28 0x0000000041f441cf in ?? ()
+#28 0x0000000041cfc1cf in ?? ()
 #29 0x0000000000000002 in ?? ()
-#30 0x0000000041f89af8 in ?? ()
-#31 0x00007f5745ff1c90 in ?? ()
-#32 0x0000000041f44104 in ?? ()
+#30 0x0000000041d41af8 in ?? ()
+#31 0x00007fccc17f1c90 in ?? ()
+#32 0x0000000041cfc104 in ?? ()
 #33 0x000000000000001f in ?? ()
-#34 0x00007f5745ff1c90 in ?? ()
-#35 0x00007f57432c6fb0 in ?? ()
-#36 0x0000000041f43b68 in ?? ()
-#37 0x00007f5745ff1c90 in ?? ()
-#38 0x00007f5745e10798 in ?? ()
-#39 0x00007f57432b96d8 in ?? ()
-#40 0x00007f5745ff1c90 in ?? ()
-#41 0x00007f5745ff1c90 in ?? ()
-#42 0x00007f57432c6fb0 in ?? ()
-#43 0x00007f5745ff1c90 in ?? ()
-#44 0x00007f5745e10798 in ?? ()
-#45 0x00007f57432b96d8 in ?? ()
-#46 0x00007f5745ff1c90 in ?? ()
-#47 0x00007f5745ff1c90 in ?? ()
-#48 0x00007f57432c6fb0 in ?? ()
-#49 0x00007f5745ff1c90 in ?? ()
-#50 0x00007f57432c6fb0 in ?? ()
-#51 0x00007f5745ff1c90 in ?? ()
-#52 0x0000000041f43a48 in ?? ()
-#53 0x00007f57432b96f0 in ?? ()
-#54 0x00007f5745ff08b0 in ?? ()
-#55 0x00007f5745ff1c90 in ?? ()
-#56 0x00007f57432c6fb0 in ?? ()
-#57 0x00007f5745ff08b0 in ?? ()
-#58 0x00000000420cecd4 in ?? ()
-#59 0x00007f5745fa4488 in ?? ()
-#60 0x00007f5745db4470 in ?? ()
-#61 0x00007f5745ff0748 in ?? ()
-#62 0x00007f5745ff08b0 in ?? ()
-#63 0x00007f5745fa4ab8 in ?? ()
-#64 0x00000000420ceaf4 in ?? ()
-#65 0x00007f5745fa4488 in ?? ()
-#66 0x00007f5745e10798 in ?? ()
-#67 0x00007f5745db4470 in ?? ()
-#68 0x00007f5745ff0748 in ?? ()
-#69 0x00007f5745ff03d8 in ?? ()
-#70 0x00007f5745fa4ab8 in ?? ()
-#71 0x00007f573433de20 in ?? ()
-#72 0x00007f57432c6fe0 in ?? ()
-#73 0x00007f57432c6fb0 in ?? ()
-#74 0x00000000420cf044 in ?? ()
-#75 0x00007f5745ff08b0 in ?? ()
-#76 0x00000000420cf1f4 in ?? ()
-#77 0x00007f5745fa4488 in ?? ()
-#78 0x00007f5745e10798 in ?? ()
-#79 0x00007f5745db4470 in ?? ()
-#80 0x00007f57432c7430 in ?? ()
-#81 0x00007f57432b9f78 in ?? ()
-#82 0x00007f57432c7430 in ?? ()
+#34 0x00007fccc17f1c90 in ?? ()
+#35 0x00007fccbea76fb0 in ?? ()
+#36 0x0000000041cfbb68 in ?? ()
+#37 0x00007fccc17f1c90 in ?? ()
+#38 0x00007fccc1610798 in ?? ()
+#39 0x00007fccbea696d8 in ?? ()
+#40 0x00007fccc17f1c90 in ?? ()
+#41 0x00007fccc17f1c90 in ?? ()
+#42 0x00007fccbea76fb0 in ?? ()
+#43 0x00007fccc17f1c90 in ?? ()
+#44 0x00007fccc1610798 in ?? ()
+#45 0x00007fccbea696d8 in ?? ()
+#46 0x00007fccc17f1c90 in ?? ()
+#47 0x00007fccc17f1c90 in ?? ()
+#48 0x00007fccbea76fb0 in ?? ()
+#49 0x00007fccc17f1c90 in ?? ()
+#50 0x00007fccbea76fb0 in ?? ()
+#51 0x00007fccc17f1c90 in ?? ()
+#52 0x0000000041cfba48 in ?? ()
+#53 0x00007fccbea696f0 in ?? ()
+#54 0x00007fccc17f08b0 in ?? ()
+#55 0x00007fccc17f1c90 in ?? ()
+#56 0x00007fccbea76fb0 in ?? ()
+#57 0x00007fccc17f08b0 in ?? ()
+#58 0x0000000041e86cd4 in ?? ()
+#59 0x00007fccc17a4488 in ?? ()
+#60 0x00007fccc15b4470 in ?? ()
+#61 0x00007fccc17f0748 in ?? ()
+#62 0x00007fccc17f08b0 in ?? ()
+#63 0x00007fccc17a4ab8 in ?? ()
+#64 0x0000000041e86af4 in ?? ()
+#65 0x00007fccc17a4488 in ?? ()
+#66 0x00007fccc1610798 in ?? ()
+#67 0x00007fccc15b4470 in ?? ()
+#68 0x00007fccc17f0748 in ?? ()
+#69 0x00007fccc17f03d8 in ?? ()
+#70 0x00007fccc17a4ab8 in ?? ()
+#71 0x00007fccb033de20 in ?? ()
+#72 0x00007fccbea76fe0 in ?? ()
+#73 0x00007fccbea76fb0 in ?? ()
+#74 0x0000000041e87044 in ?? ()
+#75 0x00007fccc17f08b0 in ?? ()
+#76 0x0000000041e871f4 in ?? ()
+#77 0x00007fccc17a4488 in ?? ()
+#78 0x00007fccc1610798 in ?? ()
+#79 0x00007fccc15b4470 in ?? ()
+#80 0x00007fccbea77430 in ?? ()
+#81 0x00007fccbea69f78 in ?? ()
+#82 0x00007fccbea77430 in ?? ()
 #83 0x0000000000000000 in ?? ()
 
-Thread 3 (Thread 0x7f5743a78700 (LWP 31970)):
-#0  0x00007f5746b82497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
-#1  0x00007f5746b82544 in __new_sem_wait_slow.constprop.0 () from /usr/lib/libpthread.so.0
+Thread 3 (Thread 0x7fccc1a0f700 (LWP 26299)):
+#0  0x00007fccc21bc497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+#1  0x00007fccc21bc544 in __new_sem_wait_slow.constprop.0 () from /usr/lib/libpthread.so.0
 #2  0x00000000005b66c7 in ?? ()
 #3  0x0000000000596801 in ?? ()
 #4  0x000000000064719a in ?? ()
-#5  0x00007f5746b7a484 in start_thread () from /usr/lib/libpthread.so.0
-#6  0x00007f57466a36dd in clone () from /usr/lib/libc.so.6
+#5  0x00007fccc21b4484 in start_thread () from /usr/lib/libpthread.so.0
+#6  0x00007fccc1cdd6dd in clone () from /usr/lib/libc.so.6
 
-Thread 2 (Thread 0x7f5745bff700 (LWP 31969)):
-#0  0x00007f5746b800af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+Thread 2 (Thread 0x7fccc13ff700 (LWP 26298)):
+#0  0x00007fccc21ba0af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
 #1  0x0000000000615473 in ?? ()
-#2  0x00007f5746b7a484 in start_thread () from /usr/lib/libpthread.so.0
-#3  0x00007f57466a36dd in clone () from /usr/lib/libc.so.6
+#2  0x00007fccc21b4484 in start_thread () from /usr/lib/libpthread.so.0
+#3  0x00007fccc1cdd6dd in clone () from /usr/lib/libc.so.6
 
-Thread 1 (Thread 0x7f5747684780 (LWP 31968)):
-#0  0x00007f57465ef686 in sigsuspend () from /usr/lib/libc.so.6
+Thread 1 (Thread 0x7fccc2cbe780 (LWP 26297)):
+#0  0x00007fccc1c29686 in sigsuspend () from /usr/lib/libc.so.6
 #1  0x00000000005e079c in ?? ()
 #2  0x00000000005e093f in ?? ()
 #3  <signal handler called>
-#4  0x00007f5746b800ad in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+#4  0x00007fccc21ba0ad in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
 #5  0x000000000061bcfd in ?? ()
 #6  0x0000000000632662 in ?? ()
 #7  0x0000000000596080 in ?? ()
 #8  0x000000000059613d in ?? ()
-#9  0x000000004200f03d in ?? ()
+#9  0x0000000041dc702d in ?? ()
 #10 0x0000000000000002 in ?? ()
-#11 0x00007f5745fbedc0 in ?? ()
-#12 0x00007f5745fbedf8 in ?? ()
-#13 0x00007f5745fbeb20 in ?? ()
-#14 0x00007f5745fbecc0 in ?? ()
-#15 0x00000000020de9a0 in ?? ()
-#16 0x00007f5747684718 in ?? ()
-#17 0x00007ffd551d1de0 in ?? ()
-#18 0x00007ffd551d1d60 in ?? ()
-#19 0x00007f5743dd031d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#20 0x00007f5745c18110 in ?? ()
-#21 0x00007f5743dd02c0 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#11 0x00007fccc17bedc0 in ?? ()
+#12 0x00007fccc17bedf8 in ?? ()
+#13 0x00007fccc17beb20 in ?? ()
+#14 0x00007fccc17becc0 in ?? ()
+#15 0x0000000001eef9a0 in ?? ()
+#16 0x00007fccc2cbe718 in ?? ()
+#17 0x00007fff5abaa5e0 in ?? ()
+#18 0x00007fff5abaa560 in ?? ()
+#19 0x00007fccbf23b31d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#20 0x00007fccc1418110 in ?? ()
+#21 0x00007fccbf23b2c0 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
 #22 0x000000000000000c in ?? ()
-#23 0x0000000041e4908c in ?? ()
-#24 0x00007f5747684718 in ?? ()
-#25 0x00007f5743dd0201 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#26 0x00007ffd551d1f10 in ?? ()
-#27 0x0000000041fc61cd in ?? ()
-#28 0x00007f5745fbeb20 in ?? ()
-#29 0x00007f5745fbead0 in ?? ()
+#23 0x0000000041c0108c in ?? ()
+#24 0x0000000000000206 in ?? ()
+#25 0x00007fccbf23b201 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#26 0x00007fff5abaa710 in ?? ()
+#27 0x0000000041d7e1cd in ?? ()
+#28 0x00007fccc17beb20 in ?? ()
+#29 0x00007fccc17bead0 in ?? ()
 #30 0x0000000000000000 in ?? ()
 
 =================================================================
@@ -494,22 +507,24 @@ a fatal error in the mono runtime or one of the native libraries
 used by your application.
 =================================================================
 
-/home/nex/bin/ironscheme: line 2: 31968 Aborted                 (core dumped) mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 26297 Aborted                 (core dumped) mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	0m2.206s
-user	0m1.963s
-sys	0m0.153s
+real	0m2.215s
+user	0m1.993s
+sys	0m0.163s
++!CSVLINE!+ironscheme,pi,CRASHED
 
 Testing pnpoly under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running pnpoly:1000000
-/home/nex/bin/ironscheme: line 2: 32008 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 26343 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.259s
-user	4m58.960s
-sys	0m1.227s
+real	5m0.146s
+user	4m58.923s
+sys	0m1.230s
++!CSVLINE!+ironscheme,pnpoly,ULIMITKILLED
 
 Testing ray under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
@@ -524,24 +539,20 @@ Native stacktrace:
 	mono() [0x4ac77f]
 	mono() [0x50014e]
 	mono() [0x428653]
-	/usr/lib/libpthread.so.0(+0x10f00) [0x7f1343a22f00]
+	/usr/lib/libpthread.so.0(+0x10f00) [0x7f6361411f00]
 	mono() [0x5fca90]
 	mono() [0x5fd1cf]
 	mono() [0x5ff0fb]
 	mono() [0x601525]
 	mono() [0x5f4cbe]
-	mono() [0x5f5156]
-	mono() [0x5e1889]
-	mono(mono_object_new_alloc_specific+0x14) [0x5c0ee4]
-	mono(mono_object_new_specific+0x98) [0x5c0fa8]
-	mono() [0x546d27]
-	[0x413add1b]
+	mono() [0x5e2961]
+	[0x40c3c03e]
 
 Debug info from gdb:
 
-[New LWP 32203]
-[New LWP 32204]
-[New LWP 32205]
+[New LWP 26526]
+[New LWP 26527]
+[New LWP 26528]
 warning: File "/usr/bin/mono-sgen-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
 To enable execution of this file add
 	add-auto-load-safe-path /usr/bin/mono-sgen-gdb.py
@@ -554,15 +565,15 @@ For more information about this security protection see the
 	info "(gdb)Auto-loading safe path"
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/usr/lib/libthread_db.so.1".
-0x00007f134348e686 in sigsuspend () from /usr/lib/libc.so.6
+0x00007f6360e7d686 in sigsuspend () from /usr/lib/libc.so.6
   Id   Target Id         Frame 
-* 1    Thread 0x7f1344523780 (LWP 32202) "mono" 0x00007f134348e686 in sigsuspend () from /usr/lib/libc.so.6
-  2    Thread 0x7f1342bff700 (LWP 32203) "mono" 0x00007f1343a1f0af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
-  3    Thread 0x7f1343274700 (LWP 32204) "Finalizer" 0x00007f1343a21497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
-  4    Thread 0x7f133bbff700 (LWP 32205) "mono" 0x00007f1343a22b5b in waitpid () from /usr/lib/libpthread.so.0
+* 1    Thread 0x7f6361f12780 (LWP 26525) "mono" 0x00007f6360e7d686 in sigsuspend () from /usr/lib/libc.so.6
+  2    Thread 0x7f63607ff700 (LWP 26526) "mono" 0x00007f636140e0af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+  3    Thread 0x7f635e2e3700 (LWP 26527) "Finalizer" 0x00007f6361410497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  4    Thread 0x7f635d757700 (LWP 26528) "mono" 0x00007f6361411b5b in waitpid () from /usr/lib/libpthread.so.0
 
-Thread 4 (Thread 0x7f133bbff700 (LWP 32205)):
-#0  0x00007f1343a22b5b in waitpid () from /usr/lib/libpthread.so.0
+Thread 4 (Thread 0x7f635d757700 (LWP 26528)):
+#0  0x00007f6361411b5b in waitpid () from /usr/lib/libpthread.so.0
 #1  0x00000000004ac856 in ?? ()
 #2  0x000000000050014e in ?? ()
 #3  0x0000000000428653 in ?? ()
@@ -572,89 +583,60 @@ Thread 4 (Thread 0x7f133bbff700 (LWP 32205)):
 #7  0x00000000005ff0fb in ?? ()
 #8  0x0000000000601525 in ?? ()
 #9  0x00000000005f4cbe in ?? ()
-#10 0x00000000005f5156 in ?? ()
-#11 0x00000000005e1889 in ?? ()
-#12 0x00000000005c0ee4 in mono_object_new_alloc_specific ()
-#13 0x00000000005c0fa8 in mono_object_new_specific ()
-#14 0x0000000000546d27 in ?? ()
-#15 0x00000000413add1b in ?? ()
-#16 0x00007f1334043a58 in ?? ()
-#17 0x00007f1342fe3030 in ?? ()
-#18 0x00007f1342fe3030 in ?? ()
-#19 0x00007f1342fe3030 in ?? ()
-#20 0x00007f1344478430 in ?? ()
-#21 0x00007f1334001960 in ?? ()
-#22 0x00007f13444844c0 in ?? ()
-#23 0x00007f13402776e8 in ?? ()
-#24 0x00007f133bbfd390 in ?? ()
-#25 0x00007f1340749f7d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#26 0x00007f1342fe3030 in ?? ()
-#27 0x00007f134074a71d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#28 0x00007f1342fe3030 in ?? ()
-#29 0x00007f134074958e in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#30 0x00007f1344431c90 in ?? ()
-#31 0x00007f134072e605 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#32 0x00007f1342e76938 in ?? ()
-#33 0x00007f13444844c0 in ?? ()
-#34 0x00007f13444844c0 in ?? ()
-#35 0x0000000000000006 in ?? ()
-#36 0x00007f1342fe3030 in ?? ()
-#37 0x00007f1340748bc6 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#38 0x00007f133bf34c10 in ?? ()
-#39 0x00007f1342fe3030 in ?? ()
-#40 0x00007f1344431c90 in ?? ()
-#41 0x00007f13407cf792 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#42 0x0000000000000001 in ?? ()
-#43 0x00007f1342fe2fa8 in ?? ()
-#44 0x00007f1342fe2fa8 in ?? ()
-#45 0x0000000000000000 in ?? ()
+#10 0x00000000005e2961 in ?? ()
+#11 0x0000000040c3c03e in ?? ()
+#12 0x00007f6360bd5318 in ?? ()
+#13 0x00007f635d7576e8 in ?? ()
+#14 0x0000000000000020 in ?? ()
+#15 0x0000000002ff1cf0 in ?? ()
+#16 0x0000000000000000 in ?? ()
 
-Thread 3 (Thread 0x7f1343274700 (LWP 32204)):
-#0  0x00007f1343a21497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
-#1  0x00007f1343a21544 in __new_sem_wait_slow.constprop.0 () from /usr/lib/libpthread.so.0
+Thread 3 (Thread 0x7f635e2e3700 (LWP 26527)):
+#0  0x00007f6361410497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+#1  0x00007f6361410544 in __new_sem_wait_slow.constprop.0 () from /usr/lib/libpthread.so.0
 #2  0x00000000005b66c7 in ?? ()
 #3  0x0000000000596801 in ?? ()
 #4  0x000000000064719a in ?? ()
-#5  0x00007f1343a19484 in start_thread () from /usr/lib/libpthread.so.0
-#6  0x00007f13435426dd in clone () from /usr/lib/libc.so.6
+#5  0x00007f6361408484 in start_thread () from /usr/lib/libpthread.so.0
+#6  0x00007f6360f316dd in clone () from /usr/lib/libc.so.6
 
-Thread 2 (Thread 0x7f1342bff700 (LWP 32203)):
-#0  0x00007f1343a1f0af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+Thread 2 (Thread 0x7f63607ff700 (LWP 26526)):
+#0  0x00007f636140e0af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
 #1  0x0000000000615473 in ?? ()
-#2  0x00007f1343a19484 in start_thread () from /usr/lib/libpthread.so.0
-#3  0x00007f13435426dd in clone () from /usr/lib/libc.so.6
+#2  0x00007f6361408484 in start_thread () from /usr/lib/libpthread.so.0
+#3  0x00007f6360f316dd in clone () from /usr/lib/libc.so.6
 
-Thread 1 (Thread 0x7f1344523780 (LWP 32202)):
-#0  0x00007f134348e686 in sigsuspend () from /usr/lib/libc.so.6
+Thread 1 (Thread 0x7f6361f12780 (LWP 26525)):
+#0  0x00007f6360e7d686 in sigsuspend () from /usr/lib/libc.so.6
 #1  0x00000000005e079c in ?? ()
 #2  0x00000000005e093f in ?? ()
 #3  <signal handler called>
-#4  0x00007f1343a1f0ad in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+#4  0x00007f636140e0ad in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
 #5  0x000000000061bcfd in ?? ()
 #6  0x0000000000632662 in ?? ()
 #7  0x0000000000596080 in ?? ()
 #8  0x000000000059613d in ?? ()
-#9  0x000000004149a03d in ?? ()
+#9  0x0000000040dfe03d in ?? ()
 #10 0x0000000000000002 in ?? ()
-#11 0x00007f1342fbedc0 in ?? ()
-#12 0x00007f1342fbedf8 in ?? ()
-#13 0x00007f1342fbeb20 in ?? ()
-#14 0x00007f1342fbecc0 in ?? ()
-#15 0x0000000000b159a0 in ?? ()
-#16 0x00007f1344523718 in ?? ()
-#17 0x00007fff74873770 in ?? ()
-#18 0x00007fff748736f0 in ?? ()
-#19 0x00007f1340a3b31d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#20 0x00007f1342c18110 in ?? ()
-#21 0x00007f1340a3b2c0 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#11 0x00007f6360bbedc0 in ?? ()
+#12 0x00007f6360bbedf8 in ?? ()
+#13 0x00007f6360bbeb20 in ?? ()
+#14 0x00007f6360bbecc0 in ?? ()
+#15 0x00000000025929a0 in ?? ()
+#16 0x00007f6361f12718 in ?? ()
+#17 0x00007ffe243ef080 in ?? ()
+#18 0x00007ffe243ef000 in ?? ()
+#19 0x00007f635e63b31d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#20 0x00007f6360818110 in ?? ()
+#21 0x00007f635e63b2c0 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
 #22 0x000000000000000c in ?? ()
-#23 0x00000000412d408c in ?? ()
-#24 0x00007f1344523718 in ?? ()
-#25 0x00007f1340a3b201 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#26 0x00007fff748738a0 in ?? ()
-#27 0x00000000414511cd in ?? ()
-#28 0x00007f1342fbeb20 in ?? ()
-#29 0x00007f1342fbead0 in ?? ()
+#23 0x0000000040c3808c in ?? ()
+#24 0x00007f6361f12718 in ?? ()
+#25 0x00007f635e63b201 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#26 0x00007ffe243ef1b0 in ?? ()
+#27 0x0000000040db51cd in ?? ()
+#28 0x00007f6360bbeb20 in ?? ()
+#29 0x00007f6360bbead0 in ?? ()
 #30 0x0000000000000000 in ?? ()
 
 =================================================================
@@ -663,116 +645,120 @@ a fatal error in the mono runtime or one of the native libraries
 used by your application.
 =================================================================
 
-/home/nex/bin/ironscheme: line 2: 32202 Aborted                 (core dumped) mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 26525 Aborted                 (core dumped) mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	0m2.571s
-user	0m2.337s
-sys	0m0.173s
+real	0m4.693s
+user	0m4.490s
+sys	0m0.177s
++!CSVLINE!+ironscheme,ray,CRASHED
 
 Testing simplex under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running simplex:1000000
-/home/nex/bin/ironscheme: line 2: 32244 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 26564 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	4m57.507s
-user	4m58.880s
-sys	0m1.623s
+real	4m57.644s
+user	4m59.163s
+sys	0m1.490s
++!CSVLINE!+ironscheme,simplex,ULIMITKILLED
 
 Testing ack under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running ack:3:12:2
-/home/nex/bin/ironscheme: line 2: 32473 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 26747 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.273s
-user	4m59.530s
-sys	0m0.487s
+real	5m0.098s
+user	4m59.490s
+sys	0m0.530s
++!CSVLINE!+ironscheme,ack,ULIMITKILLED
 
 Testing array1 under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running array1:1000000:500
-Elapsed time: 240.615344 seconds (241) for array1:1000000:500
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,array1:1000000:500,240.615344
+Elapsed time: 229.605879 seconds (229) for array1:1000000:500
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,array1:1000000:500,229.605879
 
-real	4m2.499s
-user	4m1.763s
-sys	0m3.027s
+real	3m51.792s
+user	3m51.093s
+sys	0m2.760s
 
 Testing string under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running string:500000:25
-Elapsed time: 1.4895 seconds (1) for string:500000:25
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,string:500000:25,1.4895
+Elapsed time: 1.28716 seconds (1) for string:500000:25
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,string:500000:25,1.28716
 
-real	0m3.354s
-user	0m2.987s
-sys	0m0.453s
+real	0m2.953s
+user	0m2.630s
+sys	0m0.407s
 
 Testing sum1 under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running sum1:25
-/home/nex/bin/ironscheme: line 2:   651 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 27252 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m3.671s
-user	4m57.063s
-sys	0m3.213s
+real	5m3.441s
+user	4m56.943s
+sys	0m3.350s
++!CSVLINE!+ironscheme,sum1,ULIMITKILLED
 
 Testing cat under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running cat:50
-Elapsed time: 123.489636 seconds (123) for cat:50
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,cat:50,123.489636
+Elapsed time: 119.791568 seconds (119) for cat:50
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,cat:50,119.791568
 
-real	2m5.283s
-user	2m3.267s
-sys	0m1.420s
+real	2m1.641s
+user	1m59.723s
+sys	0m1.603s
 
 Testing tail under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running tail:25
-Elapsed time: 1.955054 seconds (2) for tail:25
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,tail:25,1.955054
+Elapsed time: 2.003985 seconds (2) for tail:25
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,tail:25,2.003985
 
-real	0m3.657s
-user	0m3.503s
-sys	0m0.187s
+real	0m3.836s
+user	0m3.683s
+sys	0m0.177s
 
 Testing wc under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running wc:inputs/bib:50
-Elapsed time: 123.846008 seconds (124) for wc:inputs/bib:50
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,wc:inputs/bib:50,123.846008
+Elapsed time: 114.333203 seconds (115) for wc:inputs/bib:50
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,wc:inputs/bib:50,114.333203
 
-real	2m5.821s
-user	2m4.303s
-sys	0m1.430s
+real	1m56.320s
+user	1m55.100s
+sys	0m1.203s
 
 Testing read1 under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running read1:2500
-Elapsed time: 92.928524 seconds (93) for read1:2500
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,read1:2500,92.928524
+Elapsed time: 89.298017 seconds (90) for read1:2500
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,read1:2500,89.298017
 
-real	1m34.491s
-user	1m23.383s
-sys	0m11.250s
+real	1m31.127s
+user	1m20.307s
+sys	0m10.973s
 
 Testing compiler under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
@@ -788,101 +774,104 @@ System.InvalidProgramException: Invalid IL code in eval-core(067):::gen-label-en
 
 
 
-real	0m4.601s
-user	0m4.470s
-sys	0m0.130s
+real	0m6.157s
+user	0m5.893s
+sys	0m0.280s
++!CSVLINE!+ironscheme,compiler,CRASHED
 
 Testing conform under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running conform:500
-Elapsed time: 59.576403 seconds (59) for conform:500
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,conform:500,59.576403
+Elapsed time: 59.167829 seconds (59) for conform:500
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,conform:500,59.167829
 
-real	1m1.246s
-user	1m1.720s
-sys	0m0.687s
+real	1m1.071s
+user	1m1.733s
+sys	0m0.580s
 
 Testing dynamic under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running dynamic:500
-Elapsed time: 121.009592 seconds (121) for dynamic:500
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,dynamic:500,121.009592
+Elapsed time: 121.492331 seconds (121) for dynamic:500
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,dynamic:500,121.492331
 
-real	2m2.879s
-user	1m50.987s
-sys	0m7.700s
+real	2m3.921s
+user	1m49.537s
+sys	0m7.740s
 
 Testing earley under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running earley:1
-Stack overflow in unmanaged: IP: 0x5f510b, fault addr: 0x7f050e443ff8
-Stack overflow in unmanaged: IP: 0x7f051211b15b, fault addr: 0x7f050e442fd0
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f050e441f48
-Stack overflow in unmanaged: IP: 0x4a0fd9, fault addr: 0x7f050e442fd0
-Stack overflow in unmanaged: IP: 0x7f051211b15b, fault addr: 0x7f050e442ff0
-Stack overflow in unmanaged: IP: 0x42730c, fault addr: 0x7f050e442ff8
-Stack overflow in unmanaged: IP: 0x4bdc18, fault addr: 0x7f050e441ef0
-Stack overflow in unmanaged: IP: 0x7f051211db0a, fault addr: 0x7f050e442ff8
-Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7f050e441e08
-Stack overflow in unmanaged: IP: 0x4a0749, fault addr: 0x7f050e442ff8
-Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f050e442f6c
-Stack overflow in unmanaged: IP: 0x7f051211b142, fault addr: 0x7f050e441ff8
-Stack overflow in unmanaged: IP: 0x6486c2, fault addr: 0x7f050e441ff8
-Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7f050e441e2c
+Stack overflow in unmanaged: IP: 0x5f510b, fault addr: 0x7fb1a3b43ff8
+Stack overflow in unmanaged: IP: 0x7fb1abadb15b, fault addr: 0x7fb1a3b42fd0
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7fb1a3b41f48
+Stack overflow in unmanaged: IP: 0x4a0fd9, fault addr: 0x7fb1a3b42fd0
+Stack overflow in unmanaged: IP: 0x7fb1abadb15b, fault addr: 0x7fb1a3b42ff0
+Stack overflow in unmanaged: IP: 0x42730c, fault addr: 0x7fb1a3b42ff8
+Stack overflow in unmanaged: IP: 0x4bdc18, fault addr: 0x7fb1a3b41ef0
+Stack overflow in unmanaged: IP: 0x7fb1abaddb0a, fault addr: 0x7fb1a3b42ff8
+Stack overflow in unmanaged: IP: 0x49d6ab, fault addr: 0x7fb1a3b41e08
+Stack overflow in unmanaged: IP: 0x4a0749, fault addr: 0x7fb1a3b42ff8
+Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7fb1a3b42f6c
+Stack overflow in unmanaged: IP: 0x7fb1abadb142, fault addr: 0x7fb1a3b41ff8
+Stack overflow in unmanaged: IP: 0x6486c2, fault addr: 0x7fb1a3b41ff8
+Stack overflow in unmanaged: IP: 0x4aae07, fault addr: 0x7fb1a3b41e2c
 Unhandled CLR exception reading input:
 CLR Exception: System.NullReferenceException
 System.NullReferenceException: Object reference not set to an instance of an object
-  at #.psyntax.main::with-guard#1$2672 (IronScheme.Scripting.CodeContext $context, System.Object e) <0x4123dc10 + 0x00091> in <filename unknown>:0 
-  at IronScheme.Runtime.Closure+SimpleClosure.Call (System.Object arg1) <0x410d46a0 + 0x00040> in <filename unknown>:0 
-  at IronScheme.Runtime.R6RS.Exceptions.WithClrExceptionHandler (System.Object handler, System.Object thunk) <0x411939c0 + 0x0008f> in <filename unknown>:0 
-  at #.psyntax.main::with-guard (System.Object f) <0x41193700 + 0x0025b> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x411441c0 + 0x000f0> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x41144120 + 0x00087> in <filename unknown>:0 
-  at IronScheme.Runtime.Builtins+<>c__DisplayClass52_1.<CompileCore>b__1 () <0x411440e0 + 0x00037> in <filename unknown>:0 
-  at IronScheme.Runtime.Closure+SimpleClosure.Call () <0x41108f20 + 0x00034> in <filename unknown>:0 
-  at #.psyntax.expander::eval (System.Object x, System.Object env) <0x41112b50 + 0x0010b> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x411441c0 + 0x00138> in <filename unknown>:0 
-  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x41144120 + 0x00087> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.CompiledCode.Evaluate (IScriptModule module) <0x41188470 + 0x00077> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.CompiledCode.Execute (IScriptModule module) <0x41188440 + 0x00013> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.ExecuteSourceUnit (IronScheme.Scripting.Hosting.SourceUnit sourceUnit, IScriptModule module) <0x4114a2e0 + 0x0002d> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code, IScriptModule module) <0x4114a2a0 + 0x0002b> in <filename unknown>:0 
-  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code) <0x41193340 + 0x00013> in <filename unknown>:0 
-  at IronScheme.Hosting.IronSchemeLanguageProvider+CommandLineX+<>c__DisplayClass5_0.<RunFile>b__0 () <0x411930d0 + 0x0009b> in <filename unknown>:0 
+  at #.psyntax.main::with-guard#1$2672 (IronScheme.Scripting.CodeContext $context, System.Object e) <0x4071dc10 + 0x00091> in <filename unknown>:0 
+  at IronScheme.Runtime.Closure+SimpleClosure.Call (System.Object arg1) <0x405b46a0 + 0x00040> in <filename unknown>:0 
+  at IronScheme.Runtime.R6RS.Exceptions.WithClrExceptionHandler (System.Object handler, System.Object thunk) <0x406739c0 + 0x0008f> in <filename unknown>:0 
+  at #.psyntax.main::with-guard (System.Object f) <0x40673700 + 0x0025b> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x406241c0 + 0x000f0> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x40624120 + 0x00087> in <filename unknown>:0 
+  at IronScheme.Runtime.Builtins+<>c__DisplayClass52_1.<CompileCore>b__1 () <0x406240e0 + 0x00037> in <filename unknown>:0 
+  at IronScheme.Runtime.Closure+SimpleClosure.Call () <0x405e8f20 + 0x00034> in <filename unknown>:0 
+  at #.psyntax.expander::eval (System.Object x, System.Object env) <0x405f2b50 + 0x0010b> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.CodeContext codeContext, Boolean tryEvaluate) <0x406241c0 + 0x00138> in <filename unknown>:0 
+  at IronScheme.Scripting.ScriptCode.Run (IronScheme.Scripting.ScriptModule module) <0x40624120 + 0x00087> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.CompiledCode.Evaluate (IScriptModule module) <0x40668470 + 0x00077> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.CompiledCode.Execute (IScriptModule module) <0x40668440 + 0x00013> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.ExecuteSourceUnit (IronScheme.Scripting.Hosting.SourceUnit sourceUnit, IScriptModule module) <0x4062a2e0 + 0x0002d> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code, IScriptModule module) <0x4062a2a0 + 0x0002b> in <filename unknown>:0 
+  at IronScheme.Scripting.Hosting.ScriptEngine.Execute (System.String code) <0x40673340 + 0x00013> in <filename unknown>:0 
+  at IronScheme.Hosting.IronSchemeLanguageProvider+CommandLineX+<>c__DisplayClass5_0.<RunFile>b__0 () <0x406730d0 + 0x0009b> in <filename unknown>:0 
 
 
-real	0m32.549s
-user	0m31.867s
-sys	0m0.600s
+real	0m21.880s
+user	0m21.440s
+sys	0m0.387s
++!CSVLINE!+ironscheme,earley,CRASHED
 
 Testing graphs under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running graphs:7:3
-/home/nex/bin/ironscheme: line 2:  2284 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 28649 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	4m49.770s
-user	4m55.090s
-sys	0m5.927s
+real	4m49.420s
+user	4m54.543s
+sys	0m6.243s
++!CSVLINE!+ironscheme,graphs,ULIMITKILLED
 
 Testing lattice under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running lattice:44:10
-Elapsed time: 93.984662 seconds (94) for lattice:44:10
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,lattice:44:10,93.984662
+Elapsed time: 96.841368 seconds (97) for lattice:44:10
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,lattice:44:10,96.841368
 
-real	1m35.655s
-user	1m28.247s
-sys	0m0.713s
+real	1m38.728s
+user	1m28.540s
+sys	0m0.637s
 
 Testing matrix under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
@@ -893,90 +882,93 @@ Running...
 &message: "invalid syntax"
 &irritants: ("2500\n5\n5\n\n(((1 1 1 1 1) (1 1 1 1 -1) (1 1 1 -1 1)\n  (1 1 -1 -1 -1) (1 -1 1 -1 -1) (1 -1 -1 1 1))\n ((1 1 1 1 1) (1 1 1 1 -1) (1 1 1 -1 1)\n  (1 1 -1 1 -1) (1 -1 1 -1 -1) (1 -1 -1 1 1))\n ((1 1 1 1 1) (1 1 1 1 -1) (1 1 1 -1 1)\n  (1 1 -1 1 -1) (1 -1 1 -1 1) (1 -1 -1 1 1))\n ((1 1 1 1 1) (1 1 1 1 -1) (1 1 1 -1 1)\n  (1 1 -1 1 1) (1 -1 1 1 -1) (1 -1 -1 -1 1))\n ((1 1 1 1 1) (1 1 1 1 -1) (1 1 1 -1 1)\n  (1 1 -1 1 1) (1 -1 1 1 1) (1 -1 -1 -1 -1)))))\n")
 
-real	0m2.556s
-user	0m2.020s
-sys	0m0.077s
+real	0m2.286s
+user	0m1.593s
+sys	0m0.073s
 
 Testing maze under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running maze:20:7:10000
-/home/nex/bin/ironscheme: line 2:  2763 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 29019 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m1.015s
-user	4m59.183s
-sys	0m1.597s
+real	4m57.973s
+user	4m58.837s
+sys	0m1.707s
++!CSVLINE!+ironscheme,maze,ULIMITKILLED
 
 Testing mazefun under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running mazefun:11:11:10000
-Elapsed time: 189.497825 seconds (189) for mazefun:11:11:10000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,mazefun:11:11:10000,189.497825
+Elapsed time: 190.340486 seconds (191) for mazefun:11:11:10000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,mazefun:11:11:10000,190.340486
 
-real	3m11.238s
-user	3m12.160s
-sys	0m0.617s
+real	3m12.326s
+user	3m13.153s
+sys	0m0.630s
 
 Testing nqueens under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running nqueens:13:10
-/home/nex/bin/ironscheme: line 2:  3289 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 29441 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.019s
-user	4m59.837s
-sys	0m0.193s
+real	5m0.011s
+user	4m59.847s
+sys	0m0.183s
++!CSVLINE!+ironscheme,nqueens,ULIMITKILLED
 
 Testing paraffins under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running paraffins:23:10
-Elapsed time: 34.097688 seconds (34) for paraffins:23:10
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,paraffins:23:10,34.097688
+Elapsed time: 37.72025 seconds (38) for paraffins:23:10
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,paraffins:23:10,37.72025
 
-real	0m36.200s
-user	0m33.683s
-sys	0m3.733s
+real	0m39.810s
+user	0m37.040s
+sys	0m4.110s
 
 Testing parsing under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running parsing:2500
-Elapsed time: 80.956341 seconds (81) for parsing:2500
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,parsing:2500,80.956341
+Elapsed time: 67.426222 seconds (68) for parsing:2500
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,parsing:2500,67.426222
 
-real	1m22.973s
-user	1m22.643s
-sys	0m0.373s
+real	1m9.177s
+user	1m8.763s
+sys	0m0.453s
 
 Testing peval under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running peval:2000
-Elapsed time: 138.821284 seconds (139) for peval:2000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,peval:2000,138.821284
+Elapsed time: 136.109578 seconds (136) for peval:2000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,peval:2000,136.109578
 
-real	2m20.596s
-user	2m25.520s
-sys	0m3.193s
+real	2m18.069s
+user	2m23.000s
+sys	0m3.023s
 
 Testing primes under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running primes:1000:10000
-/home/nex/bin/ironscheme: line 2:  3854 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 29939 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.000s
-user	4m58.977s
-sys	0m1.207s
+real	4m59.867s
+user	4m58.800s
+sys	0m1.373s
++!CSVLINE!+ironscheme,primes,ULIMITKILLED
 
 Testing quicksort under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
@@ -990,7 +982,7 @@ Native stacktrace:
 	mono() [0x4ac77f]
 	mono() [0x50014e]
 	mono() [0x428653]
-	/usr/lib/libpthread.so.0(+0x10f00) [0x7f2012b96f00]
+	/usr/lib/libpthread.so.0(+0x10f00) [0x7f0b28055f00]
 	mono() [0x5fca90]
 	mono() [0x5fd1cf]
 	mono() [0x5ff0fb]
@@ -998,13 +990,13 @@ Native stacktrace:
 	mono() [0x5f4cbe]
 	mono() [0x5f5156]
 	mono() [0x5e1889]
-	[0x401e4358]
+	[0x413ed358]
 
 Debug info from gdb:
 
-[New LWP 4390]
-[New LWP 4391]
-[New LWP 4392]
+[New LWP 30311]
+[New LWP 30312]
+[New LWP 30317]
 warning: File "/usr/bin/mono-sgen-gdb.py" auto-loading has been declined by your `auto-load safe-path' set to "$debugdir:$datadir/auto-load".
 To enable execution of this file add
 	add-auto-load-safe-path /usr/bin/mono-sgen-gdb.py
@@ -1017,15 +1009,15 @@ For more information about this security protection see the
 	info "(gdb)Auto-loading safe path"
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/usr/lib/libthread_db.so.1".
-0x00007f2012602686 in sigsuspend () from /usr/lib/libc.so.6
+0x00007f0b27ac1686 in sigsuspend () from /usr/lib/libc.so.6
   Id   Target Id         Frame 
-* 1    Thread 0x7f2013697780 (LWP 4389) "mono" 0x00007f2012602686 in sigsuspend () from /usr/lib/libc.so.6
-  2    Thread 0x7f2011bff700 (LWP 4390) "mono" 0x00007f2012b930af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
-  3    Thread 0x7f200fa78700 (LWP 4391) "Finalizer" 0x00007f2012b95497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
-  4    Thread 0x7f200eed7700 (LWP 4392) "mono" 0x00007f2012b96b5b in waitpid () from /usr/lib/libpthread.so.0
+* 1    Thread 0x7f0b28b56780 (LWP 30310) "mono" 0x00007f0b27ac1686 in sigsuspend () from /usr/lib/libc.so.6
+  2    Thread 0x7f0b273ff700 (LWP 30311) "mono" 0x00007f0b280520af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+  3    Thread 0x7f0b24ee3700 (LWP 30312) "Finalizer" 0x00007f0b28054497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+  4    Thread 0x7f0b1ffff700 (LWP 30317) "mono" 0x00007f0b28055b5b in waitpid () from /usr/lib/libpthread.so.0
 
-Thread 4 (Thread 0x7f200eed7700 (LWP 4392)):
-#0  0x00007f2012b96b5b in waitpid () from /usr/lib/libpthread.so.0
+Thread 4 (Thread 0x7f0b1ffff700 (LWP 30317)):
+#0  0x00007f0b28055b5b in waitpid () from /usr/lib/libpthread.so.0
 #1  0x00000000004ac856 in ?? ()
 #2  0x000000000050014e in ?? ()
 #3  0x0000000000428653 in ?? ()
@@ -1037,85 +1029,85 @@ Thread 4 (Thread 0x7f200eed7700 (LWP 4392)):
 #9  0x00000000005f4cbe in ?? ()
 #10 0x00000000005f5156 in ?? ()
 #11 0x00000000005e1889 in ?? ()
-#12 0x00000000401e4358 in ?? ()
-#13 0x00007f2011f92378 in ?? ()
-#14 0x00007f200eed76e8 in ?? ()
-#15 0x00007f2011f7a048 in ?? ()
-#16 0x0000000002250868 in ?? ()
-#17 0x00007f2011f92398 in ?? ()
-#18 0x00007f2000001960 in ?? ()
+#12 0x00000000413ed358 in ?? ()
+#13 0x00007f0b27792378 in ?? ()
+#14 0x00007f0b1ffff6e8 in ?? ()
+#15 0x00007f0b2777a048 in ?? ()
+#16 0x00000000025b7988 in ?? ()
+#17 0x00007f0b27792398 in ?? ()
+#18 0x00007f0b18001960 in ?? ()
 #19 0x0000000000000012 in ?? ()
 #20 0x0000000000000410 in ?? ()
-#21 0x00007f200eed59d0 in ?? ()
-#22 0x00000000401e0f24 in ?? ()
+#21 0x00007f0b1fffd9d0 in ?? ()
+#22 0x00000000413e9f24 in ?? ()
 #23 0x00076db000000000 in ?? ()
 #24 0x41076db000000000 in ?? ()
-#25 0x00007f200eed5b00 in ?? ()
-#26 0x00007f200eed5b08 in ?? ()
+#25 0x00007f0b1fffdb00 in ?? ()
+#26 0x00007f0b1fffdb08 in ?? ()
 #27 0x0000000000000020 in ?? ()
-#28 0x00000000402db1cf in ?? ()
+#28 0x00000000414e41cf in ?? ()
 #29 0x0000000000000001 in ?? ()
 #30 0x0000000000000011 in ?? ()
 #31 0x0000000000000011 in ?? ()
-#32 0x0000000040464e50 in ?? ()
-#33 0x00007f2011ed2a70 in ?? ()
-#34 0x00007f200eed5f10 in ?? ()
-#35 0x00007f2011fc5b48 in ?? ()
-#36 0x00007f200efec130 in ?? ()
-#37 0x00007f2011f922d0 in ?? ()
-#38 0x00000000402ddc07 in ?? ()
+#32 0x000000004166de50 in ?? ()
+#33 0x00007f0b276d2a70 in ?? ()
+#34 0x00007f0b1fffdf10 in ?? ()
+#35 0x00007f0b277c5b48 in ?? ()
+#36 0x00007f0b2450c130 in ?? ()
+#37 0x00007f0b277922d0 in ?? ()
+#38 0x00000000414e6c07 in ?? ()
 #39 0x0000000000000001 in ?? ()
 #40 0x426fc75900000011 in ?? ()
-#41 0x00007f2011f92330 in ?? ()
-#42 0x00007f2011f79a00 in ?? ()
+#41 0x00007f0b27792330 in ?? ()
+#42 0x00007f0b27779a00 in ?? ()
 #43 0x0000000000000000 in ?? ()
 
-Thread 3 (Thread 0x7f200fa78700 (LWP 4391)):
-#0  0x00007f2012b95497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
-#1  0x00007f2012b95544 in __new_sem_wait_slow.constprop.0 () from /usr/lib/libpthread.so.0
+Thread 3 (Thread 0x7f0b24ee3700 (LWP 30312)):
+#0  0x00007f0b28054497 in do_futex_wait.constprop () from /usr/lib/libpthread.so.0
+#1  0x00007f0b28054544 in __new_sem_wait_slow.constprop.0 () from /usr/lib/libpthread.so.0
 #2  0x00000000005b66c7 in ?? ()
 #3  0x0000000000596801 in ?? ()
 #4  0x000000000064719a in ?? ()
-#5  0x00007f2012b8d484 in start_thread () from /usr/lib/libpthread.so.0
-#6  0x00007f20126b66dd in clone () from /usr/lib/libc.so.6
+#5  0x00007f0b2804c484 in start_thread () from /usr/lib/libpthread.so.0
+#6  0x00007f0b27b756dd in clone () from /usr/lib/libc.so.6
 
-Thread 2 (Thread 0x7f2011bff700 (LWP 4390)):
-#0  0x00007f2012b930af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+Thread 2 (Thread 0x7f0b273ff700 (LWP 30311)):
+#0  0x00007f0b280520af in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
 #1  0x0000000000615473 in ?? ()
-#2  0x00007f2012b8d484 in start_thread () from /usr/lib/libpthread.so.0
-#3  0x00007f20126b66dd in clone () from /usr/lib/libc.so.6
+#2  0x00007f0b2804c484 in start_thread () from /usr/lib/libpthread.so.0
+#3  0x00007f0b27b756dd in clone () from /usr/lib/libc.so.6
 
-Thread 1 (Thread 0x7f2013697780 (LWP 4389)):
-#0  0x00007f2012602686 in sigsuspend () from /usr/lib/libc.so.6
+Thread 1 (Thread 0x7f0b28b56780 (LWP 30310)):
+#0  0x00007f0b27ac1686 in sigsuspend () from /usr/lib/libc.so.6
 #1  0x00000000005e079c in ?? ()
 #2  0x00000000005e093f in ?? ()
 #3  <signal handler called>
-#4  0x00007f2012b930ad in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
+#4  0x00007f0b280520ad in pthread_cond_wait@@GLIBC_2.3.2 () from /usr/lib/libpthread.so.0
 #5  0x000000000061bcfd in ?? ()
 #6  0x0000000000632662 in ?? ()
 #7  0x0000000000596080 in ?? ()
 #8  0x000000000059613d in ?? ()
-#9  0x00000000403a603d in ?? ()
+#9  0x00000000415af03d in ?? ()
 #10 0x0000000000000002 in ?? ()
-#11 0x00007f2011fbedc0 in ?? ()
-#12 0x00007f2011fbedf8 in ?? ()
-#13 0x00007f2011fbeb20 in ?? ()
-#14 0x00007f2011fbecc0 in ?? ()
-#15 0x00000000017c09a0 in ?? ()
-#16 0x00007f2013697718 in ?? ()
-#17 0x00007ffd28c9bcd0 in ?? ()
-#18 0x00007ffd28c9bc50 in ?? ()
-#19 0x00007f200fdd031d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#20 0x00007f2011c18110 in ?? ()
-#21 0x00007f200fdd02c0 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#11 0x00007f0b277bedc0 in ?? ()
+#12 0x00007f0b277bedf8 in ?? ()
+#13 0x00007f0b277beb20 in ?? ()
+#14 0x00007f0b277becc0 in ?? ()
+#15 0x0000000001b589a0 in ?? ()
+#16 0x00007f0b28b56718 in ?? ()
+#17 0x00007ffc471e6b90 in ?? ()
+#18 0x00007ffc471e6b10 in ?? ()
+#19 0x00007f0b2523b31d in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#20 0x00007f0b27418110 in ?? ()
+#21 0x00007f0b2523b2c0 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
 #22 0x000000000000000c in ?? ()
-#23 0x00000000401e008c in ?? ()
-#24 0x00007f2013697718 in ?? ()
-#25 0x00007f200fdd0201 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
-#26 0x00007ffd28c9be00 in ?? ()
-#27 0x000000004035d1cd in ?? ()
-#28 0x00007f2011fbeb20 in ?? ()
-#29 0x00007f2011fbead0 in ?? ()
+#23 0x00000000413e908c in ?? ()
+#24 0x00007f0b28b56718 in ?? ()
+#25 0x00007f0b2523b201 in ?? () from /usr/lib/mono/4.5/mscorlib.dll.so
+#26 0x00007ffc471e6cc0 in ?? ()
+#27 0x00000000415661cd in ?? ()
+#28 0x00007f0b277beb20 in ?? ()
+#29 0x00007f0b277bead0 in ?? ()
 #30 0x0000000000000000 in ?? ()
 
 =================================================================
@@ -1124,59 +1116,60 @@ a fatal error in the mono runtime or one of the native libraries
 used by your application.
 =================================================================
 
-/home/nex/bin/ironscheme: line 2:  4389 Aborted                 (core dumped) mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 30310 Aborted                 (core dumped) mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	0m2.648s
-user	0m2.460s
-sys	0m0.163s
+real	0m2.728s
+user	0m2.540s
+sys	0m0.157s
++!CSVLINE!+ironscheme,quicksort,CRASHED
 
 Testing scheme under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running scheme:100000
-Elapsed time: 70.810974 seconds (71) for scheme:100000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,scheme:100000,70.810974
+Elapsed time: 70.492993 seconds (71) for scheme:100000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,scheme:100000,70.492993
 
-real	1m12.707s
-user	1m14.180s
-sys	0m0.683s
+real	1m12.349s
+user	1m14.003s
+sys	0m0.593s
 
 Testing slatex under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running slatex:500
-Elapsed time: 48.88817 seconds (49) for slatex:500
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,slatex:500,48.88817
+/home/nex/bin/ironscheme: line 2: 30485 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	0m51.282s
-user	0m45.190s
-sys	0m3.310s
+real	0m11.940s
+user	0m11.220s
+sys	0m0.673s
++!CSVLINE!+ironscheme,slatex,ULIMITKILLED
 
 Testing nboyer under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running nboyer:5:1
-Elapsed time: 18.147424 seconds (18) for nboyer:5:1
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,nboyer:5:1,18.147424
+Elapsed time: 58.788566 seconds (59) for nboyer:5:1
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,nboyer:5:1,58.788566
 
-real	0m20.046s
-user	0m20.083s
-sys	0m0.380s
+real	1m1.052s
+user	0m24.070s
+sys	0m0.870s
 
 Testing sboyer under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running sboyer:5:1
-Elapsed time: 17.445684 seconds (17) for sboyer:5:1
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,sboyer:5:1,17.445684
+Elapsed time: 9.466962 seconds (9) for sboyer:5:1
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,sboyer:5:1,9.466962
 
-real	0m19.386s
-user	0m19.337s
-sys	0m0.100s
+real	0m11.232s
+user	0m11.127s
+sys	0m0.123s
 
 Testing gcbench under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
@@ -1193,41 +1186,42 @@ Running...
   character: "(95,8) - (95,21)"
 &trace: #<syntax make-node-raw ((95,8) - (95,21) of /tmp/larcenous/IronScheme/gcbench.sps)>
 
-real	0m1.683s
-user	0m1.607s
-sys	0m0.070s
+real	0m1.221s
+user	0m1.167s
+sys	0m0.047s
 
 Testing mperm under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running perm20:10:2:1
-Elapsed time: 181.868442 seconds (182) for perm20:10:2:1
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,perm20:10:2:1,181.868442
+Elapsed time: 172.095746 seconds (172) for perm20:10:2:1
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,perm20:10:2:1,172.095746
 
-real	3m16.359s
-user	3m15.623s
-sys	0m3.800s
+real	3m5.991s
+user	3m5.273s
+sys	0m3.597s
 
 Testing equal under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running equal:100:100:8:1000:2000:5000
-Elapsed time: 14.559207 seconds (15) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+ironscheme-1.0.101-0fdbfcf,equal:100:100:8:1000:2000:5000,14.559207
+Elapsed time: 15.78091 seconds (16) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+ironscheme-1.0.101-0fdbfcf,equal:100:100:8:1000:2000:5000,15.78091
 
-real	0m16.241s
-user	0m15.960s
-sys	0m0.367s
+real	0m17.454s
+user	0m17.073s
+sys	0m0.473s
 
 Testing bv2string under IronScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/IronScheme-prelude.scm
 Compiling...
 Running...
 ﻿﻿Running bv2string:1000:1000:100
-/home/nex/bin/ironscheme: line 2:  4874 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
+/home/nex/bin/ironscheme: line 2: 30747 Killed                  mono /home/nex/tmp/IronScheme/IronScheme.Console-v4.exe -nologo -emacs $*
 
-real	5m0.078s
-user	4m59.143s
-sys	0m1.070s
+real	5m0.046s
+user	4m59.167s
+sys	0m1.040s
++!CSVLINE!+ironscheme,bv2string,ULIMITKILLED

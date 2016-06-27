@@ -1,619 +1,339 @@
 
 ****************************
-Benchmarking Stalin on Tue 21 Jun 22:12:51 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking Stalin on Wed 22 Jun 21:04:24 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/browse: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,browse,COMPILEERROR
 
 Testing deriv under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/deriv: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,deriv,COMPILEERROR
 
 Testing destruc under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/destruc: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,destruc,COMPILEERROR
 
 Testing diviter under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/diviter: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,diviter,COMPILEERROR
 
 Testing divrec under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/divrec: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,divrec,COMPILEERROR
 
 Testing puzzle under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/puzzle: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,puzzle,COMPILEERROR
 
 Testing triangl under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/triangl: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,triangl,COMPILEERROR
 
 Testing tak under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/tak: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,tak,COMPILEERROR
 
 Testing takl under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/takl: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,takl,COMPILEERROR
 
 Testing ntakl under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/ntakl: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,ntakl,COMPILEERROR
 
 Testing cpstak under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/cpstak: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,cpstak,COMPILEERROR
 
 Testing ctak under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/ctak: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,ctak,COMPILEERROR
 
 Testing fib under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/fib: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,fib,COMPILEERROR
 
 Testing fibc under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/fibc: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,fibc,COMPILEERROR
 
 Testing fibfp under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/fibfp: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,fibfp,COMPILEERROR
 
 Testing sum under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/sum: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,sum,COMPILEERROR
 
 Testing sumfp under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/sumfp: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,sumfp,COMPILEERROR
 
 Testing fft under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/fft: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,fft,COMPILEERROR
 
 Testing mbrot under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/mbrot: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,mbrot,COMPILEERROR
 
 Testing mbrotZ under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/mbrotZ: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,mbrotZ,COMPILEERROR
 
 Testing nucleic under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/nucleic: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,nucleic,COMPILEERROR
 
 Testing pi under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/pi: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,pi,COMPILEERROR
 
 Testing pnpoly under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/pnpoly: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,pnpoly,COMPILEERROR
 
 Testing ray under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/ray: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,ray,COMPILEERROR
 
 Testing simplex under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/simplex: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,simplex,COMPILEERROR
 
 Testing ack under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/ack: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,ack,COMPILEERROR
 
 Testing array1 under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/array1: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,array1,COMPILEERROR
 
 Testing string under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/string: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,string,COMPILEERROR
 
 Testing sum1 under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/sum1: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,sum1,COMPILEERROR
 
 Testing cat under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/cat: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,cat,COMPILEERROR
 
 Testing tail under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/tail: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,tail,COMPILEERROR
 
 Testing wc under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/wc: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,wc,COMPILEERROR
 
 Testing read1 under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/read1: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,read1,COMPILEERROR
 
 Testing compiler under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/compiler: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,compiler,COMPILEERROR
 
 Testing conform under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/conform: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,conform,COMPILEERROR
 
 Testing dynamic under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/dynamic: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,dynamic,COMPILEERROR
 
 Testing earley under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/earley: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,earley,COMPILEERROR
 
 Testing graphs under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/graphs: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,graphs,COMPILEERROR
 
 Testing lattice under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/lattice: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,lattice,COMPILEERROR
 
 Testing matrix under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/matrix: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,matrix,COMPILEERROR
 
 Testing maze under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/maze: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,maze,COMPILEERROR
 
 Testing mazefun under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/mazefun: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,mazefun,COMPILEERROR
 
 Testing nqueens under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/nqueens: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,nqueens,COMPILEERROR
 
 Testing paraffins under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/paraffins: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,paraffins,COMPILEERROR
 
 Testing parsing under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/parsing: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,parsing,COMPILEERROR
 
 Testing peval under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/peval: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,peval,COMPILEERROR
 
 Testing primes under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/primes: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,primes,COMPILEERROR
 
 Testing quicksort under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/quicksort: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,quicksort,COMPILEERROR
 
 Testing scheme under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/scheme: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,scheme,COMPILEERROR
 
 Testing slatex under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/slatex: No such file or directory
-
-real	0m0.012s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,slatex,COMPILEERROR
 
 Testing nboyer under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/nboyer: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,nboyer,COMPILEERROR
 
 Testing sboyer under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/sboyer: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,sboyer,COMPILEERROR
 
 Testing gcbench under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/gcbench: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,gcbench,COMPILEERROR
 
 Testing mperm under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/mperm: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,mperm,COMPILEERROR
 
 Testing equal under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/equal: No such file or directory
-
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,equal,COMPILEERROR
 
 Testing bv2string under Stalin
 Including prelude /home/nex/src/r7rs-benchmarks/src/Stalin-prelude.scm
 Compiling...
 chicken-stalin: error while loading shared libraries: libchicken.so.7: cannot open shared object file: No such file or directory
-Running...
-./bench: line 363: /tmp/larcenous/Stalin/bv2string: No such file or directory
-
-real	0m0.000s
-user	0m0.000s
-sys	0m0.000s
++!CSVLINE!+stalin,bv2string,COMPILEERROR

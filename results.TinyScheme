@@ -1,563 +1,619 @@
 
 ****************************
-Benchmarking TinyScheme on Tue 21 Jun 22:14:10 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking TinyScheme on Wed 22 Jun 21:05:41 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,browse,CRASHED
 
 Testing deriv under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,deriv,CRASHED
 
 Testing destruc under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,destruc,CRASHED
 
 Testing diviter under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,diviter,CRASHED
 
 Testing divrec under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,divrec,CRASHED
 
 Testing puzzle under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,puzzle,CRASHED
 
 Testing triangl under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,triangl,CRASHED
 
 Testing tak under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,tak,CRASHED
 
 Testing takl under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,takl,CRASHED
 
 Testing ntakl under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,ntakl,CRASHED
 
 Testing cpstak under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,cpstak,CRASHED
 
 Testing ctak under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,ctak,CRASHED
 
 Testing fib under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,fib,CRASHED
 
 Testing fibc under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,fibc,CRASHED
 
 Testing fibfp under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,fibfp,CRASHED
 
 Testing sum under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,sum,CRASHED
 
 Testing sumfp under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,sumfp,CRASHED
 
 Testing fft under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,fft,CRASHED
 
 Testing mbrot under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,mbrot,CRASHED
 
 Testing mbrotZ under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,mbrotZ,CRASHED
 
 Testing nucleic under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,nucleic,CRASHED
 
 Testing pi under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,pi,CRASHED
 
 Testing pnpoly under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,pnpoly,CRASHED
 
 Testing ray under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,ray,CRASHED
 
 Testing simplex under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,simplex,CRASHED
 
 Testing ack under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,ack,CRASHED
 
 Testing array1 under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,array1,CRASHED
 
 Testing string under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,string,CRASHED
 
 Testing sum1 under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,sum1,CRASHED
 
 Testing cat under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,cat,CRASHED
 
 Testing tail under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,tail,CRASHED
 
 Testing wc under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,wc,CRASHED
 
 Testing read1 under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,read1,CRASHED
 
 Testing compiler under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,compiler,CRASHED
 
 Testing conform under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,conform,CRASHED
 
 Testing dynamic under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,dynamic,CRASHED
 
 Testing earley under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,earley,CRASHED
 
 Testing graphs under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,graphs,CRASHED
 
 Testing lattice under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,lattice,CRASHED
 
 Testing matrix under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,matrix,CRASHED
 
 Testing maze under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,maze,CRASHED
 
 Testing mazefun under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,mazefun,CRASHED
 
 Testing nqueens under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,nqueens,CRASHED
 
 Testing paraffins under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,paraffins,CRASHED
 
 Testing parsing under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,parsing,CRASHED
 
 Testing peval under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,peval,CRASHED
 
 Testing primes under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,primes,CRASHED
 
 Testing quicksort under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,quicksort,CRASHED
 
 Testing scheme under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,scheme,CRASHED
 
 Testing slatex under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,slatex,CRASHED
 
 Testing nboyer under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,nboyer,CRASHED
 
 Testing sboyer under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,sboyer,CRASHED
 
 Testing gcbench under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
 real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,gcbench,CRASHED
 
 Testing mperm under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,mperm,CRASHED
 
 Testing equal under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.000s
+real	0m0.001s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,equal,CRASHED
 
 Testing bv2string under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 390: tinyscheme: command not found
+./bench: line 407: tinyscheme: command not found
 
-real	0m0.001s
+real	0m0.000s
 user	0m0.000s
 sys	0m0.000s
++!CSVLINE!+tinyscheme,bv2string,CRASHED
