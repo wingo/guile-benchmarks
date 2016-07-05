@@ -1,17 +1,17 @@
 
 ****************************
-Benchmarking Mosh on Mon 27 Jun 17:23:59 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking Mosh on Sat 2 Jul 11:00:00 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 35.013726999999996 seconds (35) for browse:2000
-+!CSVLINE!+mosh-unknown,browse:2000,35.013726999999996
+Elapsed time: 31.225371 seconds (31) for browse:2000
++!CSVLINE!+mosh-unknown,browse:2000,31.225371
 
-real	0m35.233s
-user	0m35.227s
+real	0m31.281s
+user	0m31.260s
 sys	0m0.007s
 
 Testing deriv under Mosh
@@ -19,35 +19,35 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 35.797650999999995 seconds (36) for deriv:10000000
-+!CSVLINE!+mosh-unknown,deriv:10000000,35.797650999999995
+Elapsed time: 29.49141 seconds (30) for deriv:10000000
++!CSVLINE!+mosh-unknown,deriv:10000000,29.49141
 
-real	0m35.829s
-user	0m35.827s
-sys	0m0.003s
+real	0m29.575s
+user	0m29.567s
+sys	0m0.010s
 
 Testing destruc under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 38.294636 seconds (38) for destruc:600:50:4000
-+!CSVLINE!+mosh-unknown,destruc:600:50:4000,38.294636
+Elapsed time: 36.224005999999996 seconds (36) for destruc:600:50:4000
++!CSVLINE!+mosh-unknown,destruc:600:50:4000,36.224005999999996
 
-real	0m38.338s
-user	0m38.330s
-sys	0m0.003s
+real	0m36.262s
+user	0m36.250s
+sys	0m0.013s
 
 Testing diviter under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 21.047843999999998 seconds (21) for diviter:1000:1000000
-+!CSVLINE!+mosh-unknown,diviter:1000:1000000,21.047843999999998
+Elapsed time: 27.069536 seconds (27) for diviter:1000:1000000
++!CSVLINE!+mosh-unknown,diviter:1000:1000000,27.069536
 
-real	0m21.077s
-user	0m21.073s
+real	0m27.103s
+user	0m27.100s
 sys	0m0.003s
 
 Testing divrec under Mosh
@@ -55,47 +55,47 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 23.612088999999997 seconds (24) for divrec:1000:1000000
-+!CSVLINE!+mosh-unknown,divrec:1000:1000000,23.612088999999997
+Elapsed time: 22.08901 seconds (22) for divrec:1000:1000000
++!CSVLINE!+mosh-unknown,divrec:1000:1000000,22.08901
 
-real	0m23.639s
-user	0m23.637s
-sys	0m0.003s
+real	0m22.168s
+user	0m22.167s
+sys	0m0.000s
 
 Testing puzzle under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 52.583149999999996 seconds (52) for puzzle:1000
-+!CSVLINE!+mosh-unknown,puzzle:1000,52.583149999999996
+Elapsed time: 49.89145 seconds (50) for puzzle:1000
++!CSVLINE!+mosh-unknown,puzzle:1000,49.89145
 
-real	0m52.625s
-user	0m52.623s
-sys	0m0.003s
+real	0m49.928s
+user	0m49.930s
+sys	0m0.000s
 
 Testing triangl under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 30.597064999999997 seconds (31) for triangl:22:1:50
-+!CSVLINE!+mosh-unknown,triangl:22:1:50,30.597064999999997
+Elapsed time: 28.798202999999997 seconds (29) for triangl:22:1:50
++!CSVLINE!+mosh-unknown,triangl:22:1:50,28.798202999999997
 
-real	0m30.627s
-user	0m30.623s
-sys	0m0.003s
+real	0m28.886s
+user	0m28.880s
+sys	0m0.007s
 
 Testing tak under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 32.898726999999994 seconds (33) for tak:40:20:11:1
-+!CSVLINE!+mosh-unknown,tak:40:20:11:1,32.898726999999994
+Elapsed time: 30.879696 seconds (31) for tak:40:20:11:1
++!CSVLINE!+mosh-unknown,tak:40:20:11:1,30.879696
 
-real	0m32.929s
-user	0m32.930s
+real	0m30.906s
+user	0m30.907s
 sys	0m0.000s
 
 Testing takl under Mosh
@@ -103,23 +103,23 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 76.34560599999999 seconds (76) for takl:40:20:12:1
-+!CSVLINE!+mosh-unknown,takl:40:20:12:1,76.34560599999999
+Elapsed time: 73.847484 seconds (74) for takl:40:20:12:1
++!CSVLINE!+mosh-unknown,takl:40:20:12:1,73.847484
 
-real	1m16.379s
-user	1m16.370s
-sys	0m0.013s
+real	1m13.876s
+user	1m13.877s
+sys	0m0.003s
 
 Testing ntakl under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 72.5204 seconds (73) for ntakl:40:20:12:1
-+!CSVLINE!+mosh-unknown,ntakl:40:20:12:1,72.5204
+Elapsed time: 70.47840299999999 seconds (70) for ntakl:40:20:12:1
++!CSVLINE!+mosh-unknown,ntakl:40:20:12:1,70.47840299999999
 
-real	1m12.550s
-user	1m12.550s
+real	1m10.510s
+user	1m10.510s
 sys	0m0.003s
 
 Testing cpstak under Mosh
@@ -127,11 +127,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 99.53247699999999 seconds (99) for cpstak:40:20:11:1
-+!CSVLINE!+mosh-unknown,cpstak:40:20:11:1,99.53247699999999
+Elapsed time: 92.710308 seconds (93) for cpstak:40:20:11:1
++!CSVLINE!+mosh-unknown,cpstak:40:20:11:1,92.710308
 
-real	1m39.561s
-user	1m39.563s
+real	1m32.741s
+user	1m32.743s
 sys	0m0.003s
 
 Testing ctak under Mosh
@@ -139,23 +139,23 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 84.60899099999999 seconds (84) for ctak:32:16:8:1
-+!CSVLINE!+mosh-unknown,ctak:32:16:8:1,84.60899099999999
+Elapsed time: 73.747096 seconds (74) for ctak:32:16:8:1
++!CSVLINE!+mosh-unknown,ctak:32:16:8:1,73.747096
 
-real	1m24.640s
-user	1m24.633s
-sys	0m0.010s
+real	1m13.833s
+user	1m13.837s
+sys	0m0.000s
 
 Testing fib under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 60.042905999999995 seconds (60) for fib:40:5
-+!CSVLINE!+mosh-unknown,fib:40:5,60.042905999999995
+Elapsed time: 57.948611 seconds (58) for fib:40:5
++!CSVLINE!+mosh-unknown,fib:40:5,57.948611
 
-real	1m0.069s
-user	1m0.073s
+real	0m57.977s
+user	0m57.980s
 sys	0m0.000s
 
 Testing fibc under Mosh
@@ -163,48 +163,48 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 60.441869999999994 seconds (61) for fibc:30:10
-+!CSVLINE!+mosh-unknown,fibc:30:10,60.441869999999994
+Elapsed time: 46.04127 seconds (46) for fibc:30:10
++!CSVLINE!+mosh-unknown,fibc:30:10,46.04127
 
-real	1m0.468s
-user	1m0.457s
-sys	0m0.013s
+real	0m46.078s
+user	0m46.077s
+sys	0m0.003s
 
 Testing fibfp under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 24.662782 seconds (24) for fibfp:35.0:10
-+!CSVLINE!+mosh-unknown,fibfp:35.0:10,24.662782
+Elapsed time: 23.390663999999997 seconds (23) for fibfp:35.0:10
++!CSVLINE!+mosh-unknown,fibfp:35.0:10,23.390663999999997
 
-real	0m24.688s
-user	0m24.680s
-sys	0m0.007s
+real	0m23.416s
+user	0m23.413s
+sys	0m0.003s
 
 Testing sum under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 60.844255 seconds (61) for sum:10000:200000
-+!CSVLINE!+mosh-unknown,sum:10000:200000,60.844255
+Elapsed time: 55.724869 seconds (56) for sum:10000:200000
++!CSVLINE!+mosh-unknown,sum:10000:200000,55.724869
 
-real	1m0.871s
-user	1m0.873s
-sys	0m0.000s
+real	0m55.754s
+user	0m55.750s
+sys	0m0.007s
 
 Testing sumfp under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running sumfp:1000000:500
-Elapsed time: 45.659437999999994 seconds (46) for sumfp:1000000:500
-+!CSVLINE!+mosh-unknown,sumfp:1000000:500,45.659437999999994
+Elapsed time: 39.76571199999999 seconds (40) for sumfp:1000000:500
++!CSVLINE!+mosh-unknown,sumfp:1000000:500,39.76571199999999
 
-real	0m45.687s
-user	0m45.687s
-sys	0m0.000s
+real	0m39.841s
+user	0m39.830s
+sys	0m0.013s
 
 Testing fft under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -233,8 +233,8 @@ Running...
 
 
 real	0m0.022s
-user	0m0.013s
-sys	0m0.007s
+user	0m0.020s
+sys	0m0.000s
 +!CSVLINE!+mosh,fft,CRASHED
 
 Testing mbrot under Mosh
@@ -242,36 +242,36 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 99.57984499999999 seconds (100) for mbrot:75:1000
-+!CSVLINE!+mosh-unknown,mbrot:75:1000,99.57984499999999
+Elapsed time: 89.966804 seconds (90) for mbrot:75:1000
++!CSVLINE!+mosh-unknown,mbrot:75:1000,89.966804
 
-real	1m39.611s
-user	1m39.613s
-sys	0m0.003s
+real	1m30.000s
+user	1m30.007s
+sys	0m0.000s
 
 Testing mbrotZ under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 214.525837 seconds (214) for mbrotZ:75:1000
-+!CSVLINE!+mosh-unknown,mbrotZ:75:1000,214.525837
+Elapsed time: 161.73971699999998 seconds (162) for mbrotZ:75:1000
++!CSVLINE!+mosh-unknown,mbrotZ:75:1000,161.73971699999998
 
-real	3m34.553s
-user	3m34.563s
-sys	0m0.003s
+real	2m41.773s
+user	2m41.773s
+sys	0m0.010s
 
 Testing nucleic under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 30.721809999999998 seconds (31) for nucleic:50
-+!CSVLINE!+mosh-unknown,nucleic:50,30.721809999999998
+Elapsed time: 28.434275999999997 seconds (28) for nucleic:50
++!CSVLINE!+mosh-unknown,nucleic:50,28.434275999999997
 
-real	0m30.873s
-user	0m30.870s
-sys	0m0.003s
+real	0m28.583s
+user	0m28.577s
+sys	0m0.007s
 
 Testing pi under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -299,9 +299,9 @@ Running...
 
 
 
-real	0m0.020s
-user	0m0.017s
-sys	0m0.003s
+real	0m0.026s
+user	0m0.023s
+sys	0m0.000s
 +!CSVLINE!+mosh,pi,CRASHED
 
 Testing pnpoly under Mosh
@@ -309,11 +309,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 36.255728999999995 seconds (36) for pnpoly:1000000
-+!CSVLINE!+mosh-unknown,pnpoly:1000000,36.255728999999995
+Elapsed time: 34.549698 seconds (35) for pnpoly:1000000
++!CSVLINE!+mosh-unknown,pnpoly:1000000,34.549698
 
-real	0m36.287s
-user	0m36.283s
+real	0m34.582s
+user	0m34.580s
 sys	0m0.003s
 
 Testing ray under Mosh
@@ -321,11 +321,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 54.409177 seconds (55) for ray:50
-+!CSVLINE!+mosh-unknown,ray:50,54.409177
+Elapsed time: 53.197539 seconds (53) for ray:50
++!CSVLINE!+mosh-unknown,ray:50,53.197539
 
-real	0m54.453s
-user	0m54.443s
+real	0m53.238s
+user	0m53.227s
 sys	0m0.010s
 
 Testing simplex under Mosh
@@ -333,72 +333,72 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 50.909909 seconds (51) for simplex:1000000
-+!CSVLINE!+mosh-unknown,simplex:1000000,50.909909
+Elapsed time: 50.115193 seconds (50) for simplex:1000000
++!CSVLINE!+mosh-unknown,simplex:1000000,50.115193
 
-real	0m50.955s
-user	0m50.947s
-sys	0m0.010s
+real	0m50.237s
+user	0m50.227s
+sys	0m0.013s
 
 Testing ack under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 51.65123 seconds (51) for ack:3:12:2
-+!CSVLINE!+mosh-unknown,ack:3:12:2,51.65123
+Elapsed time: 49.064822 seconds (50) for ack:3:12:2
++!CSVLINE!+mosh-unknown,ack:3:12:2,49.064822
 
-real	0m51.680s
-user	0m51.680s
-sys	0m0.003s
+real	0m49.097s
+user	0m49.100s
+sys	0m0.000s
 
 Testing array1 under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 51.024452999999994 seconds (51) for array1:1000000:500
-+!CSVLINE!+mosh-unknown,array1:1000000:500,51.024452999999994
+Elapsed time: 37.019214 seconds (37) for array1:1000000:500
++!CSVLINE!+mosh-unknown,array1:1000000:500,37.019214
 
-real	0m51.055s
-user	0m51.053s
-sys	0m0.003s
+real	0m37.052s
+user	0m37.043s
+sys	0m0.010s
 
 Testing string under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 21.964662999999998 seconds (21) for string:500000:25
-+!CSVLINE!+mosh-unknown,string:500000:25,21.964662999999998
+Elapsed time: 20.575691 seconds (20) for string:500000:25
++!CSVLINE!+mosh-unknown,string:500000:25,20.575691
 
-real	0m21.994s
-user	0m21.990s
-sys	0m0.003s
+real	0m20.608s
+user	0m20.600s
+sys	0m0.007s
 
 Testing sum1 under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 8.228765 seconds (8) for sum1:25
-+!CSVLINE!+mosh-unknown,sum1:25,8.228765
+Elapsed time: 7.971019999999999 seconds (8) for sum1:25
++!CSVLINE!+mosh-unknown,sum1:25,7.971019999999999
 
-real	0m8.255s
-user	0m8.250s
-sys	0m0.003s
+real	0m8.011s
+user	0m7.993s
+sys	0m0.017s
 
 Testing cat under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 44.439228 seconds (44) for cat:50
-+!CSVLINE!+mosh-unknown,cat:50,44.439228
+Elapsed time: 44.248445 seconds (45) for cat:50
++!CSVLINE!+mosh-unknown,cat:50,44.248445
 
-real	0m44.467s
-user	0m44.220s
-sys	0m0.243s
+real	0m44.275s
+user	0m44.053s
+sys	0m0.220s
 
 Testing tail under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -437,8 +437,8 @@ Running...
 
 
 
-real	0m0.021s
-user	0m0.013s
+real	0m0.058s
+user	0m0.050s
 sys	0m0.007s
 +!CSVLINE!+mosh,tail,CRASHED
 
@@ -447,24 +447,24 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 68.968391 seconds (69) for wc:inputs/bib:50
-+!CSVLINE!+mosh-unknown,wc:inputs/bib:50,68.968391
+Elapsed time: 63.45144 seconds (63) for wc:inputs/bib:50
++!CSVLINE!+mosh-unknown,wc:inputs/bib:50,63.45144
 
-real	1m8.996s
-user	1m8.953s
-sys	0m0.047s
+real	1m3.533s
+user	1m3.480s
+sys	0m0.057s
 
 Testing read1 under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 5.343838999999999 seconds (6) for read1:2500
-+!CSVLINE!+mosh-unknown,read1:2500,5.343838999999999
+Elapsed time: 5.045419999999999 seconds (5) for read1:2500
++!CSVLINE!+mosh-unknown,read1:2500,5.045419999999999
 
-real	0m5.369s
-user	0m5.340s
-sys	0m0.027s
+real	0m5.070s
+user	0m5.063s
+sys	0m0.007s
 
 Testing compiler under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -491,9 +491,9 @@ Running...
 
 
 
-real	0m0.070s
-user	0m0.063s
-sys	0m0.003s
+real	0m0.067s
+user	0m0.057s
+sys	0m0.010s
 +!CSVLINE!+mosh,compiler,CRASHED
 
 Testing conform under Mosh
@@ -503,57 +503,57 @@ Running...
 Running conform:500
 ERROR: returned incorrect result: ("(b ^ d)" "c" "(a ^ c)" "d" "any" "none")
 
-real	0m0.750s
-user	0m0.743s
-sys	0m0.007s
+real	0m0.716s
+user	0m0.710s
+sys	0m0.003s
 
 Testing dynamic under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 36.661894 seconds (36) for dynamic:500
-+!CSVLINE!+mosh-unknown,dynamic:500,36.661894
+Elapsed time: 34.064443999999995 seconds (34) for dynamic:500
++!CSVLINE!+mosh-unknown,dynamic:500,34.064443999999995
 
-real	0m36.830s
-user	0m36.797s
-sys	0m0.030s
+real	0m34.221s
+user	0m34.207s
+sys	0m0.017s
 
 Testing earley under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 108.78927399999999 seconds (109) for earley:1
-+!CSVLINE!+mosh-unknown,earley:1,108.78927399999999
+Elapsed time: 98.32447699999999 seconds (99) for earley:1
++!CSVLINE!+mosh-unknown,earley:1,98.32447699999999
 
-real	1m48.861s
-user	1m48.793s
-sys	0m0.073s
+real	1m38.395s
+user	1m38.313s
+sys	0m0.087s
 
 Testing graphs under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 285.231977 seconds (285) for graphs:7:3
-+!CSVLINE!+mosh-unknown,graphs:7:3,285.231977
+Elapsed time: 248.54192999999998 seconds (248) for graphs:7:3
++!CSVLINE!+mosh-unknown,graphs:7:3,248.54192999999998
 
-real	4m45.273s
-user	4m45.280s
-sys	0m0.010s
+real	4m8.586s
+user	4m8.587s
+sys	0m0.013s
 
 Testing lattice under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 219.180905 seconds (220) for lattice:44:10
-+!CSVLINE!+mosh-unknown,lattice:44:10,219.180905
+Elapsed time: 206.82079599999997 seconds (207) for lattice:44:10
++!CSVLINE!+mosh-unknown,lattice:44:10,206.82079599999997
 
-real	3m39.216s
-user	3m39.227s
-sys	0m0.003s
+real	3m26.859s
+user	3m26.863s
+sys	0m0.010s
 
 Testing matrix under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -581,9 +581,9 @@ Running...
 
 
 
-real	0m0.024s
-user	0m0.017s
-sys	0m0.007s
+real	0m0.021s
+user	0m0.020s
+sys	0m0.000s
 +!CSVLINE!+mosh,matrix,CRASHED
 
 Testing maze under Mosh
@@ -612,8 +612,8 @@ Running...
 
 
 
-real	0m0.026s
-user	0m0.020s
+real	0m0.021s
+user	0m0.017s
 sys	0m0.003s
 +!CSVLINE!+mosh,maze,CRASHED
 
@@ -622,24 +622,24 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 35.301232 seconds (35) for mazefun:11:11:10000
-+!CSVLINE!+mosh-unknown,mazefun:11:11:10000,35.301232
+Elapsed time: 35.598772 seconds (36) for mazefun:11:11:10000
++!CSVLINE!+mosh-unknown,mazefun:11:11:10000,35.598772
 
-real	0m35.353s
-user	0m35.347s
-sys	0m0.007s
+real	0m35.641s
+user	0m35.640s
+sys	0m0.003s
 
 Testing nqueens under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 76.46506199999999 seconds (77) for nqueens:13:10
-+!CSVLINE!+mosh-unknown,nqueens:13:10,76.46506199999999
+Elapsed time: 76.14370199999999 seconds (76) for nqueens:13:10
++!CSVLINE!+mosh-unknown,nqueens:13:10,76.14370199999999
 
-real	1m16.498s
-user	1m16.490s
-sys	0m0.013s
+real	1m16.177s
+user	1m16.177s
+sys	0m0.003s
 
 Testing paraffins under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -667,7 +667,7 @@ Running...
 
 
 
-real	0m0.023s
+real	0m0.022s
 user	0m0.020s
 sys	0m0.000s
 +!CSVLINE!+mosh,paraffins,CRASHED
@@ -677,36 +677,36 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 60.726181 seconds (60) for parsing:2500
-+!CSVLINE!+mosh-unknown,parsing:2500,60.726181
+Elapsed time: 60.565411999999995 seconds (61) for parsing:2500
++!CSVLINE!+mosh-unknown,parsing:2500,60.565411999999995
 
-real	1m0.791s
-user	1m0.787s
-sys	0m0.007s
+real	1m0.630s
+user	1m0.630s
+sys	0m0.003s
 
 Testing peval under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 44.216955 seconds (45) for peval:2000
-+!CSVLINE!+mosh-unknown,peval:2000,44.216955
+Elapsed time: 44.303914999999996 seconds (44) for peval:2000
++!CSVLINE!+mosh-unknown,peval:2000,44.303914999999996
 
-real	0m44.281s
-user	0m44.277s
-sys	0m0.007s
+real	0m44.444s
+user	0m44.437s
+sys	0m0.010s
 
 Testing primes under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 13.179013 seconds (13) for primes:1000:10000
-+!CSVLINE!+mosh-unknown,primes:1000:10000,13.179013
+Elapsed time: 13.122271 seconds (13) for primes:1000:10000
++!CSVLINE!+mosh-unknown,primes:1000:10000,13.122271
 
-real	0m13.212s
-user	0m13.207s
-sys	0m0.003s
+real	0m13.155s
+user	0m13.147s
+sys	0m0.007s
 
 Testing quicksort under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -734,8 +734,8 @@ Running...
 
 
 
-real	0m0.023s
-user	0m0.020s
+real	0m0.024s
+user	0m0.023s
 sys	0m0.000s
 +!CSVLINE!+mosh,quicksort,CRASHED
 
@@ -744,48 +744,48 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 46.515905999999994 seconds (47) for scheme:100000
-+!CSVLINE!+mosh-unknown,scheme:100000,46.515905999999994
+Elapsed time: 47.158916 seconds (48) for scheme:100000
++!CSVLINE!+mosh-unknown,scheme:100000,47.158916
 
-real	0m46.757s
-user	0m46.750s
-sys	0m0.010s
+real	0m47.279s
+user	0m47.277s
+sys	0m0.003s
 
 Testing slatex under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 17.433722 seconds (17) for slatex:500
-+!CSVLINE!+mosh-unknown,slatex:500,17.433722
+Elapsed time: 17.490897999999998 seconds (17) for slatex:500
++!CSVLINE!+mosh-unknown,slatex:500,17.490897999999998
 
-real	0m18.312s
+real	0m18.266s
 user	0m17.087s
-sys	0m1.170s
+sys	0m1.143s
 
 Testing nboyer under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 35.94034799999999 seconds (36) for nboyer:5:1
-+!CSVLINE!+mosh-unknown,nboyer:5:1,35.94034799999999
+Elapsed time: 35.615626999999996 seconds (36) for nboyer:5:1
++!CSVLINE!+mosh-unknown,nboyer:5:1,35.615626999999996
 
-real	0m35.983s
-user	0m35.967s
-sys	0m0.017s
+real	0m35.659s
+user	0m35.627s
+sys	0m0.033s
 
 Testing sboyer under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 35.929564 seconds (36) for sboyer:5:1
-+!CSVLINE!+mosh-unknown,sboyer:5:1,35.929564
+Elapsed time: 35.273131 seconds (35) for sboyer:5:1
++!CSVLINE!+mosh-unknown,sboyer:5:1,35.273131
 
-real	0m36.007s
-user	0m35.997s
-sys	0m0.013s
+real	0m35.372s
+user	0m35.360s
+sys	0m0.010s
 
 Testing gcbench under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
@@ -825,9 +825,9 @@ Running...
 
 
 
-real	0m0.021s
-user	0m0.013s
-sys	0m0.007s
+real	0m0.029s
+user	0m0.023s
+sys	0m0.003s
 +!CSVLINE!+mosh,gcbench,CRASHED
 
 Testing mperm under Mosh
@@ -835,23 +835,23 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 85.84702499999999 seconds (85) for mperm:20:10:2:1
-+!CSVLINE!+mosh-unknown,mperm:20:10:2:1,85.84702499999999
+Elapsed time: 89.54004699999999 seconds (90) for mperm:20:10:2:1
++!CSVLINE!+mosh-unknown,mperm:20:10:2:1,89.54004699999999
 
-real	1m30.348s
-user	1m30.290s
-sys	0m0.063s
+real	1m33.932s
+user	1m33.887s
+sys	0m0.050s
 
 Testing equal under Mosh
 Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 718: 19593 Killed                  "${MOSH}" "$1" < "$2"
+./bench: line 718: 31849 Killed                  "${MOSH}" "$1" < "$2"
 
-real	4m59.999s
-user	5m0.020s
-sys	0m0.000s
+real	15m0.000s
+user	15m0.067s
+sys	0m0.003s
 +!CSVLINE!+mosh,equal,ULIMITKILLED
 
 Testing bv2string under Mosh
@@ -859,9 +859,9 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Mosh-prelude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 11.449523 seconds (12) for bv2string:1000:1000:100
-+!CSVLINE!+mosh-unknown,bv2string:1000:1000:100,11.449523
+Elapsed time: 11.456425 seconds (11) for bv2string:1000:1000:100
++!CSVLINE!+mosh-unknown,bv2string:1000:1000:100,11.456425
 
-real	0m11.485s
-user	0m11.483s
+real	0m11.492s
+user	0m11.490s
 sys	0m0.000s

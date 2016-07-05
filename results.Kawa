@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Kawa on Wed 22 Jun 18:11:35 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking Kawa on Sat 2 Jul 09:28:27 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -10,12 +10,12 @@ Running...
 /tmp/larcenous/Kawa/browse.scm:216:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/browse.scm:219:25: warning - no declaration seen for hide
 Running browse:2000
-Elapsed time: 32.864625099 seconds (32.864) for browse:2000
-+!CSVLINE!+kawa-2.1,browse:2000,32.864625099
+Elapsed time: 23.879519322 seconds (23.88) for browse:2000
++!CSVLINE!+kawa-2.1,browse:2000,23.879519322
 
-real	0m33.652s
-user	0m34.383s
-sys	0m0.090s
+real	0m24.490s
+user	0m25.507s
+sys	0m0.073s
 
 Testing deriv under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -24,12 +24,12 @@ Running...
 /tmp/larcenous/Kawa/deriv.scm:59:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/deriv.scm:62:24: warning - no declaration seen for hide
 Running deriv:10000000
-Elapsed time: 34.660198781 seconds (34.66) for deriv:10000000
-+!CSVLINE!+kawa-2.1,deriv:10000000,34.660198781
+Elapsed time: 23.405724138 seconds (23.406) for deriv:10000000
++!CSVLINE!+kawa-2.1,deriv:10000000,23.405724138
 
-real	0m35.257s
-user	1m6.713s
-sys	0m3.073s
+real	0m23.765s
+user	1m5.780s
+sys	0m2.867s
 
 Testing destruc under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -39,12 +39,12 @@ Running...
 /tmp/larcenous/Kawa/destruc.scm:77:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/destruc.scm:77:41: warning - no declaration seen for hide
 Running destruc:600:50:4000
-Elapsed time: 96.945445749 seconds (96.946) for destruc:600:50:4000
-+!CSVLINE!+kawa-2.1,destruc:600:50:4000,96.945445749
+Elapsed time: 64.799593059 seconds (64.799) for destruc:600:50:4000
++!CSVLINE!+kawa-2.1,destruc:600:50:4000,64.799593059
 
-real	1m37.420s
-user	1m38.180s
-sys	0m0.077s
+real	1m5.148s
+user	1m6.257s
+sys	0m0.123s
 
 Testing diviter under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -53,12 +53,12 @@ Running...
 /tmp/larcenous/Kawa/diviter.scm:38:24: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/diviter.scm:40:5: warning - no declaration seen for run-r7rs-benchmark
 Running diviter:1000:1000000
-Elapsed time: 53.025837623 seconds (53.026) for diviter:1000:1000000
-+!CSVLINE!+kawa-2.1,diviter:1000:1000000,53.025837623
+Elapsed time: 41.889489147 seconds (41.89) for diviter:1000:1000000
++!CSVLINE!+kawa-2.1,diviter:1000:1000000,41.889489147
 
-real	0m53.579s
-user	0m54.153s
-sys	0m0.087s
+real	0m42.228s
+user	0m43.173s
+sys	0m0.173s
 
 Testing divrec under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -67,12 +67,12 @@ Running...
 /tmp/larcenous/Kawa/divrec.scm:37:24: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/divrec.scm:39:5: warning - no declaration seen for run-r7rs-benchmark
 Running divrec:1000:1000000
-Elapsed time: 43.208004042 seconds (43.208) for divrec:1000:1000000
-+!CSVLINE!+kawa-2.1,divrec:1000:1000000,43.208004042
+Elapsed time: 32.366783206 seconds (32.367) for divrec:1000:1000000
++!CSVLINE!+kawa-2.1,divrec:1000:1000000,32.366783206
 
-real	0m43.681s
-user	0m44.127s
-sys	0m0.143s
+real	0m32.696s
+user	0m33.483s
+sys	0m0.173s
 
 Testing puzzle under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -81,12 +81,12 @@ Running...
 /tmp/larcenous/Kawa/puzzle.scm:162:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/puzzle.scm:165:24: warning - no declaration seen for hide
 Running puzzle:1000
-Elapsed time: 137.054757095 seconds (137.055) for puzzle:1000
-+!CSVLINE!+kawa-2.1,puzzle:1000,137.054757095
+Elapsed time: 107.926527949 seconds (107.927) for puzzle:1000
++!CSVLINE!+kawa-2.1,puzzle:1000,107.926527949
 
-real	2m17.719s
-user	2m18.567s
-sys	0m0.073s
+real	1m48.341s
+user	1m49.143s
+sys	0m0.053s
 
 Testing triangl under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -96,12 +96,12 @@ Running...
 /tmp/larcenous/Kawa/triangl.scm:84:23: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/triangl.scm:84:43: warning - no declaration seen for hide
 Running triangl:22:1:50
-Elapsed time: 97.274225181 seconds (97.274) for triangl:22:1:50
-+!CSVLINE!+kawa-2.1,triangl:22:1:50,97.274225181
+Elapsed time: 75.056671431 seconds (75.056) for triangl:22:1:50
++!CSVLINE!+kawa-2.1,triangl:22:1:50,75.056671431
 
-real	1m37.817s
-user	1m38.130s
-sys	0m0.057s
+real	1m15.444s
+user	1m15.970s
+sys	0m0.027s
 
 Testing tak under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -112,12 +112,12 @@ Running...
 /tmp/larcenous/Kawa/tak.scm:44:33: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/tak.scm:44:53: warning - no declaration seen for hide
 Running tak:40:20:11:1
-Elapsed time: 58.977091191 seconds (58.978) for tak:40:20:11:1
-+!CSVLINE!+kawa-2.1,tak:40:20:11:1,58.977091191
+Elapsed time: 45.319770206 seconds (45.319) for tak:40:20:11:1
++!CSVLINE!+kawa-2.1,tak:40:20:11:1,45.319770206
 
-real	0m59.488s
-user	0m59.580s
-sys	0m0.030s
+real	0m45.647s
+user	0m45.997s
+sys	0m0.010s
 
 Testing takl under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -129,12 +129,12 @@ Running...
 /tmp/larcenous/Kawa/takl.scm:59:33: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/takl.scm:59:53: warning - no declaration seen for hide
 Running takl:40:20:12:1
-Elapsed time: 172.953768491 seconds (172.954) for takl:40:20:12:1
-+!CSVLINE!+kawa-2.1,takl:40:20:12:1,172.953768491
+Elapsed time: 134.444540003 seconds (134.445) for takl:40:20:12:1
++!CSVLINE!+kawa-2.1,takl:40:20:12:1,134.444540003
 
-real	2m53.488s
-user	2m54.440s
-sys	0m0.070s
+real	2m14.780s
+user	2m15.993s
+sys	0m0.117s
 
 Testing ntakl under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -146,12 +146,12 @@ Running...
 /tmp/larcenous/Kawa/ntakl.scm:73:35: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/ntakl.scm:73:55: warning - no declaration seen for hide
 Running ntakl:40:20:12:1
-Elapsed time: 168.032665228 seconds (168.033) for ntakl:40:20:12:1
-+!CSVLINE!+kawa-2.1,ntakl:40:20:12:1,168.032665228
+Elapsed time: 134.559878191 seconds (134.559) for ntakl:40:20:12:1
++!CSVLINE!+kawa-2.1,ntakl:40:20:12:1,134.559878191
 
-real	2m48.574s
-user	2m49.407s
-sys	0m0.117s
+real	2m14.935s
+user	2m16.343s
+sys	0m0.160s
 
 Testing cpstak under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -163,18 +163,13 @@ Running...
 /tmp/larcenous/Kawa/cpstak.scm:59:56: warning - no declaration seen for hide
 Running cpstak:40:20:11:1
 Exception in thread "main" java.lang.StackOverflowError
-	at gnu.kawa.functions.AddOp.apply2(AddOp.java:35)
+	at gnu.math.IntNum.make(IntNum.java:1285)
+	at gnu.math.IntNum.add(IntNum.java:377)
+	at gnu.kawa.functions.AddOp.apply2(AddOp.java:63)
 	at gnu.kawa.functions.AddOp.applyN(AddOp.java:155)
 	at gnu.kawa.functions.AddOp.applyN(AddOp.java:170)
 	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:36)
-	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
-	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:35)
+	at atInteractiveLevel-3$frame0.lambda3(cpstak.scm:32)
 	at atInteractiveLevel-3$frame0.apply1(cpstak.scm:31)
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
@@ -1187,10 +1182,15 @@ Exception in thread "main" java.lang.StackOverflowError
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-3$frame.lambda1tak(cpstak.scm:27)
+	at atInteractiveLevel-3$frame1.lambda4(cpstak.scm:39)
+	at atInteractiveLevel-3$frame1.apply1(cpstak.scm:35)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
 
-real	0m0.567s
-user	0m0.913s
-sys	0m0.033s
+real	0m0.357s
+user	0m0.660s
+sys	0m0.047s
 +!CSVLINE!+kawa,cpstak,CRASHED
 
 Testing ctak under Kawa
@@ -1203,12 +1203,12 @@ Running...
 /tmp/larcenous/Kawa/ctak.scm:55:34: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/ctak.scm:55:54: warning - no declaration seen for hide
 Running ctak:32:16:8:1
-Elapsed time: 182.700703501 seconds (182.701) for ctak:32:16:8:1
-+!CSVLINE!+kawa-2.1,ctak:32:16:8:1,182.700703501
+Elapsed time: 109.920779075 seconds (109.921) for ctak:32:16:8:1
++!CSVLINE!+kawa-2.1,ctak:32:16:8:1,109.920779075
 
-real	3m3.206s
-user	3m4.110s
-sys	0m0.193s
+real	1m50.249s
+user	1m52.403s
+sys	0m0.293s
 
 Testing fib under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1217,12 +1217,12 @@ Running...
 /tmp/larcenous/Kawa/fib.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/fib.scm:38:22: warning - no declaration seen for hide
 Running fib:40:5
-Elapsed time: 140.797658329 seconds (140.797) for fib:40:5
-+!CSVLINE!+kawa-2.1,fib:40:5,140.797658329
+Elapsed time: 113.371978043 seconds (113.372) for fib:40:5
++!CSVLINE!+kawa-2.1,fib:40:5,113.371978043
 
-real	2m21.295s
-user	2m21.647s
-sys	0m0.053s
+real	1m53.706s
+user	1m54.057s
+sys	0m0.030s
 
 Testing fibc under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1232,12 +1232,12 @@ Running...
 /tmp/larcenous/Kawa/fibc.scm:53:23: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/fibc.scm:53:42: warning - no declaration seen for hide
 Running fibc:30:10
-Elapsed time: 126.726175357 seconds (126.727) for fibc:30:10
-+!CSVLINE!+kawa-2.1,fibc:30:10,126.726175357
+Elapsed time: 74.203107384 seconds (74.204) for fibc:30:10
++!CSVLINE!+kawa-2.1,fibc:30:10,74.203107384
 
-real	2m7.290s
-user	2m8.327s
-sys	0m0.167s
+real	1m14.531s
+user	1m16.057s
+sys	0m0.193s
 
 Testing fibfp under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1246,12 +1246,12 @@ Running...
 /tmp/larcenous/Kawa/fibfp.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/fibfp.scm:38:24: warning - no declaration seen for hide
 Running fibfp:35.0:10
-Elapsed time: 27.434222252 seconds (27.434) for fibfp:35.0:10
-+!CSVLINE!+kawa-2.1,fibfp:35.0:10,27.434222252
+Elapsed time: 20.616715012 seconds (20.617) for fibfp:35.0:10
++!CSVLINE!+kawa-2.1,fibfp:35.0:10,20.616715012
 
-real	0m27.921s
-user	0m28.347s
-sys	0m0.100s
+real	0m20.943s
+user	0m21.370s
+sys	0m0.130s
 
 Testing sum under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1260,12 +1260,12 @@ Running...
 /tmp/larcenous/Kawa/sum.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/sum.scm:38:22: warning - no declaration seen for hide
 Running sum:10000:200000
-Elapsed time: 222.578883497 seconds (222.579) for sum:10000:200000
-+!CSVLINE!+kawa-2.1,sum:10000:200000,222.578883497
+Elapsed time: 170.438789737 seconds (170.439) for sum:10000:200000
++!CSVLINE!+kawa-2.1,sum:10000:200000,170.438789737
 
-real	3m43.097s
-user	3m44.410s
-sys	0m0.143s
+real	2m50.817s
+user	2m53.720s
+sys	0m0.313s
 
 Testing sumfp under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1274,12 +1274,12 @@ Running...
 /tmp/larcenous/Kawa/sumfp.scm:35:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/sumfp.scm:38:22: warning - no declaration seen for hide
 Running sumfp:1000000.0:500
-Elapsed time: 119.790107257 seconds (119.791) for sumfp:1000000.0:500
-+!CSVLINE!+kawa-2.1,sumfp:1000000.0:500,119.790107257
+Elapsed time: 74.119260708 seconds (74.119) for sumfp:1000000.0:500
++!CSVLINE!+kawa-2.1,sumfp:1000000.0:500,74.119260708
 
-real	2m0.283s
-user	2m0.920s
-sys	0m0.143s
+real	1m14.442s
+user	1m16.033s
+sys	0m0.200s
 
 Testing fft under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1288,12 +1288,12 @@ Running...
 /tmp/larcenous/Kawa/fft.scm:120:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/fft.scm:124:13: warning - no declaration seen for hide
 Running fft:65536:100
-Elapsed time: 153.057220216 seconds (153.058) for fft:65536:100
-+!CSVLINE!+kawa-2.1,fft:65536:100,153.057220216
+Elapsed time: 110.460951878 seconds (110.461) for fft:65536:100
++!CSVLINE!+kawa-2.1,fft:65536:100,110.460951878
 
-real	2m33.674s
-user	2m34.763s
-sys	0m0.147s
+real	1m50.814s
+user	1m54.670s
+sys	0m0.310s
 
 Testing mbrot under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1302,12 +1302,12 @@ Running...
 /tmp/larcenous/Kawa/mbrot.scm:69:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/mbrot.scm:72:23: warning - no declaration seen for hide
 Running mbrot:75:1000
-Elapsed time: 93.597368561 seconds (93.598) for mbrot:75:1000
-+!CSVLINE!+kawa-2.1,mbrot:75:1000,93.597368561
+Elapsed time: 67.285597443 seconds (67.285) for mbrot:75:1000
++!CSVLINE!+kawa-2.1,mbrot:75:1000,67.285597443
 
-real	1m34.138s
-user	1m34.877s
-sys	0m0.123s
+real	1m7.617s
+user	1m9.077s
+sys	0m0.187s
 
 Testing mbrotZ under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1316,12 +1316,12 @@ Running...
 /tmp/larcenous/Kawa/mbrotZ.scm:74:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/mbrotZ.scm:77:23: warning - no declaration seen for hide
 Running mbrotZ:75:1000
-Elapsed time: 93.060234442 seconds (93.061) for mbrotZ:75:1000
-+!CSVLINE!+kawa-2.1,mbrotZ:75:1000,93.060234442
+Elapsed time: 64.075116459 seconds (64.075) for mbrotZ:75:1000
++!CSVLINE!+kawa-2.1,mbrotZ:75:1000,64.075116459
 
-real	1m33.586s
-user	1m34.467s
-sys	0m0.147s
+real	1m4.411s
+user	1m5.930s
+sys	0m0.237s
 
 Testing nucleic under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1335,12 +1335,12 @@ Running...
 /tmp/larcenous/Kawa/nucleic.scm:3495:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/nucleic.scm:3498:22: warning - no declaration seen for hide
 Running nucleic:50
-Elapsed time: 41.898463393 seconds (41.899) for nucleic:50
-+!CSVLINE!+kawa-2.1,nucleic:50,41.898463393
+Elapsed time: 30.406241953 seconds (30.406) for nucleic:50
++!CSVLINE!+kawa-2.1,nucleic:50,30.406241953
 
-real	0m43.434s
-user	0m47.610s
-sys	0m0.177s
+real	0m31.089s
+user	0m34.953s
+sys	0m0.150s
 
 Testing pi under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1351,12 +1351,12 @@ Running...
 /tmp/larcenous/Kawa/pi.scm:173:14: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/pi.scm:174:14: warning - no declaration seen for hide
 Running pi:50:500:50:2
-Elapsed time: 0.597486206 seconds (0.598) for pi:50:500:50:2
-+!CSVLINE!+kawa-2.1,pi:50:500:50:2,0.597486206
+Elapsed time: 0.278931449 seconds (0.279) for pi:50:500:50:2
++!CSVLINE!+kawa-2.1,pi:50:500:50:2,0.278931449
 
-real	0m1.288s
-user	0m2.293s
-sys	0m0.043s
+real	0m0.650s
+user	0m1.380s
+sys	0m0.047s
 
 Testing pnpoly under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1366,12 +1366,12 @@ Running...
 /tmp/larcenous/Kawa/pnpoly.scm:70:22: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/pnpoly.scm:70:42: warning - no declaration seen for hide
 Running pnpoly:1000000
-Elapsed time: 130.196216895 seconds (130.196) for pnpoly:1000000
-+!CSVLINE!+kawa-2.1,pnpoly:1000000,130.196216895
+Elapsed time: 101.245790946 seconds (101.246) for pnpoly:1000000
++!CSVLINE!+kawa-2.1,pnpoly:1000000,101.245790946
 
-real	2m10.791s
-user	2m15.817s
-sys	0m0.383s
+real	1m41.589s
+user	1m47.283s
+sys	0m0.227s
 
 Testing ray under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1390,12 +1390,12 @@ Running...
 /tmp/larcenous/Kawa/ray.scm:202:22: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/ray.scm:202:42: warning - no declaration seen for hide
 Running ray:50
-Elapsed time: 51.638848346 seconds (51.639) for ray:50
-+!CSVLINE!+kawa-2.1,ray:50,51.638848346
+Elapsed time: 36.198312169 seconds (36.198) for ray:50
++!CSVLINE!+kawa-2.1,ray:50,36.198312169
 
-real	0m52.278s
-user	0m53.553s
-sys	0m0.803s
+real	0m36.605s
+user	0m38.050s
+sys	0m0.487s
 
 Testing simplex under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -1404,12 +1404,12 @@ Running...
 /tmp/larcenous/Kawa/simplex.scm:215:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/simplex.scm:218:23: warning - no declaration seen for hide
 Running simplex:1000000
-Elapsed time: 85.677887951 seconds (85.678) for simplex:1000000
-+!CSVLINE!+kawa-2.1,simplex:1000000,85.677887951
+Elapsed time: 60.920685324 seconds (60.921) for simplex:1000000
++!CSVLINE!+kawa-2.1,simplex:1000000,60.920685324
 
-real	1m26.354s
-user	1m28.293s
-sys	0m0.183s
+real	1m1.334s
+user	1m3.770s
+sys	0m0.127s
 
 Testing ack under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2445,9 +2445,9 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-3.ack(ack.scm:25)
 	at atInteractiveLevel-3.ack(ack.scm:25)
 
-real	0m35.249s
-user	0m35.787s
-sys	0m0.080s
+real	0m26.895s
+user	0m27.830s
+sys	0m0.087s
 +!CSVLINE!+kawa,ack,CRASHED
 
 Testing array1 under Kawa
@@ -2458,12 +2458,12 @@ Running...
 /tmp/larcenous/Kawa/array1.scm:55:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/array1.scm:55:40: warning - no declaration seen for hide
 Running array1:1000000:500
-./bench: line 704: 26950 Killed                  "${KAWA}" -f "$1" < "$2"
+Elapsed time: 264.910933954 seconds (264.911) for array1:1000000:500
++!CSVLINE!+kawa-2.1,array1:1000000:500,264.910933954
 
-real	4m57.643s
-user	4m59.910s
-sys	0m0.270s
-+!CSVLINE!+kawa,array1,ULIMITKILLED
+real	4m25.247s
+user	4m31.603s
+sys	0m0.857s
 
 Testing string under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2472,12 +2472,12 @@ Running...
 /tmp/larcenous/Kawa/string.scm:49:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/string.scm:52:25: warning - no declaration seen for hide
 Running string:500000:25
-Elapsed time: 1.679625031 seconds (1.679) for string:500000:25
-+!CSVLINE!+kawa-2.1,string:500000:25,1.679625031
+Elapsed time: 0.811376054 seconds (0.811) for string:500000:25
++!CSVLINE!+kawa-2.1,string:500000:25,0.811376054
 
-real	0m2.252s
-user	0m2.827s
-sys	0m0.090s
+real	0m1.159s
+user	0m1.667s
+sys	0m0.107s
 
 Testing sum1 under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2486,12 +2486,12 @@ Running...
 /tmp/larcenous/Kawa/sum1.scm:41:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/sum1.scm:44:21: warning - no declaration seen for hide
 Running sum1:25
-Elapsed time: 2.715283676 seconds (2.715) for sum1:25
-+!CSVLINE!+kawa-2.1,sum1:25,2.715283676
+Elapsed time: 1.802571441 seconds (1.802) for sum1:25
++!CSVLINE!+kawa-2.1,sum1:25,1.802571441
 
-real	0m3.276s
-user	0m4.210s
-sys	0m0.053s
+real	0m2.182s
+user	0m2.917s
+sys	0m0.080s
 
 Testing cat under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2501,12 +2501,12 @@ Running...
 /tmp/larcenous/Kawa/cat.scm:52:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/cat.scm:52:41: warning - no declaration seen for hide
 Running cat:50
-Elapsed time: 17.049508701 seconds (17.05) for cat:50
-+!CSVLINE!+kawa-2.1,cat:50,17.049508701
+Elapsed time: 12.228520096 seconds (12.229) for cat:50
++!CSVLINE!+kawa-2.1,cat:50,12.228520096
 
-real	0m17.698s
-user	0m18.090s
-sys	0m0.390s
+real	0m12.579s
+user	0m12.983s
+sys	0m0.173s
 
 Testing tail under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2516,12 +2516,12 @@ Running...
 /tmp/larcenous/Kawa/tail.scm:62:21: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/tail.scm:62:41: warning - no declaration seen for hide
 Running tail:25
-Elapsed time: 3.008273822 seconds (3.008) for tail:25
-+!CSVLINE!+kawa-2.1,tail:25,3.008273822
+Elapsed time: 2.00360825 seconds (2.004) for tail:25
++!CSVLINE!+kawa-2.1,tail:25,2.00360825
 
-real	0m3.561s
-user	0m5.300s
-sys	0m0.183s
+real	0m2.383s
+user	0m3.463s
+sys	0m0.143s
 
 Testing wc under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2530,12 +2530,12 @@ Running...
 /tmp/larcenous/Kawa/wc.scm:46:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/wc.scm:49:21: warning - no declaration seen for hide
 Running wc:inputs/bib:50
-Elapsed time: 14.24997539 seconds (14.25) for wc:inputs/bib:50
-+!CSVLINE!+kawa-2.1,wc:inputs/bib:50,14.24997539
+Elapsed time: 8.8698793 seconds (8.87) for wc:inputs/bib:50
++!CSVLINE!+kawa-2.1,wc:inputs/bib:50,8.8698793
 
-real	0m14.939s
-user	0m15.557s
-sys	0m0.373s
+real	0m9.203s
+user	0m9.743s
+sys	0m0.183s
 
 Testing read1 under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2544,12 +2544,12 @@ Running...
 /tmp/larcenous/Kawa/read1.scm:63:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/read1.scm:66:43: warning - no declaration seen for hide
 Running read1:2500
-Elapsed time: 5.663203163 seconds (5.663) for read1:2500
-+!CSVLINE!+kawa-2.1,read1:2500,5.663203163
+Elapsed time: 4.047593305 seconds (4.047) for read1:2500
++!CSVLINE!+kawa-2.1,read1:2500,4.047593305
 
-real	0m6.279s
-user	0m7.573s
-sys	0m0.110s
+real	0m4.417s
+user	0m5.323s
+sys	0m0.100s
 
 Testing compiler under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -2757,9 +2757,9 @@ Running...
 /tmp/larcenous/Kawa/compiler.scm:2054:35: warning - not a type or class expression
 /tmp/larcenous/Kawa/compiler.scm:2054:13: call to 'length?' has too many arguments (2; must be 1)
 
-real	0m2.230s
-user	0m5.493s
-sys	0m0.097s
+real	0m1.008s
+user	0m3.473s
+sys	0m0.060s
 +!CSVLINE!+kawa,compiler,CRASHED
 
 Testing conform under Kawa
@@ -2852,9 +2852,9 @@ Exception Details:
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m1.068s
-user	0m2.153s
-sys	0m0.043s
+real	0m0.521s
+user	0m1.297s
+sys	0m0.030s
 +!CSVLINE!+kawa,conform,CRASHED
 
 Testing dynamic under Kawa
@@ -3012,12 +3012,12 @@ Running...
 /tmp/larcenous/Kawa/dynamic.scm:2341:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/dynamic.scm:2344:23: warning - no declaration seen for hide
 Running dynamic:500
-Elapsed time: 57.995220271 seconds (57.995) for dynamic:500
-+!CSVLINE!+kawa-2.1,dynamic:500,57.995220271
+Elapsed time: 41.102202225 seconds (41.102) for dynamic:500
++!CSVLINE!+kawa-2.1,dynamic:500,41.102202225
 
-real	0m59.864s
-user	1m14.340s
-sys	0m0.917s
+real	0m41.890s
+user	0m57.670s
+sys	0m0.977s
 
 Testing earley under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3026,12 +3026,12 @@ Running...
 /tmp/larcenous/Kawa/earley.scm:670:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/earley.scm:673:23: warning - no declaration seen for hide
 Running earley:1
-Elapsed time: 35.58747983 seconds (35.587) for earley:1
-+!CSVLINE!+kawa-2.1,earley:1,35.58747983
+Elapsed time: 30.504183467 seconds (30.505) for earley:1
++!CSVLINE!+kawa-2.1,earley:1,30.504183467
 
-real	0m36.459s
-user	1m9.370s
-sys	0m0.777s
+real	0m30.978s
+user	1m47.150s
+sys	0m4.030s
 
 Testing graphs under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -3043,8 +3043,6 @@ Running...
 /tmp/larcenous/Kawa/graphs.scm:626:30: warning - no declaration seen for hide
 Running graphs:7:3
 Exception in thread "main" java.lang.StackOverflowError
-	at gnu.mapping.Environment.getCurrent(Environment.java:375)
-	at gnu.mapping.DynamicLocation.getLocation(DynamicLocation.java:22)
 	at gnu.mapping.DynamicLocation.get(DynamicLocation.java:28)
 	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:308)
 	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
@@ -3204,6 +3202,116 @@ Exception in thread "main" java.lang.StackOverflowError
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
 	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
+	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
+	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
+	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
+	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
+	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
+	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
+	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
+	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
+	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
+	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
+	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
+	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
+	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
+	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
+	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
+	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
 	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
 	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
 	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
@@ -3828,30 +3936,6 @@ Exception in thread "main" java.lang.StackOverflowError
 	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
 	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
 	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
 	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
 	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
 	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
@@ -3983,94 +4067,10 @@ Exception in thread "main" java.lang.StackOverflowError
 	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
 	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
 	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
-	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
-	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
-	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:227)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame.lambda2_$Mn$St$Mn(graphs.scm:228)
-	at atInteractiveLevel-12$frame1.lambda6(graphs.scm:253)
-	at atInteractiveLevel-12$frame1.apply2(graphs.scm:249)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:245)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply3(ProcedureN.java:48)
-	at atInteractiveLevel-13$frame0.lambda3(graphs.scm:314)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at atInteractiveLevel-12$frame0.lambda4_$Mn$St$St$Mn(graphs.scm:254)
-	at atInteractiveLevel-12$frame1.lambda5(graphs.scm:245)
-	at atInteractiveLevel-12$frame1.apply1(graphs.scm:242)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:243)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply2(ProcedureN.java:39)
-	at atInteractiveLevel-15$frame.lambda3cont(graphs.scm:404)
-	at atInteractiveLevel-15$frame.apply3(graphs.scm:401)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
-	at atInteractiveLevel-13$frame0.lambda4(graphs.scm:325)
-	at atInteractiveLevel-13$frame0.apply3(graphs.scm:321)
-	at gnu.expr.ModuleBody.applyN(ModuleBody.java:247)
-	at atInteractiveLevel-13$frame0.applyN(graphs.scm:307)
-	at gnu.expr.ModuleMethod.applyN(ModuleMethod.java:237)
-	at gnu.kawa.functions.ApplyToArgs.applyN(ApplyToArgs.java:141)
-	at gnu.mapping.ProcedureN.apply4(ProcedureN.java:59)
 
-real	0m0.771s
-user	0m1.600s
-sys	0m0.030s
+real	0m0.451s
+user	0m1.080s
+sys	0m0.040s
 +!CSVLINE!+kawa,graphs,CRASHED
 
 Testing lattice under Kawa
@@ -4082,12 +4082,12 @@ Running...
 /tmp/larcenous/Kawa/lattice.scm:250:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/lattice.scm:253:22: warning - no declaration seen for hide
 Running lattice:44:10
-Elapsed time: 131.320900328 seconds (131.321) for lattice:44:10
-+!CSVLINE!+kawa-2.1,lattice:44:10,131.320900328
+Elapsed time: 96.285698002 seconds (96.286) for lattice:44:10
++!CSVLINE!+kawa-2.1,lattice:44:10,96.285698002
 
-real	2m11.970s
-user	2m14.560s
-sys	0m0.333s
+real	1m36.666s
+user	1m39.713s
+sys	0m0.343s
 
 Testing matrix under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4109,12 +4109,12 @@ Running...
 /tmp/larcenous/Kawa/matrix.scm:821:28: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/matrix.scm:821:48: warning - no declaration seen for hide
 Running matrix:5:5:2500
-Elapsed time: 51.139618485 seconds (51.139) for matrix:5:5:2500
-+!CSVLINE!+kawa-2.1,matrix:5:5:2500,51.139618485
+Elapsed time: 34.758697464 seconds (34.759) for matrix:5:5:2500
++!CSVLINE!+kawa-2.1,matrix:5:5:2500,34.758697464
 
-real	0m52.033s
-user	0m58.453s
-sys	0m0.557s
+real	0m35.271s
+user	0m42.050s
+sys	0m0.610s
 
 Testing maze under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4139,12 +4139,12 @@ Running...
 /tmp/larcenous/Kawa/maze.scm:766:22: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/maze.scm:766:42: warning - no declaration seen for hide
 Running maze:20:7:10000
-Elapsed time: 33.993241862 seconds (33.994) for maze:20:7:10000
-+!CSVLINE!+kawa-2.1,maze:20:7:10000,33.993241862
+Elapsed time: 23.9780528 seconds (23.978) for maze:20:7:10000
++!CSVLINE!+kawa-2.1,maze:20:7:10000,23.9780528
 
-real	0m34.902s
-user	0m37.120s
-sys	0m0.130s
+real	0m24.471s
+user	0m26.287s
+sys	0m0.200s
 
 Testing mazefun under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4162,12 +4162,12 @@ Running...
 /tmp/larcenous/Kawa/mazefun.scm:216:28: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/mazefun.scm:216:48: warning - no declaration seen for hide
 Running mazefun:11:11:10000
-Elapsed time: 141.475366884 seconds (141.475) for mazefun:11:11:10000
-+!CSVLINE!+kawa-2.1,mazefun:11:11:10000,141.475366884
+Elapsed time: 105.013347792 seconds (105.013) for mazefun:11:11:10000
++!CSVLINE!+kawa-2.1,mazefun:11:11:10000,105.013347792
 
-real	2m22.149s
-user	2m24.070s
-sys	0m0.163s
+real	1m45.430s
+user	1m48.033s
+sys	0m0.243s
 
 Testing nqueens under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4176,12 +4176,12 @@ Running...
 /tmp/larcenous/Kawa/nqueens.scm:58:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/nqueens.scm:61:26: warning - no declaration seen for hide
 Running nqueens:13:10
-Elapsed time: 228.691569235 seconds (228.692) for nqueens:13:10
-+!CSVLINE!+kawa-2.1,nqueens:13:10,228.691569235
+Elapsed time: 178.024524286 seconds (178.024) for nqueens:13:10
++!CSVLINE!+kawa-2.1,nqueens:13:10,178.024524286
 
-real	3m49.224s
-user	3m49.837s
-sys	0m0.123s
+real	2m58.355s
+user	2m59.663s
+sys	0m0.087s
 
 Testing paraffins under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -4192,12 +4192,12 @@ Running...
 /tmp/larcenous/Kawa/paraffins.scm:203:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/paraffins.scm:206:21: warning - no declaration seen for hide
 Running paraffins:23:10
-Elapsed time: 36.86548438 seconds (36.866) for paraffins:23:10
-+!CSVLINE!+kawa-2.1,paraffins:23:10,36.86548438
+Elapsed time: 25.165392267 seconds (25.165) for paraffins:23:10
++!CSVLINE!+kawa-2.1,paraffins:23:10,25.165392267
 
-real	0m37.490s
-user	2m5.793s
-sys	0m1.303s
+real	0m25.537s
+user	2m20.580s
+sys	0m1.203s
 
 Testing parsing under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5234,9 +5234,9 @@ Exception Details:
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m1.140s
-user	0m2.163s
-sys	0m0.050s
+real	0m0.577s
+user	0m1.393s
+sys	0m0.033s
 +!CSVLINE!+kawa,parsing,CRASHED
 
 Testing peval under Kawa
@@ -5279,12 +5279,12 @@ Running...
 /tmp/larcenous/Kawa/peval.scm:656:23: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/peval.scm:656:43: warning - no declaration seen for hide
 Running peval:2000
-Elapsed time: 60.733381745 seconds (60.734) for peval:2000
-+!CSVLINE!+kawa-2.1,peval:2000,60.733381745
+Elapsed time: 43.635585585 seconds (43.636) for peval:2000
++!CSVLINE!+kawa-2.1,peval:2000,43.635585585
 
-real	1m1.663s
-user	1m35.010s
-sys	0m3.887s
+real	0m44.164s
+user	1m28.477s
+sys	0m3.087s
 
 Testing primes under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5293,12 +5293,12 @@ Running...
 /tmp/larcenous/Kawa/primes.scm:51:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/primes.scm:54:27: warning - no declaration seen for hide
 Running primes:1000:10000
-Elapsed time: 35.404608275 seconds (35.405) for primes:1000:10000
-+!CSVLINE!+kawa-2.1,primes:1000:10000,35.404608275
+Elapsed time: 26.309542124 seconds (26.309) for primes:1000:10000
++!CSVLINE!+kawa-2.1,primes:1000:10000,26.309542124
 
-real	0m35.892s
-user	0m36.357s
-sys	0m0.103s
+real	0m26.643s
+user	0m27.277s
+sys	0m0.097s
 
 Testing quicksort under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5314,12 +5314,12 @@ Running...
 /tmp/larcenous/Kawa/quicksort.scm:153:17: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/quicksort.scm:158:5: warning - no declaration seen for run-r7rs-benchmark
 Running quicksort:10000:2500
-Elapsed time: 129.760980081 seconds (129.761) for quicksort:10000:2500
-+!CSVLINE!+kawa-2.1,quicksort:10000:2500,129.760980081
+Elapsed time: 92.853083231 seconds (92.853) for quicksort:10000:2500
++!CSVLINE!+kawa-2.1,quicksort:10000:2500,92.853083231
 
-real	2m10.505s
-user	2m11.633s
-sys	0m0.130s
+real	1m33.284s
+user	1m35.843s
+sys	0m0.153s
 
 Testing scheme under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5462,12 +5462,12 @@ Running...
 /tmp/larcenous/Kawa/scheme.scm:1066:5: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/scheme.scm:1069:30: warning - no declaration seen for hide
 Running scheme:100000
-Elapsed time: 110.580596446 seconds (110.581) for scheme:100000
-+!CSVLINE!+kawa-2.1,scheme:100000,110.580596446
+Elapsed time: 80.055824306 seconds (80.056) for scheme:100000
++!CSVLINE!+kawa-2.1,scheme:100000,80.055824306
 
-real	1m52.031s
-user	1m56.430s
-sys	0m0.243s
+real	1m20.747s
+user	1m24.860s
+sys	0m0.260s
 
 Testing slatex under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5587,9 +5587,9 @@ java.net.UnknownServiceException: protocol doesn't support output
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m13.165s
-user	0m22.020s
-sys	0m1.387s
+real	0m7.940s
+user	0m14.030s
+sys	0m0.937s
 +!CSVLINE!+kawa,slatex,CRASHED
 
 Testing nboyer under Kawa
@@ -5609,9 +5609,9 @@ Running...
 Running nboyer:5:1
 ERROR: returned incorrect result: #t
 
-real	0m0.734s
-user	0m1.277s
-sys	0m0.030s
+real	0m0.398s
+user	0m0.817s
+sys	0m0.043s
 
 Testing sboyer under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5657,9 +5657,9 @@ gnu.mapping.WrongArguments: call to 'test-boyer' has too many arguments (3; must
 	at kawa.repl.processArgs(repl.java:283)
 	at kawa.repl.main(repl.java:793)
 
-real	0m0.684s
-user	0m1.210s
-sys	0m0.043s
+real	0m0.383s
+user	0m0.787s
+sys	0m0.057s
 +!CSVLINE!+kawa,sboyer,CRASHED
 
 Testing gcbench under Kawa
@@ -5708,31 +5708,31 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 8.19861273 seconds (8.198) for gcbench:20:1
-+!CSVLINE!+kawa-2.1,gcbench:20:1,8.19861273
+Elapsed time: 6.368283451 seconds (6.368) for gcbench:20:1
++!CSVLINE!+kawa-2.1,gcbench:20:1,6.368283451
 
-real	0m8.842s
-user	0m10.293s
-sys	0m0.073s
+real	0m6.721s
+user	0m8.213s
+sys	0m0.340s
 
 Testing mperm under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
 Compiling...
 Running...
 /tmp/larcenous/Kawa/mperm.scm:150:5: warning - no declaration seen for MpermNKL-benchmark
-/tmp/larcenous/Kawa/mperm.scm:188:9: warning - no declaration seen for run-benchmark
-/tmp/larcenous/Kawa/mperm.scm:211:10: warning - no declaration seen for run-r7rs-benchmark
-/tmp/larcenous/Kawa/mperm.scm:224:25: warning - no declaration seen for hide
+/tmp/larcenous/Kawa/mperm.scm:189:9: warning - no declaration seen for run-benchmark
+/tmp/larcenous/Kawa/mperm.scm:212:10: warning - no declaration seen for run-r7rs-benchmark
 /tmp/larcenous/Kawa/mperm.scm:225:25: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/mperm.scm:226:25: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/mperm.scm:227:25: warning - no declaration seen for hide
-Running perm20:10:2:1
-Elapsed time: 130.419690507 seconds (130.42) for perm20:10:2:1
-+!CSVLINE!+kawa-2.1,perm20:10:2:1,130.419690507
+/tmp/larcenous/Kawa/mperm.scm:228:25: warning - no declaration seen for hide
+Running mperm:20:10:2:1
+Elapsed time: 98.146151239 seconds (98.146) for mperm:20:10:2:1
++!CSVLINE!+kawa-2.1,mperm:20:10:2:1,98.146151239
 
-real	2m20.595s
-user	4m51.443s
-sys	0m1.283s
+real	1m44.736s
+user	5m21.540s
+sys	0m2.623s
 
 Testing equal under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5752,12 +5752,12 @@ Running...
 /tmp/larcenous/Kawa/equal.scm:173:29: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/equal.scm:174:29: warning - no declaration seen for hide
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 8.34690691 seconds (8.347) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+kawa-2.1,equal:100:100:8:1000:2000:5000,8.34690691
+Elapsed time: 6.064529565 seconds (6.065) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+kawa-2.1,equal:100:100:8:1000:2000:5000,6.064529565
 
-real	0m8.993s
-user	0m10.097s
-sys	0m0.080s
+real	0m6.446s
+user	0m7.330s
+sys	0m0.123s
 
 Testing bv2string under Kawa
 Including prelude /home/nex/src/r7rs-benchmarks/src/Kawa-prelude.scm
@@ -5769,9 +5769,9 @@ Running...
 /tmp/larcenous/Kawa/bv2string.scm:148:33: warning - no declaration seen for hide
 /tmp/larcenous/Kawa/bv2string.scm:148:53: warning - no declaration seen for hide
 Running bv2string:1000:1000:100
-Elapsed time: 26.425282443 seconds (26.426) for bv2string:1000:1000:100
-+!CSVLINE!+kawa-2.1,bv2string:1000:1000:100,26.425282443
+Elapsed time: 19.597529921 seconds (19.598) for bv2string:1000:1000:100
++!CSVLINE!+kawa-2.1,bv2string:1000:1000:100,19.597529921
 
-real	0m27.025s
-user	0m27.657s
-sys	0m0.130s
+real	0m19.947s
+user	0m20.663s
+sys	0m0.123s

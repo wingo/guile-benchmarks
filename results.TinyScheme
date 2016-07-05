@@ -1,15 +1,16 @@
 
 ****************************
-Benchmarking TinyScheme on Wed 22 Jun 21:05:41 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking TinyScheme on Sun 3 Jul 05:54:59 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/browse.scm
+Error: (/tmp/larcenous/TinyScheme/browse.scm : 287) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m1.489s
+user	0m1.487s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,browse,CRASHED
 
@@ -17,10 +18,11 @@ Testing deriv under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/deriv.scm
+Error: (/tmp/larcenous/TinyScheme/deriv.scm : 130) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,deriv,CRASHED
 
@@ -28,10 +30,11 @@ Testing destruc under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/destruc.scm
+Error: (/tmp/larcenous/TinyScheme/destruc.scm : 145) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.007s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,destruc,CRASHED
 
@@ -39,10 +42,11 @@ Testing diviter under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/diviter.scm
+Error: (/tmp/larcenous/TinyScheme/diviter.scm : 112) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,diviter,CRASHED
 
@@ -50,10 +54,11 @@ Testing divrec under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/divrec.scm
+Error: (/tmp/larcenous/TinyScheme/divrec.scm : 111) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.015s
+user	0m0.013s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,divrec,CRASHED
 
@@ -61,10 +66,11 @@ Testing puzzle under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/puzzle.scm
+Error: (/tmp/larcenous/TinyScheme/puzzle.scm : 236) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.010s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,puzzle,CRASHED
 
@@ -72,10 +78,11 @@ Testing triangl under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/triangl.scm
+Error: (/tmp/larcenous/TinyScheme/triangl.scm : 152) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.009s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,triangl,CRASHED
 
@@ -83,10 +90,11 @@ Testing tak under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/tak.scm
+Error: (/tmp/larcenous/TinyScheme/tak.scm : 112) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,tak,CRASHED
 
@@ -94,10 +102,11 @@ Testing takl under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/takl.scm
+Error: (/tmp/larcenous/TinyScheme/takl.scm : 127) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,takl,CRASHED
 
@@ -105,10 +114,11 @@ Testing ntakl under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/ntakl.scm
+Error: (/tmp/larcenous/TinyScheme/ntakl.scm : 141) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,ntakl,CRASHED
 
@@ -116,10 +126,11 @@ Testing cpstak under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/cpstak.scm
+Error: (/tmp/larcenous/TinyScheme/cpstak.scm : 127) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,cpstak,CRASHED
 
@@ -127,10 +138,11 @@ Testing ctak under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/ctak.scm
+Error: (/tmp/larcenous/TinyScheme/ctak.scm : 123) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,ctak,CRASHED
 
@@ -138,10 +150,11 @@ Testing fib under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/fib.scm
+Error: (/tmp/larcenous/TinyScheme/fib.scm : 106) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,fib,CRASHED
 
@@ -149,10 +162,11 @@ Testing fibc under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/fibc.scm
+Error: (/tmp/larcenous/TinyScheme/fibc.scm : 121) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,fibc,CRASHED
 
@@ -160,10 +174,11 @@ Testing fibfp under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/fibfp.scm
+Error: (/tmp/larcenous/TinyScheme/fibfp.scm : 106) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,fibfp,CRASHED
 
@@ -171,21 +186,23 @@ Testing sum under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/sum.scm
+Error: (/tmp/larcenous/TinyScheme/sum.scm : 106) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
-sys	0m0.000s
+real	0m0.007s
+user	0m0.003s
+sys	0m0.003s
 +!CSVLINE!+tinyscheme,sum,CRASHED
 
 Testing sumfp under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/sumfp.scm
+Error: (/tmp/larcenous/TinyScheme/sumfp.scm : 106) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,sumfp,CRASHED
 
@@ -193,10 +210,11 @@ Testing fft under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/fft.scm
+Error: (/tmp/larcenous/TinyScheme/fft.scm : 192) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.010s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,fft,CRASHED
 
@@ -204,10 +222,11 @@ Testing mbrot under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/mbrot.scm
+Error: (/tmp/larcenous/TinyScheme/mbrot.scm : 140) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,mbrot,CRASHED
 
@@ -215,10 +234,11 @@ Testing mbrotZ under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/mbrotZ.scm
+Error: (/tmp/larcenous/TinyScheme/mbrotZ.scm : 145) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,mbrotZ,CRASHED
 
@@ -226,10 +246,11 @@ Testing nucleic under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/nucleic.scm
+Error: (/tmp/larcenous/TinyScheme/nucleic.scm : 3569) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.021s
+user	0m0.020s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,nucleic,CRASHED
 
@@ -237,10 +258,11 @@ Testing pi under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/pi.scm
+Error: (/tmp/larcenous/TinyScheme/pi.scm : 242) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,pi,CRASHED
 
@@ -248,10 +270,11 @@ Testing pnpoly under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/pnpoly.scm
+Error: (/tmp/larcenous/TinyScheme/pnpoly.scm : 138) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,pnpoly,CRASHED
 
@@ -259,10 +282,11 @@ Testing ray under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/ray.scm
+Error: (/tmp/larcenous/TinyScheme/ray.scm : 270) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.009s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,ray,CRASHED
 
@@ -270,10 +294,11 @@ Testing simplex under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/simplex.scm
+Error: (/tmp/larcenous/TinyScheme/simplex.scm : 286) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.008s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,simplex,CRASHED
 
@@ -281,10 +306,11 @@ Testing ack under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/ack.scm
+Error: (/tmp/larcenous/TinyScheme/ack.scm : 107) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,ack,CRASHED
 
@@ -292,10 +318,11 @@ Testing array1 under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/array1.scm
+Error: (/tmp/larcenous/TinyScheme/array1.scm : 123) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,array1,CRASHED
 
@@ -303,10 +330,11 @@ Testing string under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/string.scm
+Error: (/tmp/larcenous/TinyScheme/string.scm : 120) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.004s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,string,CRASHED
 
@@ -314,10 +342,11 @@ Testing sum1 under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/sum1.scm
+Error: (/tmp/larcenous/TinyScheme/sum1.scm : 112) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,sum1,CRASHED
 
@@ -325,10 +354,11 @@ Testing cat under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/cat.scm
+Error: (/tmp/larcenous/TinyScheme/cat.scm : 120) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,cat,CRASHED
 
@@ -336,10 +366,11 @@ Testing tail under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/tail.scm
+Error: (/tmp/larcenous/TinyScheme/tail.scm : 130) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.009s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,tail,CRASHED
 
@@ -347,10 +378,11 @@ Testing wc under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/wc.scm
+Error: (/tmp/larcenous/TinyScheme/wc.scm : 117) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,wc,CRASHED
 
@@ -358,10 +390,11 @@ Testing read1 under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/read1.scm
+Error: (/tmp/larcenous/TinyScheme/read1.scm : 134) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,read1,CRASHED
 
@@ -369,21 +402,21 @@ Testing compiler under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+No memory!
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.365s
+user	0m0.363s
 sys	0m0.000s
-+!CSVLINE!+tinyscheme,compiler,CRASHED
 
 Testing conform under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/conform.scm
+Error: (/tmp/larcenous/TinyScheme/conform.scm : 553) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.010s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,conform,CRASHED
 
@@ -391,10 +424,11 @@ Testing dynamic under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/dynamic.scm
+Error: (/tmp/larcenous/TinyScheme/dynamic.scm : 2412) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.050s
+user	0m0.050s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,dynamic,CRASHED
 
@@ -402,10 +436,11 @@ Testing earley under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/earley.scm
+Error: (/tmp/larcenous/TinyScheme/earley.scm : 741) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.013s
+user	0m0.010s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,earley,CRASHED
 
@@ -413,10 +448,11 @@ Testing graphs under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/graphs.scm
+Error: (/tmp/larcenous/TinyScheme/graphs.scm : 694) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.015s
+user	0m0.013s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,graphs,CRASHED
 
@@ -424,10 +460,11 @@ Testing lattice under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/lattice.scm
+Error: (/tmp/larcenous/TinyScheme/lattice.scm : 321) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.011s
+user	0m0.010s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,lattice,CRASHED
 
@@ -435,10 +472,11 @@ Testing matrix under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/matrix.scm
+Error: (/tmp/larcenous/TinyScheme/matrix.scm : 889) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.008s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,matrix,CRASHED
 
@@ -446,10 +484,11 @@ Testing maze under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/maze.scm
+Error: (/tmp/larcenous/TinyScheme/maze.scm : 834) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,maze,CRASHED
 
@@ -457,10 +496,11 @@ Testing mazefun under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/mazefun.scm
+Error: (/tmp/larcenous/TinyScheme/mazefun.scm : 284) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.008s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,mazefun,CRASHED
 
@@ -468,10 +508,11 @@ Testing nqueens under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/nqueens.scm
+Error: (/tmp/larcenous/TinyScheme/nqueens.scm : 129) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.004s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,nqueens,CRASHED
 
@@ -479,10 +520,11 @@ Testing paraffins under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/paraffins.scm
+Error: (/tmp/larcenous/TinyScheme/paraffins.scm : 274) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.007s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,paraffins,CRASHED
 
@@ -490,10 +532,11 @@ Testing parsing under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/parsing.scm
+Error: (/tmp/larcenous/TinyScheme/parsing.scm : 1020) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.009s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,parsing,CRASHED
 
@@ -501,10 +544,11 @@ Testing peval under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/peval.scm
+Error: (/tmp/larcenous/TinyScheme/peval.scm : 727) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.011s
+user	0m0.010s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,peval,CRASHED
 
@@ -512,10 +556,11 @@ Testing primes under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/primes.scm
+Error: (/tmp/larcenous/TinyScheme/primes.scm : 122) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.006s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,primes,CRASHED
 
@@ -523,10 +568,11 @@ Testing quicksort under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/quicksort.scm
+Error: (/tmp/larcenous/TinyScheme/quicksort.scm : 237) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.007s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,quicksort,CRASHED
 
@@ -534,9 +580,10 @@ Testing scheme under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/scheme.scm
+Error: (/tmp/larcenous/TinyScheme/scheme.scm : 91) not enough arguments 
 
-real	0m0.000s
+real	0m0.003s
 user	0m0.000s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,scheme,CRASHED
@@ -545,10 +592,11 @@ Testing slatex under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/slatex.scm
+Error: (/tmp/larcenous/TinyScheme/slatex.scm : 2438) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.058s
+user	0m0.057s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,slatex,CRASHED
 
@@ -556,10 +604,11 @@ Testing nboyer under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/nboyer.scm
+Error: (/tmp/larcenous/TinyScheme/nboyer.scm : 856) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.021s
+user	0m0.020s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,nboyer,CRASHED
 
@@ -567,10 +616,11 @@ Testing sboyer under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/sboyer.scm
+Error: (/tmp/larcenous/TinyScheme/sboyer.scm : 869) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.017s
+user	0m0.013s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,sboyer,CRASHED
 
@@ -578,10 +628,11 @@ Testing gcbench under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/gcbench.scm
+Error: (/tmp/larcenous/TinyScheme/gcbench.scm : 279) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.009s
+user	0m0.007s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,gcbench,CRASHED
 
@@ -589,10 +640,11 @@ Testing mperm under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/mperm.scm
+Error: (/tmp/larcenous/TinyScheme/mperm.scm : 295) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.004s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,mperm,CRASHED
 
@@ -600,10 +652,11 @@ Testing equal under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/equal.scm
+Error: (/tmp/larcenous/TinyScheme/equal.scm : 242) atom->string: bad base: 10 
 
-real	0m0.001s
-user	0m0.000s
+real	0m0.014s
+user	0m0.010s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,equal,CRASHED
 
@@ -611,9 +664,10 @@ Testing bv2string under TinyScheme
 Including prelude /home/nex/src/r7rs-benchmarks/src/TinyScheme-prelude.scm
 Compiling...
 Running...
-./bench: line 407: tinyscheme: command not found
+Errors encountered reading /tmp/larcenous/TinyScheme/bv2string.scm
+Error: (/tmp/larcenous/TinyScheme/bv2string.scm : 217) atom->string: bad base: 10 
 
-real	0m0.000s
-user	0m0.000s
+real	0m0.005s
+user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+tinyscheme,bv2string,CRASHED

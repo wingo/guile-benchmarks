@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Scheme48 on Wed 22 Jun 20:52:42 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking Scheme48 on Sun 3 Jul 03:13:20 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Scheme48
 Including prelude /home/nex/src/r7rs-benchmarks/src/Scheme48-prelude.scm
@@ -16,20 +16,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/browse.s48img
 > 
-real	0m0.319s
-user	0m0.297s
-sys	0m0.007s
+real	0m0.190s
+user	0m0.163s
+sys	0m0.010s
 Running...
 Running browse:2000
-Elapsed time: 36.745856 seconds (37) for browse:2000
-+!CSVLINE!+scheme48-unknown,browse:2000,36.745856
+Elapsed time: 26.318837 seconds (27) for browse:2000
++!CSVLINE!+scheme48-unknown,browse:2000,26.318837
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m36.755s
-user	0m36.743s
-sys	0m0.000s
+real	0m26.324s
+user	0m26.317s
+sys	0m0.007s
 +!CSVLINE!+scheme48,browse,CRASHED
 
 Testing deriv under Scheme48
@@ -46,20 +46,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/deriv.s48img
 > 
-real	0m0.267s
-user	0m0.257s
-sys	0m0.007s
+real	0m0.165s
+user	0m0.160s
+sys	0m0.003s
 Running...
 Running deriv:10000000
-Elapsed time: 31.152885 seconds (31) for deriv:10000000
-+!CSVLINE!+scheme48-unknown,deriv:10000000,31.152885
+Elapsed time: 21.439072 seconds (21) for deriv:10000000
++!CSVLINE!+scheme48-unknown,deriv:10000000,21.439072
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m31.160s
-user	0m31.150s
-sys	0m0.010s
+real	0m21.444s
+user	0m21.440s
+sys	0m0.003s
 +!CSVLINE!+scheme48,deriv,CRASHED
 
 Testing destruc under Scheme48
@@ -76,20 +76,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/destruc.s48img
 > 
-real	0m0.281s
-user	0m0.270s
-sys	0m0.010s
+real	0m0.282s
+user	0m0.267s
+sys	0m0.013s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 64.485732 seconds (64) for destruc:600:50:4000
-+!CSVLINE!+scheme48-unknown,destruc:600:50:4000,64.485732
+Elapsed time: 50.262788 seconds (50) for destruc:600:50:4000
++!CSVLINE!+scheme48-unknown,destruc:600:50:4000,50.262788
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	1m4.493s
-user	1m4.463s
-sys	0m0.017s
+real	0m50.268s
+user	0m50.267s
+sys	0m0.003s
 +!CSVLINE!+scheme48,destruc,CRASHED
 
 Testing diviter under Scheme48
@@ -106,20 +106,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/diviter.s48img
 > 
-real	0m0.268s
-user	0m0.263s
-sys	0m0.003s
+real	0m0.161s
+user	0m0.150s
+sys	0m0.010s
 Running...
 Running diviter:1000:1000000
-Elapsed time: 28.782035 seconds (28) for diviter:1000:1000000
-+!CSVLINE!+scheme48-unknown,diviter:1000:1000000,28.782035
+Elapsed time: 20.894905 seconds (21) for diviter:1000:1000000
++!CSVLINE!+scheme48-unknown,diviter:1000:1000000,20.894905
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m28.789s
-user	0m28.767s
-sys	0m0.023s
+real	0m20.900s
+user	0m20.900s
+sys	0m0.000s
 +!CSVLINE!+scheme48,diviter,CRASHED
 
 Testing divrec under Scheme48
@@ -136,20 +136,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/divrec.s48img
 > 
-real	0m0.276s
-user	0m0.267s
+real	0m0.164s
+user	0m0.153s
 sys	0m0.007s
 Running...
 Running divrec:1000:1000000
-Elapsed time: 31.000379 seconds (31) for divrec:1000:1000000
-+!CSVLINE!+scheme48-unknown,divrec:1000:1000000,31.000379
+Elapsed time: 21.780172 seconds (22) for divrec:1000:1000000
++!CSVLINE!+scheme48-unknown,divrec:1000:1000000,21.780172
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m31.008s
-user	0m30.970s
-sys	0m0.037s
+real	0m21.785s
+user	0m21.773s
+sys	0m0.010s
 +!CSVLINE!+scheme48,divrec,CRASHED
 
 Testing puzzle under Scheme48
@@ -166,17 +166,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/puzzle.s48img
 > 
-real	0m0.272s
-user	0m0.267s
-sys	0m0.003s
+real	0m0.171s
+user	0m0.160s
+sys	0m0.010s
 Running...
 Running puzzle:1000
-Elapsed time: 59.443698 seconds (59) for puzzle:1000
-+!CSVLINE!+scheme48-unknown,puzzle:1000,59.443698
+Elapsed time: 44.321388 seconds (44) for puzzle:1000
++!CSVLINE!+scheme48-unknown,puzzle:1000,44.321388
 
-real	0m59.451s
-user	0m59.400s
-sys	0m0.030s
+real	0m44.326s
+user	0m44.323s
+sys	0m0.003s
 +!CSVLINE!+scheme48,puzzle,CRASHED
 
 Testing triangl under Scheme48
@@ -193,20 +193,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/triangl.s48img
 > 
-real	0m0.281s
-user	0m0.263s
-sys	0m0.013s
+real	0m0.164s
+user	0m0.157s
+sys	0m0.007s
 Running...
 Running triangl:22:1:50
-Elapsed time: 39.826509 seconds (39) for triangl:22:1:50
-+!CSVLINE!+scheme48-unknown,triangl:22:1:50,39.826509
+Elapsed time: 29.789135 seconds (29) for triangl:22:1:50
++!CSVLINE!+scheme48-unknown,triangl:22:1:50,29.789135
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m39.835s
-user	0m39.810s
-sys	0m0.007s
+real	0m29.794s
+user	0m29.790s
+sys	0m0.003s
 +!CSVLINE!+scheme48,triangl,CRASHED
 
 Testing tak under Scheme48
@@ -223,16 +223,16 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/tak.s48img
 > 
-real	0m0.191s
-user	0m0.190s
-sys	0m0.000s
+real	0m0.162s
+user	0m0.153s
+sys	0m0.007s
 Running...
 Running tak:40:20:11:1
-Elapsed time: 40.476419 seconds (40) for tak:40:20:11:1
-+!CSVLINE!+scheme48-unknown,tak:40:20:11:1,40.476419
+Elapsed time: 31.206471 seconds (31) for tak:40:20:11:1
++!CSVLINE!+scheme48-unknown,tak:40:20:11:1,31.206471
 
-real	0m40.481s
-user	0m40.470s
+real	0m31.211s
+user	0m31.210s
 sys	0m0.003s
 +!CSVLINE!+scheme48,tak,CRASHED
 
@@ -250,19 +250,19 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/takl.s48img
 > 
-real	0m0.270s
-user	0m0.260s
-sys	0m0.007s
+real	0m0.158s
+user	0m0.147s
+sys	0m0.010s
 Running...
 Running takl:40:20:12:1
-Elapsed time: 119.741009 seconds (120) for takl:40:20:12:1
-+!CSVLINE!+scheme48-unknown,takl:40:20:12:1,119.741009
+Elapsed time: 99.782282 seconds (100) for takl:40:20:12:1
++!CSVLINE!+scheme48-unknown,takl:40:20:12:1,99.782282
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	1m59.748s
-user	1m59.710s
+real	1m39.787s
+user	1m39.793s
 sys	0m0.000s
 +!CSVLINE!+scheme48,takl,CRASHED
 
@@ -280,19 +280,19 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/ntakl.s48img
 > 
-real	0m0.277s
-user	0m0.257s
-sys	0m0.010s
+real	0m0.164s
+user	0m0.157s
+sys	0m0.007s
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 108.25741 seconds (109) for ntakl:40:20:12:1
-+!CSVLINE!+scheme48-unknown,ntakl:40:20:12:1,108.25741
+Elapsed time: 86.900014 seconds (87) for ntakl:40:20:12:1
++!CSVLINE!+scheme48-unknown,ntakl:40:20:12:1,86.900014
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	1m48.264s
-user	1m48.130s
+real	1m26.905s
+user	1m26.910s
 sys	0m0.000s
 +!CSVLINE!+scheme48,ntakl,CRASHED
 
@@ -310,17 +310,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/cpstak.s48img
 > 
-real	0m0.299s
-user	0m0.273s
-sys	0m0.013s
+real	0m0.160s
+user	0m0.157s
+sys	0m0.003s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 102.3416 seconds (102) for cpstak:40:20:11:1
-+!CSVLINE!+scheme48-unknown,cpstak:40:20:11:1,102.3416
+Elapsed time: 60.3115 seconds (60) for cpstak:40:20:11:1
++!CSVLINE!+scheme48-unknown,cpstak:40:20:11:1,60.3115
 
-real	1m42.350s
-user	1m42.230s
-sys	0m0.043s
+real	1m0.316s
+user	1m0.310s
+sys	0m0.010s
 +!CSVLINE!+scheme48,cpstak,CRASHED
 
 Testing ctak under Scheme48
@@ -337,17 +337,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/ctak.s48img
 > 
-real	0m0.214s
-user	0m0.207s
-sys	0m0.003s
+real	0m0.245s
+user	0m0.230s
+sys	0m0.013s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 30.751992 seconds (30) for ctak:32:16:8:1
-+!CSVLINE!+scheme48-unknown,ctak:32:16:8:1,30.751992
+Elapsed time: 18.46565 seconds (18) for ctak:32:16:8:1
++!CSVLINE!+scheme48-unknown,ctak:32:16:8:1,18.46565
 
-real	0m30.757s
-user	0m30.740s
-sys	0m0.017s
+real	0m18.471s
+user	0m18.460s
+sys	0m0.010s
 +!CSVLINE!+scheme48,ctak,CRASHED
 
 Testing fib under Scheme48
@@ -364,17 +364,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/fib.s48img
 > 
-real	0m0.178s
-user	0m0.177s
-sys	0m0.000s
+real	0m0.158s
+user	0m0.150s
+sys	0m0.007s
 Running...
 Running fib:40:5
-Elapsed time: 77.098161 seconds (77) for fib:40:5
-+!CSVLINE!+scheme48-unknown,fib:40:5,77.098161
+Elapsed time: 65.752715 seconds (66) for fib:40:5
++!CSVLINE!+scheme48-unknown,fib:40:5,65.752715
 
-real	1m17.103s
-user	1m17.097s
-sys	0m0.000s
+real	1m5.757s
+user	1m5.757s
+sys	0m0.003s
 +!CSVLINE!+scheme48,fib,CRASHED
 
 Testing fibc under Scheme48
@@ -391,17 +391,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/fibc.s48img
 > 
-real	0m0.203s
-user	0m0.200s
-sys	0m0.000s
+real	0m0.161s
+user	0m0.153s
+sys	0m0.007s
 Running...
 Running fibc:30:10
-Elapsed time: 25.085555 seconds (25) for fibc:30:10
-+!CSVLINE!+scheme48-unknown,fibc:30:10,25.085555
+Elapsed time: 17.536505 seconds (18) for fibc:30:10
++!CSVLINE!+scheme48-unknown,fibc:30:10,17.536505
 
-real	0m25.092s
-user	0m25.080s
-sys	0m0.003s
+real	0m17.541s
+user	0m17.533s
+sys	0m0.007s
 +!CSVLINE!+scheme48,fibc,CRASHED
 
 Testing fibfp under Scheme48
@@ -418,20 +418,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/fibfp.s48img
 > 
-real	0m0.216s
-user	0m0.213s
-sys	0m0.000s
+real	0m0.286s
+user	0m0.273s
+sys	0m0.010s
 Running...
 Running fibfp:35.0:10
-Elapsed time: 19.192505 seconds (19) for fibfp:35.0:10
-+!CSVLINE!+scheme48-unknown,fibfp:35.0:10,19.192505
+Elapsed time: 15.138747 seconds (15) for fibfp:35.0:10
++!CSVLINE!+scheme48-unknown,fibfp:35.0:10,15.138747
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m19.197s
-user	0m19.173s
-sys	0m0.013s
+real	0m15.144s
+user	0m15.137s
+sys	0m0.007s
 +!CSVLINE!+scheme48,fibfp,CRASHED
 
 Testing sum under Scheme48
@@ -448,17 +448,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/sum.s48img
 > 
-real	0m0.243s
-user	0m0.223s
+real	0m0.162s
+user	0m0.153s
 sys	0m0.007s
 Running...
 Running sum:10000:200000
-Elapsed time: 83.122869 seconds (83) for sum:10000:200000
-+!CSVLINE!+scheme48-unknown,sum:10000:200000,83.122869
+Elapsed time: 64.711132 seconds (65) for sum:10000:200000
++!CSVLINE!+scheme48-unknown,sum:10000:200000,64.711132
 
-real	1m23.130s
-user	1m23.083s
-sys	0m0.003s
+real	1m4.716s
+user	1m4.713s
+sys	0m0.007s
 +!CSVLINE!+scheme48,sum,CRASHED
 
 Testing sumfp under Scheme48
@@ -475,20 +475,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/sumfp.s48img
 > 
-real	0m0.307s
-user	0m0.300s
+real	0m0.161s
+user	0m0.153s
 sys	0m0.007s
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 35.249918 seconds (35) for sumfp:1000000.0:500
-+!CSVLINE!+scheme48-unknown,sumfp:1000000.0:500,35.249918
+Elapsed time: 22.676886 seconds (23) for sumfp:1000000.0:500
++!CSVLINE!+scheme48-unknown,sumfp:1000000.0:500,22.676886
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m35.259s
-user	0m35.107s
-sys	0m0.023s
+real	0m22.681s
+user	0m22.680s
+sys	0m0.000s
 +!CSVLINE!+scheme48,sumfp,CRASHED
 
 Testing fft under Scheme48
@@ -505,17 +505,21 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/fft.s48img
 > 
-real	0m0.269s
-user	0m0.257s
-sys	0m0.010s
+real	0m0.286s
+user	0m0.267s
+sys	0m0.017s
 Running...
 Running fft:65536:100
-./bench: line 486:  2530 Killed                  ${SCHEME48} -i $1 < $2
+Elapsed time: 336.984085 seconds (337) for fft:65536:100
++!CSVLINE!+scheme48-unknown,fft:65536:100,336.984085
+VM exception `wrong-type-argument' with no handler in place
+opcode is: closed-values
+stack template id's:  <- 525 <- 
 
-real	5m0.104s
-user	4m59.983s
-sys	0m0.023s
-+!CSVLINE!+scheme48,fft,ULIMITKILLED
+real	5m36.989s
+user	5m37.007s
+sys	0m0.007s
++!CSVLINE!+scheme48,fft,CRASHED
 
 Testing mbrot under Scheme48
 Including prelude /home/nex/src/r7rs-benchmarks/src/Scheme48-prelude.scm
@@ -531,17 +535,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/mbrot.s48img
 > 
-real	0m0.308s
-user	0m0.280s
+real	0m0.160s
+user	0m0.153s
 sys	0m0.003s
 Running...
 Running mbrot:75:1000
-Elapsed time: 44.83836 seconds (45) for mbrot:75:1000
-+!CSVLINE!+scheme48-unknown,mbrot:75:1000,44.83836
+Elapsed time: 25.528182 seconds (26) for mbrot:75:1000
++!CSVLINE!+scheme48-unknown,mbrot:75:1000,25.528182
 
-real	0m44.846s
-user	0m44.737s
-sys	0m0.033s
+real	0m25.533s
+user	0m25.520s
+sys	0m0.013s
 +!CSVLINE!+scheme48,mbrot,CRASHED
 
 Testing mbrotZ under Scheme48
@@ -558,16 +562,16 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/mbrotZ.s48img
 > 
-real	0m0.234s
-user	0m0.230s
+real	0m0.163s
+user	0m0.157s
 sys	0m0.003s
 Running...
 Running mbrotZ:75:1000
-./bench: line 486:  2846 Killed                  ${SCHEME48} -i $1 < $2
+./bench: line 486:  8370 Killed                  ${SCHEME48} -i $1 < $2
 
-real	5m0.435s
-user	4m59.913s
-sys	0m0.063s
+real	14m59.997s
+user	15m0.003s
+sys	0m0.067s
 +!CSVLINE!+scheme48,mbrotZ,ULIMITKILLED
 
 Testing nucleic under Scheme48
@@ -584,20 +588,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/nucleic.s48img
 > 
-real	0m0.473s
-user	0m0.467s
+real	0m0.272s
+user	0m0.267s
 sys	0m0.003s
 Running...
 Running nucleic:50
-Elapsed time: 36.922213 seconds (37) for nucleic:50
-+!CSVLINE!+scheme48-unknown,nucleic:50,36.922213
+Elapsed time: 26.248066 seconds (27) for nucleic:50
++!CSVLINE!+scheme48-unknown,nucleic:50,26.248066
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m36.929s
-user	0m36.910s
-sys	0m0.017s
+real	0m26.253s
+user	0m26.247s
+sys	0m0.007s
 +!CSVLINE!+scheme48,nucleic,CRASHED
 
 Testing pi under Scheme48
@@ -614,20 +618,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/pi.s48img
 > 
-real	0m0.261s
-user	0m0.250s
-sys	0m0.010s
+real	0m0.165s
+user	0m0.157s
+sys	0m0.007s
 Running...
 Running pi:50:500:50:2
-Elapsed time: 0.708882 seconds (1) for pi:50:500:50:2
-+!CSVLINE!+scheme48-unknown,pi:50:500:50:2,0.708882
+Elapsed time: 0.376009 seconds (0) for pi:50:500:50:2
++!CSVLINE!+scheme48-unknown,pi:50:500:50:2,0.376009
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m0.723s
-user	0m0.720s
-sys	0m0.000s
+real	0m0.385s
+user	0m0.380s
+sys	0m0.003s
 +!CSVLINE!+scheme48,pi,CRASHED
 
 Testing pnpoly under Scheme48
@@ -644,17 +648,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/pnpoly.s48img
 > 
-real	0m0.296s
-user	0m0.290s
+real	0m0.162s
+user	0m0.157s
 sys	0m0.003s
 Running...
 Running pnpoly:1000000
-Elapsed time: 55.366597 seconds (56) for pnpoly:1000000
-+!CSVLINE!+scheme48-unknown,pnpoly:1000000,55.366597
+Elapsed time: 37.512458 seconds (38) for pnpoly:1000000
++!CSVLINE!+scheme48-unknown,pnpoly:1000000,37.512458
 
-real	0m55.374s
-user	0m55.350s
-sys	0m0.010s
+real	0m37.517s
+user	0m37.517s
+sys	0m0.003s
 +!CSVLINE!+scheme48,pnpoly,CRASHED
 
 Testing ray under Scheme48
@@ -676,9 +680,9 @@ warning: undefined variables [print-undefined-names]
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/ray.s48img
 > 
-real	0m0.279s
-user	0m0.273s
-sys	0m0.003s
+real	0m0.245s
+user	0m0.230s
+sys	0m0.013s
 Running...
 
 assertion-violation: undefined variable [global]
@@ -686,9 +690,9 @@ assertion-violation: undefined variable [global]
                      user
 Running ray:50
 
-real	0m0.009s
+real	0m0.005s
 user	0m0.003s
-sys	0m0.003s
+sys	0m0.000s
 +!CSVLINE!+scheme48,ray,CRASHED
 
 Testing simplex under Scheme48
@@ -705,20 +709,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/simplex.s48img
 > 
-real	0m0.291s
-user	0m0.280s
-sys	0m0.007s
+real	0m0.179s
+user	0m0.177s
+sys	0m0.000s
 Running...
 Running simplex:1000000
-Elapsed time: 286.179789 seconds (286) for simplex:1000000
-+!CSVLINE!+scheme48-unknown,simplex:1000000,286.179789
+Elapsed time: 222.356962 seconds (223) for simplex:1000000
++!CSVLINE!+scheme48-unknown,simplex:1000000,222.356962
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	4m46.186s
-user	4m46.147s
-sys	0m0.057s
+real	3m42.362s
+user	3m42.353s
+sys	0m0.023s
 +!CSVLINE!+scheme48,simplex,CRASHED
 
 Testing ack under Scheme48
@@ -735,102 +739,381 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/ack.s48img
 > 
-real	0m0.223s
-user	0m0.213s
-sys	0m0.007s
+real	0m0.162s
+user	0m0.157s
+sys	0m0.003s
 Running...
 Running ack:3:12:2
-Serious problem while running root thread, thread killed: #{thread 2132}
+Serious problem while running root thread, thread killed: #{thread 2135}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 2133}
+Serious problem while running root thread, thread killed: #{thread 2136}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 2301}
+Serious problem while running root thread, thread killed: #{thread 2192}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 2302}
+Serious problem while running root thread, thread killed: #{thread 2193}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 2341}
+Serious problem while running root thread, thread killed: #{thread 2234}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 2342}
+Serious problem while running root thread, thread killed: #{thread 2235}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 4134}
+Serious problem while running root thread, thread killed: #{thread 2456}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 4135}
+Serious problem while running root thread, thread killed: #{thread 2457}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 4175}
+Serious problem while running root thread, thread killed: #{thread 2503}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 4176}
+Serious problem while running root thread, thread killed: #{thread 2504}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 4954}
+Serious problem while running root thread, thread killed: #{thread 2546}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 4955}
+Serious problem while running root thread, thread killed: #{thread 2547}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 5939}
+Serious problem while running root thread, thread killed: #{thread 3733}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 5940}
+Serious problem while running root thread, thread killed: #{thread 3734}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4103}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4104}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4202}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4203}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4289}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4290}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4340}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4341}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4423}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4424}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4467}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4468}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4510}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4511}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4555}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4556}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4637}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4638}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4680}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4681}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4729}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4730}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4771}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4772}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4816}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4817}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4982}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4984}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4987}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 4988}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5035}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5036}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5074}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5075}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5078}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5079}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5082}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5084}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5086}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5087}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5131}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5132}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5182}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5183}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5217}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5218}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5300}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5301}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5343}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5344}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5386}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5387}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5430}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5431}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5470}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5472}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5474}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5475}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5514}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5516}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5518}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5519}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5597}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5599}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5601}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5602}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5643}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5644}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5682}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5684}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5687}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5688}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5726}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5728}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5730}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5731}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5773}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5774}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5813}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5814}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5854}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5856}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5858}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5859}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5899}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5901}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5903}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5904}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5946}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5947}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5985}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5987}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5989}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 5990}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6029}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6031}
+Serious problem while running root thread, thread killed: #{thread 6030}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6034}
+Serious problem while running root thread, thread killed: #{thread 6068}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6035}
+Serious problem while running root thread, thread killed: #{thread 6069}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6071}
+Serious problem while running root thread, thread killed: #{thread 6072}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6073}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6075}
+Serious problem while running root thread, thread killed: #{thread 6074}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6076}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6113}
+Serious problem while running root thread, thread killed: #{thread 6077}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6114}
+Serious problem while running root thread, thread killed: #{thread 6115}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6117}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6118}
+Serious problem while running root thread, thread killed: #{thread 6119}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6155}
+Serious problem while running root thread, thread killed: #{thread 6120}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6156}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6159}
+Serious problem while running root thread, thread killed: #{thread 6157}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6160}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6197}
+Serious problem while running root thread, thread killed: #{thread 6161}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6199}
@@ -839,175 +1122,610 @@ Assertion violation:  [tail-call]wrong number of arguments
 Serious problem while running root thread, thread killed: #{thread 6201}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6202}
+Serious problem while running root thread, thread killed: #{thread 6203}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6238}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6240}
+Serious problem while running root thread, thread killed: #{thread 6204}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 6242}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6243}
+Serious problem while running root thread, thread killed: #{thread 6244}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6798}
+Serious problem while running root thread, thread killed: #{thread 6246}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 6799}
+Serious problem while running root thread, thread killed: #{thread 6247}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7098}
+Serious problem while running root thread, thread killed: #{thread 6284}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7099}
+Serious problem while running root thread, thread killed: #{thread 6286}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7289}
+Serious problem while running root thread, thread killed: #{thread 6288}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7290}
+Serious problem while running root thread, thread killed: #{thread 6289}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7645}
+Serious problem while running root thread, thread killed: #{thread 6326}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7646}
+Serious problem while running root thread, thread killed: #{thread 6327}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7736}
+Serious problem while running root thread, thread killed: #{thread 6330}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7738}
+Serious problem while running root thread, thread killed: #{thread 6332}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7740}
+Serious problem while running root thread, thread killed: #{thread 6334}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7741}
+Serious problem while running root thread, thread killed: #{thread 6335}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7771}
+Serious problem while running root thread, thread killed: #{thread 6372}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7773}
+Serious problem while running root thread, thread killed: #{thread 6374}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7775}
+Serious problem while running root thread, thread killed: #{thread 6376}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7776}
+Serious problem while running root thread, thread killed: #{thread 6377}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6416}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6417}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6452}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6453}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6456}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6457}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6494}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6495}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6498}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6500}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6502}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6503}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6544}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6545}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6579}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6581}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6583}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6584}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6621}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6623}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6625}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6626}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6663}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6664}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6667}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6669}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6671}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6672}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6708}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6710}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6712}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6713}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6749}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6750}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6784}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6785}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6788}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6789}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6792}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6793}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6861}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6863}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6865}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6866}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6900}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6901}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6904}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6906}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6908}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6909}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6946}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6947}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6950}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6951}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6987}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 6988}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7023}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7025}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7027}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7028}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7063}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7064}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7067}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7069}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7071}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7072}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7106}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7108}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7110}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7111}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7146}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7148}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7150}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7151}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7188}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7189}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7224}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7226}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7228}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7229}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7264}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7265}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7268}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7270}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7272}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7273}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7307}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7309}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7311}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7312}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7346}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7348}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7350}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7351}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7384}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7385}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7388}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7390}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7392}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7393}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7427}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7428}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7431}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7433}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7435}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7436}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7468}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7469}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7472}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7474}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7476}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7477}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7511}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7512}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7515}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7517}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7519}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7520}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7553}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7555}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7557}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7558}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7592}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7593}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7596}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7598}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7600}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7601}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7633}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7634}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7637}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7639}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7641}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7642}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7676}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7677}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7680}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7682}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7684}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7685}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7718}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7720}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7722}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7723}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7757}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7758}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7761}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7763}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7765}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7766}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7798}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7799}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7802}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 7804}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 7806}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7808}
+Serious problem while running root thread, thread killed: #{thread 7807}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7810}
+Serious problem while running root thread, thread killed: #{thread 7841}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7811}
+Serious problem while running root thread, thread killed: #{thread 7842}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7843}
+Serious problem while running root thread, thread killed: #{thread 7845}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7844}
+Serious problem while running root thread, thread killed: #{thread 7846}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7847}
+Serious problem while running root thread, thread killed: #{thread 7879}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7849}
+Serious problem while running root thread, thread killed: #{thread 7880}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7851}
+Serious problem while running root thread, thread killed: #{thread 7883}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7852}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7882}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7884}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7886}
+Serious problem while running root thread, thread killed: #{thread 7885}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 7887}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7918}
+Serious problem while running root thread, thread killed: #{thread 7888}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7919}
+Serious problem while running root thread, thread killed: #{thread 7921}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 7922}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7924}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7926}
+Serious problem while running root thread, thread killed: #{thread 7925}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 7927}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7958}
+Serious problem while running root thread, thread killed: #{thread 7929}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7959}
+Serious problem while running root thread, thread killed: #{thread 7930}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7962}
+Serious problem while running root thread, thread killed: #{thread 7963}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 7964}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7966}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 7967}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7998}
+Serious problem while running root thread, thread killed: #{thread 7969}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7999}
+Serious problem while running root thread, thread killed: #{thread 7971}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8002}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8004}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8006}
+Serious problem while running root thread, thread killed: #{thread 7972}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8007}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8038}
+Serious problem while running root thread, thread killed: #{thread 8009}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8039}
+Serious problem while running root thread, thread killed: #{thread 8011}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8042}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8044}
+Serious problem while running root thread, thread killed: #{thread 8012}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8046}
@@ -1016,88 +1734,118 @@ Assertion violation:  [tail-call]wrong number of arguments
 Serious problem while running root thread, thread killed: #{thread 8047}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8079}
+Serious problem while running root thread, thread killed: #{thread 8050}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8080}
+Serious problem while running root thread, thread killed: #{thread 8052}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8083}
+Serious problem while running root thread, thread killed: #{thread 8054}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8085}
+Serious problem while running root thread, thread killed: #{thread 8055}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8115}
+Serious problem while running root thread, thread killed: #{thread 8088}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8116}
+Serious problem while running root thread, thread killed: #{thread 8090}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8119}
+Serious problem while running root thread, thread killed: #{thread 8092}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8120}
+Serious problem while running root thread, thread killed: #{thread 8093}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8123}
+Serious problem while running root thread, thread killed: #{thread 8127}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8124}
+Serious problem while running root thread, thread killed: #{thread 8128}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8156}
+Serious problem while running root thread, thread killed: #{thread 8131}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8157}
+Serious problem while running root thread, thread killed: #{thread 8133}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8160}
+Serious problem while running root thread, thread killed: #{thread 8135}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8162}
+Serious problem while running root thread, thread killed: #{thread 8136}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8164}
+Serious problem while running root thread, thread killed: #{thread 8167}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8165}
+Serious problem while running root thread, thread killed: #{thread 8168}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8197}
+Serious problem while running root thread, thread killed: #{thread 8171}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8199}
+Serious problem while running root thread, thread killed: #{thread 8172}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8201}
+Serious problem while running root thread, thread killed: #{thread 8175}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8202}
+Serious problem while running root thread, thread killed: #{thread 8177}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8255}
+Serious problem while running root thread, thread killed: #{thread 8179}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8180}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8212}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8213}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8216}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8217}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8248}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8249}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8252}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8253}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8256}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8259}
+Serious problem while running root thread, thread killed: #{thread 8258}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8260}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8263}
+Serious problem while running root thread, thread killed: #{thread 8261}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8265}
+Serious problem while running root thread, thread killed: #{thread 8292}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8267}
+Serious problem while running root thread, thread killed: #{thread 8293}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8268}
+Serious problem while running root thread, thread killed: #{thread 8296}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8297}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8300}
@@ -1106,379 +1854,151 @@ Assertion violation:  [tail-call]wrong number of arguments
 Serious problem while running root thread, thread killed: #{thread 8301}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8331}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8332}
+Serious problem while running root thread, thread killed: #{thread 8334}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8335}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8336}
+Serious problem while running root thread, thread killed: #{thread 8338}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8366}
+Serious problem while running root thread, thread killed: #{thread 8340}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8367}
+Serious problem while running root thread, thread killed: #{thread 8342}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8370}
+Serious problem while running root thread, thread killed: #{thread 8343}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8372}
+Serious problem while running root thread, thread killed: #{thread 8373}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8374}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8375}
+Serious problem while running root thread, thread killed: #{thread 8377}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8406}
+Serious problem while running root thread, thread killed: #{thread 8378}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8408}
+Serious problem while running root thread, thread killed: #{thread 8381}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8410}
+Serious problem while running root thread, thread killed: #{thread 8383}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8411}
+Serious problem while running root thread, thread killed: #{thread 8385}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8443}
+Serious problem while running root thread, thread killed: #{thread 8386}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8445}
+Serious problem while running root thread, thread killed: #{thread 8418}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8447}
+Serious problem while running root thread, thread killed: #{thread 8419}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8448}
+Serious problem while running root thread, thread killed: #{thread 8422}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8479}
+Serious problem while running root thread, thread killed: #{thread 8423}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8480}
+Serious problem while running root thread, thread killed: #{thread 8426}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8483}
+Serious problem while running root thread, thread killed: #{thread 8428}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8485}
+Serious problem while running root thread, thread killed: #{thread 8430}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8487}
+Serious problem while running root thread, thread killed: #{thread 8431}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8488}
+Serious problem while running root thread, thread killed: #{thread 8463}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8517}
+Serious problem while running root thread, thread killed: #{thread 8464}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8518}
+Serious problem while running root thread, thread killed: #{thread 8467}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8521}
+Serious problem while running root thread, thread killed: #{thread 8469}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8523}
+Serious problem while running root thread, thread killed: #{thread 8471}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8525}
+Serious problem while running root thread, thread killed: #{thread 8472}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8526}
+Serious problem while running root thread, thread killed: #{thread 8502}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8554}
+Serious problem while running root thread, thread killed: #{thread 8503}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8555}
+Serious problem while running root thread, thread killed: #{thread 8506}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8558}
+Serious problem while running root thread, thread killed: #{thread 8507}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8560}
+Serious problem while running root thread, thread killed: #{thread 8510}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8562}
+Serious problem while running root thread, thread killed: #{thread 8512}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8563}
+Serious problem while running root thread, thread killed: #{thread 8514}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8515}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8547}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8548}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8551}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8552}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8582}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8583}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8586}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8587}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 8590}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 8591}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8592}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8595}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8596}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8599}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8601}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8603}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8604}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8633}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8634}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8637}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8638}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8641}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8643}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8645}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8646}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8677}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8679}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8681}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8682}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8712}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8713}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8716}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8717}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8720}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8722}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8724}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8725}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8754}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8755}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8758}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8760}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8762}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 8763}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9142}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9143}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9256}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9257}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9374}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9375}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9467}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9468}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9489}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9490}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9558}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9559}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9739}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9740}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9824}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9825}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9897}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9899}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9901}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9902}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9931}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9932}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9935}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9937}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9939}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9940}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9971}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9973}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9975}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 9976}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10001}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10002}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10005}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10006}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10009}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10011}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10013}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10014}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10041}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10042}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10045}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10047}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10049}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10050}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10081}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10082}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10085}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10087}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10089}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10090}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10117}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 10118}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  3385 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8519 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	1m4.820s
-user	1m4.650s
-sys	0m0.120s
+real	0m37.968s
+user	0m37.850s
+sys	0m0.103s
 +!CSVLINE!+scheme48,ack,CRASHED
 
 Testing array1 under Scheme48
@@ -1495,17 +2015,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/array1.s48img
 > 
-real	0m0.250s
-user	0m0.243s
-sys	0m0.003s
+real	0m0.161s
+user	0m0.160s
+sys	0m0.000s
 Running...
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  3427 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8538 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	0m0.412s
-user	0m0.353s
-sys	0m0.040s
+real	0m0.230s
+user	0m0.183s
+sys	0m0.027s
 +!CSVLINE!+scheme48,array1,CRASHED
 
 Testing string under Scheme48
@@ -1522,17 +2042,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/string.s48img
 > 
-real	0m0.247s
-user	0m0.243s
+real	0m0.159s
+user	0m0.157s
 sys	0m0.000s
 Running...
 Running string:500000:25
-Elapsed time: 48.990057 seconds (49) for string:500000:25
-+!CSVLINE!+scheme48-unknown,string:500000:25,48.990057
+Elapsed time: 40.950167 seconds (41) for string:500000:25
++!CSVLINE!+scheme48-unknown,string:500000:25,40.950167
 
-real	0m48.998s
-user	0m48.990s
-sys	0m0.010s
+real	0m40.956s
+user	0m40.940s
+sys	0m0.017s
 +!CSVLINE!+scheme48,string,CRASHED
 
 Testing sum1 under Scheme48
@@ -1549,20 +2069,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/sum1.s48img
 > 
-real	0m0.175s
-user	0m0.170s
+real	0m0.161s
+user	0m0.157s
 sys	0m0.003s
 Running...
 Running sum1:25
-Elapsed time: 23.352878 seconds (23) for sum1:25
-+!CSVLINE!+scheme48-unknown,sum1:25,23.352878
+Elapsed time: 20.247546 seconds (21) for sum1:25
++!CSVLINE!+scheme48-unknown,sum1:25,20.247546
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m23.358s
-user	0m23.350s
-sys	0m0.007s
+real	0m20.252s
+user	0m20.250s
+sys	0m0.003s
 +!CSVLINE!+scheme48,sum1,CRASHED
 
 Testing cat under Scheme48
@@ -1584,9 +2104,9 @@ warning: undefined variables [print-undefined-names]
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/cat.s48img
 > 
-real	0m0.255s
-user	0m0.253s
-sys	0m0.000s
+real	0m0.164s
+user	0m0.160s
+sys	0m0.003s
 Running...
 
 assertion-violation: undefined variable [global]
@@ -1594,7 +2114,7 @@ assertion-violation: undefined variable [global]
                      user
 Running cat:50
 
-real	0m0.006s
+real	0m0.004s
 user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+scheme48,cat,CRASHED
@@ -1621,8 +2141,8 @@ warning: undefined variables [print-undefined-names]
 > Writing /tmp/larcenous/Scheme48/tail.s48img
 > 
 real	0m0.256s
-user	0m0.253s
-sys	0m0.000s
+user	0m0.250s
+sys	0m0.003s
 Running...
 
 assertion-violation: undefined variable [global]
@@ -1630,7 +2150,7 @@ assertion-violation: undefined variable [global]
                      user
 Running tail:25
 
-real	0m0.007s
+real	0m0.004s
 user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+scheme48,tail,CRASHED
@@ -1649,20 +2169,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/wc.s48img
 > 
-real	0m0.248s
-user	0m0.237s
-sys	0m0.010s
+real	0m0.161s
+user	0m0.157s
+sys	0m0.003s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 21.937181 seconds (22) for wc:inputs/bib:50
-+!CSVLINE!+scheme48-unknown,wc:inputs/bib:50,21.937181
+Elapsed time: 16.324744 seconds (17) for wc:inputs/bib:50
++!CSVLINE!+scheme48-unknown,wc:inputs/bib:50,16.324744
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m21.943s
-user	0m21.897s
-sys	0m0.047s
+real	0m16.330s
+user	0m16.317s
+sys	0m0.013s
 +!CSVLINE!+scheme48,wc,CRASHED
 
 Testing read1 under Scheme48
@@ -1679,20 +2199,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/read1.s48img
 > 
-real	0m0.252s
-user	0m0.247s
+real	0m0.163s
+user	0m0.157s
 sys	0m0.003s
 Running...
 Running read1:2500
-Elapsed time: 17.56802 seconds (17) for read1:2500
-+!CSVLINE!+scheme48-unknown,read1:2500,17.56802
+Elapsed time: 12.70015 seconds (12) for read1:2500
++!CSVLINE!+scheme48-unknown,read1:2500,12.70015
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m17.575s
-user	0m17.540s
-sys	0m0.033s
+real	0m12.705s
+user	0m12.673s
+sys	0m0.030s
 +!CSVLINE!+scheme48,read1,CRASHED
 
 Testing compiler under Scheme48
@@ -1709,20 +2229,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/compiler.s48img
 > 
-real	0m1.430s
-user	0m1.417s
-sys	0m0.010s
+real	0m0.860s
+user	0m0.857s
+sys	0m0.000s
 Running...
 Running compiler:2000
-Elapsed time: 35.761781 seconds (36) for compiler:2000
-+!CSVLINE!+scheme48-unknown,compiler:2000,35.761781
+Elapsed time: 29.372765 seconds (30) for compiler:2000
++!CSVLINE!+scheme48-unknown,compiler:2000,29.372765
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m35.770s
-user	0m35.763s
-sys	0m0.007s
+real	0m29.381s
+user	0m29.377s
+sys	0m0.003s
 +!CSVLINE!+scheme48,compiler,CRASHED
 
 Testing conform under Scheme48
@@ -1739,20 +2259,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/conform.s48img
 > 
-real	0m0.249s
-user	0m0.233s
-sys	0m0.013s
+real	0m0.218s
+user	0m0.207s
+sys	0m0.010s
 Running...
 Running conform:500
-Elapsed time: 80.042482 seconds (80) for conform:500
-+!CSVLINE!+scheme48-unknown,conform:500,80.042482
+Elapsed time: 72.300351 seconds (72) for conform:500
++!CSVLINE!+scheme48-unknown,conform:500,72.300351
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	1m20.048s
-user	1m20.040s
-sys	0m0.007s
+real	1m12.306s
+user	1m12.293s
+sys	0m0.017s
 +!CSVLINE!+scheme48,conform,CRASHED
 
 Testing dynamic under Scheme48
@@ -1769,281 +2289,199 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/dynamic.s48img
 > 
-real	0m0.345s
-user	0m0.337s
-sys	0m0.007s
+real	0m0.256s
+user	0m0.253s
+sys	0m0.000s
 Running...
+Channel closed: inputs/dynamic.data 4
 Running dynamic:500
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
@@ -2053,101 +2491,237 @@ Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 8
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
@@ -2155,6 +2729,26 @@ Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 7
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
@@ -2163,15 +2757,17 @@ Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
+Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
+Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 7
@@ -2179,107 +2775,31 @@ Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 7
 Channel closed: inputs/dynamic.data 4
+Channel closed: inputs/dynamic.data 8
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 5
 Channel closed: inputs/dynamic.data 4
 Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 5
-Channel closed: inputs/dynamic.data 6
-Channel closed: inputs/dynamic.data 4
-Channel closed: inputs/dynamic.data 7
-Channel closed: inputs/dynamic.data 4
-Elapsed time: 72.107172 seconds (72) for dynamic:500
-+!CSVLINE!+scheme48-unknown,dynamic:500,72.107172
+Elapsed time: 53.984302 seconds (54) for dynamic:500
++!CSVLINE!+scheme48-unknown,dynamic:500,53.984302
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	1m12.114s
-user	1m12.050s
-sys	0m0.047s
+real	0m53.990s
+user	0m53.933s
+sys	0m0.060s
 +!CSVLINE!+scheme48,dynamic,CRASHED
 
 Testing earley under Scheme48
@@ -2296,15 +2816,15 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/earley.s48img
 > 
-real	0m0.232s
-user	0m0.227s
-sys	0m0.003s
+real	0m0.190s
+user	0m0.180s
+sys	0m0.007s
 Running...
 Running earley:1
 Serious problem while running root thread, thread killed: #{thread 93}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 94}
+Serious problem while running root thread, thread killed: #{thread 95}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 97}
@@ -2334,7 +2854,7 @@ Assertion violation:  [tail-call]wrong number of arguments
 Serious problem while running root thread, thread killed: #{thread 113}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 115}
+Serious problem while running root thread, thread killed: #{thread 114}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 117}
@@ -2346,7 +2866,7 @@ Assertion violation:  [tail-call]wrong number of arguments
 Serious problem while running root thread, thread killed: #{thread 121}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 122}
+Serious problem while running root thread, thread killed: #{thread 123}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 125}
@@ -2355,25 +2875,43 @@ Assertion violation:  [tail-call]wrong number of arguments
 Serious problem while running root thread, thread killed: #{thread 126}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 129}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 130}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 131}
+Serious problem while running root thread, thread killed: #{thread 133}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 Serious problem while running root thread, thread killed: #{thread 134}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 135}
+Serious problem while running root thread, thread killed: #{thread 137}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 138}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 142}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 143}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 146}
+Assertion violation:  [tail-call]wrong number of arguments
+    (#{procedure 3171 (unnamed in interrupts)} '())
+Serious problem while running root thread, thread killed: #{thread 147}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  3691 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8667 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	0m1.205s
-user	0m1.120s
-sys	0m0.070s
+real	0m1.097s
+user	0m1.033s
+sys	0m0.050s
 +!CSVLINE!+scheme48,earley,CRASHED
 
 Testing graphs under Scheme48
@@ -2390,29 +2928,29 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/graphs.s48img
 > 
-real	0m0.178s
-user	0m0.170s
-sys	0m0.007s
+real	0m0.169s
+user	0m0.167s
+sys	0m0.000s
 Running...
 Running graphs:7:3
-Serious problem while running root thread, thread killed: #{thread 3808}
+Serious problem while running root thread, thread killed: #{thread 3802}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 3809}
+Serious problem while running root thread, thread killed: #{thread 3803}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7537}
+Serious problem while running root thread, thread killed: #{thread 7540}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 7538}
+Serious problem while running root thread, thread killed: #{thread 7541}
 Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
-Elapsed time: 64.191389 seconds (64) for graphs:7:3
-+!CSVLINE!+scheme48-unknown,graphs:7:3,64.191389
+Elapsed time: 54.837486 seconds (55) for graphs:7:3
++!CSVLINE!+scheme48-unknown,graphs:7:3,54.837486
 
-real	1m4.198s
-user	1m4.173s
-sys	0m0.027s
+real	0m54.844s
+user	0m54.837s
+sys	0m0.010s
 +!CSVLINE!+scheme48,graphs,CRASHED
 
 Testing lattice under Scheme48
@@ -2429,17 +2967,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/lattice.s48img
 > 
-real	0m0.282s
-user	0m0.277s
+real	0m0.168s
+user	0m0.163s
 sys	0m0.003s
 Running...
 Running lattice:44:10
-Elapsed time: 238.05025 seconds (238) for lattice:44:10
-+!CSVLINE!+scheme48-unknown,lattice:44:10,238.05025
+Elapsed time: 198.0316 seconds (198) for lattice:44:10
++!CSVLINE!+scheme48-unknown,lattice:44:10,198.0316
 
-real	3m58.056s
-user	3m57.973s
-sys	0m0.033s
+real	3m18.036s
+user	3m18.037s
+sys	0m0.013s
 +!CSVLINE!+scheme48,lattice,CRASHED
 
 Testing matrix under Scheme48
@@ -2456,20 +2994,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/matrix.s48img
 > 
-real	0m0.290s
-user	0m0.280s
+real	0m0.185s
+user	0m0.177s
 sys	0m0.007s
 Running...
 Running matrix:5:5:2500
-Elapsed time: 45.27333 seconds (45) for matrix:5:5:2500
-+!CSVLINE!+scheme48-unknown,matrix:5:5:2500,45.27333
+Elapsed time: 33.647701 seconds (34) for matrix:5:5:2500
++!CSVLINE!+scheme48-unknown,matrix:5:5:2500,33.647701
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m45.280s
-user	0m45.273s
-sys	0m0.007s
+real	0m33.653s
+user	0m33.643s
+sys	0m0.010s
 +!CSVLINE!+scheme48,matrix,CRASHED
 
 Testing maze under Scheme48
@@ -2486,20 +3024,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/maze.s48img
 > 
-real	0m0.303s
-user	0m0.293s
-sys	0m0.007s
+real	0m0.188s
+user	0m0.173s
+sys	0m0.013s
 Running...
 Running maze:20:7:10000
-Elapsed time: 28.319692 seconds (28) for maze:20:7:10000
-+!CSVLINE!+scheme48-unknown,maze:20:7:10000,28.319692
+Elapsed time: 20.800284 seconds (21) for maze:20:7:10000
++!CSVLINE!+scheme48-unknown,maze:20:7:10000,20.800284
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m28.326s
-user	0m28.327s
-sys	0m0.000s
+real	0m20.806s
+user	0m20.803s
+sys	0m0.003s
 +!CSVLINE!+scheme48,maze,CRASHED
 
 Testing mazefun under Scheme48
@@ -2516,20 +3054,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/mazefun.s48img
 > 
-real	0m0.281s
-user	0m0.267s
-sys	0m0.013s
+real	0m0.169s
+user	0m0.163s
+sys	0m0.003s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 54.564709 seconds (55) for mazefun:11:11:10000
-+!CSVLINE!+scheme48-unknown,mazefun:11:11:10000,54.564709
+Elapsed time: 42.324193 seconds (42) for mazefun:11:11:10000
++!CSVLINE!+scheme48-unknown,mazefun:11:11:10000,42.324193
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m54.572s
-user	0m54.563s
-sys	0m0.003s
+real	0m42.329s
+user	0m42.323s
+sys	0m0.007s
 +!CSVLINE!+scheme48,mazefun,CRASHED
 
 Testing nqueens under Scheme48
@@ -2546,17 +3084,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/nqueens.s48img
 > 
-real	0m0.218s
-user	0m0.210s
-sys	0m0.007s
+real	0m0.162s
+user	0m0.157s
+sys	0m0.003s
 Running...
 Running nqueens:13:10
-Elapsed time: 102.477984 seconds (102) for nqueens:13:10
-+!CSVLINE!+scheme48-unknown,nqueens:13:10,102.477984
+Elapsed time: 85.398178 seconds (85) for nqueens:13:10
++!CSVLINE!+scheme48-unknown,nqueens:13:10,85.398178
 
-real	1m42.485s
-user	1m42.457s
-sys	0m0.030s
+real	1m25.403s
+user	1m25.393s
+sys	0m0.013s
 +!CSVLINE!+scheme48,nqueens,CRASHED
 
 Testing paraffins under Scheme48
@@ -2573,17 +3111,17 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/paraffins.s48img
 > 
-real	0m0.180s
-user	0m0.177s
-sys	0m0.003s
+real	0m0.171s
+user	0m0.170s
+sys	0m0.000s
 Running...
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  4026 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8779 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	0m0.212s
-user	0m0.137s
-sys	0m0.057s
+real	0m0.192s
+user	0m0.113s
+sys	0m0.060s
 +!CSVLINE!+scheme48,paraffins,CRASHED
 
 Testing parsing under Scheme48
@@ -2600,20 +3138,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/parsing.s48img
 > 
-real	0m0.239s
-user	0m0.237s
-sys	0m0.000s
+real	0m0.191s
+user	0m0.183s
+sys	0m0.007s
 Running...
 Running parsing:2500
-Elapsed time: 129.136772 seconds (129) for parsing:2500
-+!CSVLINE!+scheme48-unknown,parsing:2500,129.136772
+Elapsed time: 103.281651 seconds (103) for parsing:2500
++!CSVLINE!+scheme48-unknown,parsing:2500,103.281651
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	2m9.141s
-user	2m9.130s
-sys	0m0.007s
+real	1m43.287s
+user	1m43.290s
+sys	0m0.003s
 +!CSVLINE!+scheme48,parsing,CRASHED
 
 Testing peval under Scheme48
@@ -2630,20 +3168,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/peval.s48img
 > 
-real	0m0.298s
-user	0m0.290s
+real	0m0.192s
+user	0m0.183s
 sys	0m0.007s
 Running...
 Running peval:2000
-Elapsed time: 50.425697 seconds (50) for peval:2000
-+!CSVLINE!+scheme48-unknown,peval:2000,50.425697
+Elapsed time: 40.027836 seconds (40) for peval:2000
++!CSVLINE!+scheme48-unknown,peval:2000,40.027836
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m50.432s
-user	0m50.423s
-sys	0m0.007s
+real	0m40.033s
+user	0m40.023s
+sys	0m0.010s
 +!CSVLINE!+scheme48,peval,CRASHED
 
 Testing primes under Scheme48
@@ -2660,20 +3198,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/primes.s48img
 > 
-real	0m0.170s
-user	0m0.160s
-sys	0m0.007s
+real	0m0.250s
+user	0m0.237s
+sys	0m0.010s
 Running...
 Running primes:1000:10000
-Elapsed time: 14.073908 seconds (14) for primes:1000:10000
-+!CSVLINE!+scheme48-unknown,primes:1000:10000,14.073908
+Elapsed time: 11.49085 seconds (12) for primes:1000:10000
++!CSVLINE!+scheme48-unknown,primes:1000:10000,11.49085
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m14.083s
-user	0m14.067s
-sys	0m0.013s
+real	0m11.497s
+user	0m11.493s
+sys	0m0.003s
 +!CSVLINE!+scheme48,primes,CRASHED
 
 Testing quicksort under Scheme48
@@ -2690,20 +3228,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/quicksort.s48img
 > 
-real	0m0.261s
-user	0m0.257s
+real	0m0.167s
+user	0m0.160s
 sys	0m0.003s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 43.294218 seconds (44) for quicksort:10000:2500
-+!CSVLINE!+scheme48-unknown,quicksort:10000:2500,43.294218
+Elapsed time: 36.250899 seconds (36) for quicksort:10000:2500
++!CSVLINE!+scheme48-unknown,quicksort:10000:2500,36.250899
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m44.126s
-user	0m44.120s
-sys	0m0.000s
+real	0m36.841s
+user	0m36.833s
+sys	0m0.007s
 +!CSVLINE!+scheme48,quicksort,CRASHED
 
 Testing scheme under Scheme48
@@ -2720,20 +3258,20 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/scheme.s48img
 > 
-real	0m0.336s
-user	0m0.320s
-sys	0m0.013s
+real	0m0.219s
+user	0m0.210s
+sys	0m0.007s
 Running...
 Running scheme:100000
-Elapsed time: 43.79752 seconds (44) for scheme:100000
-+!CSVLINE!+scheme48-unknown,scheme:100000,43.79752
+Elapsed time: 40.912128 seconds (41) for scheme:100000
++!CSVLINE!+scheme48-unknown,scheme:100000,40.912128
 VM exception `wrong-type-argument' with no handler in place
 opcode is: closed-values
 stack template id's:  <- 525 <- 
 
-real	0m43.804s
-user	0m43.790s
-sys	0m0.017s
+real	0m40.917s
+user	0m40.913s
+sys	0m0.007s
 +!CSVLINE!+scheme48,scheme,CRASHED
 
 Testing slatex under Scheme48
@@ -2755,9 +3293,9 @@ warning: undefined variables [print-undefined-names]
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/slatex.s48img
 > 
-real	0m0.344s
-user	0m0.330s
-sys	0m0.010s
+real	0m0.264s
+user	0m0.250s
+sys	0m0.013s
 Running...
 
 assertion-violation: undefined variable [global]
@@ -2765,7 +3303,7 @@ assertion-violation: undefined variable [global]
                      user
 Running slatex:500
 
-real	0m0.006s
+real	0m0.005s
 user	0m0.003s
 sys	0m0.000s
 +!CSVLINE!+scheme48,slatex,CRASHED
@@ -2784,84 +3322,18 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/nboyer.s48img
 > 
-real	0m0.238s
-user	0m0.233s
-sys	0m0.000s
+real	0m0.177s
+user	0m0.167s
+sys	0m0.007s
 Running...
 Running nboyer:5:1
-Serious problem while running root thread, thread killed: #{thread 48}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 49}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 60}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 62}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 64}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 65}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 74}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 76}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 78}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 79}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 83}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 84}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 87}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 88}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 91}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 93}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 95}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 96}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 99}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 100}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 103}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
-Serious problem while running root thread, thread killed: #{thread 104}
-Assertion violation:  [tail-call]wrong number of arguments
-    (#{procedure 3171 (unnamed in interrupts)} '())
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  4217 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8875 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	0m2.313s
-user	0m2.223s
-sys	0m0.063s
+real	0m1.454s
+user	0m1.390s
+sys	0m0.047s
 +!CSVLINE!+scheme48,nboyer,CRASHED
 
 Testing sboyer under Scheme48
@@ -2878,9 +3350,9 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/sboyer.s48img
 > 
-real	0m0.281s
-user	0m0.270s
-sys	0m0.010s
+real	0m0.177s
+user	0m0.170s
+sys	0m0.007s
 Running...
 Running sboyer:5:1
 Serious problem while running root thread, thread killed: #{thread 56}
@@ -2909,11 +3381,11 @@ Assertion violation:  [tail-call]wrong number of arguments
     (#{procedure 3171 (unnamed in interrupts)} '())
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  4245 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8892 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	0m8.024s
-user	0m7.937s
-sys	0m0.067s
+real	0m6.281s
+user	0m6.207s
+sys	0m0.053s
 +!CSVLINE!+scheme48,sboyer,CRASHED
 
 Testing gcbench under Scheme48
@@ -2935,15 +3407,15 @@ assertion-violation: undefined variable [global]
                      main
                      user
 2> 
-real	0m0.225s
-user	0m0.220s
+real	0m0.148s
+user	0m0.143s
 sys	0m0.003s
 Running...
 Can't open heap image file
 No such file or directory
 Image file "/tmp/larcenous/Scheme48/gcbench.s48img" is unusable.
 
-real	0m0.003s
+real	0m0.002s
 user	0m0.000s
 sys	0m0.000s
 +!CSVLINE!+scheme48,gcbench,CRASHED
@@ -2967,17 +3439,17 @@ warning: invalid arguments [diagnose-call-error]
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/mperm.s48img
 > 
-real	0m0.262s
-user	0m0.260s
+real	0m0.168s
+user	0m0.167s
 sys	0m0.000s
 Running...
 gc: Scheme 48 heap overflow (max heap size 4000000 cells)
 
-./bench: line 486:  4273 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
+./bench: line 486:  8920 Aborted                 (core dumped) ${SCHEME48} -i $1 < $2
 
-real	0m0.597s
-user	0m0.507s
-sys	0m0.073s
+real	0m0.367s
+user	0m0.300s
+sys	0m0.050s
 +!CSVLINE!+scheme48,mperm,CRASHED
 
 Testing equal under Scheme48
@@ -2994,15 +3466,15 @@ Type ,? (comma question-mark) for help.
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/equal.s48img
 > 
-real	0m0.261s
-user	0m0.250s
-sys	0m0.010s
+real	0m0.163s
+user	0m0.157s
+sys	0m0.003s
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 486:  4291 Killed                  ${SCHEME48} -i $1 < $2
+./bench: line 486:  8937 Killed                  ${SCHEME48} -i $1 < $2
 
-real	5m0.005s
-user	5m0.017s
+real	15m0.000s
+user	15m0.073s
 sys	0m0.000s
 +!CSVLINE!+scheme48,equal,ULIMITKILLED
 
@@ -3027,7 +3499,7 @@ warning: undefined variables [print-undefined-names]
 ; no values returned
 > Writing /tmp/larcenous/Scheme48/bv2string.s48img
 > 
-real	0m0.170s
+real	0m0.171s
 user	0m0.167s
 sys	0m0.003s
 Running...
@@ -3038,6 +3510,6 @@ assertion-violation: undefined variable [global]
 Running bv2string:1000:1000:100
 
 real	0m0.004s
-user	0m0.003s
-sys	0m0.000s
+user	0m0.000s
+sys	0m0.003s
 +!CSVLINE!+scheme48,bv2string,CRASHED

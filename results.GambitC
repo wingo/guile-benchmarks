@@ -1,65 +1,65 @@
 
 ****************************
-Benchmarking GambitC on Wed 22 Jun 17:19:44 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
+Benchmarking GambitC on Sat 2 Jul 03:54:46 CEST 2016 under Linux nexion 4.6.2-1-ARCH #1 SMP PREEMPT Wed Jun 8 08:40:59 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 3.251760959625244 seconds (4.) for browse:2000
-+!CSVLINE!+gambitc-v4.8.5,browse:2000,3.251760959625244
+Elapsed time: 2.2498040199279785 seconds (3.) for browse:2000
++!CSVLINE!+gambitc-v4.8.5,browse:2000,2.2498040199279785
 
-real	0m3.257s
-user	0m3.247s
-sys	0m0.010s
+real	0m2.253s
+user	0m2.250s
+sys	0m0.000s
 
 Testing deriv under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 2.660473346710205 seconds (3.) for deriv:10000000
-+!CSVLINE!+gambitc-v4.8.5,deriv:10000000,2.660473346710205
+Elapsed time: 1.7804625034332275 seconds (2.) for deriv:10000000
++!CSVLINE!+gambitc-v4.8.5,deriv:10000000,1.7804625034332275
 
-real	0m2.665s
-user	0m2.647s
-sys	0m0.017s
+real	0m1.783s
+user	0m1.780s
+sys	0m0.000s
 
 Testing destruc under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 4.819811582565308 seconds (5.) for destruc:600:50:4000
-+!CSVLINE!+gambitc-v4.8.5,destruc:600:50:4000,4.819811582565308
+Elapsed time: 2.513425827026367 seconds (3.) for destruc:600:50:4000
++!CSVLINE!+gambitc-v4.8.5,destruc:600:50:4000,2.513425827026367
 
-real	0m4.825s
-user	0m4.817s
-sys	0m0.007s
+real	0m2.516s
+user	0m2.513s
+sys	0m0.000s
 
 Testing diviter under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 3.940099000930786 seconds (4.) for diviter:1000:1000000
-+!CSVLINE!+gambitc-v4.8.5,diviter:1000:1000000,3.940099000930786
+Elapsed time: 2.004446268081665 seconds (2.) for diviter:1000:1000000
++!CSVLINE!+gambitc-v4.8.5,diviter:1000:1000000,2.004446268081665
 
-real	0m3.945s
-user	0m3.930s
-sys	0m0.013s
+real	0m2.007s
+user	0m1.997s
+sys	0m0.010s
 
 Testing divrec under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 6.36905574798584 seconds (7.) for divrec:1000:1000000
-+!CSVLINE!+gambitc-v4.8.5,divrec:1000:1000000,6.36905574798584
+Elapsed time: 3.042856216430664 seconds (3.) for divrec:1000:1000000
++!CSVLINE!+gambitc-v4.8.5,divrec:1000:1000000,3.042856216430664
 
-real	0m6.373s
-user	0m6.360s
+real	0m3.046s
+user	0m3.033s
 sys	0m0.010s
 
 Testing puzzle under GambitC
@@ -67,35 +67,35 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 2.507448434829712 seconds (2.) for puzzle:1000
-+!CSVLINE!+gambitc-v4.8.5,puzzle:1000,2.507448434829712
+Elapsed time: 2.27935791015625 seconds (3.) for puzzle:1000
++!CSVLINE!+gambitc-v4.8.5,puzzle:1000,2.27935791015625
 
-real	0m2.511s
-user	0m2.507s
-sys	0m0.003s
+real	0m2.282s
+user	0m2.273s
+sys	0m0.007s
 
 Testing triangl under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 2.6310830116271973 seconds (3.) for triangl:22:1:50
-+!CSVLINE!+gambitc-v4.8.5,triangl:22:1:50,2.6310830116271973
+Elapsed time: 1.5674631595611572 seconds (2.) for triangl:22:1:50
++!CSVLINE!+gambitc-v4.8.5,triangl:22:1:50,1.5674631595611572
 
-real	0m2.635s
-user	0m2.620s
-sys	0m0.013s
+real	0m1.570s
+user	0m1.570s
+sys	0m0.000s
 
 Testing tak under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 2.615812063217163 seconds (2.) for tak:40:20:11:1
-+!CSVLINE!+gambitc-v4.8.5,tak:40:20:11:1,2.615812063217163
+Elapsed time: 2.108280897140503 seconds (2.) for tak:40:20:11:1
++!CSVLINE!+gambitc-v4.8.5,tak:40:20:11:1,2.108280897140503
 
-real	0m2.620s
-user	0m2.617s
+real	0m2.111s
+user	0m2.110s
 sys	0m0.000s
 
 Testing takl under GambitC
@@ -103,11 +103,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 2.711413621902466 seconds (3.) for takl:40:20:12:1
-+!CSVLINE!+gambitc-v4.8.5,takl:40:20:12:1,2.711413621902466
+Elapsed time: 1.6592271327972412 seconds (1.) for takl:40:20:12:1
++!CSVLINE!+gambitc-v4.8.5,takl:40:20:12:1,1.6592271327972412
 
-real	0m2.716s
-user	0m2.713s
+real	0m1.662s
+user	0m1.660s
 sys	0m0.000s
 
 Testing ntakl under GambitC
@@ -115,47 +115,47 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 2.6568377017974854 seconds (3.) for ntakl:40:20:12:1
-+!CSVLINE!+gambitc-v4.8.5,ntakl:40:20:12:1,2.6568377017974854
+Elapsed time: 1.6551342010498047 seconds (2.) for ntakl:40:20:12:1
++!CSVLINE!+gambitc-v4.8.5,ntakl:40:20:12:1,1.6551342010498047
 
-real	0m2.661s
-user	0m2.660s
-sys	0m0.000s
+real	0m1.658s
+user	0m1.653s
+sys	0m0.003s
 
 Testing cpstak under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 7.691535949707031 seconds (7.) for cpstak:40:20:11:1
-+!CSVLINE!+gambitc-v4.8.5,cpstak:40:20:11:1,7.691535949707031
+Elapsed time: 4.653258800506592 seconds (5.) for cpstak:40:20:11:1
++!CSVLINE!+gambitc-v4.8.5,cpstak:40:20:11:1,4.653258800506592
 
-real	0m7.696s
-user	0m7.690s
-sys	0m0.003s
+real	0m4.656s
+user	0m4.637s
+sys	0m0.017s
 
 Testing ctak under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 3.5947670936584473 seconds (4.) for ctak:32:16:8:1
-+!CSVLINE!+gambitc-v4.8.5,ctak:32:16:8:1,3.5947670936584473
+Elapsed time: 2.6666951179504395 seconds (3.) for ctak:32:16:8:1
++!CSVLINE!+gambitc-v4.8.5,ctak:32:16:8:1,2.6666951179504395
 
-real	0m3.599s
-user	0m3.597s
-sys	0m0.000s
+real	0m2.670s
+user	0m2.663s
+sys	0m0.003s
 
 Testing fib under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 7.783797264099121 seconds (8.) for fib:40:5
-+!CSVLINE!+gambitc-v4.8.5,fib:40:5,7.783797264099121
+Elapsed time: 5.8074049949646 seconds (6.) for fib:40:5
++!CSVLINE!+gambitc-v4.8.5,fib:40:5,5.8074049949646
 
-real	0m7.788s
-user	0m7.787s
+real	0m5.810s
+user	0m5.810s
 sys	0m0.000s
 
 Testing fibc under GambitC
@@ -163,107 +163,107 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 3.7101027965545654 seconds (4.) for fibc:30:10
-+!CSVLINE!+gambitc-v4.8.5,fibc:30:10,3.7101027965545654
+Elapsed time: 1.7720394134521484 seconds (1.) for fibc:30:10
++!CSVLINE!+gambitc-v4.8.5,fibc:30:10,1.7720394134521484
 
-real	0m3.714s
-user	0m3.710s
-sys	0m0.003s
+real	0m1.775s
+user	0m1.773s
+sys	0m0.000s
 
 Testing fibfp under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running fibfp:35.:10
-Elapsed time: 2.953730821609497 seconds (3.) for fibfp:35.:10
-+!CSVLINE!+gambitc-v4.8.5,fibfp:35.:10,2.953730821609497
+Elapsed time: 1.7713344097137451 seconds (1.) for fibfp:35.:10
++!CSVLINE!+gambitc-v4.8.5,fibfp:35.:10,1.7713344097137451
 
-real	0m2.958s
-user	0m2.950s
-sys	0m0.007s
+real	0m1.774s
+user	0m1.773s
+sys	0m0.000s
 
 Testing sum under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 6.913374662399292 seconds (7.) for sum:10000:200000
-+!CSVLINE!+gambitc-v4.8.5,sum:10000:200000,6.913374662399292
+Elapsed time: 4.473850727081299 seconds (4.) for sum:10000:200000
++!CSVLINE!+gambitc-v4.8.5,sum:10000:200000,4.473850727081299
 
-real	0m6.917s
-user	0m6.917s
-sys	0m0.000s
+real	0m4.477s
+user	0m4.473s
+sys	0m0.003s
 
 Testing sumfp under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 6.233285427093506 seconds (6.) for sumfp:1000000.:500
-+!CSVLINE!+gambitc-v4.8.5,sumfp:1000000.:500,6.233285427093506
+Elapsed time: 2.6825101375579834 seconds (2.) for sumfp:1000000.:500
++!CSVLINE!+gambitc-v4.8.5,sumfp:1000000.:500,2.6825101375579834
 
-real	0m6.238s
-user	0m6.233s
-sys	0m0.003s
+real	0m2.685s
+user	0m2.663s
+sys	0m0.020s
 
 Testing fft under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running fft:65536:100
-Elapsed time: 6.7713847160339355 seconds (7.) for fft:65536:100
-+!CSVLINE!+gambitc-v4.8.5,fft:65536:100,6.7713847160339355
+Elapsed time: 3.25638484954834 seconds (4.) for fft:65536:100
++!CSVLINE!+gambitc-v4.8.5,fft:65536:100,3.25638484954834
 
-real	0m6.776s
-user	0m6.757s
-sys	0m0.017s
+real	0m3.260s
+user	0m3.253s
+sys	0m0.003s
 
 Testing mbrot under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 6.897781848907471 seconds (7.) for mbrot:75:1000
-+!CSVLINE!+gambitc-v4.8.5,mbrot:75:1000,6.897781848907471
+Elapsed time: 3.934584856033325 seconds (4.) for mbrot:75:1000
++!CSVLINE!+gambitc-v4.8.5,mbrot:75:1000,3.934584856033325
 
-real	0m6.902s
-user	0m6.877s
-sys	0m0.023s
+real	0m3.938s
+user	0m3.927s
+sys	0m0.010s
 
 Testing mbrotZ under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 44.529417514801025 seconds (45.) for mbrotZ:75:1000
-+!CSVLINE!+gambitc-v4.8.5,mbrotZ:75:1000,44.529417514801025
+Elapsed time: 26.538320541381836 seconds (26.) for mbrotZ:75:1000
++!CSVLINE!+gambitc-v4.8.5,mbrotZ:75:1000,26.538320541381836
 
-real	0m44.533s
-user	0m44.510s
-sys	0m0.023s
+real	0m26.541s
+user	0m26.513s
+sys	0m0.027s
 
 Testing nucleic under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 3.963761329650879 seconds (4.) for nucleic:50
-+!CSVLINE!+gambitc-v4.8.5,nucleic:50,3.963761329650879
+Elapsed time: 1.8734915256500244 seconds (2.) for nucleic:50
++!CSVLINE!+gambitc-v4.8.5,nucleic:50,1.8734915256500244
 
-real	0m3.969s
-user	0m3.960s
-sys	0m0.007s
+real	0m1.877s
+user	0m1.877s
+sys	0m0.000s
 
 Testing pi under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running pi:50:500:50:2
-Elapsed time: .7872910499572754 seconds (1.) for pi:50:500:50:2
-+!CSVLINE!+gambitc-v4.8.5,pi:50:500:50:2,.7872910499572754
+Elapsed time: .40577101707458496 seconds (0.) for pi:50:500:50:2
++!CSVLINE!+gambitc-v4.8.5,pi:50:500:50:2,.40577101707458496
 
-real	0m0.791s
-user	0m0.790s
+real	0m0.409s
+user	0m0.407s
 sys	0m0.000s
 
 Testing pnpoly under GambitC
@@ -271,132 +271,132 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 4.677287340164185 seconds (4.) for pnpoly:1000000
-+!CSVLINE!+gambitc-v4.8.5,pnpoly:1000000,4.677287340164185
+Elapsed time: 3.110086441040039 seconds (3.) for pnpoly:1000000
++!CSVLINE!+gambitc-v4.8.5,pnpoly:1000000,3.110086441040039
 
-real	0m4.682s
-user	0m4.677s
-sys	0m0.003s
+real	0m3.113s
+user	0m3.110s
+sys	0m0.000s
 
 Testing ray under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 4.370339870452881 seconds (5.) for ray:50
-+!CSVLINE!+gambitc-v4.8.5,ray:50,4.370339870452881
+Elapsed time: 1.9623425006866455 seconds (2.) for ray:50
++!CSVLINE!+gambitc-v4.8.5,ray:50,1.9623425006866455
 
-real	0m4.376s
-user	0m4.270s
-sys	0m0.033s
+real	0m1.965s
+user	0m1.953s
+sys	0m0.010s
 
 Testing simplex under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 4.242774724960327 seconds (4.) for simplex:1000000
-+!CSVLINE!+gambitc-v4.8.5,simplex:1000000,4.242774724960327
+Elapsed time: 1.8950128555297852 seconds (2.) for simplex:1000000
++!CSVLINE!+gambitc-v4.8.5,simplex:1000000,1.8950128555297852
 
-real	0m4.248s
-user	0m4.240s
-sys	0m0.007s
+real	0m1.898s
+user	0m1.897s
+sys	0m0.000s
 
 Testing ack under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 38.10245633125305 seconds (38.) for ack:3:12:2
-+!CSVLINE!+gambitc-v4.8.5,ack:3:12:2,38.10245633125305
+Elapsed time: 24.841832876205444 seconds (25.) for ack:3:12:2
++!CSVLINE!+gambitc-v4.8.5,ack:3:12:2,24.841832876205444
 
-real	0m38.106s
-user	0m38.037s
-sys	0m0.067s
+real	0m24.845s
+user	0m24.820s
+sys	0m0.027s
 
 Testing array1 under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 4.143225908279419 seconds (4.) for array1:1000000:500
-+!CSVLINE!+gambitc-v4.8.5,array1:1000000:500,4.143225908279419
+Elapsed time: 3.6919610500335693 seconds (4.) for array1:1000000:500
++!CSVLINE!+gambitc-v4.8.5,array1:1000000:500,3.6919610500335693
 
-real	0m4.147s
-user	0m3.373s
-sys	0m0.773s
+real	0m3.695s
+user	0m2.977s
+sys	0m0.717s
 
 Testing string under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: .8125135898590088 seconds (1.) for string:500000:25
-+!CSVLINE!+gambitc-v4.8.5,string:500000:25,.8125135898590088
+Elapsed time: .5000360012054443 seconds (1.) for string:500000:25
++!CSVLINE!+gambitc-v4.8.5,string:500000:25,.5000360012054443
 
-real	0m0.818s
-user	0m0.480s
-sys	0m0.337s
+real	0m0.503s
+user	0m0.280s
+sys	0m0.220s
 
 Testing sum1 under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 1.7179334163665771 seconds (2.) for sum1:25
-+!CSVLINE!+gambitc-v4.8.5,sum1:25,1.7179334163665771
+Elapsed time: .7584638595581055 seconds (1.) for sum1:25
++!CSVLINE!+gambitc-v4.8.5,sum1:25,.7584638595581055
 
-real	0m1.723s
-user	0m1.710s
-sys	0m0.010s
+real	0m0.761s
+user	0m0.747s
+sys	0m0.013s
 
 Testing cat under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 26.9521381855011 seconds (27.) for cat:50
-+!CSVLINE!+gambitc-v4.8.5,cat:50,26.9521381855011
+Elapsed time: 15.854913473129272 seconds (15.) for cat:50
++!CSVLINE!+gambitc-v4.8.5,cat:50,15.854913473129272
 
-real	0m26.957s
-user	0m26.437s
-sys	0m0.507s
+real	0m15.858s
+user	0m15.623s
+sys	0m0.230s
 
 Testing tail under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running tail:25
-Elapsed time: 4.345534086227417 seconds (5.) for tail:25
-+!CSVLINE!+gambitc-v4.8.5,tail:25,4.345534086227417
+Elapsed time: 2.2523300647735596 seconds (2.) for tail:25
++!CSVLINE!+gambitc-v4.8.5,tail:25,2.2523300647735596
 
-real	0m4.351s
-user	0m4.060s
-sys	0m0.287s
+real	0m2.257s
+user	0m2.073s
+sys	0m0.180s
 
 Testing wc under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 15.607431173324585 seconds (16.) for wc:inputs/bib:50
-+!CSVLINE!+gambitc-v4.8.5,wc:inputs/bib:50,15.607431173324585
+Elapsed time: 8.482059717178345 seconds (8.) for wc:inputs/bib:50
++!CSVLINE!+gambitc-v4.8.5,wc:inputs/bib:50,8.482059717178345
 
-real	0m15.611s
-user	0m15.527s
-sys	0m0.083s
+real	0m8.485s
+user	0m8.460s
+sys	0m0.023s
 
 Testing read1 under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 2.913954019546509 seconds (3.) for read1:2500
-+!CSVLINE!+gambitc-v4.8.5,read1:2500,2.913954019546509
+Elapsed time: 1.684537649154663 seconds (2.) for read1:2500
++!CSVLINE!+gambitc-v4.8.5,read1:2500,1.684537649154663
 
-real	0m2.918s
-user	0m2.893s
-sys	0m0.023s
+real	0m1.688s
+user	0m1.667s
+sys	0m0.020s
 
 Testing compiler under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -416,11 +416,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running conform:500
-Elapsed time: 3.0048556327819824 seconds (3.) for conform:500
-+!CSVLINE!+gambitc-v4.8.5,conform:500,3.0048556327819824
+Elapsed time: 2.690328359603882 seconds (3.) for conform:500
++!CSVLINE!+gambitc-v4.8.5,conform:500,2.690328359603882
 
-real	0m3.013s
-user	0m3.007s
+real	0m2.697s
+user	0m2.693s
 sys	0m0.000s
 
 Testing dynamic under GambitC
@@ -428,71 +428,71 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 13.207821130752563 seconds (14.) for dynamic:500
-+!CSVLINE!+gambitc-v4.8.5,dynamic:500,13.207821130752563
+Elapsed time: 5.691876173019409 seconds (5.) for dynamic:500
++!CSVLINE!+gambitc-v4.8.5,dynamic:500,5.691876173019409
 
-real	0m13.214s
-user	0m12.997s
-sys	0m0.213s
+real	0m5.697s
+user	0m5.577s
+sys	0m0.117s
 
 Testing earley under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 5.656485557556152 seconds (6.) for earley:1
-+!CSVLINE!+gambitc-v4.8.5,earley:1,5.656485557556152
+Elapsed time: 3.8353323936462402 seconds (4.) for earley:1
++!CSVLINE!+gambitc-v4.8.5,earley:1,3.8353323936462402
 
-real	0m5.790s
-user	0m5.043s
-sys	0m0.743s
+real	0m3.927s
+user	0m3.407s
+sys	0m0.517s
 
 Testing graphs under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 15.671749114990234 seconds (16.) for graphs:7:3
-+!CSVLINE!+gambitc-v4.8.5,graphs:7:3,15.671749114990234
+Elapsed time: 10.191737651824951 seconds (10.) for graphs:7:3
++!CSVLINE!+gambitc-v4.8.5,graphs:7:3,10.191737651824951
 
-real	0m15.682s
-user	0m15.580s
-sys	0m0.100s
+real	0m10.201s
+user	0m10.113s
+sys	0m0.087s
 
 Testing lattice under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 7.243901491165161 seconds (8.) for lattice:44:10
-+!CSVLINE!+gambitc-v4.8.5,lattice:44:10,7.243901491165161
+Elapsed time: 5.062056303024292 seconds (6.) for lattice:44:10
++!CSVLINE!+gambitc-v4.8.5,lattice:44:10,5.062056303024292
 
-real	0m7.249s
-user	0m7.243s
-sys	0m0.000s
+real	0m5.067s
+user	0m5.060s
+sys	0m0.003s
 
 Testing matrix under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 4.152554035186768 seconds (4.) for matrix:5:5:2500
-+!CSVLINE!+gambitc-v4.8.5,matrix:5:5:2500,4.152554035186768
+Elapsed time: 2.4235012531280518 seconds (2.) for matrix:5:5:2500
++!CSVLINE!+gambitc-v4.8.5,matrix:5:5:2500,2.4235012531280518
 
-real	0m4.159s
-user	0m4.143s
-sys	0m0.013s
+real	0m2.428s
+user	0m2.423s
+sys	0m0.003s
 
 Testing maze under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 3.0032529830932617 seconds (3.) for maze:20:7:10000
-+!CSVLINE!+gambitc-v4.8.5,maze:20:7:10000,3.0032529830932617
+Elapsed time: 2.016335964202881 seconds (2.) for maze:20:7:10000
++!CSVLINE!+gambitc-v4.8.5,maze:20:7:10000,2.016335964202881
 
-real	0m3.009s
-user	0m3.007s
+real	0m2.021s
+user	0m2.017s
 sys	0m0.000s
 
 Testing mazefun under GambitC
@@ -500,47 +500,47 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 4.613909006118774 seconds (5.) for mazefun:11:11:10000
-+!CSVLINE!+gambitc-v4.8.5,mazefun:11:11:10000,4.613909006118774
+Elapsed time: 2.8723111152648926 seconds (3.) for mazefun:11:11:10000
++!CSVLINE!+gambitc-v4.8.5,mazefun:11:11:10000,2.8723111152648926
 
-real	0m4.619s
-user	0m4.617s
-sys	0m0.000s
+real	0m2.877s
+user	0m2.870s
+sys	0m0.003s
 
 Testing nqueens under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 11.75623631477356 seconds (11.) for nqueens:13:10
-+!CSVLINE!+gambitc-v4.8.5,nqueens:13:10,11.75623631477356
+Elapsed time: 8.112592697143555 seconds (8.) for nqueens:13:10
++!CSVLINE!+gambitc-v4.8.5,nqueens:13:10,8.112592697143555
 
-real	0m11.762s
-user	0m11.753s
-sys	0m0.007s
+real	0m8.117s
+user	0m8.103s
+sys	0m0.010s
 
 Testing paraffins under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-Elapsed time: 5.410675525665283 seconds (6.) for paraffins:23:10
-+!CSVLINE!+gambitc-v4.8.5,paraffins:23:10,5.410675525665283
+Elapsed time: 3.6260883808135986 seconds (4.) for paraffins:23:10
++!CSVLINE!+gambitc-v4.8.5,paraffins:23:10,3.6260883808135986
 
-real	0m5.450s
-user	0m4.603s
-sys	0m0.843s
+real	0m3.661s
+user	0m3.033s
+sys	0m0.627s
 
 Testing parsing under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 3.469434976577759 seconds (4.) for parsing:2500
-+!CSVLINE!+gambitc-v4.8.5,parsing:2500,3.469434976577759
+Elapsed time: 1.9473981857299805 seconds (2.) for parsing:2500
++!CSVLINE!+gambitc-v4.8.5,parsing:2500,1.9473981857299805
 
-real	0m3.475s
-user	0m3.463s
+real	0m1.952s
+user	0m1.950s
 sys	0m0.000s
 
 Testing peval under GambitC
@@ -548,11 +548,11 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 4.183896064758301 seconds (4.) for peval:2000
-+!CSVLINE!+gambitc-v4.8.5,peval:2000,4.183896064758301
+Elapsed time: 2.546333074569702 seconds (3.) for peval:2000
++!CSVLINE!+gambitc-v4.8.5,peval:2000,2.546333074569702
 
-real	0m4.189s
-user	0m4.183s
+real	0m2.551s
+user	0m2.543s
 sys	0m0.003s
 
 Testing primes under GambitC
@@ -560,72 +560,72 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 2.943814992904663 seconds (3.) for primes:1000:10000
-+!CSVLINE!+gambitc-v4.8.5,primes:1000:10000,2.943814992904663
+Elapsed time: 2.0155630111694336 seconds (2.) for primes:1000:10000
++!CSVLINE!+gambitc-v4.8.5,primes:1000:10000,2.0155630111694336
 
-real	0m2.950s
-user	0m2.940s
-sys	0m0.007s
+real	0m2.020s
+user	0m2.017s
+sys	0m0.000s
 
 Testing quicksort under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 5.40918231010437 seconds (5.) for quicksort:10000:2500
-+!CSVLINE!+gambitc-v4.8.5,quicksort:10000:2500,5.40918231010437
+Elapsed time: 3.9774234294891357 seconds (4.) for quicksort:10000:2500
++!CSVLINE!+gambitc-v4.8.5,quicksort:10000:2500,3.9774234294891357
 
-real	0m5.423s
-user	0m5.360s
-sys	0m0.060s
+real	0m3.986s
+user	0m3.967s
+sys	0m0.017s
 
 Testing scheme under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 6.029768705368042 seconds (6.) for scheme:100000
-+!CSVLINE!+gambitc-v4.8.5,scheme:100000,6.029768705368042
+Elapsed time: 3.8470067977905273 seconds (4.) for scheme:100000
++!CSVLINE!+gambitc-v4.8.5,scheme:100000,3.8470067977905273
 
-real	0m6.036s
-user	0m6.027s
-sys	0m0.007s
+real	0m3.852s
+user	0m3.850s
+sys	0m0.000s
 
 Testing slatex under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running slatex:500
-Elapsed time: 7.039225816726685 seconds (7.) for slatex:500
-+!CSVLINE!+gambitc-v4.8.5,slatex:500,7.039225816726685
+Elapsed time: 4.616476774215698 seconds (4.) for slatex:500
++!CSVLINE!+gambitc-v4.8.5,slatex:500,4.616476774215698
 
-real	0m7.045s
-user	0m5.050s
-sys	0m1.817s
+real	0m4.621s
+user	0m3.223s
+sys	0m1.270s
 
 Testing nboyer under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 4.672335624694824 seconds (5.) for nboyer:5:1
-+!CSVLINE!+gambitc-v4.8.5,nboyer:5:1,4.672335624694824
+Elapsed time: 3.2359120845794678 seconds (3.) for nboyer:5:1
++!CSVLINE!+gambitc-v4.8.5,nboyer:5:1,3.2359120845794678
 
-real	0m4.720s
-user	0m4.393s
-sys	0m0.323s
+real	0m3.276s
+user	0m3.040s
+sys	0m0.233s
 
 Testing sboyer under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 2.043166160583496 seconds (2.) for sboyer:5:1
-+!CSVLINE!+gambitc-v4.8.5,sboyer:5:1,2.043166160583496
+Elapsed time: 1.1489148139953613 seconds (1.) for sboyer:5:1
++!CSVLINE!+gambitc-v4.8.5,sboyer:5:1,1.1489148139953613
 
-real	0m2.064s
-user	0m1.967s
-sys	0m0.093s
+real	0m1.164s
+user	0m1.113s
+sys	0m0.047s
 
 Testing gcbench under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -666,34 +666,34 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 2.9794769287109375 seconds (3.) for gcbench:20:1
-+!CSVLINE!+gambitc-v4.8.5,gcbench:20:1,2.9794769287109375
+Elapsed time: 2.065657377243042 seconds (2.) for gcbench:20:1
++!CSVLINE!+gambitc-v4.8.5,gcbench:20:1,2.065657377243042
 
-real	0m2.996s
-user	0m2.907s
-sys	0m0.087s
+real	0m2.078s
+user	0m1.997s
+sys	0m0.080s
 
 Testing mperm under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
-Running perm20:10:2:1
-Elapsed time: 10.15266227722168 seconds (10.) for perm20:10:2:1
-+!CSVLINE!+gambitc-v4.8.5,perm20:10:2:1,10.15266227722168
+Running mperm:20:10:2:1
+Elapsed time: 7.344554424285889 seconds (7.) for mperm:20:10:2:1
++!CSVLINE!+gambitc-v4.8.5,mperm:20:10:2:1,7.344554424285889
 
-real	0m10.900s
-user	0m10.093s
-sys	0m0.803s
+real	0m7.882s
+user	0m7.270s
+sys	0m0.610s
 
 Testing equal under GambitC
 Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 644: 21412 Killed                  "$1" < "$2"
+./bench: line 644: 23530 Killed                  "$1" < "$2"
 
-real	5m0.009s
-user	5m0.017s
+real	14m59.999s
+user	15m0.070s
 sys	0m0.000s
 +!CSVLINE!+gambitc,equal,ULIMITKILLED
 
@@ -702,9 +702,9 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/GambitC-prelude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-./bench: line 644: 21763 Segmentation fault      (core dumped) "$1" < "$2"
+./bench: line 644: 23616 Segmentation fault      (core dumped) "$1" < "$2"
 
-real	0m0.040s
-user	0m0.003s
-sys	0m0.000s
+real	0m0.037s
+user	0m0.000s
+sys	0m0.007s
 +!CSVLINE!+gambitc,bv2string,CRASHED
