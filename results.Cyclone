@@ -1,65 +1,65 @@
 
 ****************************
-Benchmarking Cyclone on Sat 8 Oct 16:59:48 CEST 2016 under Linux nexion 4.7.4-1-ARCH #1 SMP PREEMPT Thu Sep 15 15:24:29 CEST 2016 x86_64 GNU/Linux
+Benchmarking Cyclone on Mon 24 Oct 18:14:56 CEST 2016 under Linux nexion 4.7.6-1-ARCH #1 SMP PREEMPT Fri Sep 30 19:28:42 CEST 2016 x86_64 GNU/Linux
 
 Testing browse under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 25.202862 seconds (25.0) for browse:2000
-+!CSVLINE!+cyclone-0.1.5,browse:2000,25.202862
+Elapsed time: 22.37701 seconds (22) for browse:2000
++!CSVLINE!+cyclone-0.3,browse:2000,22.37701
 
-real	0m25.193s
-user	0m25.170s
-sys	0m0.037s
+real	0m22.369s
+user	0m22.367s
+sys	0m0.013s
 
 Testing deriv under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 20.126025 seconds (20.0) for deriv:10000000
-+!CSVLINE!+cyclone-0.1.5,deriv:10000000,20.126025
+Elapsed time: 14.920089 seconds (15) for deriv:10000000
++!CSVLINE!+cyclone-0.3,deriv:10000000,14.920089
 
-real	0m20.120s
-user	0m20.123s
-sys	0m0.003s
+real	0m14.918s
+user	0m14.913s
+sys	0m0.007s
 
 Testing destruc under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 52.806056 seconds (53.0) for destruc:600:50:4000
-+!CSVLINE!+cyclone-0.1.5,destruc:600:50:4000,52.806056
+Elapsed time: 29.093729 seconds (29) for destruc:600:50:4000
++!CSVLINE!+cyclone-0.3,destruc:600:50:4000,29.093729
 
-real	0m52.771s
-user	0m52.787s
-sys	0m0.020s
+real	0m29.074s
+user	0m29.077s
+sys	0m0.017s
 
 Testing diviter under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 7.08322 seconds (8.0) for diviter:1000:1000000
-+!CSVLINE!+cyclone-0.1.5,diviter:1000:1000000,7.08322
+Elapsed time: 6.875236 seconds (6) for diviter:1000:1000000
++!CSVLINE!+cyclone-0.3,diviter:1000:1000000,6.875236
 
-real	0m7.081s
-user	0m7.063s
-sys	0m0.020s
+real	0m6.875s
+user	0m6.867s
+sys	0m0.010s
 
 Testing divrec under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 13.653987 seconds (14.0) for divrec:1000:1000000
-+!CSVLINE!+cyclone-0.1.5,divrec:1000:1000000,13.653987
+Elapsed time: 12.962051 seconds (13) for divrec:1000:1000000
++!CSVLINE!+cyclone-0.3,divrec:1000:1000000,12.962051
 
-real	0m13.649s
-user	0m13.627s
+real	0m12.958s
+user	0m12.937s
 sys	0m0.027s
 
 Testing puzzle under Cyclone
@@ -67,107 +67,107 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 61.540205 seconds (61.0) for puzzle:1000
-+!CSVLINE!+cyclone-0.1.5,puzzle:1000,61.540205
+Elapsed time: 26.301436 seconds (27) for puzzle:1000
++!CSVLINE!+cyclone-0.3,puzzle:1000,26.301436
 
-real	1m1.515s
-user	1m1.517s
-sys	0m0.023s
+real	0m26.292s
+user	0m26.250s
+sys	0m0.050s
 
 Testing triangl under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 38.395033 seconds (39.0) for triangl:22:1:50
-+!CSVLINE!+cyclone-0.1.5,triangl:22:1:50,38.395033
+Elapsed time: 19.677564 seconds (19) for triangl:22:1:50
++!CSVLINE!+cyclone-0.3,triangl:22:1:50,19.677564
 
-real	0m38.379s
-user	0m38.380s
-sys	0m0.013s
+real	0m19.670s
+user	0m19.667s
+sys	0m0.010s
 
 Testing tak under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 40.225104 seconds (41.0) for tak:40:20:11:1
-+!CSVLINE!+cyclone-0.1.5,tak:40:20:11:1,40.225104
+Elapsed time: 18.461274 seconds (18) for tak:40:20:11:1
++!CSVLINE!+cyclone-0.3,tak:40:20:11:1,18.461274
 
-real	0m40.212s
-user	0m40.217s
-sys	0m0.007s
+real	0m18.456s
+user	0m18.447s
+sys	0m0.013s
 
 Testing takl under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 20.61901 seconds (21.0) for takl:40:20:12:1
-+!CSVLINE!+cyclone-0.1.5,takl:40:20:12:1,20.61901
+Elapsed time: 21.258145 seconds (21) for takl:40:20:12:1
++!CSVLINE!+cyclone-0.3,takl:40:20:12:1,21.258145
 
-real	0m20.622s
-user	0m20.613s
-sys	0m0.007s
+real	0m21.258s
+user	0m21.247s
+sys	0m0.010s
 
 Testing ntakl under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 20.676088 seconds (21.0) for ntakl:40:20:12:1
-+!CSVLINE!+cyclone-0.1.5,ntakl:40:20:12:1,20.676088
+Elapsed time: 20.283172 seconds (20) for ntakl:40:20:12:1
++!CSVLINE!+cyclone-0.3,ntakl:40:20:12:1,20.283172
 
-real	0m20.679s
-user	0m20.663s
-sys	0m0.013s
+real	0m20.287s
+user	0m20.277s
+sys	0m0.007s
 
 Testing cpstak under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 52.099815 seconds (52.0) for cpstak:40:20:11:1
-+!CSVLINE!+cyclone-0.1.5,cpstak:40:20:11:1,52.099815
+Elapsed time: 27.708531 seconds (28) for cpstak:40:20:11:1
++!CSVLINE!+cyclone-0.3,cpstak:40:20:11:1,27.708531
 
-real	0m52.097s
-user	0m52.063s
-sys	0m0.037s
+real	0m27.712s
+user	0m27.687s
+sys	0m0.020s
 
 Testing ctak under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 4.191737 seconds (4.0) for ctak:32:16:8:1
-+!CSVLINE!+cyclone-0.1.5,ctak:32:16:8:1,4.191737
+Elapsed time: 2.488027 seconds (3) for ctak:32:16:8:1
++!CSVLINE!+cyclone-0.3,ctak:32:16:8:1,2.488027
 
-real	0m4.194s
-user	0m4.190s
-sys	0m0.000s
+real	0m2.492s
+user	0m2.483s
+sys	0m0.003s
 
 Testing fib under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 93.411627 seconds (94.0) for fib:40:5
-+!CSVLINE!+cyclone-0.1.5,fib:40:5,93.411627
+Elapsed time: 30.148264 seconds (30) for fib:40:5
++!CSVLINE!+cyclone-0.3,fib:40:5,30.148264
 
-real	1m33.392s
-user	1m33.397s
-sys	0m0.013s
+real	0m30.142s
+user	0m30.147s
+sys	0m0.000s
 
 Testing fibc under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 9.529342 seconds (10.0) for fibc:30:10
-+!CSVLINE!+cyclone-0.1.5,fibc:30:10,9.529342
+Elapsed time: 4.854897 seconds (5) for fibc:30:10
++!CSVLINE!+cyclone-0.3,fibc:30:10,4.854897
 
-real	0m9.529s
-user	0m9.530s
+real	0m4.857s
+user	0m4.853s
 sys	0m0.000s
 
 Testing fibfp under Cyclone
@@ -175,59 +175,59 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 18.56164 seconds (19.0) for fibfp:35.0:10
-+!CSVLINE!+cyclone-0.1.5,fibfp:35.0:10,18.56164
+Elapsed time: 6.90038 seconds (7) for fibfp:35.0:10
++!CSVLINE!+cyclone-0.3,fibfp:35.0:10,6.90038
 
-real	0m18.557s
-user	0m18.560s
-sys	0m0.000s
+real	0m6.902s
+user	0m6.897s
+sys	0m0.003s
 
 Testing sum under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 136.863974 seconds (137.0) for sum:10000:200000
-+!CSVLINE!+cyclone-0.1.5,sum:10000:200000,136.863974
+Elapsed time: 18.685019 seconds (19) for sum:10000:200000
++!CSVLINE!+cyclone-0.3,sum:10000:200000,18.685019
 
-real	2m16.840s
-user	2m16.860s
-sys	0m0.003s
+real	0m18.686s
+user	0m18.683s
+sys	0m0.000s
 
 Testing sumfp under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running sumfp:1000000.0:500
-Elapsed time: 34.706985 seconds (35.0) for sumfp:1000000.0:500
-+!CSVLINE!+cyclone-0.1.5,sumfp:1000000.0:500,34.706985
+Elapsed time: 6.613776 seconds (7) for sumfp:1000000.0:500
++!CSVLINE!+cyclone-0.3,sumfp:1000000.0:500,6.613776
 
-real	0m34.699s
-user	0m34.703s
-sys	0m0.003s
+real	0m6.618s
+user	0m6.613s
+sys	0m0.000s
 
 Testing fft under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running fft:65536:100
-Elapsed time: 24.712651 seconds (25.0) for fft:65536:100
-+!CSVLINE!+cyclone-0.1.5,fft:65536:100,24.712651
+Elapsed time: 14.122638 seconds (14) for fft:65536:100
++!CSVLINE!+cyclone-0.3,fft:65536:100,14.122638
 
-real	0m24.703s
-user	0m24.673s
-sys	0m0.040s
+real	0m14.120s
+user	0m14.057s
+sys	0m0.067s
 
 Testing mbrot under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 50.099274 seconds (51.0) for mbrot:75:1000
-+!CSVLINE!+cyclone-0.1.5,mbrot:75:1000,50.099274
+Elapsed time: 11.206842 seconds (11) for mbrot:75:1000
++!CSVLINE!+cyclone-0.3,mbrot:75:1000,11.206842
 
-real	0m50.071s
-user	0m50.097s
+real	0m11.206s
+user	0m11.203s
 sys	0m0.003s
 
 Testing mbrotZ under Cyclone
@@ -235,7 +235,7 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Error: Complex numbers are not supported at this time 
+Error: Complex numbers are not supported at this time: 
 Call history:
 /tmp/larcenous/Cyclone/mbrotZ.scm:hide
 scheme/base.sld:call-with-values
@@ -248,7 +248,7 @@ scheme/base.sld:error
 scheme/base.sld:raise
 
 
-real	0m0.002s
+real	0m0.004s
 user	0m0.000s
 sys	0m0.000s
 +!CSVLINE!+cyclone,mbrotZ,CRASHED
@@ -258,23 +258,23 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 18.009928 seconds (18.0) for nucleic:50
-+!CSVLINE!+cyclone-0.1.5,nucleic:50,18.009928
+Elapsed time: 11.28868 seconds (11) for nucleic:50
++!CSVLINE!+cyclone-0.3,nucleic:50,11.28868
 
-real	0m17.995s
-user	0m17.997s
-sys	0m0.013s
+real	0m11.282s
+user	0m11.280s
+sys	0m0.010s
 
 Testing pi under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running pi:50:500:50:2
-./bench: line 377: 14723 Killed                  `dirname $1`/`basename $1 .scm` < "$2"
+./bench: line 377: 32666 Killed                  `dirname $1`/`basename $1 .scm` < "$2"
 
-real	14m59.889s
-user	14m59.857s
-sys	0m0.043s
+real	14m59.972s
+user	14m59.930s
+sys	0m0.023s
 +!CSVLINE!+cyclone,pi,ULIMITKILLED
 
 Testing pnpoly under Cyclone
@@ -282,23 +282,23 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 55.651435 seconds (56.0) for pnpoly:1000000
-+!CSVLINE!+cyclone-0.1.5,pnpoly:1000000,55.651435
+Elapsed time: 31.596141 seconds (31) for pnpoly:1000000
++!CSVLINE!+cyclone-0.3,pnpoly:1000000,31.596141
 
-real	0m55.608s
-user	0m55.640s
-sys	0m0.010s
+real	0m31.572s
+user	0m31.590s
+sys	0m0.007s
 
 Testing ray under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 18.219894 seconds (18.0) for ray:50
-+!CSVLINE!+cyclone-0.1.5,ray:50,18.219894
+Elapsed time: 11.564458 seconds (11) for ray:50
++!CSVLINE!+cyclone-0.3,ray:50,11.564458
 
-real	0m18.211s
-user	0m18.220s
+real	0m11.562s
+user	0m11.563s
 sys	0m0.000s
 
 Testing simplex under Cyclone
@@ -306,113 +306,113 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 54.295287 seconds (54.0) for simplex:1000000
-+!CSVLINE!+cyclone-0.1.5,simplex:1000000,54.295287
+Elapsed time: 33.764193 seconds (34) for simplex:1000000
++!CSVLINE!+cyclone-0.3,simplex:1000000,33.764193
 
-real	0m54.251s
-user	0m54.287s
-sys	0m0.010s
+real	0m33.744s
+user	0m33.740s
+sys	0m0.023s
 
 Testing ack under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 125.931905 seconds (126.0) for ack:3:12:2
-+!CSVLINE!+cyclone-0.1.5,ack:3:12:2,125.931905
+Elapsed time: 59.84244 seconds (60) for ack:3:12:2
++!CSVLINE!+cyclone-0.3,ack:3:12:2,59.84244
 
-real	2m5.812s
-user	2m5.873s
-sys	0m0.060s
+real	0m59.750s
+user	0m59.480s
+sys	0m0.363s
 
 Testing array1 under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 61.541421 seconds (61.0) for array1:1000000:500
-+!CSVLINE!+cyclone-0.1.5,array1:1000000:500,61.541421
+Elapsed time: 29.51306 seconds (29) for array1:1000000:500
++!CSVLINE!+cyclone-0.3,array1:1000000:500,29.51306
 
-real	1m1.508s
-user	1m1.187s
-sys	0m0.353s
+real	0m29.481s
+user	0m29.230s
+sys	0m0.283s
 
 Testing string under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 0.191938 seconds (0.0) for string:500000:25
-+!CSVLINE!+cyclone-0.1.5,string:500000:25,0.191938
+Elapsed time: 0.186244 seconds (0) for string:500000:25
++!CSVLINE!+cyclone-0.3,string:500000:25,0.186244
 
-real	0m0.198s
-user	0m0.167s
-sys	0m0.027s
+real	0m0.193s
+user	0m0.137s
+sys	0m0.053s
 
 Testing sum1 under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 13.828915 seconds (14.0) for sum1:25
-+!CSVLINE!+cyclone-0.1.5,sum1:25,13.828915
+Elapsed time: 9.23804 seconds (9) for sum1:25
++!CSVLINE!+cyclone-0.3,sum1:25,9.23804
 
-real	0m13.831s
-user	0m13.813s
-sys	0m0.017s
+real	0m9.240s
+user	0m9.223s
+sys	0m0.013s
 
 Testing cat under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 19.256684 seconds (20.0) for cat:50
-+!CSVLINE!+cyclone-0.1.5,cat:50,19.256684
+Elapsed time: 17.774937 seconds (18) for cat:50
++!CSVLINE!+cyclone-0.3,cat:50,17.774937
 
-real	0m19.261s
-user	0m19.093s
-sys	0m0.163s
+real	0m17.782s
+user	0m17.620s
+sys	0m0.153s
 
 Testing tail under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running tail:25
-Elapsed time: 18.977204 seconds (18.0) for tail:25
-+!CSVLINE!+cyclone-0.1.5,tail:25,18.977204
+Elapsed time: 18.799724 seconds (19) for tail:25
++!CSVLINE!+cyclone-0.3,tail:25,18.799724
 
-real	0m18.943s
-user	0m18.890s
-sys	0m0.087s
+real	0m18.762s
+user	0m18.697s
+sys	0m0.103s
 
 Testing wc under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 71.212355 seconds (71.0) for wc:inputs/bib:50
-+!CSVLINE!+cyclone-0.1.5,wc:inputs/bib:50,71.212355
+Elapsed time: 61.38478 seconds (62) for wc:inputs/bib:50
++!CSVLINE!+cyclone-0.3,wc:inputs/bib:50,61.38478
 
-real	1m11.194s
-user	1m11.167s
-sys	0m0.043s
+real	1m1.366s
+user	1m1.353s
+sys	0m0.030s
 
 Testing read1 under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 28.878542 seconds (29.0) for read1:2500
-+!CSVLINE!+cyclone-0.1.5,read1:2500,28.878542
+Elapsed time: 19.012626 seconds (19) for read1:2500
++!CSVLINE!+cyclone-0.3,read1:2500,19.012626
 
-real	0m28.867s
-user	0m28.833s
-sys	0m0.043s
+real	0m19.013s
+user	0m18.987s
+sys	0m0.027s
 
 Testing compiler under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
-./bench: line 372: 15112 Killed                  ${CYCLONE} $1
+./bench: line 372:   767 Killed                  ${CYCLONE} $1
 +!CSVLINE!+cyclone,compiler,COMPILEERROR
 
 Testing conform under Cyclone
@@ -420,185 +420,185 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running conform:500
-Elapsed time: 35.362598 seconds (35.0) for conform:500
-+!CSVLINE!+cyclone-0.1.5,conform:500,35.362598
+Elapsed time: 33.292923 seconds (33) for conform:500
++!CSVLINE!+cyclone-0.3,conform:500,33.292923
 
-real	0m35.338s
-user	0m35.343s
-sys	0m0.020s
+real	0m33.276s
+user	0m33.263s
+sys	0m0.030s
 
 Testing dynamic under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 53.35313 seconds (54.0) for dynamic:500
-+!CSVLINE!+cyclone-0.1.5,dynamic:500,53.35313
+Elapsed time: 39.518622 seconds (39) for dynamic:500
++!CSVLINE!+cyclone-0.3,dynamic:500,39.518622
 
-real	0m53.350s
-user	0m53.280s
-sys	0m0.073s
+real	0m39.528s
+user	0m39.480s
+sys	0m0.040s
 
 Testing earley under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 343.987351 seconds (343.0) for earley:1
-+!CSVLINE!+cyclone-0.1.5,earley:1,343.987351
+Elapsed time: 324.807589 seconds (324) for earley:1
++!CSVLINE!+cyclone-0.3,earley:1,324.807589
 
-real	5m43.950s
-user	5m43.797s
-sys	0m0.203s
+real	5m24.755s
+user	5m24.627s
+sys	0m0.187s
 
 Testing graphs under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 67.384362 seconds (68.0) for graphs:7:3
-+!CSVLINE!+cyclone-0.1.5,graphs:7:3,67.384362
+Elapsed time: 61.648844 seconds (62) for graphs:7:3
++!CSVLINE!+cyclone-0.3,graphs:7:3,61.648844
 
-real	1m7.374s
-user	1m7.330s
-sys	0m0.057s
+real	1m1.629s
+user	1m1.620s
+sys	0m0.030s
 
 Testing lattice under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 83.440718 seconds (83.0) for lattice:44:10
-+!CSVLINE!+cyclone-0.1.5,lattice:44:10,83.440718
+Elapsed time: 79.653767 seconds (80) for lattice:44:10
++!CSVLINE!+cyclone-0.3,lattice:44:10,79.653767
 
-real	1m23.420s
-user	1m23.397s
-sys	0m0.047s
+real	1m19.643s
+user	1m19.610s
+sys	0m0.043s
 
 Testing matrix under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running matrix:5:5:2500
-Elapsed time: 59.748355 seconds (60.0) for matrix:5:5:2500
-+!CSVLINE!+cyclone-0.1.5,matrix:5:5:2500,59.748355
+Elapsed time: 47.804205 seconds (48) for matrix:5:5:2500
++!CSVLINE!+cyclone-0.3,matrix:5:5:2500,47.804205
 
-real	0m59.700s
-user	0m59.713s
-sys	0m0.037s
+real	0m47.768s
+user	0m47.690s
+sys	0m0.113s
 
 Testing maze under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running maze:20:7:10000
-Elapsed time: 28.389583 seconds (28.0) for maze:20:7:10000
-+!CSVLINE!+cyclone-0.1.5,maze:20:7:10000,28.389583
+Elapsed time: 18.006768 seconds (18) for maze:20:7:10000
++!CSVLINE!+cyclone-0.3,maze:20:7:10000,18.006768
 
-real	0m28.382s
-user	0m28.373s
-sys	0m0.020s
+real	0m17.997s
+user	0m17.983s
+sys	0m0.027s
 
 Testing mazefun under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 45.4741 seconds (45.0) for mazefun:11:11:10000
-+!CSVLINE!+cyclone-0.1.5,mazefun:11:11:10000,45.4741
+Elapsed time: 16.498446 seconds (17) for mazefun:11:11:10000
++!CSVLINE!+cyclone-0.3,mazefun:11:11:10000,16.498446
 
-real	0m45.444s
-user	0m45.463s
-sys	0m0.010s
+real	0m16.490s
+user	0m16.483s
+sys	0m0.017s
 
 Testing nqueens under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 125.31815 seconds (125.0) for nqueens:13:10
-+!CSVLINE!+cyclone-0.1.5,nqueens:13:10,125.31815
+Elapsed time: 45.829878 seconds (45) for nqueens:13:10
++!CSVLINE!+cyclone-0.3,nqueens:13:10,45.829878
 
-real	2m5.235s
-user	2m5.283s
-sys	0m0.033s
+real	0m45.803s
+user	0m45.813s
+sys	0m0.017s
 
 Testing paraffins under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running paraffins:23:10
-Elapsed time: 41.053012 seconds (41.0) for paraffins:23:10
-+!CSVLINE!+cyclone-0.1.5,paraffins:23:10,41.053012
+Elapsed time: 36.619664 seconds (36) for paraffins:23:10
++!CSVLINE!+cyclone-0.3,paraffins:23:10,36.619664
 
-real	0m41.049s
-user	0m40.893s
-sys	0m0.163s
+real	0m36.614s
+user	0m36.467s
+sys	0m0.157s
 
 Testing parsing under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running parsing:2500
-Elapsed time: 51.378708 seconds (51.0) for parsing:2500
-+!CSVLINE!+cyclone-0.1.5,parsing:2500,51.378708
+Elapsed time: 44.234256 seconds (44) for parsing:2500
++!CSVLINE!+cyclone-0.3,parsing:2500,44.234256
 
-real	0m51.369s
-user	0m51.370s
-sys	0m0.007s
+real	0m44.225s
+user	0m44.220s
+sys	0m0.013s
 
 Testing peval under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 30.501393 seconds (31.0) for peval:2000
-+!CSVLINE!+cyclone-0.1.5,peval:2000,30.501393
+Elapsed time: 27.228142 seconds (27) for peval:2000
++!CSVLINE!+cyclone-0.3,peval:2000,27.228142
 
-real	0m30.475s
-user	0m30.480s
-sys	0m0.023s
+real	0m27.210s
+user	0m27.213s
+sys	0m0.017s
 
 Testing primes under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 17.564388 seconds (17.0) for primes:1000:10000
-+!CSVLINE!+cyclone-0.1.5,primes:1000:10000,17.564388
+Elapsed time: 13.154228 seconds (14) for primes:1000:10000
++!CSVLINE!+cyclone-0.3,primes:1000:10000,13.154228
 
-real	0m17.552s
-user	0m17.530s
-sys	0m0.037s
+real	0m13.145s
+user	0m13.127s
+sys	0m0.027s
 
 Testing quicksort under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running quicksort:10000:2500
-Elapsed time: 62.888883 seconds (62.0) for quicksort:10000:2500
-+!CSVLINE!+cyclone-0.1.5,quicksort:10000:2500,62.888883
+Elapsed time: 33.991856 seconds (34) for quicksort:10000:2500
++!CSVLINE!+cyclone-0.3,quicksort:10000:2500,33.991856
 
-real	1m2.853s
-user	1m2.883s
-sys	0m0.017s
+real	0m33.978s
+user	0m33.983s
+sys	0m0.013s
 
 Testing scheme under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running scheme:100000
-Elapsed time: 19.485356 seconds (20.0) for scheme:100000
-+!CSVLINE!+cyclone-0.1.5,scheme:100000,19.485356
+Elapsed time: 16.400486 seconds (16) for scheme:100000
++!CSVLINE!+cyclone-0.3,scheme:100000,16.400486
 
-real	0m19.472s
-user	0m19.473s
-sys	0m0.013s
+real	0m16.391s
+user	0m16.383s
+sys	0m0.017s
 
 Testing slatex under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
-./bench: line 372: 15657 Killed                  ${CYCLONE} $1
+./bench: line 372:  1536 Killed                  ${CYCLONE} $1
 +!CSVLINE!+cyclone,slatex,COMPILEERROR
 
 Testing nboyer under Cyclone
@@ -606,24 +606,24 @@ Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running nboyer:5:1
-Elapsed time: 23.831871 seconds (24.0) for nboyer:5:1
-+!CSVLINE!+cyclone-0.1.5,nboyer:5:1,23.831871
+Elapsed time: 19.851161 seconds (20) for nboyer:5:1
++!CSVLINE!+cyclone-0.3,nboyer:5:1,19.851161
 
-real	0m23.834s
-user	0m23.787s
-sys	0m0.047s
+real	0m19.856s
+user	0m19.797s
+sys	0m0.057s
 
 Testing sboyer under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running sboyer:5:1
-Elapsed time: 15.456333 seconds (16.0) for sboyer:5:1
-+!CSVLINE!+cyclone-0.1.5,sboyer:5:1,15.456333
+Elapsed time: 13.431562 seconds (14) for sboyer:5:1
++!CSVLINE!+cyclone-0.3,sboyer:5:1,13.431562
 
-real	0m15.459s
-user	0m15.423s
-sys	0m0.033s
+real	0m13.435s
+user	0m13.417s
+sys	0m0.017s
 
 Testing gcbench under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
@@ -664,45 +664,45 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 40.390643 seconds (40.0) for gcbench:20:1
-+!CSVLINE!+cyclone-0.1.5,gcbench:20:1,40.390643
+Elapsed time: 33.595291 seconds (34) for gcbench:20:1
++!CSVLINE!+cyclone-0.3,gcbench:20:1,33.595291
 
-real	0m40.382s
-user	0m40.330s
-sys	0m0.063s
+real	0m33.589s
+user	0m33.530s
+sys	0m0.067s
 
 Testing mperm under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 194.251637 seconds (194.0) for mperm:20:10:2:1
-+!CSVLINE!+cyclone-0.1.5,mperm:20:10:2:1,194.251637
+Elapsed time: 123.104068 seconds (123) for mperm:20:10:2:1
++!CSVLINE!+cyclone-0.3,mperm:20:10:2:1,123.104068
 
-real	3m19.953s
-user	3m19.817s
-sys	0m0.150s
+real	2m6.736s
+user	2m6.620s
+sys	0m0.127s
 
 Testing equal under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 0.496398 seconds (1.0) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+cyclone-0.1.5,equal:100:100:8:1000:2000:5000,0.496398
+Elapsed time: 0.469149 seconds (0) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+cyclone-0.3,equal:100:100:8:1000:2000:5000,0.469149
 
-real	0m0.498s
-user	0m0.490s
-sys	0m0.007s
+real	0m0.471s
+user	0m0.470s
+sys	0m0.000s
 
 Testing bv2string under Cyclone
 Including postlude /home/nex/src/r7rs-benchmarks/src/Cyclone-postlude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 11.805129 seconds (12.0) for bv2string:1000:1000:100
-+!CSVLINE!+cyclone-0.1.5,bv2string:1000:1000:100,11.805129
+Elapsed time: 5.566636 seconds (6) for bv2string:1000:1000:100
++!CSVLINE!+cyclone-0.3,bv2string:1000:1000:100,5.566636
 
-real	0m11.808s
-user	0m11.800s
-sys	0m0.003s
+real	0m5.571s
+user	0m5.560s
+sys	0m0.007s
