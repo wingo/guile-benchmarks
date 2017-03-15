@@ -1,210 +1,210 @@
 
 ****************************
-Benchmarking Vicare on Sat 8 Oct 16:25:49 CEST 2016 under Linux nexion 4.7.4-1-ARCH #1 SMP PREEMPT Thu Sep 15 15:24:29 CEST 2016 x86_64 GNU/Linux
+Benchmarking Vicare on Tue 14 Mar 18:06:06 CET 2017 under Linux nexion 4.9.11-1-ARCH #1 SMP PREEMPT Sun Feb 19 13:45:52 UTC 2017 x86_64 GNU/Linux
 
 Testing browse under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running browse:2000
-Elapsed time: 12.722328 seconds (13) for browse:2000
-+!CSVLINE!+vicare-0.4d0,browse:2000,12.722328
+Elapsed time: 22.230682 seconds (22) for browse:2000
++!CSVLINE!+vicare-0.4d0,browse:2000,22.230682
 
-real	0m12.801s
-user	0m11.180s
-sys	0m1.617s
+real	0m22.374s
+user	0m19.673s
+sys	0m2.420s
 
 Testing deriv under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running deriv:10000000
-Elapsed time: 1.880712 seconds (2) for deriv:10000000
-+!CSVLINE!+vicare-0.4d0,deriv:10000000,1.880712
+Elapsed time: 3.873606 seconds (4) for deriv:10000000
++!CSVLINE!+vicare-0.4d0,deriv:10000000,3.873606
 
-real	0m1.954s
-user	0m1.920s
-sys	0m0.033s
+real	0m4.003s
+user	0m3.953s
+sys	0m0.030s
 
 Testing destruc under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running destruc:600:50:4000
-Elapsed time: 48.255632 seconds (49) for destruc:600:50:4000
-+!CSVLINE!+vicare-0.4d0,destruc:600:50:4000,48.255632
+Elapsed time: 76.921604 seconds (77) for destruc:600:50:4000
++!CSVLINE!+vicare-0.4d0,destruc:600:50:4000,76.921604
 
-real	0m48.331s
-user	0m41.870s
-sys	0m6.457s
+real	1m17.068s
+user	1m6.553s
+sys	0m10.173s
 
 Testing diviter under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running diviter:1000:1000000
-Elapsed time: 33.128721 seconds (33) for diviter:1000:1000000
-+!CSVLINE!+vicare-0.4d0,diviter:1000:1000000,33.128721
+Elapsed time: 52.140995 seconds (52) for diviter:1000:1000000
++!CSVLINE!+vicare-0.4d0,diviter:1000:1000000,52.140995
 
-real	0m33.200s
-user	0m28.813s
-sys	0m4.383s
+real	0m52.265s
+user	0m45.327s
+sys	0m6.803s
 
 Testing divrec under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running divrec:1000:1000000
-Elapsed time: 3.143912 seconds (3) for divrec:1000:1000000
-+!CSVLINE!+vicare-0.4d0,divrec:1000:1000000,3.143912
+Elapsed time: 4.60885 seconds (4) for divrec:1000:1000000
++!CSVLINE!+vicare-0.4d0,divrec:1000:1000000,4.60885
 
-real	0m3.220s
-user	0m3.193s
-sys	0m0.023s
+real	0m4.737s
+user	0m4.680s
+sys	0m0.050s
 
 Testing puzzle under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running puzzle:1000
-Elapsed time: 61.876482 seconds (62) for puzzle:1000
-+!CSVLINE!+vicare-0.4d0,puzzle:1000,61.876482
+Elapsed time: 103.48262 seconds (103) for puzzle:1000
++!CSVLINE!+vicare-0.4d0,puzzle:1000,103.48262
 
-real	1m1.949s
-user	0m54.723s
-sys	0m7.220s
+real	1m43.615s
+user	1m32.400s
+sys	0m10.877s
 
 Testing triangl under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running triangl:22:1:50
-Elapsed time: 27.196471 seconds (27) for triangl:22:1:50
-+!CSVLINE!+vicare-0.4d0,triangl:22:1:50,27.196471
+Elapsed time: 48.945999 seconds (49) for triangl:22:1:50
++!CSVLINE!+vicare-0.4d0,triangl:22:1:50,48.945999
 
-real	0m27.268s
-user	0m24.267s
-sys	0m2.997s
+real	0m49.068s
+user	0m43.810s
+sys	0m4.277s
 
 Testing tak under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running tak:40:20:11:1
-Elapsed time: 2.380959 seconds (3) for tak:40:20:11:1
-+!CSVLINE!+vicare-0.4d0,tak:40:20:11:1,2.380959
+Elapsed time: 4.462294 seconds (4) for tak:40:20:11:1
++!CSVLINE!+vicare-0.4d0,tak:40:20:11:1,4.462294
 
-real	0m2.457s
-user	0m2.437s
-sys	0m0.017s
+real	0m4.586s
+user	0m4.547s
+sys	0m0.037s
 
 Testing takl under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running takl:40:20:12:1
-Elapsed time: 21.565792 seconds (21) for takl:40:20:12:1
-+!CSVLINE!+vicare-0.4d0,takl:40:20:12:1,21.565792
+Elapsed time: 36.358913 seconds (36) for takl:40:20:12:1
++!CSVLINE!+vicare-0.4d0,takl:40:20:12:1,36.358913
 
-real	0m21.641s
-user	0m21.607s
-sys	0m0.030s
+real	0m36.483s
+user	0m36.370s
+sys	0m0.050s
 
 Testing ntakl under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 5.939998 seconds (6) for ntakl:40:20:12:1
-+!CSVLINE!+vicare-0.4d0,ntakl:40:20:12:1,5.939998
+Elapsed time: 9.912521 seconds (10) for ntakl:40:20:12:1
++!CSVLINE!+vicare-0.4d0,ntakl:40:20:12:1,9.912521
 
-real	0m6.012s
-user	0m5.980s
-sys	0m0.030s
+real	0m10.057s
+user	0m9.973s
+sys	0m0.027s
 
 Testing cpstak under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 4.466917 seconds (4) for cpstak:40:20:11:1
-+!CSVLINE!+vicare-0.4d0,cpstak:40:20:11:1,4.466917
+Elapsed time: 8.442761 seconds (9) for cpstak:40:20:11:1
++!CSVLINE!+vicare-0.4d0,cpstak:40:20:11:1,8.442761
 
-real	0m4.539s
-user	0m4.497s
-sys	0m0.040s
+real	0m8.564s
+user	0m8.380s
+sys	0m0.057s
 
 Testing ctak under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 2.915713 seconds (3) for ctak:32:16:8:1
-+!CSVLINE!+vicare-0.4d0,ctak:32:16:8:1,2.915713
+Elapsed time: 4.902536 seconds (5) for ctak:32:16:8:1
++!CSVLINE!+vicare-0.4d0,ctak:32:16:8:1,4.902536
 
-real	0m2.990s
-user	0m2.570s
-sys	0m0.417s
+real	0m5.032s
+user	0m4.370s
+sys	0m0.657s
 
 Testing fib under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running fib:40:5
-Elapsed time: 4.575184 seconds (4) for fib:40:5
-+!CSVLINE!+vicare-0.4d0,fib:40:5,4.575184
+Elapsed time: 8.684612 seconds (9) for fib:40:5
++!CSVLINE!+vicare-0.4d0,fib:40:5,8.684612
 
-real	0m4.651s
-user	0m4.640s
-sys	0m0.010s
+real	0m8.817s
+user	0m8.757s
+sys	0m0.033s
 
 Testing fibc under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running fibc:30:10
-Elapsed time: 2.352606 seconds (3) for fibc:30:10
-+!CSVLINE!+vicare-0.4d0,fibc:30:10,2.352606
+Elapsed time: 4.084477 seconds (5) for fibc:30:10
++!CSVLINE!+vicare-0.4d0,fibc:30:10,4.084477
 
-real	0m2.430s
-user	0m2.130s
-sys	0m0.297s
+real	0m4.216s
+user	0m3.757s
+sys	0m0.447s
 
 Testing fibfp under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running fibfp:35.0:10
-Elapsed time: 6.626355 seconds (7) for fibfp:35.0:10
-+!CSVLINE!+vicare-0.4d0,fibfp:35.0:10,6.626355
+Elapsed time: 11.775911 seconds (12) for fibfp:35.0:10
++!CSVLINE!+vicare-0.4d0,fibfp:35.0:10,11.775911
 
-real	0m6.697s
-user	0m6.667s
-sys	0m0.027s
+real	0m11.907s
+user	0m11.883s
+sys	0m0.017s
 
 Testing sum under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running sum:10000:200000
-Elapsed time: 4.384774 seconds (4) for sum:10000:200000
-+!CSVLINE!+vicare-0.4d0,sum:10000:200000,4.384774
+Elapsed time: 9.566117 seconds (9) for sum:10000:200000
++!CSVLINE!+vicare-0.4d0,sum:10000:200000,9.566117
 
-real	0m4.460s
-user	0m4.430s
-sys	0m0.027s
+real	0m9.692s
+user	0m9.653s
+sys	0m0.033s
 
 Testing sumfp under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running sumfp:1e6:500
-Elapsed time: 11.970719 seconds (12) for sumfp:1e6:500
-+!CSVLINE!+vicare-0.4d0,sumfp:1e6:500,11.970719
+Elapsed time: 22.934526 seconds (23) for sumfp:1e6:500
++!CSVLINE!+vicare-0.4d0,sumfp:1e6:500,22.934526
 
-real	0m12.043s
-user	0m12.010s
-sys	0m0.030s
+real	0m23.062s
+user	0m23.000s
+sys	0m0.033s
 
 Testing fft under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -230,36 +230,36 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running mbrot:75:1000
-Elapsed time: 18.101765 seconds (18) for mbrot:75:1000
-+!CSVLINE!+vicare-0.4d0,mbrot:75:1000,18.101765
+Elapsed time: 37.308587 seconds (38) for mbrot:75:1000
++!CSVLINE!+vicare-0.4d0,mbrot:75:1000,37.308587
 
-real	0m18.176s
-user	0m18.140s
-sys	0m0.033s
+real	0m37.449s
+user	0m37.363s
+sys	0m0.050s
 
 Testing mbrotZ under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 18.2312 seconds (18) for mbrotZ:75:1000
-+!CSVLINE!+vicare-0.4d0,mbrotZ:75:1000,18.2312
+Elapsed time: 42.745203 seconds (43) for mbrotZ:75:1000
++!CSVLINE!+vicare-0.4d0,mbrotZ:75:1000,42.745203
 
-real	0m18.301s
-user	0m18.260s
-sys	0m0.037s
+real	0m42.877s
+user	0m42.803s
+sys	0m0.063s
 
 Testing nucleic under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running nucleic:50
-Elapsed time: 5.311642 seconds (5) for nucleic:50
-+!CSVLINE!+vicare-0.4d0,nucleic:50,5.311642
+Elapsed time: 11.055994 seconds (12) for nucleic:50
++!CSVLINE!+vicare-0.4d0,nucleic:50,11.055994
 
-real	0m5.390s
-user	0m5.360s
-sys	0m0.027s
+real	0m11.200s
+user	0m11.143s
+sys	0m0.053s
 
 Testing pi under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -285,96 +285,96 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running pnpoly:1000000
-Elapsed time: 14.805447 seconds (14) for pnpoly:1000000
-+!CSVLINE!+vicare-0.4d0,pnpoly:1000000,14.805447
+Elapsed time: 28.771669 seconds (29) for pnpoly:1000000
++!CSVLINE!+vicare-0.4d0,pnpoly:1000000,28.771669
 
-real	0m14.881s
-user	0m14.857s
-sys	0m0.023s
+real	0m28.898s
+user	0m28.847s
+sys	0m0.043s
 
 Testing ray under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running ray:50
-Elapsed time: 6.773931 seconds (6) for ray:50
-+!CSVLINE!+vicare-0.4d0,ray:50,6.773931
+Elapsed time: 14.351967 seconds (14) for ray:50
++!CSVLINE!+vicare-0.4d0,ray:50,14.351967
 
-real	0m6.847s
-user	0m6.827s
-sys	0m0.017s
+real	0m14.476s
+user	0m14.343s
+sys	0m0.047s
 
 Testing simplex under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running simplex:1000000
-Elapsed time: 23.205053 seconds (23) for simplex:1000000
-+!CSVLINE!+vicare-0.4d0,simplex:1000000,23.205053
+Elapsed time: 41.166876 seconds (41) for simplex:1000000
++!CSVLINE!+vicare-0.4d0,simplex:1000000,41.166876
 
-real	0m23.278s
-user	0m20.973s
-sys	0m2.300s
+real	0m41.295s
+user	0m37.587s
+sys	0m3.537s
 
 Testing ack under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running ack:3:12:2
-Elapsed time: 3.769428 seconds (4) for ack:3:12:2
-+!CSVLINE!+vicare-0.4d0,ack:3:12:2,3.769428
+Elapsed time: 6.916801 seconds (7) for ack:3:12:2
++!CSVLINE!+vicare-0.4d0,ack:3:12:2,6.916801
 
-real	0m3.840s
-user	0m3.820s
-sys	0m0.017s
+real	0m7.039s
+user	0m7.000s
+sys	0m0.027s
 
 Testing array1 under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running array1:1000000:500
-Elapsed time: 72.074478 seconds (72) for array1:1000000:500
-+!CSVLINE!+vicare-0.4d0,array1:1000000:500,72.074478
+Elapsed time: 126.334569 seconds (126) for array1:1000000:500
++!CSVLINE!+vicare-0.4d0,array1:1000000:500,126.334569
 
-real	1m12.153s
-user	1m1.557s
-sys	0m10.590s
+real	2m6.466s
+user	1m47.327s
+sys	0m16.580s
 
 Testing string under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running string:500000:25
-Elapsed time: 2.176949 seconds (3) for string:500000:25
-+!CSVLINE!+vicare-0.4d0,string:500000:25,2.176949
+Elapsed time: 3.82556 seconds (4) for string:500000:25
++!CSVLINE!+vicare-0.4d0,string:500000:25,3.82556
 
-real	0m2.251s
-user	0m1.953s
-sys	0m0.297s
+real	0m3.970s
+user	0m3.510s
+sys	0m0.423s
 
 Testing sum1 under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running sum1:25
-Elapsed time: 10.748384 seconds (10) for sum1:25
-+!CSVLINE!+vicare-0.4d0,sum1:25,10.748384
+Elapsed time: 21.532065 seconds (22) for sum1:25
++!CSVLINE!+vicare-0.4d0,sum1:25,21.532065
 
-real	0m10.821s
-user	0m10.787s
-sys	0m0.033s
+real	0m21.661s
+user	0m21.340s
+sys	0m0.047s
 
 Testing cat under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running cat:50
-Elapsed time: 10.845083 seconds (11) for cat:50
-+!CSVLINE!+vicare-0.4d0,cat:50,10.845083
+Elapsed time: 24.008409 seconds (24) for cat:50
++!CSVLINE!+vicare-0.4d0,cat:50,24.008409
 
-real	0m10.920s
-user	0m10.700s
-sys	0m0.217s
+real	0m24.137s
+user	0m23.257s
+sys	0m0.403s
 
 Testing tail under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -401,24 +401,24 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 6.431297 seconds (6) for wc:inputs/bib:50
-+!CSVLINE!+vicare-0.4d0,wc:inputs/bib:50,6.431297
+Elapsed time: 12.736905 seconds (12) for wc:inputs/bib:50
++!CSVLINE!+vicare-0.4d0,wc:inputs/bib:50,12.736905
 
-real	0m6.502s
-user	0m6.437s
-sys	0m0.063s
+real	0m12.868s
+user	0m12.703s
+sys	0m0.133s
 
 Testing read1 under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running read1:2500
-Elapsed time: 24.515331 seconds (24) for read1:2500
-+!CSVLINE!+vicare-0.4d0,read1:2500,24.515331
+Elapsed time: 50.548807 seconds (50) for read1:2500
++!CSVLINE!+vicare-0.4d0,read1:2500,50.548807
 
-real	0m24.587s
-user	0m24.337s
-sys	0m0.247s
+real	0m50.676s
+user	0m49.530s
+sys	0m0.400s
 
 Testing compiler under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -444,60 +444,60 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running conform:500
-Elapsed time: 6.571509 seconds (6) for conform:500
-+!CSVLINE!+vicare-0.4d0,conform:500,6.571509
+Elapsed time: 11.777288 seconds (12) for conform:500
++!CSVLINE!+vicare-0.4d0,conform:500,11.777288
 
-real	0m6.648s
-user	0m6.620s
-sys	0m0.027s
+real	0m11.906s
+user	0m11.760s
+sys	0m0.053s
 
 Testing dynamic under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running dynamic:500
-Elapsed time: 16.13757 seconds (16) for dynamic:500
-+!CSVLINE!+vicare-0.4d0,dynamic:500,16.13757
+Elapsed time: 33.154454 seconds (33) for dynamic:500
++!CSVLINE!+vicare-0.4d0,dynamic:500,33.154454
 
-real	0m16.219s
-user	0m16.090s
-sys	0m0.127s
+real	0m33.293s
+user	0m33.093s
+sys	0m0.173s
 
 Testing earley under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running earley:1
-Elapsed time: 5.690265 seconds (5) for earley:1
-+!CSVLINE!+vicare-0.4d0,earley:1,5.690265
+Elapsed time: 10.074323 seconds (10) for earley:1
++!CSVLINE!+vicare-0.4d0,earley:1,10.074323
 
-real	0m5.891s
-user	0m4.860s
-sys	0m1.030s
+real	0m10.414s
+user	0m8.783s
+sys	0m1.570s
 
 Testing graphs under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running graphs:7:3
-Elapsed time: 23.75931 seconds (23) for graphs:7:3
-+!CSVLINE!+vicare-0.4d0,graphs:7:3,23.75931
+Elapsed time: 42.100928 seconds (42) for graphs:7:3
++!CSVLINE!+vicare-0.4d0,graphs:7:3,42.100928
 
-real	0m23.836s
-user	0m22.273s
-sys	0m1.560s
+real	0m42.242s
+user	0m38.060s
+sys	0m2.420s
 
 Testing lattice under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running lattice:44:10
-Elapsed time: 13.50789 seconds (13) for lattice:44:10
-+!CSVLINE!+vicare-0.4d0,lattice:44:10,13.50789
+Elapsed time: 23.952687 seconds (24) for lattice:44:10
++!CSVLINE!+vicare-0.4d0,lattice:44:10,23.952687
 
-real	0m13.584s
-user	0m13.537s
-sys	0m0.043s
+real	0m24.081s
+user	0m23.987s
+sys	0m0.080s
 
 Testing matrix under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -542,24 +542,24 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 4.01279 seconds (4) for mazefun:11:11:10000
-+!CSVLINE!+vicare-0.4d0,mazefun:11:11:10000,4.01279
+Elapsed time: 7.012029 seconds (7) for mazefun:11:11:10000
++!CSVLINE!+vicare-0.4d0,mazefun:11:11:10000,7.012029
 
-real	0m4.086s
-user	0m4.060s
-sys	0m0.023s
+real	0m7.143s
+user	0m7.097s
+sys	0m0.037s
 
 Testing nqueens under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running nqueens:13:10
-Elapsed time: 8.101757 seconds (8) for nqueens:13:10
-+!CSVLINE!+vicare-0.4d0,nqueens:13:10,8.101757
+Elapsed time: 15.753885 seconds (16) for nqueens:13:10
++!CSVLINE!+vicare-0.4d0,nqueens:13:10,15.753885
 
-real	0m8.175s
-user	0m8.147s
-sys	0m0.027s
+real	0m15.886s
+user	0m15.813s
+sys	0m0.040s
 
 Testing paraffins under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -607,24 +607,24 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running peval:2000
-Elapsed time: 6.275108 seconds (6) for peval:2000
-+!CSVLINE!+vicare-0.4d0,peval:2000,6.275108
+Elapsed time: 11.749423 seconds (12) for peval:2000
++!CSVLINE!+vicare-0.4d0,peval:2000,11.749423
 
-real	0m6.350s
-user	0m6.300s
-sys	0m0.047s
+real	0m11.882s
+user	0m11.773s
+sys	0m0.097s
 
 Testing primes under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running primes:1000:10000
-Elapsed time: 7.987677 seconds (8) for primes:1000:10000
-+!CSVLINE!+vicare-0.4d0,primes:1000:10000,7.987677
+Elapsed time: 14.171193 seconds (14) for primes:1000:10000
++!CSVLINE!+vicare-0.4d0,primes:1000:10000,14.171193
 
-real	0m8.062s
-user	0m8.033s
-sys	0m0.027s
+real	0m14.304s
+user	0m14.230s
+sys	0m0.037s
 
 Testing quicksort under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
@@ -696,7 +696,7 @@ Compiling...
    2. &message: "expand-time return values signature mismatch"
    3. &expand-time-retvals-signature-violation:
        expected-signature: #["retvals-signature" (#<syntax expr=setup-boyer mark*=(top)>)]
-       returned-signature: #["retvals-signature" (#<syntax expr=#{g0 |Nf9uV<jg=FPC8w%X|} mark*=(top)>)]
+       returned-signature: #["retvals-signature" (#<syntax expr=#{g0 |eNmkz3Z3=SNKyMYj|} mark*=(top)>)]
    4. &syntax:
        form: (#<syntax expr=tag-assert-and-return mark*=(top)>
   (#<syntax expr=setup-boyer mark*=(top)>)
@@ -757,33 +757,33 @@ Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 35.978395 seconds (36) for mperm:20:10:2:1
-+!CSVLINE!+vicare-0.4d0,mperm:20:10:2:1,35.978395
+Elapsed time: 61.37478 seconds (61) for mperm:20:10:2:1
++!CSVLINE!+vicare-0.4d0,mperm:20:10:2:1,61.37478
 
-real	0m37.325s
-user	0m31.673s
-sys	0m5.647s
+real	1m3.948s
+user	0m55.423s
+sys	0m8.480s
 
 Testing equal under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 1.858337 seconds (2) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+vicare-0.4d0,equal:100:100:8:1000:2000:5000,1.858337
+Elapsed time: 3.500493 seconds (3) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+vicare-0.4d0,equal:100:100:8:1000:2000:5000,3.500493
 
-real	0m1.929s
-user	0m1.890s
-sys	0m0.037s
+real	0m3.626s
+user	0m3.573s
+sys	0m0.047s
 
 Testing bv2string under Vicare
 Including prelude /home/nex/src/r7rs-benchmarks/src/Vicare-prelude.scm
 Compiling...
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 12.730712 seconds (13) for bv2string:1000:1000:100
-+!CSVLINE!+vicare-0.4d0,bv2string:1000:1000:100,12.730712
+Elapsed time: 21.513483 seconds (22) for bv2string:1000:1000:100
++!CSVLINE!+vicare-0.4d0,bv2string:1000:1000:100,21.513483
 
-real	0m12.804s
-user	0m12.360s
-sys	0m0.440s
+real	0m21.636s
+user	0m20.910s
+sys	0m0.707s

@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking MIT on Fri 7 Oct 21:05:17 CEST 2016 under Linux nexion 4.7.4-1-ARCH #1 SMP PREEMPT Thu Sep 15 15:24:29 CEST 2016 x86_64 GNU/Linux
+Benchmarking MIT on Tue 14 Mar 15:42:55 CET 2017 under Linux nexion 4.9.11-1-ARCH #1 SMP PREEMPT Sun Feb 19 13:45:52 UTC 2017 x86_64 GNU/Linux
 
 Testing browse under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -11,12 +11,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/browse.bin" => "/tmp/larcenous/MIT/browse.com"... done
 Running...
 Running browse:2000
-Elapsed time: 6.792 seconds (6) for browse:2000
-+!CSVLINE!+mit-9.2.1,browse:2000,6.792
+Elapsed time: 13.079 seconds (13) for browse:2000
++!CSVLINE!+mit-9.2.1,browse:2000,13.079
 
-real	0m6.914s
-user	0m6.363s
-sys	0m0.547s
+real	0m13.115s
+user	0m12.603s
+sys	0m0.197s
 
 Testing deriv under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -25,12 +25,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/deriv.bin" => "/tmp/larcenous/MIT/deriv.com"... done
 Running...
 Running deriv:10000000
-Elapsed time: 7.313 seconds (7) for deriv:10000000
-+!CSVLINE!+mit-9.2.1,deriv:10000000,7.313
+Elapsed time: 11.315 seconds (11) for deriv:10000000
++!CSVLINE!+mit-9.2.1,deriv:10000000,11.315
 
-real	0m7.434s
-user	0m6.810s
-sys	0m0.623s
+real	0m11.339s
+user	0m11.133s
+sys	0m0.200s
 
 Testing destruc under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -39,12 +39,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/destruc.bin" => "/tmp/larcenous/MIT/destruc.com"... done
 Running...
 Running destruc:600:50:4000
-Elapsed time: 6.073 seconds (6) for destruc:600:50:4000
-+!CSVLINE!+mit-9.2.1,destruc:600:50:4000,6.073
+Elapsed time: 9.492 seconds (10) for destruc:600:50:4000
++!CSVLINE!+mit-9.2.1,destruc:600:50:4000,9.492
 
-real	0m6.148s
-user	0m5.813s
-sys	0m0.333s
+real	0m9.522s
+user	0m9.250s
+sys	0m0.173s
 
 Testing diviter under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -53,12 +53,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/diviter.bin" => "/tmp/larcenous/MIT/diviter.com"... done
 Running...
 Running diviter:1000:1000000
-Elapsed time: 2.872 seconds (2) for diviter:1000:1000000
-+!CSVLINE!+mit-9.2.1,diviter:1000:1000000,2.872
+Elapsed time: 2.928 seconds (3) for diviter:1000:1000000
++!CSVLINE!+mit-9.2.1,diviter:1000:1000000,2.928
 
-real	0m2.991s
-user	0m2.393s
-sys	0m0.597s
+real	0m2.971s
+user	0m2.610s
+sys	0m0.287s
 
 Testing divrec under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -67,12 +67,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/divrec.bin" => "/tmp/larcenous/MIT/divrec.com"... done
 Running...
 Running divrec:1000:1000000
-Elapsed time: 3.786 seconds (4) for divrec:1000:1000000
-+!CSVLINE!+mit-9.2.1,divrec:1000:1000000,3.786
+Elapsed time: 4.578 seconds (4) for divrec:1000:1000000
++!CSVLINE!+mit-9.2.1,divrec:1000:1000000,4.578
 
-real	0m3.910s
-user	0m3.133s
-sys	0m0.773s
+real	0m4.613s
+user	0m4.500s
+sys	0m0.100s
 
 Testing puzzle under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -83,12 +83,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/puzzle.bin" => "/tmp/larcenous/MIT/puzzle.com"... done
 Running...
 Running puzzle:1000
-Elapsed time: 12.419 seconds (12) for puzzle:1000
-+!CSVLINE!+mit-9.2.1,puzzle:1000,12.419
+Elapsed time: 22.509 seconds (22) for puzzle:1000
++!CSVLINE!+mit-9.2.1,puzzle:1000,22.509
 
-real	0m12.438s
-user	0m9.210s
-sys	0m3.227s
+real	0m22.534s
+user	0m16.843s
+sys	0m5.557s
 
 Testing triangl under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -97,12 +97,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/triangl.bin" => "/tmp/larcenous/MIT/triangl.com"... done
 Running...
 Running triangl:22:1:50
-Elapsed time: 3.369 seconds (4) for triangl:22:1:50
-+!CSVLINE!+mit-9.2.1,triangl:22:1:50,3.369
+Elapsed time: 5.869 seconds (6) for triangl:22:1:50
++!CSVLINE!+mit-9.2.1,triangl:22:1:50,5.869
 
-real	0m3.383s
-user	0m3.377s
-sys	0m0.003s
+real	0m5.893s
+user	0m5.773s
+sys	0m0.000s
 
 Testing tak under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -111,12 +111,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/tak.bin" => "/tmp/larcenous/MIT/tak.com"... done
 Running...
 Running tak:40:20:11:1
-Elapsed time: 2.619 seconds (2) for tak:40:20:11:1
-+!CSVLINE!+mit-9.2.1,tak:40:20:11:1,2.619
+Elapsed time: 5.182 seconds (6) for tak:40:20:11:1
++!CSVLINE!+mit-9.2.1,tak:40:20:11:1,5.182
 
-real	0m2.634s
-user	0m2.630s
-sys	0m0.003s
+real	0m5.202s
+user	0m5.013s
+sys	0m0.020s
 
 Testing takl under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -125,11 +125,11 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/takl.bin" => "/tmp/larcenous/MIT/takl.com"... done
 Running...
 Running takl:40:20:12:1
-Elapsed time: 6.289 seconds (6) for takl:40:20:12:1
-+!CSVLINE!+mit-9.2.1,takl:40:20:12:1,6.289
+Elapsed time: 9.376 seconds (9) for takl:40:20:12:1
++!CSVLINE!+mit-9.2.1,takl:40:20:12:1,9.376
 
-real	0m6.306s
-user	0m6.300s
+real	0m9.397s
+user	0m9.303s
 sys	0m0.003s
 
 Testing ntakl under MIT
@@ -139,12 +139,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/ntakl.bin" => "/tmp/larcenous/MIT/ntakl.com"... done
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 6.223 seconds (6) for ntakl:40:20:12:1
-+!CSVLINE!+mit-9.2.1,ntakl:40:20:12:1,6.223
+Elapsed time: 9.343 seconds (10) for ntakl:40:20:12:1
++!CSVLINE!+mit-9.2.1,ntakl:40:20:12:1,9.343
 
-real	0m6.239s
-user	0m6.233s
-sys	0m0.003s
+real	0m9.364s
+user	0m9.347s
+sys	0m0.007s
 
 Testing cpstak under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -153,12 +153,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/cpstak.bin" => "/tmp/larcenous/MIT/cpstak.com"... done
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 112.473 seconds (113) for cpstak:40:20:11:1
-+!CSVLINE!+mit-9.2.1,cpstak:40:20:11:1,112.473
+Elapsed time: 125.462 seconds (125) for cpstak:40:20:11:1
++!CSVLINE!+mit-9.2.1,cpstak:40:20:11:1,125.462
 
-real	1m52.594s
-user	1m51.927s
-sys	0m0.660s
+real	2m5.497s
+user	2m3.783s
+sys	0m0.247s
 
 Testing ctak under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -167,12 +167,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/ctak.bin" => "/tmp/larcenous/MIT/ctak.com"... done
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 267.807 seconds (268) for ctak:32:16:8:1
-+!CSVLINE!+mit-9.2.1,ctak:32:16:8:1,267.807
+./bench: line 631: 13955 Killed                  ${MIT} --quiet --heap 500000 --load "$1" < "$2"
 
-real	4m27.929s
-user	2m38.697s
-sys	1m49.213s
+real	5m0.204s
+user	2m59.490s
+sys	2m0.420s
++!CSVLINE!+mit,ctak,ULIMITKILLED
 
 Testing fib under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -181,11 +181,11 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/fib.bin" => "/tmp/larcenous/MIT/fib.com"... done
 Running...
 Running fib:40:5
-Elapsed time: 6.297 seconds (6) for fib:40:5
-+!CSVLINE!+mit-9.2.1,fib:40:5,6.297
+Elapsed time: 11.596 seconds (11) for fib:40:5
++!CSVLINE!+mit-9.2.1,fib:40:5,11.596
 
-real	0m6.316s
-user	0m6.310s
+real	0m11.616s
+user	0m11.607s
 sys	0m0.003s
 
 Testing fibc under MIT
@@ -195,12 +195,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/fibc.bin" => "/tmp/larcenous/MIT/fibc.com"... done
 Running...
 Running fibc:30:10
-Elapsed time: 158.576 seconds (158) for fibc:30:10
-+!CSVLINE!+mit-9.2.1,fibc:30:10,158.576
+Elapsed time: 271.487 seconds (271) for fibc:30:10
++!CSVLINE!+mit-9.2.1,fibc:30:10,271.487
 
-real	2m38.695s
-user	1m34.553s
-sys	1m4.127s
+real	4m31.517s
+user	2m43.947s
+sys	1m47.457s
 
 Testing fibfp under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -209,12 +209,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/fibfp.bin" => "/tmp/larcenous/MIT/fibfp.com"... done
 Running...
 Running fibfp:35.:10
-Elapsed time: 8.651 seconds (9) for fibfp:35.:10
-+!CSVLINE!+mit-9.2.1,fibfp:35.:10,8.651
+Elapsed time: 11.33 seconds (11) for fibfp:35.:10
++!CSVLINE!+mit-9.2.1,fibfp:35.:10,11.33
 
-real	0m8.769s
-user	0m8.200s
-sys	0m0.567s
+real	0m11.358s
+user	0m11.047s
+sys	0m0.300s
 
 Testing sum under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -223,12 +223,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/sum.bin" => "/tmp/larcenous/MIT/sum.com"... done
 Running...
 Running sum:10000:200000
-Elapsed time: 7.577 seconds (8) for sum:10000:200000
-+!CSVLINE!+mit-9.2.1,sum:10000:200000,7.577
+Elapsed time: 10.218 seconds (10) for sum:10000:200000
++!CSVLINE!+mit-9.2.1,sum:10000:200000,10.218
 
-real	0m7.596s
-user	0m7.587s
-sys	0m0.007s
+real	0m10.242s
+user	0m10.090s
+sys	0m0.003s
 
 Testing sumfp under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -237,12 +237,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/sumfp.bin" => "/tmp/larcenous/MIT/sumfp.com"... done
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 17.027 seconds (17) for sumfp:1000000.:500
-+!CSVLINE!+mit-9.2.1,sumfp:1000000.:500,17.027
+Elapsed time: 22.889 seconds (23) for sumfp:1000000.:500
++!CSVLINE!+mit-9.2.1,sumfp:1000000.:500,22.889
 
-real	0m17.145s
-user	0m16.570s
-sys	0m0.573s
+real	0m22.918s
+user	0m22.023s
+sys	0m0.237s
 
 Testing fft under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -251,12 +251,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/fft.bin" => "/tmp/larcenous/MIT/fft.com"... done
 Running...
 Running fft:65536:100
-Elapsed time: 4.636 seconds (5) for fft:65536:100
-+!CSVLINE!+mit-9.2.1,fft:65536:100,4.636
+Elapsed time: 8.283 seconds (8) for fft:65536:100
++!CSVLINE!+mit-9.2.1,fft:65536:100,8.283
 
-real	0m4.757s
-user	0m4.140s
-sys	0m0.613s
+real	0m8.314s
+user	0m7.870s
+sys	0m0.237s
 
 Testing mbrot under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -265,12 +265,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/mbrot.bin" => "/tmp/larcenous/MIT/mbrot.com"... done
 Running...
 Running mbrot:75:1000
-Elapsed time: 20.411 seconds (21) for mbrot:75:1000
-+!CSVLINE!+mit-9.2.1,mbrot:75:1000,20.411
+Elapsed time: 27.782 seconds (27) for mbrot:75:1000
++!CSVLINE!+mit-9.2.1,mbrot:75:1000,27.782
 
-real	0m20.535s
-user	0m19.947s
-sys	0m0.587s
+real	0m27.814s
+user	0m27.197s
+sys	0m0.277s
 
 Testing mbrotZ under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -279,12 +279,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/mbrotZ.bin" => "/tmp/larcenous/MIT/mbrotZ.com"... done
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 24.063 seconds (24) for mbrotZ:75:1000
-+!CSVLINE!+mit-9.2.1,mbrotZ:75:1000,24.063
+Elapsed time: 47.854 seconds (47) for mbrotZ:75:1000
++!CSVLINE!+mit-9.2.1,mbrotZ:75:1000,47.854
 
-real	0m24.182s
-user	0m23.517s
-sys	0m0.663s
+real	0m47.887s
+user	0m47.223s
+sys	0m0.257s
 
 Testing nucleic under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -296,12 +296,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/nucleic.bin" => "/tmp/larcenous/MIT/nucleic.com"... done
 Running...
 Running nucleic:50
-Elapsed time: 10.363 seconds (11) for nucleic:50
-+!CSVLINE!+mit-9.2.1,nucleic:50,10.363
+Elapsed time: 16.204 seconds (16) for nucleic:50
++!CSVLINE!+mit-9.2.1,nucleic:50,16.204
 
-real	0m10.482s
-user	0m9.857s
-sys	0m0.623s
+real	0m16.234s
+user	0m16.040s
+sys	0m0.183s
 
 Testing pi under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -310,12 +310,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/pi.bin" => "/tmp/larcenous/MIT/pi.com"... done
 Running...
 Running pi:50:500:50:2
-Elapsed time: .235 seconds (0) for pi:50:500:50:2
-+!CSVLINE!+mit-9.2.1,pi:50:500:50:2,.235
+Elapsed time: .452 seconds (1) for pi:50:500:50:2
++!CSVLINE!+mit-9.2.1,pi:50:500:50:2,.452
 
-real	0m0.254s
-user	0m0.230s
-sys	0m0.023s
+real	0m0.481s
+user	0m0.457s
+sys	0m0.017s
 
 Testing pnpoly under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -326,12 +326,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/pnpoly.bin" => "/tmp/larcenous/MIT/pnpoly.com"... done
 Running...
 Running pnpoly:1000000
-Elapsed time: 14.873 seconds (15) for pnpoly:1000000
-+!CSVLINE!+mit-9.2.1,pnpoly:1000000,14.873
+Elapsed time: 22.445 seconds (23) for pnpoly:1000000
++!CSVLINE!+mit-9.2.1,pnpoly:1000000,22.445
 
-real	0m14.991s
-user	0m14.377s
-sys	0m0.610s
+real	0m22.473s
+user	0m22.220s
+sys	0m0.243s
 
 Testing ray under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -342,12 +342,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/ray.bin" => "/tmp/larcenous/MIT/ray.com"... done
 Running...
 Running ray:50
-Elapsed time: 21.483 seconds (22) for ray:50
-+!CSVLINE!+mit-9.2.1,ray:50,21.483
+Elapsed time: 26.237 seconds (26) for ray:50
++!CSVLINE!+mit-9.2.1,ray:50,26.237
 
-real	0m21.601s
-user	0m21.027s
-sys	0m0.570s
+real	0m26.269s
+user	0m26.010s
+sys	0m0.230s
 
 Testing simplex under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -359,12 +359,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/simplex.bin" => "/tmp/larcenous/MIT/simplex.com"... done
 Running...
 Running simplex:1000000
-Elapsed time: 8.435 seconds (9) for simplex:1000000
-+!CSVLINE!+mit-9.2.1,simplex:1000000,8.435
+Elapsed time: 14.468 seconds (14) for simplex:1000000
++!CSVLINE!+mit-9.2.1,simplex:1000000,14.468
 
-real	0m8.554s
-user	0m8.003s
-sys	0m0.547s
+real	0m14.496s
+user	0m14.233s
+sys	0m0.257s
 
 Testing ack under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -373,11 +373,11 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/ack.bin" => "/tmp/larcenous/MIT/ack.com"... done
 Running...
 Running ack:3:12:2
-Elapsed time: 4.809 seconds (5) for ack:3:12:2
-+!CSVLINE!+mit-9.2.1,ack:3:12:2,4.809
+Elapsed time: 8.214 seconds (8) for ack:3:12:2
++!CSVLINE!+mit-9.2.1,ack:3:12:2,8.214
 
-real	0m4.825s
-user	0m4.817s
+real	0m8.237s
+user	0m8.223s
 sys	0m0.007s
 
 Testing array1 under MIT
@@ -387,12 +387,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/array1.bin" => "/tmp/larcenous/MIT/array1.com"... done
 Running...
 Running array1:1000000:500
-Elapsed time: 5.203 seconds (5) for array1:1000000:500
-+!CSVLINE!+mit-9.2.1,array1:1000000:500,5.203
+Elapsed time: 8.177 seconds (8) for array1:1000000:500
++!CSVLINE!+mit-9.2.1,array1:1000000:500,8.177
 
-real	0m5.319s
-user	0m4.753s
-sys	0m0.563s
+real	0m8.217s
+user	0m7.920s
+sys	0m0.277s
 
 Testing string under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -401,12 +401,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/string.bin" => "/tmp/larcenous/MIT/string.com"... done
 Running...
 Running string:500000:25
-Elapsed time: .35 seconds (1) for string:500000:25
-+!CSVLINE!+mit-9.2.1,string:500000:25,.35
+Elapsed time: .609 seconds (1) for string:500000:25
++!CSVLINE!+mit-9.2.1,string:500000:25,.609
 
-real	0m0.366s
-user	0m0.323s
-sys	0m0.040s
+real	0m0.634s
+user	0m0.590s
+sys	0m0.037s
 
 Testing sum1 under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -417,12 +417,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/sum1.bin" => "/tmp/larcenous/MIT/sum1.com"... done
 Running...
 Running sum1:25
-Elapsed time: 33.946 seconds (34) for sum1:25
-+!CSVLINE!+mit-9.2.1,sum1:25,33.946
+Elapsed time: 56.883 seconds (57) for sum1:25
++!CSVLINE!+mit-9.2.1,sum1:25,56.883
 
-real	0m34.064s
-user	0m33.430s
-sys	0m0.630s
+real	0m56.913s
+user	0m56.577s
+sys	0m0.290s
 
 Testing cat under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -436,12 +436,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/cat.bin" => "/tmp/larcenous/MIT/cat.com"... done
 Running...
 Running cat:50
-Elapsed time: 31.616 seconds (32) for cat:50
-+!CSVLINE!+mit-9.2.1,cat:50,31.616
+Elapsed time: 69.461 seconds (69) for cat:50
++!CSVLINE!+mit-9.2.1,cat:50,69.461
 
-real	0m31.631s
-user	0m31.530s
-sys	0m0.093s
+real	1m9.498s
+user	1m8.780s
+sys	0m0.587s
 
 Testing tail under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -455,12 +455,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/tail.bin" => "/tmp/larcenous/MIT/tail.com"... done
 Running...
 Running tail:25
-Elapsed time: 10.978 seconds (11) for tail:25
-+!CSVLINE!+mit-9.2.1,tail:25,10.978
+Elapsed time: 23.988 seconds (24) for tail:25
++!CSVLINE!+mit-9.2.1,tail:25,23.988
 
-real	0m10.995s
-user	0m10.817s
-sys	0m0.173s
+real	0m24.015s
+user	0m23.647s
+sys	0m0.343s
 
 Testing wc under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -469,12 +469,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/wc.bin" => "/tmp/larcenous/MIT/wc.com"... done
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 15.434 seconds (15) for wc:inputs/bib:50
-+!CSVLINE!+mit-9.2.1,wc:inputs/bib:50,15.434
+Elapsed time: 37.459 seconds (37) for wc:inputs/bib:50
++!CSVLINE!+mit-9.2.1,wc:inputs/bib:50,37.459
 
-real	0m15.453s
-user	0m15.437s
-sys	0m0.013s
+real	0m37.482s
+user	0m37.360s
+sys	0m0.077s
 
 Testing read1 under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -485,12 +485,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/read1.bin" => "/tmp/larcenous/MIT/read1.com"... done
 Running...
 Running read1:2500
-Elapsed time: 11.506 seconds (11) for read1:2500
-+!CSVLINE!+mit-9.2.1,read1:2500,11.506
+Elapsed time: 23.159 seconds (23) for read1:2500
++!CSVLINE!+mit-9.2.1,read1:2500,23.159
 
-real	0m11.561s
-user	0m11.313s
-sys	0m0.247s
+real	0m23.187s
+user	0m23.000s
+sys	0m0.177s
 
 Testing compiler under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -585,12 +585,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/compiler.bin" => "/tmp/larcenous/MIT/compiler.com"... done
 Running...
 Running compiler:2000
-Elapsed time: 4.681 seconds (4) for compiler:2000
-+!CSVLINE!+mit-9.2.1,compiler:2000,4.681
+Elapsed time: 8.253 seconds (8) for compiler:2000
++!CSVLINE!+mit-9.2.1,compiler:2000,8.253
 
-real	0m4.729s
-user	0m4.567s
-sys	0m0.160s
+real	0m8.298s
+user	0m8.190s
+sys	0m0.100s
 
 Testing conform under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -599,12 +599,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/conform.bin" => "/tmp/larcenous/MIT/conform.com"... done
 Running...
 Running conform:500
-Elapsed time: 6.065 seconds (6) for conform:500
-+!CSVLINE!+mit-9.2.1,conform:500,6.065
+Elapsed time: 11.222 seconds (11) for conform:500
++!CSVLINE!+mit-9.2.1,conform:500,11.222
 
-real	0m6.085s
-user	0m6.000s
-sys	0m0.083s
+real	0m11.247s
+user	0m11.087s
+sys	0m0.117s
 
 Testing dynamic under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -620,12 +620,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/dynamic.bin" => "/tmp/larcenous/MIT/dynamic.com"... done
 Running...
 Running dynamic:500
-Elapsed time: 12.135 seconds (12) for dynamic:500
-+!CSVLINE!+mit-9.2.1,dynamic:500,12.135
+Elapsed time: 22.838 seconds (23) for dynamic:500
++!CSVLINE!+mit-9.2.1,dynamic:500,22.838
 
-real	0m12.217s
-user	0m11.743s
-sys	0m0.470s
+real	0m22.867s
+user	0m22.617s
+sys	0m0.230s
 
 Testing earley under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -638,12 +638,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/earley.bin" => "/tmp/larcenous/MIT/earley.com"... done
 Running...
 Running earley:1
-Elapsed time: 2.164 seconds (3) for earley:1
-+!CSVLINE!+mit-9.2.1,earley:1,2.164
+Elapsed time: 4.006 seconds (4) for earley:1
++!CSVLINE!+mit-9.2.1,earley:1,4.006
 
-real	0m2.226s
-user	0m1.943s
-sys	0m0.280s
+real	0m4.038s
+user	0m3.830s
+sys	0m0.197s
 
 Testing graphs under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -658,12 +658,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/graphs.bin" => "/tmp/larcenous/MIT/graphs.com"... done
 Running...
 Running graphs:7:3
-Elapsed time: 20.083 seconds (20) for graphs:7:3
-+!CSVLINE!+mit-9.2.1,graphs:7:3,20.083
+Elapsed time: 36.007 seconds (36) for graphs:7:3
++!CSVLINE!+mit-9.2.1,graphs:7:3,36.007
 
-real	0m20.201s
-user	0m19.573s
-sys	0m0.623s
+real	0m36.042s
+user	0m35.680s
+sys	0m0.300s
 
 Testing lattice under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -674,12 +674,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/lattice.bin" => "/tmp/larcenous/MIT/lattice.com"... done
 Running...
 Running lattice:44:10
-Elapsed time: 11.588 seconds (12) for lattice:44:10
-+!CSVLINE!+mit-9.2.1,lattice:44:10,11.588
+Elapsed time: 19.552 seconds (20) for lattice:44:10
++!CSVLINE!+mit-9.2.1,lattice:44:10,19.552
 
-real	0m11.657s
-user	0m11.447s
-sys	0m0.207s
+real	0m19.583s
+user	0m19.353s
+sys	0m0.163s
 
 Testing matrix under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -691,12 +691,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/matrix.bin" => "/tmp/larcenous/MIT/matrix.com"... done
 Running...
 Running matrix:5:5:2500
-Elapsed time: 10.791 seconds (11) for matrix:5:5:2500
-+!CSVLINE!+mit-9.2.1,matrix:5:5:2500,10.791
+Elapsed time: 17.884 seconds (18) for matrix:5:5:2500
++!CSVLINE!+mit-9.2.1,matrix:5:5:2500,17.884
 
-real	0m10.907s
-user	0m10.353s
-sys	0m0.550s
+real	0m17.914s
+user	0m17.640s
+sys	0m0.237s
 
 Testing maze under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -707,12 +707,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/maze.bin" => "/tmp/larcenous/MIT/maze.com"... done
 Running...
 Running maze:20:7:10000
-Elapsed time: 5.306 seconds (5) for maze:20:7:10000
-+!CSVLINE!+mit-9.2.1,maze:20:7:10000,5.306
+Elapsed time: 10.669 seconds (10) for maze:20:7:10000
++!CSVLINE!+mit-9.2.1,maze:20:7:10000,10.669
 
-real	0m5.324s
-user	0m5.257s
-sys	0m0.067s
+real	0m10.695s
+user	0m10.620s
+sys	0m0.063s
 
 Testing mazefun under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -724,12 +724,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/mazefun.bin" => "/tmp/larcenous/MIT/mazefun.com"... done
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 6.361 seconds (7) for mazefun:11:11:10000
-+!CSVLINE!+mit-9.2.1,mazefun:11:11:10000,6.361
+Elapsed time: 9.644 seconds (10) for mazefun:11:11:10000
++!CSVLINE!+mit-9.2.1,mazefun:11:11:10000,9.644
 
-real	0m6.455s
-user	0m5.947s
-sys	0m0.507s
+real	0m9.678s
+user	0m9.470s
+sys	0m0.190s
 
 Testing nqueens under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -738,12 +738,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/nqueens.bin" => "/tmp/larcenous/MIT/nqueens.com"... done
 Running...
 Running nqueens:13:10
-Elapsed time: 10.66 seconds (11) for nqueens:13:10
-+!CSVLINE!+mit-9.2.1,nqueens:13:10,10.66
+Elapsed time: 17.88 seconds (18) for nqueens:13:10
++!CSVLINE!+mit-9.2.1,nqueens:13:10,17.88
 
-real	0m10.782s
-user	0m10.180s
-sys	0m0.600s
+real	0m17.922s
+user	0m17.630s
+sys	0m0.270s
 
 Testing paraffins under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -752,12 +752,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/paraffins.bin" => "/tmp/larcenous/MIT/paraffins.com"... done
 Running...
 Running paraffins:23:10
-Elapsed time: 1.385 seconds (1) for paraffins:23:10
-+!CSVLINE!+mit-9.2.1,paraffins:23:10,1.385
+Elapsed time: 1.536 seconds (2) for paraffins:23:10
++!CSVLINE!+mit-9.2.1,paraffins:23:10,1.536
 
-real	0m1.489s
-user	0m0.990s
-sys	0m0.497s
+real	0m1.566s
+user	0m1.370s
+sys	0m0.190s
 
 Testing parsing under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -792,9 +792,9 @@ Compiling...
 ;... done
 ;Compiling file: "/tmp/larcenous/MIT/parsing.bin" => "/tmp/larcenous/MIT/parsing.com"... aborted
 ;Aborting!: out of memory
-;GC #5 21:22:36: took:   0.10 (100%) CPU,   0.10 (100%) real; free: 512000356
-;GC #6 21:22:36: took:   0.00 (100%) CPU,   0.10  (90%) real; free: 512000839
-;GC #7 21:22:36: took:   0.00   (0%) CPU,   0.10  (90%) real; free: 512000824
+;GC #5 16:08:07: took:   0.20 (100%) CPU,   0.20 (100%) real; free: 512000316
+;GC #6 16:08:07: took:   0.10 (100%) CPU,   0.10  (88%) real; free: 512000799
+;GC #7 16:08:07: took:   0.20 (100%) CPU,   0.20  (94%) real; free: 512000784
 Running...
 ;Unable to find file "/tmp/larcenous/MIT/parsing.com" because: File does not exist.
 ;To continue, call RESTART with an option number:
@@ -816,8 +816,8 @@ Running...
 
 3 error> 
 End of input stream reached.
-real	0m0.015s
-user	0m0.010s
+real	0m0.022s
+user	0m0.013s
 sys	0m0.003s
 +!CSVLINE!+mit,parsing,CRASHED
 
@@ -830,12 +830,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/peval.bin" => "/tmp/larcenous/MIT/peval.com"... done
 Running...
 Running peval:2000
-Elapsed time: 9.806 seconds (10) for peval:2000
-+!CSVLINE!+mit-9.2.1,peval:2000,9.806
+Elapsed time: 17.301 seconds (17) for peval:2000
++!CSVLINE!+mit-9.2.1,peval:2000,17.301
 
-real	0m9.901s
-user	0m9.477s
-sys	0m0.420s
+real	0m17.333s
+user	0m17.157s
+sys	0m0.163s
 
 Testing primes under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -844,12 +844,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/primes.bin" => "/tmp/larcenous/MIT/primes.com"... done
 Running...
 Running primes:1000:10000
-Elapsed time: 7.283 seconds (7) for primes:1000:10000
-+!CSVLINE!+mit-9.2.1,primes:1000:10000,7.283
+Elapsed time: 13.579 seconds (14) for primes:1000:10000
++!CSVLINE!+mit-9.2.1,primes:1000:10000,13.579
 
-real	0m7.354s
-user	0m7.043s
-sys	0m0.310s
+real	0m13.609s
+user	0m13.460s
+sys	0m0.130s
 
 Testing quicksort under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -865,12 +865,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/quicksort.bin" => "/tmp/larcenous/MIT/quicksort.com"... done
 Running...
 Running quicksort:10000:2500
-Elapsed time: 6.48 seconds (6) for quicksort:10000:2500
-+!CSVLINE!+mit-9.2.1,quicksort:10000:2500,6.48
+Elapsed time: 12.237 seconds (12) for quicksort:10000:2500
++!CSVLINE!+mit-9.2.1,quicksort:10000:2500,12.237
 
-real	0m6.538s
-user	0m6.350s
-sys	0m0.187s
+real	0m12.280s
+user	0m12.137s
+sys	0m0.130s
 
 Testing scheme under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -898,12 +898,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/scheme.bin" => "/tmp/larcenous/MIT/scheme.com"... done
 Running...
 Running scheme:100000
-Elapsed time: 5.716 seconds (6) for scheme:100000
-+!CSVLINE!+mit-9.2.1,scheme:100000,5.716
+Elapsed time: 10.161 seconds (10) for scheme:100000
++!CSVLINE!+mit-9.2.1,scheme:100000,10.161
 
-real	0m5.772s
-user	0m5.530s
-sys	0m0.240s
+real	0m10.191s
+user	0m10.023s
+sys	0m0.150s
 
 Testing slatex under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -920,12 +920,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/slatex.bin" => "/tmp/larcenous/MIT/slatex.com"... done
 Running...
 Running slatex:500
-Elapsed time: 12.457 seconds (13) for slatex:500
-+!CSVLINE!+mit-9.2.1,slatex:500,12.457
+Elapsed time: 22.368 seconds (22) for slatex:500
++!CSVLINE!+mit-9.2.1,slatex:500,22.368
 
-real	0m12.526s
-user	0m10.743s
-sys	0m1.763s
+real	0m22.398s
+user	0m19.787s
+sys	0m2.513s
 
 Testing nboyer under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -940,12 +940,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/nboyer.bin" => "/tmp/larcenous/MIT/nboyer.com"... done
 Running...
 Running nboyer:5:1
-Elapsed time: 1.536 seconds (1) for nboyer:5:1
-+!CSVLINE!+mit-9.2.1,nboyer:5:1,1.536
+Elapsed time: 2.463 seconds (2) for nboyer:5:1
++!CSVLINE!+mit-9.2.1,nboyer:5:1,2.463
 
-real	0m1.580s
-user	0m1.397s
-sys	0m0.183s
+real	0m2.501s
+user	0m2.383s
+sys	0m0.100s
 
 Testing sboyer under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -958,12 +958,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/sboyer.bin" => "/tmp/larcenous/MIT/sboyer.com"... done
 Running...
 Running sboyer:5:1
-Elapsed time: 1.445 seconds (1) for sboyer:5:1
-+!CSVLINE!+mit-9.2.1,sboyer:5:1,1.445
+Elapsed time: 2.77 seconds (2) for sboyer:5:1
++!CSVLINE!+mit-9.2.1,sboyer:5:1,2.77
 
-real	0m1.460s
-user	0m1.437s
-sys	0m0.020s
+real	0m2.794s
+user	0m2.773s
+sys	0m0.013s
 
 Testing gcbench under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -1014,12 +1014,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.655 seconds (2) for gcbench:20:1
-+!CSVLINE!+mit-9.2.1,gcbench:20:1,1.655
+Elapsed time: 2.626 seconds (2) for gcbench:20:1
++!CSVLINE!+mit-9.2.1,gcbench:20:1,2.626
 
-real	0m1.751s
-user	0m1.280s
-sys	0m0.470s
+real	0m2.659s
+user	0m2.300s
+sys	0m0.220s
 
 Testing mperm under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -1035,12 +1035,12 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/mperm.bin" => "/tmp/larcenous/MIT/mperm.com"... done
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 3.587 seconds (4) for mperm:20:10:2:1
-+!CSVLINE!+mit-9.2.1,mperm:20:10:2:1,3.587
+Elapsed time: 5.551 seconds (5) for mperm:20:10:2:1
++!CSVLINE!+mit-9.2.1,mperm:20:10:2:1,5.551
 
-real	0m3.826s
-user	0m3.200s
-sys	0m0.623s
+real	0m5.828s
+user	0m5.427s
+sys	0m0.350s
 
 Testing equal under MIT
 Including prelude /home/nex/src/r7rs-benchmarks/src/MIT-prelude.scm
@@ -1052,11 +1052,11 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/equal.bin" => "/tmp/larcenous/MIT/equal.com"... done
 Running...
 Running equal:100:100:8:1000:2000:5000
-./bench: line 631: 28593 Killed                  ${MIT} --quiet --heap 500000 --load "$1" < "$2"
+./bench: line 631: 16006 Killed                  ${MIT} --quiet --heap 500000 --load "$1" < "$2"
 
-real	14m59.998s
-user	14m59.943s
-sys	0m0.003s
+real	5m1.786s
+user	4m59.877s
+sys	0m0.017s
 +!CSVLINE!+mit,equal,ULIMITKILLED
 
 Testing bv2string under MIT
@@ -1069,9 +1069,9 @@ Compiling...
 ;Compiling file: "/tmp/larcenous/MIT/bv2string.bin" => "/tmp/larcenous/MIT/bv2string.com"... done
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 7.092 seconds (8) for bv2string:1000:1000:100
-+!CSVLINE!+mit-9.2.1,bv2string:1000:1000:100,7.092
+Elapsed time: 14.54 seconds (15) for bv2string:1000:1000:100
++!CSVLINE!+mit-9.2.1,bv2string:1000:1000:100,14.54
 
-real	0m7.107s
-user	0m7.097s
+real	0m14.560s
+user	0m14.543s
 sys	0m0.007s
