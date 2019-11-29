@@ -78,12 +78,12 @@ options=""
 
 # Where the tested systems are located on our machines.
 
-CHEZ=${CHEZ:-"chez-scheme"}
-CHICKEN_CSC=${CHICKEN_CSC:-"chicken-csc"}
-GAMBITC=${GAMBITC:-"gambitc"}
-GUILD=${GUILD:-"guild"}
-GUILE=${GUILE:-"guile"}
-LARCENY=${LARCENY:-"larceny"}
+CHEZ=${CHEZ:-guix environment --pure --ad-hoc chez-scheme -- chez-scheme}
+CHICKEN_CSC=${CHICKEN_CSC:-guix environment --pure --ad-hoc chicken -- chicken-csc}
+GAMBITC=${GAMBITC:-guix environment --pure --ad-hoc gambit-c -- gambitc}
+GUILD=${GUILD:-guix environment --pure --ad-hoc guile -- guild}
+GUILE=${GUILE:-guix environment --pure --ad-hoc guile -- guile}
+LARCENY=${LARCENY:-guix environment --pure --ad-hoc larceny -- larceny}
 
 # -----------------------------------------------------------------------------
 
@@ -178,7 +178,7 @@ chez_exec ()
 {
     # remove import statement
     # sed -i -e 's/^(import (scheme.*)$//g' $1
-    time "${CHEZ}" --optimize-level 2 --compile-imported-libraries --libdirs /home/nex/scheme/chez --program "$1" < "$2"
+    time ${CHEZ} --optimize-level 2 --compile-imported-libraries --libdirs /home/nex/scheme/chez --program "$1" < "$2"
 }
 
 # -----------------------------------------------------------------------------
@@ -242,7 +242,7 @@ larceny_exec ()
 {
     # add srfi 112 for (implementation-version)
     sed -i 's/^(import /(import (srfi 112) /' $1
-    time "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
+    time ${LARCENY} --nocontract --r7rs --program "$1" < "$2"
 }
 
 
