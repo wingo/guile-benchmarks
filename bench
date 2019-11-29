@@ -27,13 +27,6 @@
 # is run.
 
 OSNAME="`( uname )`"
-
-# Kill compilations and runs after 10 minutes of CPU time.
-CPU_LIMIT=${CPU_LIMIT:-"600"}
-
-# The following definitions are not in use, but using them
-# might improve the script.
-
 HOME="`( pwd )`"
 SRC="${HOME}/src"
 INPUTS="${HOME}/inputs"
@@ -75,7 +68,7 @@ SYNTH_BENCHMARKS="equal bv2string"
 
 ALL_BENCHMARKS="$GABRIEL_BENCHMARKS $NUM_BENCHMARKS $KVW_BENCHMARKS $IO_BENCHMARKS $OTHER_BENCHMARKS $GC_BENCHMARKS $SYNTH_BENCHMARKS"
 
-ALL_SYSTEMS="bigloo bones chez chibi chicken5 chicken5csi cyclone femtolisp foment gambitc gauche gerbil guile ironscheme kawa larceny mit petite picrin racket rhizome rscheme s9fes sagittarius scheme48 vicare ypsilon" #  chicken4 chicken4csi
+ALL_SYSTEMS="chez chicken gambitc guile larceny"
 ################################################################
 
 NB_RUNS=1
@@ -84,68 +77,12 @@ options=""
 
 # Where the tested systems are located on our machines.
 
-setup ()
-{
-    case ${OSNAME} in
-
-        "Linux")
-
-            APPS="/usr/local/bin"
-            HENCHMAN="/home/henchman/bin/larceny"
-            ;;
-
-        "Darwin")
-
-            ;;
-
-    esac
-
-    # For both Solaris and Linux machines.
-
-    BIGLOO=${BIGLOO:-"bigloo"}
-    BONES=${BONES:-"bones"}
-    CHEZ=${CHEZ:-"chez-scheme"}
-    CHIBI=${CHIBI:-"chibi-scheme"}
-    CHICKEN4_CSC=${CHICKEN4_CSC:-"chicken-csc"}
-    CHICKEN4_CSI=${CHICKEN4_CSI:-"chicken-csi"}
-    CHICKEN5_CSC=${CHICKEN5_CSC:-"chicken-csc"}
-    CHICKEN5_CSI=${CHICKEN5_CSI:-"chicken-csi"}
-    CYCLONE=${CYCLONE:-"cyclone"}
-    FEMTOLISP=${FEMTOLISP:-"flisp"}
-    FOMENT=${FOMENT:-"foment"}
-    GAMBITC=${GAMBITC:-"gambitc"}
-    GAUCHE=${GAUCHE:-"gosh"}
-    GERBIL=${GERBIL:-"gxc"}
-    GUILD=${GUILD:-"guild"}
-    GUILE=${GUILE:-"guile"}
-    HUSKI=${HUSKI:-"huski"}
-    JAVA=${JAVA:-"java"}
-    IRONSCHEME=${IRONSCHEME:-"ironscheme"}
-    KAWA=${KAWA:-"kawa"}
-    KAWAJAR=${KAWAJAR:-/usr/share/kawa/lib/kawa.jar}
-    LARCENY=${LARCENY:-"larceny"}
-    MIT=${MIT:-"mit-scheme"}
-    MOSH=${MOSH:-"mosh-scheme"}
-    PETIT=${PETIT:-"../../../../PetitGit/larceny"}
-    PETITE=${PETITE:-"petite"}
-    PICRIN=${PICRIN:-"picrin"}
-    RACKET=${RACKET:-"racket"}
-    RACKET_RACO=${RACKET_RACO:-"raco"}
-    RSCHEME=${RSCHEME:-"fshell"}
-    RSCHEME_RSC=${RSCHEME_RSC:-"rsc"}
-    RHIZOME_PISC=${RHIZOME_PISC:-"pisc"}
-    RHIZOME_PISL=${RHIZOME_PISL:-"pisl"}
-    SAGITTARIUS=${SAGITTARIUS:-"sagittarius"}
-    SCHEME48=${SCHEME48:-"scheme48"}
-    S9fES=${S9fES:-"s9"}
-    SISC=${SISC:-"sisc"}
-    STALIN=${STALIN:-"chicken-stalin"}
-    TINYSCHEME=${TINYSCHEME:-"tinyscheme"}
-    VICARE=${VICARE:-"vicare"}
-    YPSILON=${YPSILON:-"ypsilon"}
-}
-
-setup
+CHEZ=${CHEZ:-"chez-scheme"}
+CHICKEN_CSC=${CHICKEN_CSC:-"chicken-csc"}
+GAMBITC=${GAMBITC:-"gambitc"}
+GUILD=${GUILD:-"guild"}
+GUILE=${GUILE:-"guile"}
+LARCENY=${LARCENY:-"larceny"}
 
 # -----------------------------------------------------------------------------
 
@@ -157,40 +94,11 @@ Usage: bench [-r runs] <system> <benchmark>
 
 <system> is the abbreviated name of the implementation to benchmark:
 
-  bigloo           for Bigloo
-  bones            for Bones
   chez             for Chez Scheme
-  chibi            for Chibi
-  chicken4         for Chicken 4 (compiled)
-  chicken4csi      for Chicken 4 (interpreted)
-  chicken5         for Chicken 5 (compiled)
-  chicken5csi      for Chicken 5(interpreted)
-  cyclone          for Cyclone
-  foment           for Foment
+  chicken          for Chicken (compiled)
   gambitc          for GambitC Scheme
-  gauche           for Gauche
-  gerbil           for Gerbil Scheme
   guile            for Guile Scheme
-  husk             for Husk
-  ironscheme       for IronScheme
-  kawa             for Kawa
   larceny          for Larceny
-  mit              for MIT/GNU Scheme
-  mosh             for Mosh
-  petit            for Petit Larceny
-  petite           for Petite Chez
-  picrin           for Picrin
-  racket           for Racket
-  rhizome          for Rhizome
-  rscheme          for RScheme
-  sagittarius      for Sagittarius
-  scheme48         for Scheme48
-  s9fes            for S9fES (Scheme 9 from Empty Space)
-  sisc             for SISC (Second Implementation of Scheme)
-  stalin           for Stalin
-  tinyscheme       for TinyScheme
-  vicare           for Vicare
-  ypsilon          for Ypsilon
   all              for all of the above
 
 <benchmark> is the name of the benchmark(s) to run:
@@ -204,38 +112,14 @@ runs is the number of times to run each benchmark (default is 1).'
     exit
 }
 
-# -----------------------------------------------------------------------------
-
-# FIXME: DANGER! DANGER! DANGER!
-# DON'T USE THIS UNTIL IT'S BEEN FIXED!
-
-cleanup ()
-{
-    if [ "$clean" = "true" ] ; then
-        # It's true that technically speaking, we should be in the build
-        # directory when this fcn is called.  Thus, we should be able to
-        # just do rm *.  However, that's kind of dangerous, so instead,
-        # we delete files newer than the mark file that evaluate () makes.
-
-        for x in * ; do
-            if [ $x -nt clean_newer_than_me ] ; then
-                rm $x
-            fi
-        done
-    fi
-    rm clean_newer_than_me
-}
-
 evaluate ()
 {
-    # echo > clean_newer_than_me
     sleep 1
     {
         echo
         echo Testing $1 under ${NAME}
         make_src_code $1
         echo Compiling...
-        ulimit -t ${CPU_LIMIT}
         echo $COMP "${TEMP}/$1.${EXTENSION}" "${TEMP}/$1.${EXTENSIONCOMP}"
         $COMP "${TEMP}/$1.${EXTENSION}" "${TEMP}/$1.${EXTENSIONCOMP}"
         if [ $? -ne 0 ]
@@ -249,21 +133,15 @@ evaluate ()
             while [ "$i" -lt "$NB_RUNS" ]
             do
                 echo Running...
-                ulimit -t ${CPU_LIMIT}
                 $EXEC "${TEMP}/$1.${EXTENSIONCOMP}" "${INPUTS}/$1.input"
                 status=$?
-                if [ $status -eq 137 ] # killed by ulimit timeout
-                then
-                    echo "+!CSVLINE!+${2},$1,ULIMITKILLED"
-                elif [ $status -ne 0 ]
-                then
+                if [ $status -ne 0 ]; then
                     echo "+!CSVLINE!+${2},$1,CRASHED"
                 fi
                 i=`expr $i + 1`
             done
         fi
     } 2>&1 | tee -a results.${NAME}
-
 }
 
 make_src_code ()
@@ -288,356 +166,6 @@ make_src_code ()
 }
 
 # -----------------------------------------------------------------------------
-# Definitions specific to Larceny and Petit Larceny
-#
-# The --nocontract command-line option reduces variability
-# of timing, and probably corresponds to the default for
-# most other systems.
-
-larceny_comp ()
-{
-    :
-}
-
-larceny_exec ()
-{
-    # add srfi 112 for (implementation-version)
-    sed -i 's/^(import /(import (srfi 112) /' $1
-    time "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
-}
-
-petit_comp ()
-{
-    rm "`dirname "$1"`"/*.slfasl
-    rm "`dirname "$1"`"/*.slfasl.c
-    rm "`dirname "$1"`"/*.slfasl.o
-    rm "`dirname "$1"`"/*.slfasl.so
-    rm "`dirname "$1"`"/*.slfasl.*.so
-    echo "(import (larceny compiler)) (compile-file \"$1\")" \
-        | time "${PETIT}" -err5rs -- -e "(repl-prompt values)"
-}
-
-petit_exec ()
-{
-    time "${PETIT}" --nocontract --r7rs --program "$1" < "$2"
-}
-
-henchman_comp ()
-{
-    echo "(import (larceny compiler)) (compile-file \"$1\")" \
-        | time "${HENCHMAN}" -err5rs -- -e "(repl-prompt values)"
-}
-
-henchman_exec ()
-{
-    time "${HENCHMAN}" --nocontract --r7rs --program "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Chibi
-
-chibi_comp ()
-{
-    :
-}
-
-chibi_exec ()
-{
-    time "${CHIBI}" -m scheme.load -e "(load \"$1\")" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Chicken4
-
-chicken4_comp ()
-{
-    OPTS="-M -optimize-leaf-routines -block -inline -inline-global -specialize -O3 -d0" # ecraven added -O3
-    ${CHICKEN4_CSC} ${OPTS} $1 -o $2 # ecraven removed -extend r7rs -require-extension r7rs which is very very bad for performance
-}
-
-chicken4_exec ()
-{
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Chicken5
-
-chicken5_comp ()
-{
-    OPTS="-R r7rs -X r7rs -optimize-leaf-routines -block -inline -inline-global -specialize -O2 -d0"
-    ${CHICKEN5_CSC} ${OPTS} $1 -o $2
-}
-
-chicken5_exec ()
-{
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Chicken 4 CSI
-
-chicken4csi_comp ()
-{
-    :
-}
-
-chicken4csi_exec ()
-{
-    time ${CHICKEN4_CSI} "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Chicken 5 CSI
-
-chicken5csi_comp ()
-{
-    :
-}
-
-chicken5csi_exec ()
-{
-    time ${CHICKEN5_CSI} "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Cyclone
-
-cyclone_comp ()
-{
-  ${CYCLONE} $1
-}
-
-cyclone_exec ()
-{
-  time `dirname $1`/`basename $1 .scm` < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Stalin
-
-stalin_comp ()
-{
-    # run through alexpander first
-    expanded=${1%%scm}exp
-    csi src/alexpander.scm -e '(alexpander-repl)' < $1 > $expanded
-    ${STALIN} -On -Ob -Om -Or -Ot -d -d1 -k -copt -O3 $expanded
-}
-
-stalin_exec ()
-{
-    exe=${1%%.exe}
-    time ( "$exe" < "$2" )
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to S9fES
-
-s9fes_comp ()
-{
-    :
-}
-
-s9fes_exec ()
-{
-    time ${S9fES} "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to SISC
-
-sisc_comp ()
-{
-    :
-}
-
-sisc_exec ()
-{
-    time ${SISC} "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to TinyScheme
-
-tinyscheme_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-}
-
-tinyscheme_exec ()
-{
-    time ( ${TINYSCHEME} "$1" < "$2" )
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to RScheme
-
-rscheme_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    filename=$(basename $1)
-    dirname=$(dirname $1)
-    echo "((test \".\" \".\") (open primops *scheme* iolib low-scheme objsys mathlib high-scheme syscalls) (files ${filename%%.scm}) (export main))" > $dirname/test.mcf
-    #    cd $dirname
-    ${RSCHEME_RSC} -p $dirname/test.mcf
-}
-
-rscheme_exec ()
-{
-    dirname=$(dirname $1)
-    cp -R inputs $dirname/
-    cd $dirname
-    echo "(with-module mlink (push-module-search-path! \".\")) ,(use test)" > run-current-test.scm
-    time ( ${RSCHEME} run-current-test.scm < "$2" )
-    rm -Rf test.mif test.mx test.mcf test.doc
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Rhizome
-
-rhizome_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    dir=$(dirname "$1")
-    cd $dir
-    infile=$(basename "$1")
-    outfile=$(basename "$2")
-    tmpfile=${outfile%exe}c
-    modulename=${infile%.scm}
-    echo "${RHIZOME_PISC} -output $tmpfile $infile"
-    ${RHIZOME_PISC} -output $tmpfile $infile
-    echo "${RHIZOME_PISL} $modulename -o $outfile"
-    ${RHIZOME_PISL} $modulename -o $outfile
-    chmod +x $outfile
-}
-
-rhizome_exec ()
-{
-    #   time pi $1 < $2
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Ypsilon
-
-ypsilon_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-}
-
-ypsilon_exec ()
-{
-    time ${YPSILON} "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Scheme48
-
-scheme48_comp ()
-{
-    # don't execute main
-    sed -i -e 's/^(main)$//' -e 's/(main)/(main . unneeded-command-line-parameters)/' $1
-    echo "echo -e ,set inline-values\n,open srfi-19\n,open big-util\n(load \"$1\")\n,build main $2\n,exit | ( time ${SCHEME48} )"
-    echo -e ",set inline-values\n,open srfi-19\n,open big-util\n(load \"$1\")\n,build main $2\n,exit" | ( time ${SCHEME48} )
-}
-
-scheme48_exec ()
-{
-    time ${SCHEME48} -i $1 < $2
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Bones
-
-bones_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    echo "${BONES} $1 > $1.s"
-    ${BONES} $1 > $1.s
-    echo "nasm -I/usr/share/bones -f elf64 $1.s -o $1.o"
-    nasm -I/usr/share/bones/ -f elf64 $1.s -o $1.o
-    echo "gcc $1.o -o $2"
-    gcc -no-pie $1.o -o $2
-}
-
-bones_exec ()
-{
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Vicare
-
-vicare_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    ${VICARE} -c $1 -o $2
-}
-
-vicare_exec ()
-{
-    time ${VICARE} --binary-program "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to IronScheme
-
-ironscheme_comp ()
-{
-    :
-}
-
-ironscheme_exec ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    # maybe a support lookup table can be added for these, and only inject if needed, like for read-line, square, exact-integer? too
-    sed -i -e 's/^(define (bitwise-not[[:blank:]].*).*$/#;(excluded/g' $1
-    sed -i -e 's/^(define (bitwise-and[[:blank:]].*).*$/#;(excluded/g' $1
-    sed -i -e 's/^(define (div[[:blank:]].*).*$/#;(excluded/g' $1
-    sed -i -e 's/^(define (mod[[:blank:]].*).*$/#;(excluded/g' $1
-    sed -i -e 's/^(define (partition[[:blank:]].*).*$/#;(excluded/g' $1
-
-    # R6RS compat failure: gcbench
-    # failures due to Mono: cpstak, fft, pi, pnpoly, quicksort
-    # weird failures: matrix (missing quote?)
-
-    time ( ${IRONSCHEME} "$1" < "$2" )
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Racket
-
-racket_comp ()
-{
-    ${RACKET_RACO} make "$1"
-}
-
-racket_exec ()
-{
-    time ${RACKET} "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Bigloo
-
-bigloo_comp ()
-{
-    ${BIGLOO} $1 -O6 -call/cc -copt -O3 -o $2
-}
-
-bigloo_exec ()
-{
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
 # Definitions specific to Chez
 
 chez_comp ()
@@ -653,31 +181,32 @@ chez_exec ()
 }
 
 # -----------------------------------------------------------------------------
-# Definitions specific to Petite Chez
+# Definitions specific to Chicken
 
-petite_comp ()
+chicken5_comp ()
 {
-    :
+    OPTS="-R r7rs -X r7rs -optimize-leaf-routines -block -inline -inline-global -specialize -O2 -d0"
+    ${CHICKEN_CSC} ${OPTS} $1 -o $2
 }
 
-petite_exec ()
+chicken_exec ()
 {
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    time "${PETITE}" --program "$1" < "$2"
+    time "$1" < "$2"
 }
 
 # -----------------------------------------------------------------------------
-# Definitions specific to MIT/GNU Scheme
+# Definitions specific to Gambit Scheme
 
-mit_comp ()
+gambitc_comp ()
 {
-    echo "(begin (cf \"$1\") (%exit 0))" | ${MIT} --quiet --heap 500000
+    # remove import statement
+    sed -i -e 's/^(import (scheme.*)$//g' $1
+    ${GAMBITC} -o $2 -exe $1
 }
 
-mit_exec ()
+gambitc_exec ()
 {
-    time ${MIT} --quiet --heap 500000 --load "$1" < "$2"
+    time "$1" < "$2"
 }
 
 # -----------------------------------------------------------------------------
@@ -697,155 +226,24 @@ guile_exec ()
 }
 
 # -----------------------------------------------------------------------------
-# Definitions specific to Gambit Scheme
-
-gambitc_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-    ${GAMBITC} -o $2 -exe $1
-}
-
-gambitc_exec ()
-{
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to femtolisp
-
-femtolisp_comp ()
-{
-    :
-}
-
-femtolisp_exec ()
-{
-    time "${FEMTOLISP}" "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Foment
-
-foment_comp ()
-{
-    :
-}
-
-foment_exec ()
-{
-    time "${FOMENT}" "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Gauche
-
-gauche_comp ()
-{
-    :
-}
-
-gauche_exec ()
-{
-    time "${GAUCHE}" -r7 -b "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Gerbil
-
-gerbil_comp ()
-{
-    sed -i -e 's/^(main)$//' $1
-    ${GERBIL} -d $(dirname "$1") -exe -static -O -prelude "(declare (not safe))" -o "${1%.scm}.exe" "$1"
-}
-
-gerbil_exec ()
-{
-    export GERBIL_HOME=/opt/gerbil-scheme-git/
-    time "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Husk
-
-# I could not get huskc to work:
+# Definitions specific to Larceny
 #
-# % ./huskc /tmp/larcenous/fib.scm
-#
-# /tmp/larcenous/fib.hs:14:8:
-#     Could not find module `Language.Scheme.Variables'
-#     Use -v to see a list of the files searched for.
+# The --nocontract command-line option reduces variability
+# of timing, and probably corresponds to the default for
+# most other systems.
 
-husk_comp ()
+larceny_comp ()
 {
     :
 }
 
-husk_exec ()
+larceny_exec ()
 {
-    time "${HUSKI}" "$1" < "$2"
+    # add srfi 112 for (implementation-version)
+    sed -i 's/^(import /(import (srfi 112) /' $1
+    time "${LARCENY}" --nocontract --r7rs --program "$1" < "$2"
 }
 
-# -----------------------------------------------------------------------------
-# Definitions specific to Kawa
-
-kawa_comp ()
-{
-    classname=$(basename -s .scm $1)
-    "${KAWA}" --r7rs --no-warn-unused -d out --main -T $classname -C $1
-}
-
-kawa_exec ()
-{
-    classname=$(basename -s .scm $1)
-    time "${JAVA}" -cp $KAWAJAR:$(dirname $0)/out $classname < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Mosh
-
-mosh_comp ()
-{
-    # remove import statement
-    sed -i -e 's/^(import (scheme.*)$//g' $1
-}
-
-mosh_exec ()
-{
-    time "${MOSH}" "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Picrin
-
-# Picrin (apparently) does not allow forward references within
-# procedure definitions, so it is unable to run any of these
-# benchmarks.
-
-picrin_comp ()
-{
-    :
-}
-
-picrin_exec ()
-{
-    time "${PICRIN}" "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Sagittarius
-
-sagittarius_comp ()
-{
-    :
-}
-
-sagittarius_exec ()
-{
-    time "${SAGITTARIUS}" -r7 -d -n "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
 
 ## Arg processing...
 if [ "$#" -lt 2 ]; then
@@ -889,226 +287,6 @@ for system in $systems ; do
 
     case "$system" in
 
-        larceny) NAME='Larceny'
-                 COMP=larceny_comp
-                 EXEC=larceny_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="scm"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        petit) NAME='Petit'
-               COMP=petit_comp
-               EXEC=petit_exec
-               COMPOPTS=""
-               EXTENSION="scm"
-               EXTENSIONCOMP="slfasl"
-               COMPCOMMANDS=""
-               EXECCOMMANDS=""
-               ;;
-
-        henchman) NAME='Henchman'
-                  COMP=henchman_comp
-                  EXEC=henchman_exec
-                  COMPOPTS=""
-                  EXTENSION="scm"
-                  EXTENSIONCOMP="slfasl"
-                  COMPCOMMANDS=""
-                  EXECCOMMANDS=""
-                  ;;
-
-        chibi) NAME='Chibi'
-               COMP=chibi_comp
-               EXEC=chibi_exec
-               COMPOPTS=""
-               EXTENSION="scm"
-               EXTENSIONCOMP="scm"
-               COMPCOMMANDS=""
-               EXECCOMMANDS=""
-               ;;
-
-        chicken5) NAME='Chicken5'
-                 COMP=chicken5_comp
-                 EXEC=chicken5_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="exe"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        chicken5csi) NAME='Chicken5CSI'
-                    COMP=chicken5csi_comp
-                    EXEC=chicken5csi_exec
-                    COMPOPTS=""
-                    EXTENSION="scm"
-                    EXTENSIONCOMP="scm"
-                    COMPCOMMANDS=""
-                    EXECCOMMANDS=""
-                    ;;
-
-        chicken4) NAME='Chicken4'
-                 COMP=chicken4_comp
-                 EXEC=chicken4_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="exe"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        chicken4csi) NAME='Chicken4CSI'
-                    COMP=chicken4csi_comp
-                    EXEC=chicken4csi_exec
-                    COMPOPTS=""
-                    EXTENSION="scm"
-                    EXTENSIONCOMP="scm"
-                    COMPCOMMANDS=""
-                    EXECCOMMANDS=""
-                    ;;
-
-        cyclone) NAME='Cyclone'
-                 COMP=cyclone_comp
-                 EXEC=cyclone_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="scm"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        stalin) NAME='Stalin'
-                COMP=stalin_comp
-                EXEC=stalin_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="exe"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        s9fes) NAME='S9fES'
-               COMP=s9fes_comp
-               EXEC=s9fes_exec
-               COMPOPTS=""
-               EXTENSION="scm"
-               EXTENSIONCOMP="scm"
-               COMPCOMMANDS=""
-               EXECCOMMANDS=""
-               ;;
-
-        sisc) NAME='SISC'
-              COMP=sisc_comp
-              EXEC=sisc_exec
-              COMPOPTS=""
-              EXTENSION="scm"
-              EXTENSIONCOMP="scm"
-              COMPCOMMANDS=""
-              EXECCOMMANDS=""
-              ;;
-
-        tinyscheme) NAME='TinyScheme'
-                    COMP=tinyscheme_comp
-                    EXEC=tinyscheme_exec
-                    COMPOPTS=""
-                    EXTENSION="scm"
-                    EXTENSIONCOMP="scm"
-                    COMPCOMMANDS=""
-                    EXECCOMMANDS=""
-                    ;;
-
-        rscheme) NAME='RScheme'
-                 COMP=rscheme_comp
-                 EXEC=rscheme_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="scm"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        rhizome) NAME='Rhizome'
-                 COMP=rhizome_comp
-                 EXEC=rhizome_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="exe" # should be exe
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        ypsilon) NAME='Ypsilon'
-                 COMP=ypsilon_comp
-                 EXEC=ypsilon_exec
-                 COMPOPTS=""
-                 EXTENSION="scm"
-                 EXTENSIONCOMP="scm"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
-                 ;;
-
-        scheme48) NAME='Scheme48'
-                  COMP=scheme48_comp
-                  EXEC=scheme48_exec
-                  COMPOPTS=""
-                  EXTENSION="scm"
-                  EXTENSIONCOMP="s48img"
-                  COMPCOMMANDS=""
-                  EXECCOMMANDS=""
-                  ;;
-
-        bones) NAME='Bones'
-               COMP=bones_comp
-               EXEC=bones_exec
-               COMPOPTS=""
-               EXTENSION="scm"
-               EXTENSIONCOMP="exe"
-               COMPCOMMANDS=""
-               EXECCOMMANDS=""
-               ;;
-
-        vicare) NAME='Vicare'
-                COMP=vicare_comp
-                EXEC=vicare_exec
-                COMPOPTS=""
-                EXTENSION="sps"
-                EXTENSIONCOMP="sps"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        ironscheme) NAME='IronScheme'
-                    COMP=ironscheme_comp
-                    EXEC=ironscheme_exec
-                    COMPOPTS=""
-                    EXTENSION="sps"
-                    EXTENSIONCOMP="sps"
-                    COMPCOMMANDS=""
-                    EXECCOMMANDS=""
-                    ;;
-
-        racket) NAME='Racket'
-                COMP=racket_comp
-                EXEC=racket_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="scm"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        bigloo) NAME='Bigloo'
-                COMP=bigloo_comp
-                EXEC=bigloo_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="exe"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
         chez) NAME='Chez'
               COMP=chez_comp
               EXEC=chez_exec
@@ -1119,15 +297,15 @@ for system in $systems ; do
               EXECCOMMANDS=""
               ;;
 
-        petite) NAME='Petite'
-                COMP=petite_comp
-                EXEC=petite_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="scm"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
+        chicken5) NAME='Chicken5'
+                 COMP=chicken5_comp
+                 EXEC=chicken5_exec
+                 COMPOPTS=""
+                 EXTENSION="scm"
+                 EXTENSIONCOMP="exe"
+                 COMPCOMMANDS=""
+                 EXECCOMMANDS=""
+                 ;;
 
         gambitc) NAME='GambitC'
                  COMP=gambitc_comp
@@ -1149,105 +327,16 @@ for system in $systems ; do
                EXECCOMMANDS=""
                ;;
 
-        mit) NAME='MIT'
-             COMP=mit_comp
-             EXEC=mit_exec
-             COMPOPTS=""
-             EXTENSION="scm"
-             EXTENSIONCOMP="com"
-             COMPCOMMANDS=""
-             EXECCOMMANDS=""
-             ;;
+        larceny) NAME='Larceny'
+                 COMP=larceny_comp
+                 EXEC=larceny_exec
+                 COMPOPTS=""
+                 EXTENSION="scm"
+                 EXTENSIONCOMP="scm"
+                 COMPCOMMANDS=""
+                 EXECCOMMANDS=""
+                 ;;
 
-        femtolisp) NAME='Femtolisp'
-                   COMP=femtolisp_comp
-                   EXEC=femtolisp_exec
-                   COMPOPTS=""
-                   EXTENSION="scm"
-                   EXTENSIONCOMP="scm"
-                   COMPCOMMANDS=""
-                   EXECCOMMANDS=""
-                   ;;
-
-        foment) NAME='Foment'
-                COMP=foment_comp
-                EXEC=foment_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="scm"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        gauche) NAME='Gauche'
-                COMP=gauche_comp
-                EXEC=gauche_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="scm"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        gerbil) NAME='Gerbil'
-                COMP=gerbil_comp
-                EXEC=gerbil_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="exe"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        husk) NAME='Husk'
-              COMP=husk_comp
-              EXEC=husk_exec
-              COMPOPTS=""
-              EXTENSION="scm"
-              EXTENSIONCOMP="scm"
-              COMPCOMMANDS=""
-              EXECCOMMANDS=""
-              ;;
-
-        kawa) NAME='Kawa'
-              COMP=kawa_comp
-              EXEC=kawa_exec
-              COMPOPTS=""
-              EXTENSION="scm"
-              EXTENSIONCOMP="scm"
-              COMPCOMMANDS=""
-              EXECCOMMANDS=""
-              ;;
-
-        mosh) NAME='Mosh'
-              COMP=mosh_comp
-              EXEC=mosh_exec
-              COMPOPTS=""
-              EXTENSION="scm"
-              EXTENSIONCOMP="scm"
-              COMPCOMMANDS=""
-              EXECCOMMANDS=""
-              ;;
-
-        picrin) NAME='Picrin'
-                COMP=picrin_comp
-                EXEC=picrin_exec
-                COMPOPTS=""
-                EXTENSION="scm"
-                EXTENSIONCOMP="scm"
-                COMPCOMMANDS=""
-                EXECCOMMANDS=""
-                ;;
-
-        sagittarius) NAME='Sagittarius'
-                     COMP=sagittarius_comp
-                     EXEC=sagittarius_exec
-                     COMPOPTS=""
-                     EXTENSION="scm"
-                     EXTENSIONCOMP="scm"
-                     COMPCOMMANDS=""
-                     EXECCOMMANDS=""
-                     ;;
         *) echo "Unknown Scheme"
            exit -1
            ;;
