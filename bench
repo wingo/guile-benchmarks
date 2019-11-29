@@ -29,6 +29,7 @@
 OSNAME="`( uname )`"
 HOME="`( pwd )`"
 SRC="${HOME}/src"
+SUPPORT="${HOME}/support"
 INPUTS="${HOME}/inputs"
 
 ################################################################
@@ -146,8 +147,8 @@ evaluate ()
 
 make_src_code ()
 {
-    prelude="${SRC}/${NAME}-prelude.scm"
-    postlude="${SRC}/${NAME}-postlude.scm"
+    prelude="${SUPPORT}/${NAME}-prelude.scm"
+    postlude="${SUPPORT}/${NAME}-postlude.scm"
 
     if [ -e "$prelude" ]
     then
@@ -162,7 +163,7 @@ make_src_code ()
         postlude="/dev/null"
     fi
 
-    cat "$prelude" "${SRC}/$1.scm" "${SRC}/common.scm" "$postlude" "${SRC}/common-postlude.scm" > "${TEMP}/$1.${EXTENSION}"
+    cat "$prelude" "${SRC}/$1.scm" "${SUPPORT}/common.scm" "$postlude" "${SUPPORT}/common-postlude.scm" > "${TEMP}/$1.${EXTENSION}"
 }
 
 # -----------------------------------------------------------------------------
