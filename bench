@@ -78,11 +78,12 @@ options=""
 
 # Where the tested systems are located on our machines.
 
-CHEZ=${CHEZ:-guix environment --pure --ad-hoc chez-scheme -- chez-scheme}
-CHICKEN_CSC=${CHICKEN_CSC:-guix environment --pure --ad-hoc chicken -- chicken-csc}
-GAMBITC=${GAMBITC:-guix environment --pure --ad-hoc gambit-c -- gambitc}
-GUILD=${GUILD:-guix environment --pure --ad-hoc guile -- guild}
-GUILE=${GUILE:-guix environment --pure --ad-hoc guile -- guile}
+EXEC_ENV="time numactl --cpunodebind=0 --membind=0 --"
+CHEZ=${CHEZ:-guix environment --pure --ad-hoc chez-scheme chez-srfi -- chez-scheme}
+CHICKEN_CSC=${CHICKEN_CSC:-guix environment --pure --ad-hoc chicken -- csc}
+GAMBITC=${GAMBITC:-guix environment --pure --ad-hoc gambit-c gcc-toolchain -- gsc}
+GUILD=${GUILD:-guix environment --pure --ad-hoc guile-next -- guild}
+GUILE=${GUILE:-guix environment --pure --ad-hoc guile-next -- guile}
 LARCENY=${LARCENY:-guix environment --pure --ad-hoc larceny -- larceny}
 
 # -----------------------------------------------------------------------------
@@ -116,17 +117,19 @@ runs is the number of times to run each benchmark (default is 1).'
 evaluate ()
 {
     sleep 1
-    {
+    (
         echo
         echo Testing $1 under ${NAME}
         make_src_code $1
-        echo Compiling...
-        echo $COMP "${TEMP}/$1.${EXTENSION}" "${TEMP}/$1.${EXTENSIONCOMP}"
-        $COMP "${TEMP}/$1.${EXTENSION}" "${TEMP}/$1.${EXTENSIONCOMP}"
-        if [ $? -ne 0 ]
-        then
-            echo "+!CSVLINE!+${2},$1,COMPILEERROR"
-            skiprun="true"
+        if test -n "$COMP"; then
+          echo Compiling...
+          echo $COMP "${TEMP}/$1.${EXTENSION}" "${TEMP}/$1.${EXTENSIONCOMP}"
+          $COMP "${TEMP}/$1.${EXTENSION}" "${TEMP}/$1.${EXTENSIONCOMP}"
+          if [ $? -ne 0 ]
+          then
+              echo "+!CSVLINE!+${2},$1,COMPILEERROR"
+              skiprun="true"
+          fi
         fi
         i=0
         if [ "$skiprun" != "true" ]
@@ -134,7 +137,8 @@ evaluate ()
             while [ "$i" -lt "$NB_RUNS" ]
             do
                 echo Running...
-                $EXEC "${TEMP}/$1.${EXTENSIONCOMP}" "${INPUTS}/$1.input"
+                echo $EXEC_ENV $EXEC "${TEMP}/$1.${EXTENSIONCOMP}" "<" "${INPUTS}/$1.input"
+                $EXEC_ENV $EXEC "${TEMP}/$1.${EXTENSIONCOMP}" < "${INPUTS}/$1.input"
                 status=$?
                 if [ $status -ne 0 ]; then
                     echo "+!CSVLINE!+${2},$1,CRASHED"
@@ -142,7 +146,7 @@ evaluate ()
                 i=`expr $i + 1`
             done
         fi
-    } 2>&1 | tee -a results.${NAME}
+    ) 2>&1 | tee -a results.${NAME}
 }
 
 make_src_code ()
@@ -166,33 +170,15 @@ make_src_code ()
     cat "$prelude" "${SRC}/$1.scm" "${SUPPORT}/common.scm" "$postlude" "${SUPPORT}/common-postlude.scm" > "${TEMP}/$1.${EXTENSION}"
 }
 
-# -----------------------------------------------------------------------------
-# Definitions specific to Chez
-
 chez_comp ()
 {
     :
 }
 
-chez_exec ()
-{
-    # remove import statement
-    # sed -i -e 's/^(import (scheme.*)$//g' $1
-    time ${CHEZ} --optimize-level 2 --compile-imported-libraries --libdirs /home/nex/scheme/chez --program "$1" < "$2"
-}
-
-# -----------------------------------------------------------------------------
-# Definitions specific to Chicken
-
-chicken5_comp ()
+chicken_comp ()
 {
     OPTS="-R r7rs -X r7rs -optimize-leaf-routines -block -inline -inline-global -specialize -O2 -d0"
     ${CHICKEN_CSC} ${OPTS} $1 -o $2
-}
-
-chicken_exec ()
-{
-    time "$1" < "$2"
 }
 
 # -----------------------------------------------------------------------------
@@ -289,53 +275,38 @@ for system in $systems ; do
     case "$system" in
 
         chez) NAME='Chez'
-              COMP=chez_comp
-              EXEC=chez_exec
-              COMPOPTS=""
+              COMP=
+              EXEC="$CHEZ --optimize-level 2 --compile-imported-libraries --libdirs $HOME/../chez-scheme-libraries:$(guix environment --pure --ad-hoc chez-scheme chez-srfi bash -- bash -c 'echo $CHEZSCHEMELIBDIRS') --program"
               EXTENSION="scm"
               EXTENSIONCOMP="scm"
-              COMPCOMMANDS=""
-              EXECCOMMANDS=""
               ;;
 
-        chicken5) NAME='Chicken5'
-                 COMP=chicken5_comp
-                 EXEC=chicken5_exec
-                 COMPOPTS=""
+        chicken) NAME='Chicken'
+                 COMP=chicken_comp
+                 EXEC=
                  EXTENSION="scm"
                  EXTENSIONCOMP="exe"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
                  ;;
 
         gambitc) NAME='GambitC'
                  COMP=gambitc_comp
-                 EXEC=gambitc_exec
-                 COMPOPTS=""
+                 EXEC=
                  EXTENSION="scm"
                  EXTENSIONCOMP="exe"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
                  ;;
 
         guile) NAME='Guile'
                COMP=guile_comp
-               EXEC=guile_exec
-               COMPOPTS=""
+               EXEC="$GUILE"
                EXTENSION="scm"
                EXTENSIONCOMP="scm"
-               COMPCOMMANDS=""
-               EXECCOMMANDS=""
                ;;
 
         larceny) NAME='Larceny'
                  COMP=larceny_comp
                  EXEC=larceny_exec
-                 COMPOPTS=""
                  EXTENSION="scm"
                  EXTENSIONCOMP="scm"
-                 COMPCOMMANDS=""
-                 EXECCOMMANDS=""
                  ;;
 
         *) echo "Unknown Scheme"
